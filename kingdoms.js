@@ -11,8 +11,62 @@ onlineString: Overrides the string to paste into the online client (optional)
 var kingdoms = [
     {
         idNumber: 0,
-        name: "Test Kingdom",
-        cards: ["Artisan", "Sentry", "Chapel"],
+        name: "Simplicity",
+        cards: ["Harbinger", "Merchant", "Village", "Gardens", "Moneylender", "Smithy", "Council Room", "Festival", "Laboratory", "Market"],
+        expansions: "base"
+    },
+    {
+        idNumber: 1,
+        name: "Ups and Downs",
+        cards: ["Cellar", "Chapel", "Vassal", "Bureaucrat", "Poacher", "Remodel", "Bandit", "Festival", "Library", "Artisan"],
+        expansions: "base"
+    },
+    {
+        idNumber: 2,
+        name: "Put In The Effort",
+        cards: ["Moat", "Merchant", "Workshop", "Poacher", "Smithy", "Throne Room", "Laboratory", "Sentry", "Witch", "Artisan"],
+        expansions: "base"
+    },
+    {
+        idNumber: 3,
+        name: "Playing It Safe",
+        cards: ["Harbinger", "Merchant", "Vassal", "Workshop", "Moneylender", "Bandit", "Council Room", "Market", "Sentry", "Witch"],
+        expansions: "base"
+    },
+    {
+        idNumber: 4,
+        name: "Slow And Steady",
+        cards: ["Cellar", "Moat", "Village", "Gardens", "Militia", "Throne Room", "Laboratory", "Market", "Mine", "Artisan"],
+        expansions: "base"
+    },
+    {
+        idNumber: 5,
+        name: "Work It Out",
+        cards: ["Chapel", "Vassal", "Village", "Workshop", "Poacher", "Smithy", "Throne Room", "Festival", "Laboratory", "Market"],
+        expansions: "base"
+    },
+    {
+        idNumber: 6,
+        name: "This Is Why We Can't Have Nice Things",
+        cards: ["Cellar", "Gardens", "Militia", "Moneylender", "Poacher", "Bandit", "Council Room", "Festival", "Market", "Witch"],
+        expansions: "base"
+    },
+    {
+        idNumber: 7,
+        name: "Making Do With What You Have",
+        cards: ["Cellar", "Moat", "Vassal", "Village", "Merchant", "Militia", "Remodel", "Throne Room", "Bandit", "Festival"],
+        expansions: "base"
+    },
+    {
+        idNumber: 8,
+        name: "Progression System",
+        cards: ["Cellar", "Chapel", "Harbinger", "Village", "Workshop", "Bureaucrat", "Moneylender", "Remodel", "Mine", "Sentry"],
+        expansions: "base"
+    },
+    {
+        idNumber: 9,
+        name: "Maintain Focus",
+        cards: ["Chapel", "Village", "Workshop", "Gardens", "Militia", "Remodel", "Library", "Market", "Witch", "Artisan"],
         expansions: "base"
     },
 ];

@@ -27,7 +27,6 @@ function getSets() {
             expansionCount ++;
         }
     }
-    console.log(searchString);
     if (expansionCount == 0) {
         errorsElement.innerHTML = "No expansions selected!";
         return;
@@ -41,4 +40,5 @@ function getSets() {
         return;
     }
     const result = kingdoms.filter(kingdom => kingdom.expansions == searchString);
+    console.log(result);
 }
