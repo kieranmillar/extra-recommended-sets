@@ -54,7 +54,7 @@ var kingdoms = [
     {
         idNumber: 7,
         name: "Making Do With What You Have",
-        cards: ["Cellar", "Moat", "Vassal", "Village", "Merchant", "Militia", "Remodel", "Throne Room", "Bandit", "Festival"],
+        cards: ["Cellar", "Moat", "Merchant", "Village", "Worksop", "Militia", "Remodel", "Throne Room", "Bandit", "Festival"],
         expansions: "base"
     },
     {
