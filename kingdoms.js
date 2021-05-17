@@ -71,42 +71,60 @@ var kingdoms = [
     },
     {
         idNumber: 10,
+        name: "Kickback",
+        cards: ["Lurker", "Masquerade", "Wishing Well", "Baron", "Conspirator", "Diplomat", "Mining Village", "Courtier", "Patrol", "Replace"],
+        expansions: "intrigue"
+    },
+    {
+        idNumber: 11,
+        name: "My Hands Are Tied",
+        cards: ["Courtyard", "Masquerade", "Shanty Town", "Steward", "Swindler", "Mining Village", "Minion", "Torturer", "Harem", "Nobles"],
+        expansions: "intrigue"
+    },
+    {
+        idNumber: 12,
         name: "Territorial Army",
         cards: ["Lurker", "Pawn", "Shanty Town", "Bridge", "Conspirator", "Courtier", "Minion", "Replace", "Upgrade", "Nobles"],
         expansions: "intrigue"
     },
     {
-        idNumber: 11,
+        idNumber: 13,
         name: "Cheat Code",
         cards: ["Pawn", "Shanty Town", "Wishing Well", "Ironworks", "Secret Passage", "Courtier", "Duke", "Trading Post", "Upgrade", "Harem"],
         expansions: "intrigue"
     },
     {
-        idNumber: 12,
+        idNumber: 14,
         name: "The Upper Crust",
         cards: ["Courtyard", "Swindler", "Baron", "Mill", "Mining Village", "Duke", "Replace", "Patrol", "Trading Post", "Nobles"],
         expansions: "intrigue"
     },
     {
-        idNumber: 13,
+        idNumber: 15,
         name: "In The Shadows",
         cards: ["Lurker", "Steward", "Baron", "Bridge", "Conspirator", "Duke", "Mill", "Replace", "Torturer", "Nobles"],
         expansions: "intrigue"
     },
     {
-        idNumber: 14,
+        idNumber: 16,
         name: "Insurance Policy",
         cards: ["Courtyard", "Masquerade", "Shanty Town", "Swindler", "Baron", "Diplomat", "Ironworks", "Mill", "Mining Village", "Harem"],
         expansions: "intrigue"
     },
     {
-        idNumber: 15,
+        idNumber: 17,
+        name: "Keep Your Head Down",
+        cards: ["Steward", "Baron", "Diplomat", "Ironworks", "Mill", "Secret Passage", "Minion", "Torturer", "Upgrade", "Harem"],
+        expansions: "intrigue"
+    },
+    {
+        idNumber: 18,
         name: "I Have A Bridge To Sell You",
         cards: ["Pawn", "Shanty Town", "Swindler", "Bridge", "Conspirator", "Diplomat", "Secret Passage", "Courtier", "Trading Post", "Upgrade"],
         expansions: "intrigue"
     },
     {
-        idNumber: 16,
+        idNumber: 19,
         name: "Pick Your Poison",
         cards: ["Steward", "Wishing Well", "Baron", "Ironworks", "Mill", "Duke", "Patrol", "Torturer", "Trading Post", "Harem"],
         expansions: "intrigue"
