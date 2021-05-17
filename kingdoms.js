@@ -11,10 +11,7 @@ onlineString: Overrides the string to paste into the online client (optional)
 var kingdoms = [
     {
         idNumber: 0,
-        name: "Simplicity",
-        cards: ["Harbinger", "Merchant", "Village", "Gardens", "Moneylender", "Smithy", "Council Room", "Festival", "Laboratory", "Market"],
-        expansions: "base"
-    },
+        
     {
         idNumber: 1,
         name: "Ups and Downs",
@@ -68,5 +65,23 @@ var kingdoms = [
         name: "Maintain Focus",
         cards: ["Chapel", "Village", "Workshop", "Gardens", "Militia", "Remodel", "Library", "Market", "Witch", "Artisan"],
         expansions: "base"
+    },
+    {
+        idNumber: 10,
+        name: "Cheat Code",
+        cards: ["Pawn", "Shanty Town", "Wishing Well", "Ironworks", "Secret Passage", "Courtier", "Duke", "Trading Post", "Upgrade", "Harem"],
+        expansions: "intrigue"
+    },
+    {
+        idNumber: 11,
+        name: "In The Shadows",
+        cards: ["Lurker", "Steward", "Baron", "Bridge", "Conspirator", "Duke", "Mill", "Replace", "Torturer", "Nobles"],
+        expansions: "intrigue"
+    },
+    {
+        idNumber: 12,
+        name: "Insurance Policy",
+        cards: ["Courtyard", "Masquerade", "Shanty Town", "Swindler", "Baron", "Diplomat", "Ironworks", "Mill", "Mining Village", "Harem"],
+        expansions: "intrigue"
     },
 ];
