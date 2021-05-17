@@ -11,7 +11,10 @@ onlineString: Overrides the string to paste into the online client (optional)
 var kingdoms = [
     {
         idNumber: 0,
-        
+        name: "Simplicity",
+        cards: ["Harbinger", "Merchant", "Village", "Gardens", "Moneylender", "Smithy", "Council Room", "Festival", "Laboratory", "Market"],
+        expansions: "base"
+    },
     {
         idNumber: 1,
         name: "Ups and Downs",
