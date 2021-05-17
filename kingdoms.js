@@ -60,7 +60,7 @@ var kingdoms = [
     {
         idNumber: 8,
         name: "Progression System",
-        cards: ["Cellar", "Chapel", "Harbinger", "Village", "Workshop", "Bureaucrat", "Moneylender", "Remodel", "Mine", "Sentry"],
+        cards: ["Cellar", "Chapel", "Harbinger", "Village", "Workshop", "Bureaucrat", "Remodel", "Laboratory", "Mine", "Sentry"],
         expansions: "base"
     },
     {
