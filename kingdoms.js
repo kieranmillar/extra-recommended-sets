@@ -71,18 +71,30 @@ var kingdoms = [
     },
     {
         idNumber: 10,
+        name: "Territorial Army",
+        cards: ["Lurker", "Pawn", "Shanty Town", "Bridge", "Conspirator", "Diplomat", "Courtier", "Minion", "Replace", "Upgrade"],
+        expansions: "intrigue"
+    },
+    {
+        idNumber: 11,
         name: "Cheat Code",
         cards: ["Pawn", "Shanty Town", "Wishing Well", "Ironworks", "Secret Passage", "Courtier", "Duke", "Trading Post", "Upgrade", "Harem"],
         expansions: "intrigue"
     },
     {
-        idNumber: 11,
+        idNumber: 12,
+        name: "The Upper Crust",
+        cards: ["Courtyard", "Swindler", "Baron", "Mill", "Mining Village", "Duke", "Replace", "Patrol", "Trading Post", "Nobles"],
+        expansions: "intrigue"
+    },
+    {
+        idNumber: 13,
         name: "In The Shadows",
         cards: ["Lurker", "Steward", "Baron", "Bridge", "Conspirator", "Duke", "Mill", "Replace", "Torturer", "Nobles"],
         expansions: "intrigue"
     },
     {
-        idNumber: 12,
+        idNumber: 14,
         name: "Insurance Policy",
         cards: ["Courtyard", "Masquerade", "Shanty Town", "Swindler", "Baron", "Diplomat", "Ironworks", "Mill", "Mining Village", "Harem"],
         expansions: "intrigue"
