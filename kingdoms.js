@@ -72,7 +72,7 @@ var kingdoms = [
     {
         idNumber: 10,
         name: "Territorial Army",
-        cards: ["Lurker", "Pawn", "Shanty Town", "Bridge", "Conspirator", "Diplomat", "Courtier", "Minion", "Replace", "Upgrade"],
+        cards: ["Lurker", "Pawn", "Shanty Town", "Bridge", "Conspirator", "Courtier", "Minion", "Replace", "Upgrade", "Nobles"],
         expansions: "intrigue"
     },
     {
@@ -99,4 +99,16 @@ var kingdoms = [
         cards: ["Courtyard", "Masquerade", "Shanty Town", "Swindler", "Baron", "Diplomat", "Ironworks", "Mill", "Mining Village", "Harem"],
         expansions: "intrigue"
     },
+    {
+        idNumber: 15,
+        name: "I Have A Bridge To Sell You",
+        cards: ["Pawn", "Shanty Town", "Swindler", "Bridge", "Conspirator", "Diplomat", "Secret Passage", "Courtier", "Trading Post", "Upgrade"],
+        expansions: "intrigue"
+    },
+    {
+        idNumber: 16,
+        name: "Pick Your Poison",
+        cards: ["Steward", "Wishing Well", "Baron", "Ironworks", "Mill", "Duke", "Patrol", "Torturer", "Trading Post", "Harem"],
+        expansions: "intrigue"
+    }
 ];
