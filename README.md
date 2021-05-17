@@ -1,2 +1,2 @@
 # Extra Recommended Sets
-Extra recommnded sets for the board game Dominion
+Extra recommended sets for the board game Dominion
