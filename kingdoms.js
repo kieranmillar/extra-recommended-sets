@@ -132,7 +132,19 @@ var kingdoms = [
     {
         id: 20,
         name: "Running A Tight Ship",
-        cards: ["Haven", "Lighthouse", "Native Village", "Lookout", "Caravan", "Salvager", "Treasure Map", "Bazaar", "Ghost Ship", "Outpost"],
+        cards: ["Lighthouse", "Native Village", "Pearl Diver", "Lookout", "Caravan", "Salvager", "Treasure Map", "Bazaar", "Ghost Ship", "Outpost"],
+        expansions: "seaside"
+    },
+    {
+        id: 21,
+        name: "Coastal Bombardment",
+        cards: ["Embargo", "Haven", "Fishing Village", "Warehouse", "Cutpurse", "Island", "Pirate Ship", "Merchant Ship", "Tactician", "Treasury"],
+        expansions: "seaside"
+    },
+    {
+        id: 22,
+        name: "Castaways",
+        cards: ["Haven", "Fishing Village", "Smugglers", "Warehouse", "Caravan", "Island", "Navigator", "Explorer", "Merchant Ship", "Treasury"],
         expansions: "seaside"
     },
 ];
