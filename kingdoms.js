@@ -147,4 +147,22 @@ var kingdoms = [
         cards: ["Haven", "Fishing Village", "Smugglers", "Warehouse", "Caravan", "Island", "Navigator", "Explorer", "Merchant Ship", "Treasury"],
         expansions: "seaside"
     },
+    {
+        id: 23,
+        name: "Forward Planning",
+        cards: ["Lighthouse", "Native Village", "Pearl Diver", "Smugglers", "Cutpurse", "Navigator", "Bazaar", "Explorer", "Outpost", "Tactician"],
+        expansions: "seaside"
+    },
+    {
+        id: 24,
+        name: "Flotsam",
+        cards: ["Haven", "Pearl Diver", "Fishing Village", "Lookout", "Smugglers", "Island", "Navigator", "Sea Hag", "Ghost Ship", "Merchant Ship"],
+        expansions: "seaside"
+    },
+    {
+        id: 25,
+        name: "Jetsam",
+        cards: ["Embargo", "Native Village", "Ambassador", "Fishing Village", "Lookout", "Sea Hag", "Treasure Map", "Bazaar", "Merchant Ship", "Wharf"],
+        expansions: "seaside"
+    },
 ];
