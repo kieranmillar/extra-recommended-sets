@@ -165,4 +165,16 @@ var kingdoms = [
         cards: ["Embargo", "Native Village", "Ambassador", "Fishing Village", "Lookout", "Sea Hag", "Treasure Map", "Bazaar", "Merchant Ship", "Wharf"],
         expansions: "seaside"
     },
+    {
+        id: 26,
+        name: "Wave Machine",
+        cards: ["Haven", "Lighthouse", "Native Village", "Smugglers", "Warehouse", "Pirate Ship", "Salvager", "Explorer", "Treasury", "Wharf"],
+        expansions: "seaside"
+    },
+    {
+        id: 27,
+        name: "The Incoming Storm",
+        cards: ["Embargo", "Pearl Diver", "Ambassador", "Caravan", "Island", "Navigator", "Pirate Ship", "Bazaar", "Outpost", "Treasury"],
+        expansions: "seaside"
+    },
 ];
