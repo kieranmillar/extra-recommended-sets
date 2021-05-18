@@ -177,4 +177,16 @@ var kingdoms = [
         cards: ["Embargo", "Pearl Diver", "Ambassador", "Caravan", "Island", "Navigator", "Pirate Ship", "Bazaar", "Outpost", "Treasury"],
         expansions: "seaside"
     },
+    {
+        id: 28,
+        name: "The Race Around The World",
+        cards: ["Pearl Diver", "Lookout", "Warehouse", "Caravan", "Navigator", "Treasure Map", "Explorer", "Ghost Ship", "Tactician", "Wharf"],
+        expansions: "seaside"
+    },
+    {
+        id: 29,
+        name: "Securing Our Waters",
+        cards: ["Lighthouse", "Native Village", "Ambassador", "Island", "Salvager", "Sea Hag", "Treasure Map", "Explorer", "Ghost Ship", "Treasury"],
+        expansions: "seaside"
+    },
 ];
