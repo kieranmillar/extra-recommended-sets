@@ -210,4 +210,11 @@ var kingdoms = [
         extras: ["Colony", "Platinum"],
         expansions: "prosperity"
     },
+    {
+        id: 33,
+        name: "Triple Jump",
+        cards: ["Trade Route", "Monument", "Quarry", "Counting House", "Royal Seal", "Vault", "Goons", "Hoard", "Expand", "King's Court"],
+        extras: ["Colony", "Platinum"],
+        expansions: "prosperity"
+    },
 ];
