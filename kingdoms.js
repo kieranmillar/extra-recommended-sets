@@ -189,4 +189,11 @@ var kingdoms = [
         cards: ["Lighthouse", "Native Village", "Ambassador", "Island", "Salvager", "Sea Hag", "Treasure Map", "Explorer", "Ghost Ship", "Treasury"],
         expansions: "seaside"
     },
+    {
+        id: 30,
+        name: "Money Laundering",
+        cards: ["Trade Route", "Watchtower", "Monument", "Worker's Village", "City", "Contraband", "Counting House", "Vault", "Bank", "Expand"],
+        extras: ["Colony", "Platinum"],
+        expansions: "prosperity"
+    },
 ];
