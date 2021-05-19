@@ -191,8 +191,22 @@ var kingdoms = [
     },
     {
         id: 30,
-        name: "Money Laundering",
+        name: "Investing In Today",
         cards: ["Trade Route", "Watchtower", "Monument", "Worker's Village", "City", "Contraband", "Counting House", "Vault", "Bank", "Expand"],
+        extras: ["Colony", "Platinum"],
+        expansions: "prosperity"
+    },
+    {
+        id: 31,
+        name: "Added Value",
+        cards: ["Loan", "Monument", "Worker's Village", "Contraband", "Mint", "Rabble", "Venture", "Grand Market", "Hoard", "Forge"],
+        extras: ["Colony", "Platinum"],
+        expansions: "prosperity"
+    },
+    {
+        id: 32,
+        name: "The Long Crusade",
+        cards: ["Watchtower", "Bishop", "Quarry", "Talisman", "City", "Mint", "Venture", "Bank", "King's Court", "Peddler"],
         extras: ["Colony", "Platinum"],
         expansions: "prosperity"
     },
