@@ -3,6 +3,7 @@
 id: A number matching its position in the array.
 name: The kingdom name
 cards: An array of card names
+landscapes: An array of landscape names (optional)
 extras: An array of extra component names (optional)
 notes: Any extra notes (optional)
 expansions: Concatenated string of expansions required, matching checkbox names in order, no spaces
@@ -258,5 +259,11 @@ var kingdoms = [
         cards: ["Bishop", "Talisman", "Worker's Village", "Counting House", "Rabble", "Goons", "Bank", "Expand", "Forge", "King's Court"],
         extras: ["Colony", "Platinum"],
         expansions: "prosperity"
+    },
+    {
+        id: 40,
+        name: "Cyclone",
+        cards: ["Duchess", "Oasis", "Scheme", "Jack of All Trades", "Nomad Camp", "Cartographer", "Embassy", "Inn", "Stables", "Farmland"],
+        expansions: "hinterlands"
     },
 ];
