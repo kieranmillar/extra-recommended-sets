@@ -231,4 +231,32 @@ var kingdoms = [
         extras: ["Colony", "Platinum"],
         expansions: "prosperity"
     },
+    {
+        id: 36,
+        name: "The Gift Of Forgiveness",
+        cards: ["Trade Route", "Bishop", "Worker's Village", "City", "Counting House", "Rabble", "Royal Seal", "Grand Market", "Hoard", "Peddler"],
+        extras: ["Colony", "Platinum"],
+        expansions: "prosperity"
+    },
+    {
+        id: 37,
+        name: "On Sale",
+        cards: ["Loan", "Quarry", "Worker's Village", "Contraband", "Mint", "Royal Seal", "Vault", "Grand Market", "Expand", "Peddler"],
+        extras: ["Colony", "Platinum"],
+        expansions: "prosperity"
+    },
+    {
+        id: 38,
+        name: "Swimming With Sharks",
+        cards: ["Monument", "Quarry", "City", "Mountebank", "Venture", "Goons", "Hoard", "Bank", "Expand", "Forge"],
+        notes: "Do not include Colony or Platinum",
+        expansions: "prosperity"
+    },
+    {
+        id: 39,
+        name: "Get The Point",
+        cards: ["Bishop", "Talisman", "Worker's Village", "Counting House", "Rabble", "Goons", "Bank", "Expand", "Forge", "King's Court"],
+        extras: ["Colony", "Platinum"],
+        expansions: "prosperity"
+    },
 ];
