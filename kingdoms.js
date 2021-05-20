@@ -266,4 +266,22 @@ var kingdoms = [
         cards: ["Duchess", "Oasis", "Scheme", "Jack of All Trades", "Nomad Camp", "Cartographer", "Embassy", "Inn", "Stables", "Farmland"],
         expansions: "hinterlands"
     },
+    {
+        id: 41,
+        name: "Road To Nowhere",
+        cards: ["Crossroads", "Fool's Gold", "Oracle", "Noble Brigand", "Trader", "Cartographer", "Embassy", "Haggler", "Highway", "Border Village"],
+        expansions: "hinterlands"
+    },
+    {
+        id: 42,
+        name: "Landlords",
+        cards: ["Scheme", "Tunnel", "Noble Brigand", "Silk Road", "Spice Merchant", "Cache", "Ill-Gotten Gains", "Inn", "Margrave", "Stables"],
+        expansions: "hinterlands"
+    },
+    {
+        id: 43,
+        name: "Ladder Game",
+        cards: ["Fool's Gold", "Develop", "Oasis", "Noble Brigand", "Nomad Camp", "Spice Merchant", "Embassy", "Highway", "Stables", "Border Village"],
+        expansions: "hinterlands"
+    },
 ];
