@@ -217,4 +217,18 @@ var kingdoms = [
         extras: ["Colony", "Platinum"],
         expansions: "prosperity"
     },
+    {
+        id: 34,
+        name: "Diet Plan",
+        cards: ["Watchtower", "Monument", "City", "Contraband", "Rabble", "Hoard", "Bank", "Expand", "King's Court", "Peddler"],
+        extras: ["Colony", "Platinum"],
+        expansions: "prosperity"
+    },
+    {
+        id: 35,
+        name: "Watch This",
+        cards: ["Loan", "Watchtower", "Talisman", "Worker's Village", "Mint", "Mountebank", "Vault", "Goons", "Grand Market", "Forge"],
+        extras: ["Colony", "Platinum"],
+        expansions: "prosperity"
+    },
 ];
