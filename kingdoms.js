@@ -248,7 +248,7 @@ var kingdoms = [
     {
         id: 38,
         name: "Swimming With Sharks",
-        cards: ["Monument", "Quarry", "City", "Mountebank", "Venture", "Goons", "Hoard", "Bank", "Expand", "Forge"],
+        cards: ["Loan", "Monument", "Quarry", "City", "Mountebank", "Venture", "Goons", "Hoard", "Expand", "Forge"],
         notes: "Do not include Colony or Platinum",
         expansions: "prosperity"
     },
