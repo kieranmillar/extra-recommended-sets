@@ -334,4 +334,18 @@ var kingdoms = [
         extras: ["Madman", "Ruins", "Shelters"],
         expansions: "darkages"
     },
+    {
+        id: 52,
+        name: "Marching Band",
+        cards: ["Poor House", "Squire", "Vagrant", "Hermit", "Urchin", "Ironmonger", "Marauder", "Band of Misfits", "Count", "Hunting Grounds"],
+        extras: ["Madman", "Ruins", "Shelters", "Spoils"],
+        expansions: "darkages"
+    },
+    {
+        id: 53,
+        name: "Warzone",
+        cards: ["Beggar", "Forager", "Feodum", "Fortress", "Bandit Camp", "Catacombs", "Cultist", "Knights", "Pillage", "Altar"],
+        extras: ["Ruins", "Shelters", "Spoils"],
+        expansions: "darkages"
+    },
 ];
