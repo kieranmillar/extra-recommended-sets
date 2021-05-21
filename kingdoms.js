@@ -327,4 +327,11 @@ var kingdoms = [
         extras: ["Shelters", "Spoils"],
         expansions: "darkages"
     },
+    {
+        id: 51,
+        name: "Party Time",
+        cards: ["Vagrant", "Hermit", "Sage", "Death Cart", "Procession", "Rats", "Counterfeit", "Graverobber", "Mystic", "Hunting Grounds"],
+        extras: ["Madman", "Ruins", "Shelters"],
+        expansions: "darkages"
+    },
 ];
