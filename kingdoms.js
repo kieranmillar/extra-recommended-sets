@@ -320,4 +320,11 @@ var kingdoms = [
         cards: ["Crossroads", "Duchess", "Oasis", "Scheme", "Nomad Camp", "Silk Road", "Trader", "Cache", "Mandarin", "Stables"],
         expansions: "hinterlands"
     },
+    {
+        id: 50,
+        name: "Rags to Riches",
+        cards: ["Squire", "Market Square", "Sage", "Storeroom", "Armory", "Wandering Minstrel", "Band of Misfits", "Catacombs", "Junk Dealer", "Pillage"],
+        extras: ["Shelters", "Spoils"],
+        expansions: "darkages"
+    },
 ];
