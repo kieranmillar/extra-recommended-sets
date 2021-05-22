@@ -364,9 +364,30 @@ var kingdoms = [
     },
     {
         id: 56,
-        name: "",
+        name: "Rise to the Challenge",
         cards: ["Beggar", "Market Square", "Sage", "Ironmonger", "Wandering Minstrel", "Bandit Camp", "Count", "Knights", "Rebuild", "Hunting Grounds"],
         extras: ["Shelters", "Spoils"],
+        expansions: "darkages"
+    },
+    {
+        id: 57,
+        name: "Crazytown",
+        cards: ["Forager", "Hermit", "Storeroom", "Armory", "Feodum", "Fortress", "Marauder", "Graverobber", "Pillage", "Altar"],
+        extras: ["Madman", "Ruins", "Shelters", "Spoils"],
+        expansions: "darkages"
+    },
+    {
+        id: 58,
+        name: "High Five",
+        cards: ["Squire", "Storeroom", "Death Cart", "Fortress", "Procession", "Bandit Camp", "Catacombs", "Graverobber", "Junk Dealer", "Mystic"],
+        extras: ["Ruins", "Shelters", "Spoils"],
+        expansions: "darkages"
+    },
+    {
+        id: 59,
+        name: "Pest Control",
+        cards: ["Poor House", "Squire", "Sage", "Feodum", "Rats", "Wandering Minstrel", "Band of Misfits", "Graverobber", "Knights", "Hunting Grounds"],
+        extras: ["Shelters"],
         expansions: "darkages"
     },
 ];
