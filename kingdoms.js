@@ -338,7 +338,7 @@ var kingdoms = [
         id: 52,
         name: "Marching Band",
         cards: ["Poor House", "Squire", "Vagrant", "Hermit", "Urchin", "Ironmonger", "Marauder", "Band of Misfits", "Count", "Hunting Grounds"],
-        extras: ["Madman", "Ruins", "Shelters", "Spoils"],
+        extras: ["Madman", "Mercenary", "Ruins", "Shelters", "Spoils"],
         expansions: "darkages"
     },
     {
@@ -346,6 +346,27 @@ var kingdoms = [
         name: "Warzone",
         cards: ["Beggar", "Forager", "Feodum", "Fortress", "Bandit Camp", "Catacombs", "Cultist", "Knights", "Pillage", "Altar"],
         extras: ["Ruins", "Shelters", "Spoils"],
+        expansions: "darkages"
+    },
+    {
+        id: 54,
+        name: "Drinking the Punch",
+        cards: ["Poor House", "Squire", "Storeroom", "Urchin", "Procession", "Wandering Minstrel", "Cultist", "Junk Dealer", "Rogue", "Altar"],
+        extras: ["Mercenary", "Ruins", "Shelters"],
+        expansions: "darkages"
+    },
+    {
+        id: 55,
+        name: "Lurching Forward",
+        cards: ["Poor House", "Vagrant", "Forager", "Urchin", "Armory", "Fortress", "Bandit Camp", "Count", "Counterfeit", "Mystic"],
+        extras: ["Mercenary", "Shelters", "Spoils"],
+        expansions: "darkages"
+    },
+    {
+        id: 56,
+        name: "",
+        cards: ["Beggar", "Market Square", "Sage", "Ironmonger", "Wandering Minstrel", "Bandit Camp", "Count", "Knights", "Rebuild", "Hunting Grounds"],
+        extras: ["Shelters", "Spoils"],
         expansions: "darkages"
     },
 ];
