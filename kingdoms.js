@@ -390,4 +390,10 @@ var kingdoms = [
         extras: ["Shelters"],
         expansions: "darkages"
     },
+    {
+        id: 60,
+        name: "Basic Standards",
+        cards: ["Candlestick Maker", "Masterpiece", "Farming Village", "Horse Traders", "Plaza", "Remake", "Taxman", "Baker", "Jester", "Journeyman"],
+        expansions: "cornguilds"
+    },
 ];
