@@ -396,4 +396,19 @@ var kingdoms = [
         cards: ["Candlestick Maker", "Masterpiece", "Farming Village", "Horse Traders", "Plaza", "Remake", "Taxman", "Baker", "Jester", "Journeyman"],
         expansions: "cornguilds"
     },
+    {
+        id: 61,
+        name: "Second Opinion",
+        cards: ["Hamlet", "Doctor", "Advisor", "Farming Village", "Young Witch", "Butcher", "Horn of Plenty", "Hunting Party", "Merchant Guild", "Soothsayer", "Fairgrounds"],
+        notes: "Doctor is the Bane",
+        expansions: "cornguilds"
+    },
+    {
+        id: 62,
+        name: "Variety Hour",
+        cards: ["Candlestick Maker", "Hamlet", "Menagerie", "Horse Traders", "Plaza", "Tournament", "Young Witch", "Baker", "Hunting Grounds", "Jester", "Fairgrounds"],
+        extras: ["Prizes"],
+        notes: "Candlestick Maker is the Bane",
+        expansions: "cornguilds"
+    },
 ];
