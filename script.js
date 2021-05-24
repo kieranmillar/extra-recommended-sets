@@ -14,9 +14,11 @@ var checkboxElements = [
     document.getElementById("menagerie")
 ];
 var errorsElement = document.getElementById("errors");
+var kingdomContainerElement = document.getElementById("kingdomContainer");
 
 function getSets() {
-    errorsElement.innerHTML = "";
+    errorsElement.textContent = "";
+    kingdomContainerElement.textContent = "";
     var checkboxValues = [];
     var expansionCount = 0;
     var searchString = "";
@@ -28,17 +30,44 @@ function getSets() {
         }
     }
     if (expansionCount == 0) {
-        errorsElement.innerHTML = "No expansions selected!";
+        errorsElement.textContent = "No expansions selected!";
         return;
     }
     if (expansionCount > 2) {
-        errorsElement.innerHTML = "Only combinations of 1 or 2 expansions are allowed.";
+        errorsElement.textContent = "Only combinations of 1 or 2 expansions are allowed.";
         return;
     }
     if (expansionCount == 1 && checkboxElements[3].checked) {
-        errorsElement.innerHTML = "Alchemy has no kingdoms on its own due to its limited card pool. Please add another expansion.";
+        errorsElement.textContent = "Alchemy has no kingdoms on its own due to its limited card pool. Please add another expansion.";
         return;
     }
+
     const result = kingdoms.filter(kingdom => kingdom.expansions == searchString);
-    console.log(result);
+    if (result.length == 0) {
+        errorsElement.textContent = "No kingdoms were found for some weird reason.";
+        return;
+    }
+
+    result.forEach(kingdom => {
+        let container = createKingdomContainer (kingdom);
+        kingdomContainerElement.appendChild(container);
+    });
+}
+
+function createKingdomContainer (kingdom) {
+    let container = document.createElement("div");
+    let nameHeader = document.createElement("h2");
+    nameHeader.textContent = kingdom.name;
+    container.appendChild(nameHeader);
+    kingdom.cards.forEach(card => {
+        let cardContainer = createCardContainer(card);
+        container.appendChild(cardContainer);
+    });
+    return container;
+}
+
+function createCardContainer (cardName) {
+    let container = document.createElement("div");
+    container.textContent = cardName;
+    return container;
 }
