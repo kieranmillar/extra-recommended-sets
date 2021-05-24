@@ -411,4 +411,17 @@ var kingdoms = [
         notes: "Candlestick Maker is the Bane",
         expansions: "cornguilds"
     },
+    {
+        id: 63,
+        name: "Chaos Control",
+        cards: ["Hamlet", "Stonemason", "Fortune Teller", "Menagerie", "Advisor", "Herald", "Horse Traders", "Baker", "Jester", "Merchant Guild"],
+        expansions: "cornguilds"
+    },
+    {
+        id: 64,
+        name: "Fine Dining",
+        cards: ["Candlestick Maker", "Stonemason", "Menagerie", "Advisor", "Farming Village", "Remake", "Taxman", "Young Witch", "Horn of Plenty", "Journeyman", "Fairgrounds"],
+        notes: "Menagerie is the Bane",
+        expansions: "cornguilds"
+    },
 ];
