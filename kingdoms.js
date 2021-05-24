@@ -443,4 +443,18 @@ var kingdoms = [
         cards: ["Hamlet", "Stonemason", "Doctor", "Menagerie", "Herald", "Plaza", "Baker", "Journeyman", "Merchant Guild", "Soothsayer"],
         expansions: "cornguilds"
     },
+    {
+        id: 68,
+        name: "Hodgepodge",
+        cards: ["Candlestick Maker", "Doctor", "Fortune Teller", "Farming Village", "Horse Traders", "Taxman", "Tournament", "Young Witch", "Harvest", "Jester", "Fairgrounds"],
+        extras: ["Prizes"],
+        notes: "Fortune Teller is the Bane",
+        expansions: "cornguilds"
+    },
+    {
+        id: 69,
+        name: "Bath Time",
+        cards: ["Candlestick Maker", "Fortune Teller", "Masterpiece", "Menagerie", "Remake", "Plaza", "Baker", "Hunting Party", "Jester", "Merchant Guild"],
+        expansions: "cornguilds"
+    },
 ];
