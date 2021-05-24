@@ -406,7 +406,7 @@ var kingdoms = [
     {
         id: 62,
         name: "Variety Hour",
-        cards: ["Candlestick Maker", "Hamlet", "Menagerie", "Horse Traders", "Plaza", "Tournament", "Young Witch", "Baker", "Hunting Grounds", "Jester", "Fairgrounds"],
+        cards: ["Candlestick Maker", "Hamlet", "Menagerie", "Horse Traders", "Plaza", "Tournament", "Young Witch", "Baker", "Hunting Party", "Jester", "Fairgrounds"],
         extras: ["Prizes"],
         notes: "Candlestick Maker is the Bane",
         expansions: "cornguilds"
@@ -422,6 +422,25 @@ var kingdoms = [
         name: "Fine Dining",
         cards: ["Candlestick Maker", "Stonemason", "Menagerie", "Advisor", "Farming Village", "Remake", "Taxman", "Young Witch", "Horn of Plenty", "Journeyman", "Fairgrounds"],
         notes: "Menagerie is the Bane",
+        expansions: "cornguilds"
+    },
+    {
+        id: 65,
+        name: "Surgery",
+        cards: ["Hamlet", "Doctor", "Masterpiece", "Plaza", "Taxman", "Baker", "Butcher", "Harvest", "Hunting Party", "Journeyman"],
+        expansions: "cornguilds"
+    },
+    {
+        id: 66,
+        name: "Trust Issues",
+        cards: ["Stonemason", "Masterpiece", "Advisor", "Farming Village", "Horse Traders", "Remake", "Tournament", "Butcher", "Horn of Plenty", "Merchant Guild"],
+        extras: ["Prizes"],
+        expansions: "cornguilds"
+    },
+    {
+        id: 67,
+        name: "Bandaid",
+        cards: ["Hamlet", "Stonemason", "Doctor", "Menagerie", "Herald", "Plaza", "Baker", "Journeyman", "Merchant Guild", "Soothsayer"],
         expansions: "cornguilds"
     },
 ];
