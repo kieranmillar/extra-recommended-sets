@@ -487,4 +487,11 @@ var kingdoms = [
         landscapes: ["Alms", "Inheritance"],
         expansions: "adventures"
     },
+    {
+        id: 74,
+        name: "Through the Undergrowth",
+        cards: ["Caravan Guard", "Guide", "Duplicate", "Magpie", "Port", "Giant", "Haunted Woods" "Royal Carriage", "Treasure Trove", "Wine Merchant"],
+        landscapes: ["Mission", "Seaway"],
+        expansions: "adventures"
+    },
 ];
