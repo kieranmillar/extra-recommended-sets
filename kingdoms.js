@@ -494,4 +494,19 @@ var kingdoms = [
         landscapes: ["Mission", "Seaway"],
         expansions: "adventures"
     },
+    {
+        id: 75,
+        name: "Workarounds",
+        cards: ["Coin of the Realm", "Ratcatcher", "Gear", "Duplicate", "Messenger", "Port", "Transmogrify", "Artificer", "Royal Cariage", "Swamp Hag"],
+        landscapes: ["Quest", "Save"],
+        expansions: "adventures"
+    },
+    {
+        id: 76,
+        name: "Galaxy Brain",
+        cards: ["Peasant", "Raze", "Amulet", "Magpie", "Miser", "Giant", "Haunted Woods", "Relic", "Storyteller", "Hireling"],
+        extras: ["Soldier", "Fugitive", "Disciple", "Teacher"],
+        landscapes: ["Ferry", "Pathfinding"],
+        expansions: "adventures"
+    },
 ];
