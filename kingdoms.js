@@ -479,4 +479,12 @@ var kingdoms = [
         landscapes: ["Trade", "Training"],
         expansions: "adventures"
     },
+    {
+        id: 73,
+        name: "Return on Investment",
+        cards: ["Page", "Caravan Guard", "Dungeon", "Miser", "Ranger", "Artificer", "Distant Lands", "Haunted Woods", "Lost City", "Wine Merchant"],
+        extras: ["Treasure Hunter", "Warrior", "Hero", "Champion"],
+        landscapes: ["Alms", "Inheritance"],
+        expansions: "adventures"
+    },
 ];
