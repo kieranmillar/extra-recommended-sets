@@ -509,4 +509,11 @@ var kingdoms = [
         landscapes: ["Ferry", "Pathfinding"],
         expansions: "adventures"
     },
+    {
+        id: 77,
+        name: "Long Term Goals",
+        cards: ["Coin of the Realm", "Caravan Guard", "Dungeon", "Ranger", "Transmogrify", "Artificer", "Bridge Troll", "Relic", "Royal Carriage", "Swamp Hag"],
+        landscapes: ["Plan", "Lost Arts"],
+        expansions: "adventures"
+    },
 ];
