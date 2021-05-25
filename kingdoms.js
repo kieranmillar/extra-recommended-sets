@@ -457,4 +457,11 @@ var kingdoms = [
         cards: ["Candlestick Maker", "Fortune Teller", "Masterpiece", "Menagerie", "Remake", "Plaza", "Baker", "Hunting Party", "Jester", "Merchant Guild"],
         expansions: "cornguilds"
     },
+    {
+        id: 70,
+        name: "Going the Distance",
+        cards: ["Raze", "Amulet", "Guide", "Duplicate", "Messenger", "Distant Lands", "Giant", "Lost City", "Relic", "Hireling"],
+        landscapes: ["Borrow", "Expedition"],
+        expansions: "adventures"
+    },
 ];
