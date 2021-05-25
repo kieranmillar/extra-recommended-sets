@@ -464,4 +464,19 @@ var kingdoms = [
         landscapes: ["Borrow", "Expedition"],
         expansions: "adventures"
     },
+    {
+        id: 71,
+        name: "Learning New Tricks",
+        cards: ["Peasant", "Caravan Guard", "Gear", "Dungeon", "Port", "Transmogrify", "Artificer", "Royal Carriage", "Swamp Hag", "Wine Merchant"],
+        extras: ["Soldier", "Fugitive", "Disciple", "Teacher"],
+        landscapes: ["Scouting Party", "Pilgrimage"],
+        expansions: "adventures"
+    },
+    {
+        id: 72,
+        name: "Pay to Win",
+        cards: ["Coin of the Realm", "Ratcatcher", "Guide", "Magpie", "Messenger", "Ranger", "Bridge Troll", "Storyteller", "Treasure Trove", "Hireling"],
+        landscapes: ["Trade", "Training"],
+        expansions: "adventures"
+    },
 ];
