@@ -552,4 +552,11 @@ var kingdoms = [
         landscapes: ["Windfall", "Colonnade"],
         expansions: "empires"
     },
+    {
+        id: 83,
+        name: "Look But Don't Touch",
+        cards: ["Engineer", "City Quarter", "Royal Blacksmith", "Settlers / Bustling Village", "Chariot Race", "Enchantress", "Gladiator / Fortune", "Villa", "Archive", "Groundskeeper"],
+        landscapes: ["Triumph", "Fountain"],
+        expansions: "empires"
+    },
 ];
