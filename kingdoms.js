@@ -516,4 +516,19 @@ var kingdoms = [
         landscapes: ["Plan", "Lost Arts"],
         expansions: "adventures"
     },
+    {
+        id: 78,
+        name: "Escalation",
+        cards: ["Page", "Ratcatcher", "Amulet", "Gear", "Magpie", "Distant Lands", "Haunted Woods", "Storyteller", "Treasure Trove", "Hireling"],
+        extras: ["Treasure Hunter", "Warrior", "Hero", "Champion"],
+        landscapes: ["Travelling Fair", "Bonfire"],
+        expansions: "adventures"
+    },
+    {
+        id: 79,
+        name: "Bargain Bin",
+        cards: ["Coin of the Realm", "Raze", "Amulet", "Caravan Guard", "Dungeon", "Duplicate", "Gear", "Guide", "Messenger", "Giant"],
+        landscapes: ["Ball", "Raid"],
+        expansions: "adventures"
+    },
 ];
