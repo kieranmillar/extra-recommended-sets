@@ -559,4 +559,18 @@ var kingdoms = [
         landscapes: ["Triumph", "Fountain"],
         expansions: "empires"
     },
+    {
+        id: 84,
+        name: "Elitist",
+        cards: ["Encampment / Plunder", "Patrician / Emporium", "Castles", "Chariot Race", "Enchantress", "Farmer's Market", "Sacrifice", "Capital", "Forum", "Wild Hunt"],
+        landscapes: ["Dominate", "Labyrinth"],
+        expansions: "empires"
+    },
+    {
+        id: 85,
+        name: "Money Laundering",
+        cards: ["City Quarter", "Overlord", "Patrician / Emporium", "Settlers / Bustling Village", "Gladiator / Fortune", "Temple", "Villa", "Capital", "Crown", "Groundskeeper"],
+        landscapes: ["Advance", "Bandit Fort"],
+        expansions: "empires"
+    },
 ];
