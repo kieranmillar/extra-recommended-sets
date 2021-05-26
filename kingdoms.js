@@ -531,4 +531,11 @@ var kingdoms = [
         landscapes: ["Ball", "Raid"],
         expansions: "adventures"
     },
+    {
+        id: 80,
+        name: "Anything Goes",
+        cards: ["Patrician / Emporium", "Settlers / Bustling Village", "Farmer's Market", "Sacrifice", "Temple", "Archive", "Charm", "Crown", "Forum", "Legionary"],
+        landscapes: ["Wedding", "Obelisk"],
+        expansions: "empires"
+    },
 ];
