@@ -538,4 +538,18 @@ var kingdoms = [
         landscapes: ["Wedding", "Obelisk"],
         expansions: "empires"
     },
+    {
+        id: 81,
+        name: "Patience",
+        cards: ["Engineer", "Royal Blacksmith", "Encampment / Plunder", "Settlers / Bustling Village", "Catapult / Rocks", "Chariot Race", "Enchantress", "Charm", "Forum", "Wild Hunt"],
+        landscapes: ["Conquest", "Mountain Pass"],
+        expansions: "empires"
+    },
+    {
+        id: 82,
+        name: "By Royal Decree",
+        cards: ["Overlord", "Castles", "Enchantress", "Gladiator / Fortune", "Sacrifice", "Villa", "Crown", "Groundskeeper", "Legionary", "Wild Hunt"],
+        landscapes: ["Windfall", "Colonnade"],
+        expansions: "empires"
+    },
 ];
