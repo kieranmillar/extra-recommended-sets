@@ -573,4 +573,32 @@ var kingdoms = [
         landscapes: ["Advance", "Bandit Fort"],
         expansions: "empires"
     },
+    {
+        id: 86,
+        name: "Participation Trophy",
+        cards: ["Engineer", "Overlord", "Encampment / Plunder", "Catapult / Rocks", "Farmer's Market", "Sacrifice", "Villa", "Archive", "Forum", "Legionary"],
+        landscapes: ["Basilica", "Baths"],
+        expansions: "empires"
+    },
+    {
+        id: 87,
+        name: "Balance",
+        cards: ["City Quarter", "Patrician / Emporium", "Catapult / Rocks", "Chariot Race", "Enchantress", "Farmer's Market", "Sacrifice", "Capital", "Groundskeeper", "Wild Hunt"],
+        landscapes: ["Banquet", "Orchard"],
+        expansions: "empires"
+    },
+    {
+        id: 88,
+        name: "Dominion: Turbo Edition",
+        cards: ["Engineer", "Royal Blacksmith", "Settlers / Bustling Village", "Castles", "Enchantress", "Gladiator / Fortune", "Villa", "Charm", "Crown", "Legionary"],
+        landscapes: ["Donate", "Arena"],
+        expansions: "empires"
+    },
+    {
+        id: 89,
+        name: "Bring a Ladder",
+        cards: ["Overlord", "Patrician / Emporium", "Settlers / Bustling Village", "Castles", "Farmer's Market", "Sacrifice", "Temple", "Archive", "Crown", "Wild Hunt"],
+        landscapes: ["Museum", "Wall"],
+        expansions: "empires"
+    },
 ];
