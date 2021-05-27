@@ -601,4 +601,11 @@ var kingdoms = [
         landscapes: ["Museum", "Wall"],
         expansions: "empires"
     },
+    {
+        id: 90,
+        name: "Feeling Lucky",
+        cards: ["Faithful Hound", "Monastery", "Tracker", "Fool", "Night Watchman", "Blessed Village", "Conclave", "Cobbler", "Idol", "Pooka"],
+        extras: ["Pouch", "Lucky Coin", "Cursed Gold", "Boons", "Will-O'-Wisp"],
+        expansions: "nocturne"
+    },
 ];
