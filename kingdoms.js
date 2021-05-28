@@ -635,7 +635,7 @@ var kingdoms = [
         id: 94,
         name: "In Memoriam",
         cards: ["Faithful Hound", "Monastery", "Blessed Village", "Cemetary", "Necromancer", "Cobbler", "Den of Sin", "Tragic Hero", "Vampire", "Raider"],
-        extras: ["Haunted Mirror", "Boons", "Will-O'-Wisp", "Ghost", "Bat"],
+        extras: ["Haunted Mirror", "Boons", "Will-O'-Wisp", "Ghost", "Bat", "Zombie Apprentice", "Zombie Mason", "Zombie Spy"],
         expansions: "nocturne"
     },
     {
@@ -649,7 +649,7 @@ var kingdoms = [
         id: 96,
         name: "Subdued",
         cards: ["Pixie", "Tracker", "Leprechaun", "Blessed Village", "Necromancer", "Shepherd", "Skulk", "Den of Sin", "Idol", "Vampire"],
-        extras: ["Goat", "Pasture", "Pouch", "Boons", "Hexes", "Will-O'-Wisp", "Wish", "Bat"],
+        extras: ["Goat", "Pasture", "Pouch", "Boons", "Hexes", "Will-O'-Wisp", "Wish", "Bat", "Zombie Apprentice", "Zombie Mason", "Zombie Spy"],
         expansions: "nocturne"
     },
     {
@@ -657,6 +657,21 @@ var kingdoms = [
         name: "Looks Can Be Deceiving",
         cards: ["Faithful Hound", "Changeling", "Fool", "Ghost Town", "Bard", "Exorcist", "Crypt", "Pooka", "Sacred Grove", "Tormentor"],
         extras: ["Lucky Coin", "Cursed Gold", "Boons", "Hexes", "Will-O'-Wisp", "Imp", "Ghost"],
+        expansions: "nocturne"
+    },
+    {
+        id: 98,
+        name: "Factory Method",
+        cards: ["Druid", "Guardian", "Tracker", "Night Watchman", "Cemetary", "Conclave", "Shepherd", "Skulk", "Cobbler", "Werewolf"],
+        extras: ["Haunted Mirror", "Pasture", "Pouch", "Boons", "Hexes", "Will-O'-Wisp", "Ghost"],
+        notes: "Druid boons are The Forest's Gift (+Buy), The Swamp's Gift (Will-O'-Wisp) and The Wind's Gift (draw and discard).",
+        expansions: "nocturne"
+    },
+    {
+        id: 99,
+        name: "High Spirits",
+        cards: ["Changeling", "Leprechaun", "Secret Cave", "Cemetary", "Devil's Workshop", "Exorcist", "Necromancer", "Cursed Village", "Idol", "Sacred Grove"],
+        extras: ["Haunted Mirror", "Magic Lamp", "Boons", "Hexes", "Will-O'-Wisp", "Imp", "Ghost", "Wish", "Zombie Apprentice", "Zombie Mason", "Zombie Spy"],
         expansions: "nocturne"
     },
 ];
