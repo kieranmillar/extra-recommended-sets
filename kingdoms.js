@@ -631,4 +631,32 @@ var kingdoms = [
         extras: ["Pasture", "Pouch", "Boons", "Hexes", "Will-O'-Wisp", "Imp", "Bat"],
         expansions: "nocturne"
     },
+    {
+        id: 94,
+        name: "In Memoriam",
+        cards: ["Faithful Hound", "Monastery", "Blessed Village", "Cemetary", "Necromancer", "Cobbler", "Den of Sin", "Tragic Hero", "Vampire", "Raider"],
+        extras: ["Haunted Mirror", "Boons", "Will-O'-Wisp", "Ghost", "Bat"],
+        expansions: "nocturne"
+    },
+    {
+        id: 95,
+        name: "Lazy Town",
+        cards: ["Guardian", "Monastery", "Night Watchman", "Secret Cave", "Skulk", "Crypt", "Den of Sin", "Pooka", "Tormentor", "Werewolf"],
+        extras: ["Magic Lamp", "Cursed Gold", "Hexes", "Wish", "Imp"],
+        expansions: "nocturne"
+    },
+    {
+        id: 96,
+        name: "Subdued",
+        cards: ["Pixie", "Tracker", "Leprechaun", "Blessed Village", "Necromancer", "Shepherd", "Skulk", "Den of Sin", "Idol", "Vampire"],
+        extras: ["Goat", "Pasture", "Pouch", "Boons", "Hexes", "Will-O'-Wisp", "Wish", "Bat"],
+        expansions: "nocturne"
+    },
+    {
+        id: 97,
+        name: "Looks Can Be Deceiving",
+        cards: ["Faithful Hound", "Changeling", "Fool", "Ghost Town", "Bard", "Exorcist", "Crypt", "Pooka", "Sacred Grove", "Tormentor"],
+        extras: ["Lucky Coin", "Cursed Gold", "Boons", "Hexes", "Will-O'-Wisp", "Imp", "Ghost"],
+        expansions: "nocturne"
+    },
 ];
