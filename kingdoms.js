@@ -608,4 +608,11 @@ var kingdoms = [
         extras: ["Pouch", "Lucky Coin", "Cursed Gold", "Boons", "Will-O'-Wisp"],
         expansions: "nocturne"
     },
+    {
+        id: 91,
+        name: "After Hours",
+        cards: ["Guardian", "Ghost Town", "Leprechaun", "Blessed Village", "Devil's Workshop", "Exorcist", "Den of Sin", "Sacred Grove", "Tormentor", "Werewolf"],
+        extras: ["Boons", "Hexes", "Will-O'-Wisp", "Imp", "Ghost", "Wish"],
+        expansions: "nocturne"
+    },
 ];
