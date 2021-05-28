@@ -250,7 +250,7 @@ var kingdoms = [
         id: 38,
         name: "Swimming With Sharks",
         cards: ["Loan", "Monument", "Quarry", "City", "Mountebank", "Venture", "Goons", "Hoard", "Expand", "Forge"],
-        notes: "Do not include Colony or Platinum",
+        notes: "Do not include Colony or Platinum.",
         expansions: "prosperity"
     },
     {
@@ -400,7 +400,7 @@ var kingdoms = [
         id: 61,
         name: "Second Opinion",
         cards: ["Hamlet", "Doctor", "Advisor", "Farming Village", "Young Witch", "Butcher", "Horn of Plenty", "Hunting Party", "Merchant Guild", "Soothsayer", "Fairgrounds"],
-        notes: "Doctor is the Bane",
+        notes: "Doctor is the Bane.",
         expansions: "cornguilds"
     },
     {
@@ -408,7 +408,7 @@ var kingdoms = [
         name: "Variety Hour",
         cards: ["Candlestick Maker", "Hamlet", "Menagerie", "Horse Traders", "Plaza", "Tournament", "Young Witch", "Baker", "Hunting Party", "Jester", "Fairgrounds"],
         extras: ["Prizes"],
-        notes: "Candlestick Maker is the Bane",
+        notes: "Candlestick Maker is the Bane.",
         expansions: "cornguilds"
     },
     {
@@ -421,7 +421,7 @@ var kingdoms = [
         id: 64,
         name: "Fine Dining",
         cards: ["Candlestick Maker", "Stonemason", "Menagerie", "Advisor", "Farming Village", "Remake", "Taxman", "Young Witch", "Horn of Plenty", "Journeyman", "Fairgrounds"],
-        notes: "Menagerie is the Bane",
+        notes: "Menagerie is the Bane.",
         expansions: "cornguilds"
     },
     {
@@ -448,7 +448,7 @@ var kingdoms = [
         name: "Hodgepodge",
         cards: ["Candlestick Maker", "Doctor", "Fortune Teller", "Farming Village", "Horse Traders", "Taxman", "Tournament", "Young Witch", "Harvest", "Jester", "Fairgrounds"],
         extras: ["Prizes"],
-        notes: "Fortune Teller is the Bane",
+        notes: "Fortune Teller is the Bane.",
         expansions: "cornguilds"
     },
     {
@@ -536,6 +536,7 @@ var kingdoms = [
         name: "Anything Goes",
         cards: ["Patrician / Emporium", "Settlers / Bustling Village", "Farmer's Market", "Sacrifice", "Temple", "Archive", "Charm", "Crown", "Forum", "Legionary"],
         landscapes: ["Wedding", "Obelisk"],
+        notes: "Feel free to pick a random Obelisk target, but if you want a specific pile choose Settlers / Bustling Village.",
         expansions: "empires"
     },
     {
@@ -613,6 +614,21 @@ var kingdoms = [
         name: "After Hours",
         cards: ["Guardian", "Ghost Town", "Leprechaun", "Blessed Village", "Devil's Workshop", "Exorcist", "Den of Sin", "Sacred Grove", "Tormentor", "Werewolf"],
         extras: ["Boons", "Hexes", "Will-O'-Wisp", "Imp", "Ghost", "Wish"],
+        expansions: "nocturne"
+    },
+    {
+        id: 92,
+        name: "Life's Ups and Downs",
+        cards: ["Druid", "Pixie", "Changeling", "Bard", "Conclave", "Cursed Village", "Idol", "Sacred Grove", "Tragic Hero", "Raider"],
+        extras: ["Goat", "Boons", "Hexes", "Will-O'-Wisp"],
+        notes: "Druid boons are The Field's Gift (+Action), The River's Gift (+Card at cleanup) and The Sky's Gift (discard for Gold).",
+        expansions: "nocturne"
+    },
+    {
+        id: 93,
+        name: "Come Out to Play",
+        cards: ["Tracker", "Ghost Town", "Changeling", "Bard", "Devil's Workshop", "Shepherd", "Skulk", "Crypt", "Vampire", "Werewolf"],
+        extras: ["Pasture", "Pouch", "Boons", "Hexes", "Will-O'-Wisp", "Imp", "Bat"],
         expansions: "nocturne"
     },
 ];
