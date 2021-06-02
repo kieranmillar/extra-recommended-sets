@@ -673,5 +673,13 @@ var kingdoms = [
         cards: ["Changeling", "Leprechaun", "Secret Cave", "Cemetary", "Devil's Workshop", "Exorcist", "Necromancer", "Cursed Village", "Idol", "Sacred Grove"],
         extras: ["Haunted Mirror", "Magic Lamp", "Boons", "Hexes", "Will-O'-Wisp", "Imp", "Ghost", "Wish", "Zombie Apprentice", "Zombie Mason", "Zombie Spy"],
         expansions: "nocturne"
+    },{
+        id: 100,
+        name: "A New Age",
+        cards: ["Lackeys", "Cargo Ship", "Experiment", "Improve", "Flag Bearer", "Mountain Village", "Priest", "Sculptor", "Spices", "Villain"],
+        extras: ["Flag"],
+        landscapes: ["Fair", "Sinister Plot"],
+        expansions: "renaissance"
     },
+    
 ];
