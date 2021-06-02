@@ -673,7 +673,8 @@ var kingdoms = [
         cards: ["Changeling", "Leprechaun", "Secret Cave", "Cemetary", "Devil's Workshop", "Exorcist", "Necromancer", "Cursed Village", "Idol", "Sacred Grove"],
         extras: ["Haunted Mirror", "Magic Lamp", "Boons", "Hexes", "Will-O'-Wisp", "Imp", "Ghost", "Wish", "Zombie Apprentice", "Zombie Mason", "Zombie Spy"],
         expansions: "nocturne"
-    },{
+    },
+    {
         id: 100,
         name: "A New Age",
         cards: ["Lackeys", "Cargo Ship", "Experiment", "Improve", "Flag Bearer", "Mountain Village", "Priest", "Sculptor", "Spices", "Villain"],
@@ -681,5 +682,20 @@ var kingdoms = [
         landscapes: ["Fair", "Sinister Plot"],
         expansions: "renaissance"
     },
-    
+    {
+        id: 101,
+        name: "Every Little Helps",
+        cards: ["Ducat", "Acting Troupe", "Cargo Ship", "Hideout", "Old Witch", "Scepter", "Sculptor", "Seer", "Spices", "Treasurer"],
+        extras: ["Key"],
+        landscapes: ["Pageant", "Canal"],
+        expansions: "renaissance"
+    },
+    {
+        id: 102,
+        name: "Deja Vu",
+        cards: ["Border Guard", "Experiment", "Improve", "Inventor", "Mountain Village", "Patron", "Silk Merchant", "Scholar", "Swashbuckler", "Villain"],
+        extras: ["Horn", "Lantern", "Treasure Chest"],
+        landscapes: ["City Gate", "Silos"],
+        expansions: "renaissance"
+    },
 ];
