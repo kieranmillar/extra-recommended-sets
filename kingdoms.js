@@ -714,4 +714,28 @@ var kingdoms = [
         landscapes: ["Academy", "Fleet"],
         expansions: "renaissance"
     },
+    {
+        id: 105,
+        name: "Peek-A-Boo",
+        cards: ["Border Guard", "Ducat", "Acting Troupe", "Cargo Ship", "Improve", "Patron", "Recruiter", "Old Witch", "Seer", "Swashbuckler"],
+        extras: ["Horn", "Lantern", "Treasure Chest"],
+        landscapes: ["Cathedral", "Citadel"],
+        expansions: "renaissance"
+    },
+    {
+        id: 106,
+        name: "Draw is Draw",
+        cards: ["Border Guard", "Acting Troupe", "Cargo Ship", "Flag Bearer", "Inventor", "Mountain Village", "Research", "Scepter", "Spices", "Villain"],
+        extras: ["Horn", "Lantern", "Flag"],
+        landscapes: ["Sewers", "Crop Rotation"],
+        expansions: "renaissance"
+    },
+    {
+        id: 107,
+        name: "Midas Touch",
+        cards: ["Ducat", "Acting Troupe", "Improve", "Flag Bearer", "Hideout", "Patron", "Priest", "Scholar", "Sculptor", "Treasurer"],
+        extras: ["Flag", "Key"],
+        landscapes: ["Capitalism", "Guildhall"],
+        expansions: "renaissance"
+    },
 ];
