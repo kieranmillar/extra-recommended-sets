@@ -698,4 +698,20 @@ var kingdoms = [
         landscapes: ["City Gate", "Silos"],
         expansions: "renaissance"
     },
+    {
+        id: 103,
+        name: "The Village People",
+        cards: ["Border Guard", "Lackeys", "Improve", "Flag Bearer", "Silk Merchant", "Old Witch", "Recruiter", "Scepter", "Sculptor", "Treasurer"],
+        extras: ["Horn", "Lantern", "Flag", "Key"],
+        landscapes: ["Piazza", "Road Network"],
+        expansions: "renaissance"
+    },
+    {
+        id: 104,
+        name: "Don't Blink",
+        cards: ["Lackeys", "Experiment", "Inventor", "Patron", "Research", "Silk Merchant", "Scholar", "Seer", "Swashbuckler", "Villain"],
+        extras: ["Treasure Chest"],
+        landscapes: ["Academy", "Fleet"],
+        expansions: "renaissance"
+    },
 ];
