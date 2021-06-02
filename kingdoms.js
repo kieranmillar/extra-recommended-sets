@@ -738,4 +738,20 @@ var kingdoms = [
         landscapes: ["Capitalism", "Guildhall"],
         expansions: "renaissance"
     },
+    {
+        id: 108,
+        name: "Seeing Stars",
+        cards: ["Border Guard", "Experiment", "Inventor", "Research", "Silk Merchant", "Old Witch", "Scepter", "Seer", "Spices", "Treasurer"],
+        extras: ["Horn", "Lantern", "Key"],
+        landscapes: ["Star Chart", "Barracks"],
+        expansions: "renaissance"
+    },
+    {
+        id: 109,
+        name: "Top Up",
+        cards: ["Lackeys", "Ducat", "Impove", "Hideout", "Patron", "Recruiter", "Scholar", "Sculptor", "Swashbuckler", "Villain"],
+        extras: ["Treasure Chest"],
+        landscapes: ["Exploration", "Innovation"],
+        expansions: "renaissance"
+    },
 ];
