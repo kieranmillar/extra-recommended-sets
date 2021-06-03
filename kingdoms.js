@@ -793,4 +793,20 @@ var kingdoms = [
         landscapes: ["Alliance", "Way of the Seal"],
         expansions: "menagerie"
     },
+    {
+        id: 115,
+        name: "Card Printer",
+        cards: ["Black Cat", "Sleigh", "Scrap", "Snowy Village", "Village Green", "Barge", "Falconer" "Mastermind", "Sanctuary", "Destrier"],
+        extras: ["Horse"],
+        landscapes: ["Commerce", "Way of the Rat"],
+        expansions: "menagerie"
+    },
+    {
+        id: 116,
+        name: "Olly Olly Oxen Free",
+        cards: ["Sleigh", "Supplies", "Camel Train", "Cardinal", "Cavalry", "Coven", "Barge", "Fisherman", "Livery", "Animal Fair"],
+        extras: ["Horse"],
+        landscapes: ["Enhance", "Way of the Ox"],
+        expansions: "menagerie"
+    },
 ];
