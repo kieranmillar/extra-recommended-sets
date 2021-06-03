@@ -749,9 +749,17 @@ var kingdoms = [
     {
         id: 109,
         name: "Top Up",
-        cards: ["Lackeys", "Ducat", "Impove", "Hideout", "Patron", "Recruiter", "Scholar", "Sculptor", "Swashbuckler", "Villain"],
+        cards: ["Lackeys", "Ducat", "Improve", "Hideout", "Patron", "Recruiter", "Scholar", "Sculptor", "Swashbuckler", "Villain"],
         extras: ["Treasure Chest"],
         landscapes: ["Exploration", "Innovation"],
         expansions: "renaissance"
+    },
+    {
+        id: 110,
+        name: "Pony Time",
+        cards: ["Supplies", "Scrap", "Sheepdog", "Snowy Village", "Hostelry", "Barge", "Displace", "Fisherman", "Paddock", "Wayfarer"],
+        extras: ["Horse"],
+        landscapes: ["Bargain", "Way of the Goat"],
+        expansions: "menagerie"
     },
 ];
