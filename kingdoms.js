@@ -762,4 +762,27 @@ var kingdoms = [
         landscapes: ["Bargain", "Way of the Goat"],
         expansions: "menagerie"
     },
+    {
+        id: 111,
+        name: "Give A Hoot",
+        cards: ["Camel Train", "Goatherd", "Bounty Hunter", "Cardinal", "Groom", "Village Green", "Coven", "Hunting Lodge", "Kiln", "Animal Fair"],
+        extras: ["Horse"],
+        landscapes: ["March", "Way of the Owl"],
+        expansions: "menagerie"
+    },
+    {
+        id: 112,
+        name: "Karma",
+        cards: ["Sleigh", "Supplies", "Sheepdog", "Stockpile", "Cavalry", "Coven", "Falconer", "Gatekeeper", "Paddock", "Sanctuary"],
+        extras: ["Horse"],
+        landscapes: ["Toil", "Way of the Chameleon"],
+        expansions: "menagerie"
+    },
+    {
+        id: 113,
+        name: "Unleash the Power Within",
+        cards: ["Black Cat", "Camel Train", "Sheepdog", "Bounty Hunter", "Cardinal", "Displace", "Falconer", "Kiln", "Mastermind", "Animal Fair"],
+        landscapes: ["Delay", "Way of the Pig"],
+        expansions: "menagerie"
+    },
 ];
