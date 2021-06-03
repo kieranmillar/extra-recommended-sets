@@ -809,4 +809,28 @@ var kingdoms = [
         landscapes: ["Enhance", "Way of the Ox"],
         expansions: "menagerie"
     },
+    {
+        id: 117,
+        name: "Monkey Seize Monkey Does",
+        cards: ["Supplies", "Goatherd", "Stockpile", "Groom", "Hostelry", "Displace", "Gatekeeper", "Hunting Lodge", "Mastermind", "Wayfarer"],
+        extras: ["Horse"],
+        landscapes: ["Seize the Day", "Way of the Monkey"],
+        expansions: "menagerie"
+    },
+    {
+        id: 118,
+        name: "Switch On",
+        cards: ["Sleigh", "Camel Train", "Scrap", "Sheepdog", "Coven", "Displace", "Hunting Lodge", "Paddock", "Destrier", "Animal Fair"],
+        extras: ["Horse"],
+        landscapes: ["Banish", "Way of the Worm"],
+        expansions: "menagerie"
+    },
+    {
+        id: 119,
+        name: "Snowed In",
+        cards: ["Black Cat", "Snowy Village", "Stockpile", "Bounty Hunter", "Fisherman", "Kiln", "Livery", "Paddock", "Sanctuary", "Animal Fair"],
+        extras: ["Horse"],
+        landscapes: ["Stampede", "Way of the Horse"],
+        expansions: "menagerie"
+    },
 ];
