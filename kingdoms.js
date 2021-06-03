@@ -785,4 +785,12 @@ var kingdoms = [
         landscapes: ["Delay", "Way of the Pig"],
         expansions: "menagerie"
     },
+    {
+        id: 114,
+        name: "Herd Immunity",
+        cards: ["Black Cat", "Goatherd", "Groom", "Hostelry", "Village Green", "Fisherman", "Kiln", "Livery", "Paddock", "Destrier"],
+        extras: ["Horse"],
+        landscapes: ["Alliance", "Way of the Seal"],
+        expansions: "menagerie"
+    },
 ];
