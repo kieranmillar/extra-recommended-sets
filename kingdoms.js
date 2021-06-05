@@ -833,4 +833,10 @@ var kingdoms = [
         landscapes: ["Stampede", "Way of the Horse"],
         expansions: "menagerie"
     },
+    {
+        id: 120,
+        name: "Reach the Top",
+        cards: ["Courtyard", "Village", "Workshop", "Militia", "Mill", "Throne Room", "Mine", "Patrol", "Replace", "Trading Post"],
+        expansions: "baseintrigue"
+    },
 ];
