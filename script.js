@@ -56,13 +56,56 @@ function getSets() {
 
 function createKingdomContainer (kingdom) {
     let container = document.createElement("div");
+
     let nameHeader = document.createElement("h2");
     nameHeader.textContent = kingdom.name;
     container.appendChild(nameHeader);
+
+    let cardsTable = document.createElement("div");
+    let cardsTableHeader = document.createElement("h3");
+    cardsTableHeader.textContent = "Cards";
+    cardsTable.appendChild(cardsTableHeader);
     kingdom.cards.forEach(card => {
         let cardContainer = createCardContainer(card);
-        container.appendChild(cardContainer);
+        cardsTable.appendChild(cardContainer);
     });
+    container.appendChild(cardsTable);
+
+    if (kingdom.hasOwnProperty("extras")) {
+        let extrasTable = document.createElement("div");
+        let extrasTableHeader = document.createElement("h3");
+        extrasTableHeader.textContent = "Extra Cards";
+        extrasTable.appendChild(extrasTableHeader);
+        kingdom.extras.forEach(card => {
+            let cardContainer = createCardContainer(card);
+            extrasTable.appendChild(cardContainer);
+        });
+        container.appendChild(extrasTable);
+    }
+
+    if (kingdom.hasOwnProperty("landscapes")) {
+        let landscapesTable = document.createElement("div");
+        let landscapesTableHeader = document.createElement("h3");
+        landscapesTableHeader.textContent = "Landscapes";
+        landscapesTable.appendChild(landscapesTableHeader);
+        kingdom.landscapes.forEach(card => {
+            let cardContainer = createCardContainer(card);
+            landscapesTable.appendChild(cardContainer);
+        });
+        container.appendChild(landscapesTable);
+    }
+
+    if (kingdom.hasOwnProperty("notes")) {
+        let notesSection = document.createElement("div");
+        let notesHeader = document.createElement("h3");
+        notesHeader.textContent = "Notes";
+        notesSection.appendChild(notesHeader);
+        let notesText = document.createElement("div");
+        notesText.textContent = kingdom.notes;
+        notesSection.appendChild(notesText);
+        container.appendChild(notesSection);
+    }
+
     return container;
 }
 

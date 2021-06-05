@@ -3,8 +3,8 @@
 id: A number matching its position in the array.
 name: The kingdom name
 cards: An array of card names
-landscapes: An array of landscape names (optional)
 extras: An array of extra component names (optional)
+landscapes: An array of landscape names (optional)
 notes: Any extra notes (optional)
 expansions: Concatenated string of expansions required, matching checkbox names in order, no spaces
 onlineString: Overrides the string to paste into the online client (optional)
@@ -490,7 +490,7 @@ var kingdoms = [
     {
         id: 74,
         name: "Through the Undergrowth",
-        cards: ["Caravan Guard", "Guide", "Duplicate", "Magpie", "Port", "Giant", "Haunted Woods" "Royal Carriage", "Treasure Trove", "Wine Merchant"],
+        cards: ["Caravan Guard", "Guide", "Duplicate", "Magpie", "Port", "Giant", "Haunted Woods", "Royal Carriage", "Treasure Trove", "Wine Merchant"],
         landscapes: ["Mission", "Seaway"],
         expansions: "adventures"
     },
@@ -796,7 +796,7 @@ var kingdoms = [
     {
         id: 115,
         name: "Card Printer",
-        cards: ["Black Cat", "Sleigh", "Scrap", "Snowy Village", "Village Green", "Barge", "Falconer" "Mastermind", "Sanctuary", "Destrier"],
+        cards: ["Black Cat", "Sleigh", "Scrap", "Snowy Village", "Village Green", "Barge", "Falconer", "Mastermind", "Sanctuary", "Destrier"],
         extras: ["Horse"],
         landscapes: ["Commerce", "Way of the Rat"],
         expansions: "menagerie"
