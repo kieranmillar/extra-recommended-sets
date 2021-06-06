@@ -872,7 +872,25 @@ var kingdoms = [
     {
         id: 126,
         name: "Four Play",
-        cards: ["Chapel", "Bridge", "Bureaucrat", "Conspirator", "Militia", "Mining Village", "Secret Passage", "Smithy", "Throne Room", "Upgrade"],
+        cards: ["Chapel", "Baron", "Bureaucrat", "Conspirator", "Militia", "Mining Village", "Secret Passage", "Smithy", "Throne Room", "Upgrade"],
+        expansions: "baseintrigue"
+    },
+    {
+        id: 127,
+        name: "Double-Crossing",
+        cards: ["Moat", "Pawn", "Swindler", "Vassal", "Bridge", "Diplomat", "Secret Passage", "Throne Room", "Market", "Sentry"],
+        expansions: "baseintrigue"
+    },
+    {
+        id: 128,
+        name: "Keep the Change",
+        cards: ["Courtyard", "Lurker", "Moat", "Militia", "Mining Village", "Moneylender", "Council Room", "Festival", "Witch", "Harem"],
+        expansions: "baseintrigue"
+    },
+    {
+        id: 129,
+        name: "Solo",
+        cards: ["Masquerade", "Vassal", "Wishing Well", "Bridge", "Gardens", "Mill", "Remodel", "Courtier", "Laboratory", "Market"],
         expansions: "baseintrigue"
     },
 ];
