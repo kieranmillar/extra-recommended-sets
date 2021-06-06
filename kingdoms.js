@@ -863,4 +863,16 @@ var kingdoms = [
         cards: ["Harbinger", "Steward", "Bureaucrat", "Gardens", "Mill", "Duke", "Patrol", "Witch", "Artisan", "Nobles"],
         expansions: "baseintrigue"
     },
+    {
+        id: 125,
+        name: "Obselescence",
+        cards: ["Moat", "Pawn", "Village", "Ironworks", "Poacher", "Bandit", "Laboratory", "Torturer", "Upgrade", "Harem"],
+        expansions: "baseintrigue"
+    },
+    {
+        id: 126,
+        name: "Four Play",
+        cards: ["Chapel", "Bridge", "Bureaucrat", "Conspirator", "Militia", "Mining Village", "Secret Passage", "Smithy", "Throne Room", "Upgrade"],
+        expansions: "baseintrigue"
+    },
 ];
