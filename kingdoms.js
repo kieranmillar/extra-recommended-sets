@@ -851,4 +851,16 @@ var kingdoms = [
         cards: ["Chapel", "Lurker", "Shanty Town", "Swindler", "Poacher", "Remodel", "Courtier", "Library", "Market", "Nobles"],
         expansions: "baseintrigue"
     },
+    {
+        id: 123,
+        name: "Carnival",
+        cards: ["Masquerade", "Merchant", "Shanty Town", "Workshop", "Conspirator", "Diplomat", "Council Room", "Courtier", "Festival", "Sentry"],
+        expansions: "baseintrigue"
+    },
+    {
+        id: 124,
+        name: "Oh Green World",
+        cards: ["Harbinger", "Steward", "Bureaucrat", "Gardens", "Mill", "Duke", "Patrol", "Witch", "Artisan", "Nobles"],
+        expansions: "baseintrigue"
+    },
 ];
