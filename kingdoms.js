@@ -835,8 +835,20 @@ var kingdoms = [
     },
     {
         id: 120,
-        name: "Reach the Top",
+        name: "Hobby Shop",
         cards: ["Courtyard", "Village", "Workshop", "Militia", "Mill", "Throne Room", "Mine", "Patrol", "Replace", "Trading Post"],
+        expansions: "baseintrigue"
+    },
+    {
+        id: 121,
+        name: "Gee Whiz",
+        cards: ["Cellar", "Vassal", "Village", "Wishing Well", "Baron", "Conspirator", "Diplomat", "Moneylender", "Minion", "Artisan"],
+        expansions: "baseintrigue"
+    },
+    {
+        id: 122,
+        name: "Roguelike",
+        cards: ["Chapel", "Lurker", "Shanty Town", "Swindler", "Poacher", "Remodel", "Courtier", "Library", "Market", "Nobles"],
         expansions: "baseintrigue"
     },
 ];
