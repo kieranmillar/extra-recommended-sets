@@ -899,4 +899,10 @@ var kingdoms = [
         cards: ["Cellar", "Fishing Village", "Workshop", "Caravan", "Gardens", "Island", "Salvager", "Bazaar", "Library", "Mine"],
         expansions: "baseseaside"
     },
+    {
+        id: 131,
+        name: "Double Planning",
+        cards: ["Moat", "Pearl Diver", "Fishing Village", "Vassal", "Navigator", "Poacher", "Remodel", "Market", "Merchant Ship", "Tactician"],
+        expansions: "baseseaside"
+    },
 ];
