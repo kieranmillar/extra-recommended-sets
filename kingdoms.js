@@ -905,4 +905,16 @@ var kingdoms = [
         cards: ["Moat", "Pearl Diver", "Fishing Village", "Vassal", "Navigator", "Poacher", "Remodel", "Market", "Merchant Ship", "Tactician"],
         expansions: "baseseaside"
     },
+    {
+        id: 132,
+        name: "The Real Merchant Ships",
+        cards: ["Chapel", "Haven", "Merchant", "Smithy", "Smugglers", "Gardens", "Treasure Map", "Festival", "Outpost", "Wharf"],
+        expansions: "baseseaside"
+    },
+    {
+        id: 133,
+        name: "Slipstream",
+        cards: ["Embargo", "Lighthouse", "Native Village", "Warehouse", "Caravan", "Militia", "Salvager", "Bandit", "Council Room", "Sentry"],
+        expansions: "baseseaside"
+    },
 ];
