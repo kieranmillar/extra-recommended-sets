@@ -893,4 +893,10 @@ var kingdoms = [
         cards: ["Masquerade", "Vassal", "Wishing Well", "Bridge", "Gardens", "Mill", "Remodel", "Courtier", "Laboratory", "Market"],
         expansions: "baseintrigue"
     },
+    {
+        id: 130,
+        name: "Pressure Points",
+        cards: ["Cellar", "Fishing Village", "Workshop", "Caravan", "Gardens", "Island", "Salvager", "Bazaar", "Library", "Mine"],
+        expansions: "baseseaside"
+    },
 ];
