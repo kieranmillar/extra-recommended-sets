@@ -917,4 +917,16 @@ var kingdoms = [
         cards: ["Embargo", "Lighthouse", "Native Village", "Warehouse", "Caravan", "Militia", "Salvager", "Bandit", "Council Room", "Sentry"],
         expansions: "baseseaside"
     },
+    {
+        id: 134,
+        name: "Turbulent Seas",
+        cards: ["Haven", "Lookout", "Vassal", "Village", "Workshop", "Cutpurse", "Bazaar", "Ghost Ship", "Market", "Witch"],
+        expansions: "baseseaside"
+    },
+    {
+        id: 135,
+        name: "Boats in Moats",
+        cards: ["Moat", "Native Village", "Ambassador", "Poacher", "Remodel", "Explorer", "Festival", "Ghost Ship", "Treasury", "Artisan"],
+        expansions: "baseseaside"
+    },
 ];
