@@ -941,4 +941,10 @@ var kingdoms = [
         cards: ["Merchant", "Warehouse", "Island", "Moneylender", "Remodel", "Sea Hag", "Bazaar", "Market", "Tactician", "Wharf"],
         expansions: "baseseaside"
     },
+    {
+        id: 138,
+        name: "Captain's Log",
+        cards: ["Lighthouse", "Ambassador", "Fishing Village", "Salvager", "Throne Room", "Treasure Map", "Library", "Market", "Outpost", "Artisan"],
+        expansions: "baseseaside"
+    },
 ];
