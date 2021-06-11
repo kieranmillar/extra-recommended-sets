@@ -929,4 +929,16 @@ var kingdoms = [
         cards: ["Moat", "Native Village", "Ambassador", "Poacher", "Remodel", "Explorer", "Festival", "Ghost Ship", "Treasury", "Artisan"],
         expansions: "baseseaside"
     },
+    {
+        id: 136,
+        name: "Ripples",
+        cards: ["Cellar", "Embargo", "Haven", "Harbinger", "Bureaucrat", "Caravan", "Pirate Ship", "Explorer", "Laboratory", "Mine"],
+        expansions: "baseseaside"
+    },
+    {
+        id: 137,
+        name: "Beach Combing",
+        cards: ["Merchant", "Warehouse", "Island", "Moneylender", "Remodel", "Sea Hag", "Bazaar", "Market", "Tactician", "Wharf"],
+        expansions: "baseseaside"
+    },
 ];
