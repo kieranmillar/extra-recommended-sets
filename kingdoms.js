@@ -953,4 +953,11 @@ var kingdoms = [
         cards: ["Native Village", "Pearl Diver", "Lookout", "Workshop", "Militia", "Smithy", "Throne Room", "Bandit", "Treasury", "Witch"],
         expansions: "baseseaside"
     },
+    {
+        id: 140,
+        name: "Morning Cuppa",
+        cards: ["Cellar", "University", "Harbinger", "Merchant", "Militia", "Smithy", "Golem", "Laboratory", "Market", "Sentry"],
+        extras: ["Potion"],
+        expansions: "basealchemy"
+    },
 ];
