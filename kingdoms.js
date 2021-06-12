@@ -1009,4 +1009,18 @@ var kingdoms = [
         extras: ["Potion"],
         expansions: "basealchemy"
     },
+    {
+        id: 148,
+        name: "",
+        cards: ["Transmute", "Herbalist", "Familiar", "Philosopher's Stone", "Bureaucrat", "Gardens", "Militia"],
+        extras: ["Potion"],
+        expansions: "basealchemy"
+    },
+    {
+        id: 149,
+        name: "Rube Goldberg Machine",
+        cards: ["Chapel", "Vassal", "Workshop", "Alchemist", "Smithy", "Throne Room", "Golem", "Market"],
+        extras: ["Potion"],
+        expansions: "basealchemy"
+    },
 ];
