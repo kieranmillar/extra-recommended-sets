@@ -981,4 +981,11 @@ var kingdoms = [
         extras: ["Potion"],
         expansions: "basealchemy"
     },
+    {
+        id: 144,
+        name: "Now Or Later",
+        cards: ["Vineyard", "Moat", "Village", "Workshop", "Familiar", "Militia", "Remodel", "Council Room", "Mine", "Sentry"],
+        extras: ["Potion"],
+        expansions: "basealchemy"
+    },
 ];
