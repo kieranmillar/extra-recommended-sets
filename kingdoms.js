@@ -988,4 +988,11 @@ var kingdoms = [
         extras: ["Potion"],
         expansions: "basealchemy"
     },
+    {
+        id: 145,
+        name: "Forgetfulness",
+        cards: ["Apothecary", "Merchant", "Village", "Moneylender", "Apprentice", "Bandit", "Market", "Sentry", "Witch", "Possession"],
+        extras: ["Potion"],
+        expansions: "basealchemy"
+    },
 ];
