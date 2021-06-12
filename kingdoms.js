@@ -974,4 +974,11 @@ var kingdoms = [
         extras: ["Potion"],
         expansions: "basealchemy"
     },
+    {
+        id: 143,
+        name: "Handle With Care",
+        cards: ["Chapel", "Herbalist", "Merchant", "Alchemist", "Bureaucrat", "Remodel", "Golem", "Laboratory", "Witch", "Artisan"],
+        extras: ["Potion"],
+        expansions: "basealchemy"
+    },
 ];
