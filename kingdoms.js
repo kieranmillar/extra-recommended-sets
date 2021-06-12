@@ -967,4 +967,11 @@ var kingdoms = [
         extras: ["Potion"],
         expansions: "basealchemy"
     },
+    {
+        id: 142,
+        name: "Advance Party",
+        cards: ["Cellar", "Apothecary", "Vassal", "Village", "Gardens", "Poacher", "Apprentice", "Council Room", "Laboratory", "Witch"],
+        extras: ["Potion"],
+        expansions: "basealchemy"
+    },
 ];
