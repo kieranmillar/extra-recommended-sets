@@ -995,4 +995,18 @@ var kingdoms = [
         extras: ["Potion"],
         expansions: "basealchemy"
     },
+    {
+        id: 146,
+        name: "The Great Outdoors",
+        cards: ["University", "Harbinger", "Vassal", "Gardens", "Poacher", "Throne Room", "Apprentice", "Festival", "Library", "Mine"],
+        extras: ["Potion"],
+        expansions: "basealchemy"
+    },
+    {
+        id: 147,
+        name: "Too Efficient",
+        cards: ["Cellar", "Chapel", "Moat", "Apothecary", "Scrying Pool", "Merchant", "Remodel", "Golem", "Bandit", "Witch"],
+        extras: ["Potion"],
+        expansions: "basealchemy"
+    },
 ];
