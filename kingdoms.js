@@ -1051,4 +1051,11 @@ var kingdoms = [
         extras: ["Colony", "Platinum"],
         expansions: "baseprosperity"
     },
+    {
+        id: 154,
+        name: "Burns and Smithers",
+        cards: ["Cellar", "Harbinger", "Workshop", "Smithy", "Worker's Village", "City", "Counting House", "Vault", "Witch", "Expand"],
+        extras: ["Colony", "Platinum"],
+        expansions: "baseprosperity"
+    },
 ];
