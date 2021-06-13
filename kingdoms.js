@@ -1058,4 +1058,11 @@ var kingdoms = [
         extras: ["Colony", "Platinum"],
         expansions: "baseprosperity"
     },
+    {
+        id: 155,
+        name: "Black Friday",
+        cards: ["Village", "Bureaucrat", "Moneylender", "Poacher", "Quarry", "Talisman", "Laboratory", "Rabble", "Grand Market", "Forge"],
+        extras: ["Colony", "Platinum"],
+        expansions: "baseprosperity"
+    },
 ];
