@@ -1030,4 +1030,11 @@ var kingdoms = [
         extras: ["Colony", "Platinum"],
         expansions: "baseprosperity"
     },
+    {
+        id: 151,
+        name: "Big Cash Prizes",
+        cards: ["Chapel", "Village", "City", "Laboratory", "Market", "Mint", "Rabble", "Artisan", "Bank", "Expand"],
+        extras: ["Colony", "Platinum"],
+        expansions: "baseprosperity"
+    },
 ];
