@@ -1023,4 +1023,11 @@ var kingdoms = [
         extras: ["Potion"],
         expansions: "basealchemy"
     },
+    {
+        id: 150,
+        name: "All That Glistens",
+        cards: ["Watchtower", "Bishop", "Moneylender", "Monument", "Smithy", "Bandit", "Festival", "Laboratory", "Grand Market", "Hoard"],
+        extras: ["Colony", "Platinum"],
+        expansions: "baseprosperity"
+    },
 ];
