@@ -1011,15 +1011,15 @@ var kingdoms = [
     },
     {
         id: 148,
-        name: "",
-        cards: ["Transmute", "Herbalist", "Familiar", "Philosopher's Stone", "Bureaucrat", "Gardens", "Militia"],
+        name: "Total Recall",
+        cards: ["Transmute", "Herbalist", "Harbinger", "Familiar", "Philosopher's Stone", "Bureaucrat", "Gardens", "Militia", "Festival", "Mine"],
         extras: ["Potion"],
         expansions: "basealchemy"
     },
     {
         id: 149,
         name: "Rube Goldberg Machine",
-        cards: ["Chapel", "Vassal", "Workshop", "Alchemist", "Smithy", "Throne Room", "Golem", "Market"],
+        cards: ["Chapel", "Vassal", "Workshop", "Alchemist", "Militia", "Smithy", "Throne Room", "Golem", "Market", "Sentry"],
         extras: ["Potion"],
         expansions: "basealchemy"
     },
