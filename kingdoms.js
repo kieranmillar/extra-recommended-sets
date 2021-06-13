@@ -1044,4 +1044,11 @@ var kingdoms = [
         extras: ["Colony", "Platinum"],
         expansions: "baseprosperity"
     },
+    {
+        id: 153,
+        name: "Co-op Mode",
+        cards: ["Moat", "Village", "Gardens", "Poacher", "Talisman", "Contraband", "Council Room", "Goons", "King's Court", "Peddler"],
+        extras: ["Colony", "Platinum"],
+        expansions: "baseprosperity"
+    },
 ];
