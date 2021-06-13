@@ -1037,4 +1037,11 @@ var kingdoms = [
         extras: ["Colony", "Platinum"],
         expansions: "baseprosperity"
     },
+    {
+        id: 152,
+        name: "The Watchmen",
+        cards: ["Loan", "Watchtower", "Workshop", "Monument", "Remodel", "Quarry", "Festival", "Mine", "Witch", "Peddler"],
+        extras: ["Colony", "Platinum"],
+        expansions: "baseprosperity"
+    },
 ];
