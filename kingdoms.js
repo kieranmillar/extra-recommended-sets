@@ -1079,4 +1079,18 @@ var kingdoms = [
         extras: ["Colony", "Platinum"],
         expansions: "baseprosperity"
     },
+    {
+        id: 158,
+        name: "Tear It All Down",
+        cards: ["Cellar", "Bishop", "Militia", "Remodel", "Throne Room", "Worker's Village", "Mine", "Mint", "Rabble", "Peddler"],
+        extras: ["Colony", "Platinum"],
+        expansions: "baseprosperity"
+    },
+    {
+        id: 159,
+        name: "Cashing In",
+        cards: ["Loan", "Watchtower", "Contraband", "Laboratory", "Market", "Sentry", "Artisan", "Goons", "Grand Market", "Forge"],
+        extras: ["Colony", "Platinum"],
+        expansions: "baseprosperity"
+    },
 ];
