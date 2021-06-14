@@ -1072,4 +1072,11 @@ var kingdoms = [
         extras: ["Colony", "Platinum"],
         expansions: "baseprosperity"
     },
+    {
+        id: 157,
+        name: "Your Deck Will Fail vs No It Won't",
+        cards: ["Chapel", "Harbinger", "Gardens", "Moneylender", "Council Room", "Mountebank", "Royal Seal", "Venture", "Hoard", "Bank"],
+        extras: ["Colony", "Platinum"],
+        expansions: "baseprosperity"
+    },
 ];
