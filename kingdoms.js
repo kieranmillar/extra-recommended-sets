@@ -1065,4 +1065,11 @@ var kingdoms = [
         extras: ["Colony", "Platinum"],
         expansions: "baseprosperity"
     },
+    {
+        id: 156,
+        name: "Breakthrough",
+        cards: ["Merchant", "Trade Route", "Monument", "Throne Room", "Festival", "Market", "Mine", "Royal Seal", "Grand Market", "King's Court"],
+        extras: ["Colony", "Platinum"],
+        expansions: "baseprosperity"
+    },
 ];
