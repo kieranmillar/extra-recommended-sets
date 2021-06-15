@@ -1099,4 +1099,10 @@ var kingdoms = [
         cards: ["Moat", "Merchant", "Village", "Noble Brigand", "Remodel", "Smithy", "Haggler", "Highway", "Inn", "Stables"],
         expansions: "basehinterlands"
     },
+    {
+        id: 161,
+        name: "Green Hill Zone",
+        cards: ["Cellar", "Oracle", "Bureaucrat", "Gardens", "Moneylender", "Silk Road", "Bandit", "Ill-Gotten Gains", "Margrave", "Border Village"],
+        expansions: "basehinterlands"
+    },
 ];
