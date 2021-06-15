@@ -1105,4 +1105,10 @@ var kingdoms = [
         cards: ["Cellar", "Oracle", "Bureaucrat", "Gardens", "Moneylender", "Silk Road", "Bandit", "Ill-Gotten Gains", "Margrave", "Border Village"],
         expansions: "basehinterlands"
     },
+    {
+        id: 162,
+        name: "Silver Surfer",
+        cards: ["Chapel", "Crossroads", "Oasis", "Scheme", "Jack of All Trades", "Remodel", "Throne Room", "Embassy", "Festival", "Market"],
+        expansions: "basehinterlands"
+    },
 ];
