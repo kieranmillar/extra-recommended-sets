@@ -1093,4 +1093,10 @@ var kingdoms = [
         extras: ["Colony", "Platinum"],
         expansions: "baseprosperity"
     },
+    {
+        id: 160,
+        name: "D.I.Y.",
+        cards: ["Moat", "Merchant", "Village", "Noble Brigand", "Remodel", "Smithy", "Haggler", "Highway", "Inn", "Stables"],
+        expansions: "basehinterlands"
+    },
 ];
