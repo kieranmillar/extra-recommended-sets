@@ -1111,4 +1111,22 @@ var kingdoms = [
         cards: ["Chapel", "Crossroads", "Oasis", "Scheme", "Jack of All Trades", "Remodel", "Throne Room", "Embassy", "Festival", "Market"],
         expansions: "basehinterlands"
     },
+    {
+        id: 163,
+        name: "Flip Flop",
+        cards: ["Cellar", "Develop", "Harbinger", "Tunnel", "Village", "Poacher", "Silk Road", "Spice Merchant", "Council Room", "Farmland"],
+        expansions: "basehinterlands"
+    },
+    {
+        id: 164,
+        name: "Loved and Treasured",
+        cards: ["Scheme", "Moneylender", "Nomad Camp", "Trader", "Cache", "Ill-Gotten Gains", "Inn", "Laboratory", "Mine", "Sentry"],
+        expansions: "basehinterlands"
+    },
+    {
+        id: 165,
+        name: "Expenses Paid Trip",
+        cards: ["Duchess", "Develop", "Militia", "Throne Room", "Embassy", "Festval", "Market", "Stables", "Artisan", "Border Village"],
+        expansions: "basehinterlands"
+    },
 ];
