@@ -1129,4 +1129,16 @@ var kingdoms = [
         cards: ["Duchess", "Develop", "Militia", "Throne Room", "Embassy", "Festval", "Market", "Stables", "Artisan", "Border Village"],
         expansions: "basehinterlands"
     },
+    {
+        id: 166,
+        name: "Neighbouring Factions",
+        cards: ["Fool's Gold", "Moat", "Oasis", "Village", "Workshop", "Spice Merchant", "Laboratory", "Mandarin", "Margrave", "Witch"],
+        expansions: "basehinterlands"
+    },
+    {
+        id: 167,
+        name: "Far-Reaching Consequences",
+        cards: ["Crossroads", "Vassal", "Moneylender", "Nomad Camp", "Smithy", "Bandit", "Cartographer", "Haggler", "Inn", "Artisan"],
+        expansions: "basehinterlands"
+    },
 ];
