@@ -48,13 +48,13 @@ var kingdoms = [
     },
     {
         id: 6,
-        name: "This Is Why We Can't Have Nice Things",
+        name: "Beatdown",
         cards: ["Cellar", "Gardens", "Militia", "Moneylender", "Poacher", "Bandit", "Council Room", "Festival", "Market", "Witch"],
         expansions: "base"
     },
     {
         id: 7,
-        name: "Making Do With What You Have",
+        name: "Making Do",
         cards: ["Cellar", "Moat", "Merchant", "Village", "Workshop", "Militia", "Remodel", "Throne Room", "Bandit", "Festival"],
         expansions: "base"
     },
@@ -1139,6 +1139,18 @@ var kingdoms = [
         id: 167,
         name: "Far-Reaching Consequences",
         cards: ["Crossroads", "Vassal", "Moneylender", "Nomad Camp", "Smithy", "Bandit", "Cartographer", "Haggler", "Inn", "Artisan"],
+        expansions: "basehinterlands"
+    },
+    {
+        id: 168,
+        name: "My Liege",
+        cards: ["Crossroads", "Scheme", "Tunnel", "Vassal", "Gardens", "Spice Merchant", "Council Room", "Laboratory", "Artisan", "Border Village"],
+        expansions: "basehinterlands"
+    },
+    {
+        id: 169,
+        name: "You Take The High Road",
+        cards: ["Cellar", "Moneylender", "Noble Brigand", "Nomad Camp", "Remodel", "Trader", "Cartographer", "Festival", "Highway", "Library"],
         expansions: "basehinterlands"
     },
 ];
