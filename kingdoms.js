@@ -31,7 +31,7 @@ var kingdoms = [
     {
         id: 3,
         name: "Playing It Safe",
-        cards: ["Cellar", "Harbinger", "Merchant", "Vassal", "Workshop", "Moneylender", "Council Room", "Market", "Mine", "Sentry"],
+        cards: ["Cellar", "Harbinger", "Merchant", "Vassal", "Workshop", "Moneylender", "Bandit", "Market", "Mine", "Sentry"],
         expansions: "base"
     },
     {
