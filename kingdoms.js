@@ -97,7 +97,7 @@ var kingdoms = [
     {
         id: 14,
         name: "The Upper Crust",
-        cards: ["Courtyard", "Swindler", "Baron", "Mill", "Mining Village", "Duke", "Replace", "Patrol", "Trading Post", "Nobles"],
+        cards: ["Courtyard", "Swindler", "Baron", "Mill", "Mining Village", "Duke", "Minion", "Patrol", "Trading Post", "Nobles"],
         expansions: "intrigue"
     },
     {
