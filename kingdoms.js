@@ -542,7 +542,7 @@ var kingdoms = [
     {
         id: 81,
         name: "Patience",
-        cards: ["Engineer", "Royal Blacksmith", "Encampment / Plunder", "Settlers / Bustling Village", "Catapult / Rocks", "Chariot Race", "Enchantress", "Charm", "Forum", "Wild Hunt"],
+        cards: ["Engineer", "City Quarter", "Settlers / Bustling Village", "Catapult / Rocks", "Chariot Race", "Enchantress", "Archive", "Charm", "Forum", "Wild Hunt"],
         landscapes: ["Conquest", "Mountain Pass"],
         expansions: "empires"
     },
