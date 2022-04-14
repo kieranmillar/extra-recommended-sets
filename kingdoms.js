@@ -543,7 +543,7 @@ var kingdoms = [
         id: 81,
         name: "Patience",
         cards: ["Engineer", "City Quarter", "Settlers / Bustling Village", "Catapult / Rocks", "Chariot Race", "Enchantress", "Archive", "Charm", "Forum", "Wild Hunt"],
-        landscapes: ["Conquest", "Mountain Pass"],
+        landscapes: ["Banquet", "Mountain Pass"],
         expansions: "empires"
     },
     {
@@ -584,8 +584,8 @@ var kingdoms = [
     {
         id: 87,
         name: "Balance",
-        cards: ["City Quarter", "Patrician / Emporium", "Catapult / Rocks", "Chariot Race", "Enchantress", "Farmer's Market", "Sacrifice", "Capital", "Groundskeeper", "Wild Hunt"],
-        landscapes: ["Banquet", "Orchard"],
+        cards: ["Patrician / Emporium", "Catapult / Rocks", "Chariot Race", "Enchantress", "Farmer's Market", "Sacrifice", "Villa", "Capital", "Groundskeeper", "Wild Hunt"],
+        landscapes: ["Conquest", "Orchard"],
         expansions: "empires"
     },
     {
