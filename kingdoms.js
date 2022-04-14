@@ -534,9 +534,9 @@ var kingdoms = [
     {
         id: 80,
         name: "Anything Goes",
-        cards: ["Patrician / Emporium", "Settlers / Bustling Village", "Farmer's Market", "Sacrifice", "Temple", "Archive", "Charm", "Crown", "Forum", "Legionary"],
+        cards: ["Royal Blacksmith", "Encampment / Plunder", "Patrician / Emporium", "Farmer's Market", "Sacrifice", "Temple", "Charm", "Crown", "Forum", "Legionary"],
         landscapes: ["Wedding", "Obelisk"],
-        notes: "Feel free to pick a random Obelisk target, but if you want a specific pile choose Settlers / Bustling Village.",
+        notes: "Obelisk target is Royal Blacksmith.",
         expansions: "empires"
     },
     {
