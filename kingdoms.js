@@ -563,7 +563,7 @@ var kingdoms = [
     {
         id: 84,
         name: "Elitist",
-        cards: ["Encampment / Plunder", "Patrician / Emporium", "Castles", "Chariot Race", "Enchantress", "Farmer's Market", "Sacrifice", "Capital", "Forum", "Wild Hunt"],
+        cards: ["Encampment / Plunder", "Patrician / Emporium", "Castles", "Chariot Race", "Enchantress", "Sacrifice", "Capital", "Forum", "Legionary", "Wild Hunt"],
         landscapes: ["Dominate", "Labyrinth"],
         expansions: "empires"
     },
