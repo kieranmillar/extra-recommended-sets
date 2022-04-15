@@ -11,7 +11,8 @@ var checkboxElements = [
     document.getElementById("empires"),
     document.getElementById("nocturne"),
     document.getElementById("renaissance"),
-    document.getElementById("menagerie")
+    document.getElementById("menagerie"),
+    document.getElementById("allies")
 ];
 var errorsElement = document.getElementById("errors");
 var kingdomContainerElement = document.getElementById("kingdomContainer");
