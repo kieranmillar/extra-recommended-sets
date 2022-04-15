@@ -73,7 +73,7 @@ var kingdoms = [
     {
         id: 10,
         name: "Kickback",
-        cards: ["Lurker", "Masquerade", "Wishing Well", "Baron", "Conspirator", "Diplomat", "Mining Village", "Courtier", "Patrol", "Replace"],
+        cards: ["Courtyard", "Masquerade", "Shanty Town", "Wishing Well", "Bridge", "Ironworks", "Mining Village", "Courtier", "Replace", "Torturer"],
         expansions: "intrigue"
     },
     {
