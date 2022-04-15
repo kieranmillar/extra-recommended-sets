@@ -1160,4 +1160,10 @@ var kingdoms = [
         landscapes: ["Ritual", "Tomb"],
         expansions: "baseempires"
     },
+    {
+        id: 171,
+        name: "Welcome Your New Overlords",
+        cards: ["Vassal", "Village", "Moneylender", "Library", "Artisan", "Overlord", "Patrician / Emporium", "Capital", "Forum", "Legionary"],
+        landscapes: ["Tax", "Triumphal Arch"],
+    },
 ];
