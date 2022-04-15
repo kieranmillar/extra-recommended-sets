@@ -1153,4 +1153,11 @@ var kingdoms = [
         cards: ["Cellar", "Moneylender", "Noble Brigand", "Nomad Camp", "Remodel", "Trader", "Cartographer", "Festival", "Highway", "Library"],
         expansions: "basehinterlands"
     },
+    {
+        id: 170,
+        name: "Building an Empire",
+        cards: ["Harbinger", "Bureaucrat", "Poacher", "Remodel", "Market", "Royal Blacksmith", "Settlers / Bustling Village", "Enchantress", "Villa", "Groundskeeper"],
+        landscapes: ["Ritual", "Tomb"],
+        expansions: "baseempires"
+    },
 ];
