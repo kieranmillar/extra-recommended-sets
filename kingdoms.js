@@ -1165,5 +1165,13 @@ var kingdoms = [
         name: "Welcome Your New Overlords",
         cards: ["Vassal", "Village", "Moneylender", "Library", "Artisan", "Overlord", "Patrician / Emporium", "Capital", "Forum", "Legionary"],
         landscapes: ["Tax", "Triumphal Arch"],
+        expansions: "baseempires"
+    },
+    {
+        id: 172,
+        name: "Wacky Races",
+        cards: ["Engineer", "Moat", "Settlers / Bustling Village", "Chariot Race", "Militia", "Sacrifice", "Smithy", "Throne Room", "Archive", "Witch"],
+        landscapes: ["Museum", "Tower"],
+        expansions: "baseempires"
     },
 ];
