@@ -1174,4 +1174,11 @@ var kingdoms = [
         landscapes: ["Museum", "Tower"],
         expansions: "baseempires"
     },
+    {
+        id: 173,
+        name: "Yellow and Green",
+        cards: ["Chapel", "Bureaucrat", "Gardens", "Council Room", "Mine", "Encampment / Plunder", "Castles", "Farmer's Market", "Crown", "Groundskeeper"],
+        landscapes: ["Battlefield", "Salt the Earth"],
+        expansions: "baseempires"
+    },
 ];
