@@ -884,7 +884,7 @@ var kingdoms = [
     {
         id: 128,
         name: "Keep the Change",
-        cards: ["Courtyard", "Lurker", "Moat", "Militia", "Mining Village", "Moneylender", "Council Room", "Festival", "Witch", "Harem"],
+        cards: ["Lurker", "Moat", "Steward", "Militia", "Mining Village", "Council Room", "Festival", "Upgrade", "Witch", "Harem"],
         expansions: "baseintrigue"
     },
     {
