@@ -79,7 +79,7 @@ var kingdoms = [
     {
         id: 11,
         name: "Change Alliegance",
-        cards: ["Courtyard", "Masquerade", "Shanty Town", "Steward", "Swindler", "Mining Village", "Minion", "Torturer", "Harem", "Nobles"],
+        cards: ["Lurker", "Pawn", "Swindler", "Conspirator", "Mining Village", "Secret Passage", "Patrol", "Trading Post", "Upgrade", "Harem"],
         expansions: "intrigue"
     },
     {
