@@ -1181,4 +1181,11 @@ var kingdoms = [
         landscapes: ["Battlefield", "Salt the Earth"],
         expansions: "baseempires"
     },
+    {
+        id: 174,
+        name: "Grand Feast",
+        cards: ["Cellar", "Harbinger", "Festival", "Market", "Mine", "Castles", "Archive", "Forum", "Legionary", "Wild Hunt"],
+        landscapes ["Banquet", "Palace"],
+        expansions: "baseempires"
+    },
 ];
