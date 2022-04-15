@@ -127,7 +127,7 @@ var kingdoms = [
     {
         id: 19,
         name: "Pick Your Poison",
-        cards: ["Steward", "Wishing Well", "Baron", "Ironworks", "Mill", "Duke", "Patrol", "Torturer", "Trading Post", "Harem"],
+        cards: ["Lurker", "Steward", "Wishing Well", "Baron", "Ironworks", "Mill", "Duke", "Minion", "Patrol", "Torturer"],
         expansions: "intrigue"
     },
     {
