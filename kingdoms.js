@@ -1187,4 +1187,11 @@ var kingdoms = [
         landscapes: ["Banquet", "Palace"],
         expansions: "baseempires"
     },
+    {
+        id: 175,
+        name: "Preparations",
+        cards: ["Merchant", "Workshop", "Festival", "Library", "Sentry", "Chariot Race", "Enchantress", "Farmer's Market", "Gladiator / Fortune", "Villa"],
+        landscapes: ["Conquest", "Defiled Shrine"],
+        expansions: "baseempires"
+    },
 ];
