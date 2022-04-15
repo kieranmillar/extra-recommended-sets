@@ -78,7 +78,7 @@ var kingdoms = [
     },
     {
         id: 11,
-        name: "My Hands Are Tied",
+        name: "Change Alliegance",
         cards: ["Courtyard", "Masquerade", "Shanty Town", "Steward", "Swindler", "Mining Village", "Minion", "Torturer", "Harem", "Nobles"],
         expansions: "intrigue"
     },
