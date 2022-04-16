@@ -1214,4 +1214,12 @@ var kingdoms = [
         cards: ["Moat", "Gardens", "Poacher", "Laboratory", "Witch", "Overlord", "Catapult / Rocks", "Charm", "Groundskeeper","Legionary"],
         landscapes: ["Aqueduct", "Colonnade"],
         expansions: "baseempires"
+    },
+    {
+        id: 179,
+        name: "Another Way",
+        cards: ["Village", "Workshop", "Moneylender", "Festival", "Market", "Encampment / Plunder", "Patrician / Emporium", "Enchantress", "Sacrifice", "Wild Hunt"],
+        landscapes: ["Bandit Fort", "Wall"],
+        expansions: "baseempires"
+    }
 ];
