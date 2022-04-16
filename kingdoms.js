@@ -1221,5 +1221,12 @@ var kingdoms = [
         cards: ["Village", "Workshop", "Moneylender", "Festival", "Market", "Encampment / Plunder", "Patrician / Emporium", "Enchantress", "Sacrifice", "Wild Hunt"],
         landscapes: ["Bandit Fort", "Wall"],
         expansions: "baseempires"
-    }
+    },
+    {
+        id: 180,
+        name: "Cursed Quarter",
+        cards: ["Courtyard", "Pawn", "Shanty Town", "Conspirator", "Torturer", "Engineer", "City Quarter", "Settlers / Bustling Village", "Castles", "Sacrifice"],
+        landscapes: ["Baths", "Defiled Shrine"],
+        expansions: "intrigueempires"
+    },
 ];
