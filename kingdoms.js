@@ -1194,4 +1194,11 @@ var kingdoms = [
         landscapes: ["Conquest", "Defiled Shrine"],
         expansions: "baseempires"
     },
+    {
+        id: 176,
+        name: "Most Treasured Engine",
+        cards: ["Chapel", "Remodel", "Bandit", "Laboratory", "Witch", "City Quarter", "Encampment / Plunder", "Gladiator / Fortune", "Charm", "Crown"],
+        landscapes: ["Delve", "Keep"],
+        expansions: "baseempires"
+    },
 ];
