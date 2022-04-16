@@ -1211,7 +1211,7 @@ var kingdoms = [
     {
         id: 178,
         name: "Limited Arsenal",
-        cards: ["Gardens", "Moneylender", "Poacher", "Laboratory", "Witch", "Overlord", "Chariot Race", "Charm", "Groundskeeper","Legionary"],
+        cards: ["Moat", "Gardens", "Poacher", "Laboratory", "Witch", "Overlord", "Catapult / Rocks", "Charm", "Groundskeeper","Legionary"],
         landscapes: ["Aqueduct", "Colonnade"],
         expansions: "baseempires"
 ];
