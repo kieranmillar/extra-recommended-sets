@@ -1201,4 +1201,11 @@ var kingdoms = [
         landscapes: ["Delve", "Keep"],
         expansions: "baseempires"
     },
+    {
+        id: 177,
+        name: "Pile Trial",
+        cards: ["Vassal", "Village", "Militia", "Council Room", "Artisan", "Engineer", "Patrician / Emporium", "Temple", "Capital", "Crown"],
+        landscapes: ["Annex", "Wolf Den"],
+        expansions: "baseempires"
+    },
 ];
