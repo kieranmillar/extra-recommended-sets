@@ -1232,7 +1232,7 @@ var kingdoms = [
     {
         id: 181,
         name: "Big Daddies",
-        cards: ["Swindler", "Ironworks", "Mining Village", "Courtier", "Replace", "Overlord", "Royal Blacksmith", "Villa", "Forum", "Legionary"],
+        cards: ["Swindler", "Ironworks", "Mining Village", "Courtier", "Upgrade", "Overlord", "Royal Blacksmith", "Villa", "Forum", "Legionary"],
         landscapes: ["Aqueduct", "Dominate"],
         expansions: "intrigueempires"
     },
