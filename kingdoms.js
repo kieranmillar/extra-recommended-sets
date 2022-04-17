@@ -1250,4 +1250,11 @@ var kingdoms = [
         landscapes: ["Arena", "Tomb"],
         expansions: "intrigueempires"
     },
+    {
+        id: 184,
+        name: "Bombardment",
+        cards: ["Masquerade", "Shanty Town", "Secret Passage", "Patrol", "Nobles", "Engineer", "Catapult / Rocks", "Enchantress", "Gladiator / Fortune", "Charm"],
+        landscapes: ["Conquest", "Tower"],
+        expansions: "intrigueempires"
+    },
 ];
