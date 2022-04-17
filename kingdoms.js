@@ -1243,4 +1243,11 @@ var kingdoms = [
         landscapes: ["Basilica", "Wolf Den"],
         expansions: "intrigueempires"
     },
+    {
+        id: 183,
+        name: "Book Burning",
+        cards: ["Lurker", "Wishing Well", "Conspirator", "Mill", "Harem", "Patrician / Emporium", "Castles", "Farmer's Market", "Temple", "Archive"],
+        landscapes: ["Arena", "Tomb"],
+        expansions: "intrigueempires"
+    },
 ];
