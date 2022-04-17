@@ -1236,4 +1236,11 @@ var kingdoms = [
         landscapes: ["Aqueduct", "Dominate"],
         expansions: "intrigueempires"
     },
+    {
+        id: 182,
+        name: "Long Distance Negotiations",
+        cards: ["Bridge", "Diplomat", "Minion", "Trading Post", "Nobles", "Settlers / Bustling Village", "Chariot Race", "Enchantress", "Crown", "Forum"],
+        landscapes: ["Basilica", "Wolf Den"],
+        expansions: "intrigueempires"
+    },
 ];
