@@ -1257,4 +1257,11 @@ var kingdoms = [
         landscapes: ["Conquest", "Tower"],
         expansions: "intrigueempires"
     },
+    {
+        id: 185,
+        name: "Small Packages",
+        cards: ["Swindler", "Wishing Well", "Duke", "Replace", "Harem", "Patrician / Emporium", "Villa", "Capital", "Forum", "Wild Hunt"],
+        landscapes: ["Delve", "Fountain"],
+        expansions: "intrigueempires"
+    },
 ];
