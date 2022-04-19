@@ -173,8 +173,8 @@ var kingdoms = [
     },
     {
         id: 27,
-        name: "The Incoming Storm",
-        cards: [""],
+        name: "The Shipping Forecast",
+        cards: ["Haven", "Native Village", "Lookout", "Sea Chart", "Smugglers", "Blockade", "Cutpurse", "Tide Pools", "Treasury", "Wharf"],
         expansions: "seaside"
     },
     {
