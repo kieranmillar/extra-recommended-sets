@@ -156,13 +156,13 @@ var kingdoms = [
     {
         id: 24,
         name: "Flotsam",
-        cards: [""],
+        cards: ["Sea Chart", "Smugglers", "Warehouse", "Sailor", "Tide Pools", "Bazaar", "Outpost", "Pirate", "Sea Witch", "Wharf"],
         expansions: "seaside"
     },
     {
         id: 25,
         name: "Jetsam",
-        cards: [""],
+        cards: ["Haven", "Fishing Village", "Lookout", "Blockade", "Cutpurse", "Island", "Treasure Map", "Corsair", "Merchant Ship", "Treasury"],
         expansions: "seaside"
     },
     {
