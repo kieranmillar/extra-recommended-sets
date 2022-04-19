@@ -143,8 +143,8 @@ var kingdoms = [
     },
     {
         id: 22,
-        name: "Castaways",
-        cards: [""],
+        name: "Beach Buddies",
+        cards: ["Lighthouse", "Native Village", "Warehouse", "Blockade", "Cutpurse", "Island", "Tide Pools", "Merchant Ship", "Tactician", "Treasury"],
         expansions: "seaside"
     },
     {
