@@ -1264,4 +1264,12 @@ var kingdoms = [
         landscapes: ["Delve", "Fountain"],
         expansions: "intrigueempires"
     },
+    {
+        id: 186,
+        name: "Landlords",
+        cards: ["Steward", "Baron", "Mining Village", "Courtier", "Nobles", "Enchantress", "Villa", "Crown", "Groundskeeper", "Wild Hunt"],
+        landscapes: ["Obelisk", "Triumph"],
+        notes: "Obelisk target is Crown.",
+        expansions: "intrigueempires"
+    },
 ];
