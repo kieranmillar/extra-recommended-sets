@@ -8,6 +8,16 @@ landscapes: An array of landscape names (optional)
 notes: Any extra notes (optional)
 expansions: Concatenated string of expansions required, matching checkbox names in order, no spaces
 -----*/
+var reviewed = [
+    "base",
+    "intrigue",
+    "baseintrigue",
+    "seaside",
+    "empires",
+    "baseempires",
+    "intrigueempires"
+];
+
 var kingdoms = [
     {
         id: 0,
@@ -179,14 +189,14 @@ var kingdoms = [
     },
     {
         id: 28,
-        name: "The Race Around The World",
-        cards: [""],
+        name: "Maritime Law",
+        cards: ["Fishing Village", "Monkey", "Sea Chart", "Smugglers", "Blockade", "Island", "Salvager", "Bazaar", "Outpost", "Pirate"],
         expansions: "seaside"
     },
     {
         id: 29,
-        name: "Securing Our Waters",
-        cards: [""],
+        name: "Cursed Sea",
+        cards: ["Native Village", "Smugglers", "Warehouse", "Caravan", "Bazaar", "Merchant Ship", "Sea Witch", "Tactician", "Treasury", "Wharf"],
         expansions: "seaside"
     },
     {
