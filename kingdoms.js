@@ -1279,4 +1279,11 @@ var kingdoms = [
         landscapes: ["Museum", "Wedding"],
         expansions: "intrigueempires"
     },
+    {
+        id: 188,
+        name: "Corruption",
+        cards: ["Courtyard", "Ironworks", "Mining Village", "Minion", "Trading Post", "City Quarter", "Overlord", "Castles", "Chariot Race", "Wild Hunt"],
+        landscapes: ["Tax", "Triumphal Arch"],
+        expansions: "intrigueempires"
+    },
 ];
