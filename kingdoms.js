@@ -131,62 +131,62 @@ var kingdoms = [
     },
     {
         id: 20,
-        name: "Running A Tight Ship",
-        cards: ["Lighthouse", "Native Village", "Pearl Diver", "Lookout", "Caravan", "Salvager", "Treasure Map", "Bazaar", "Ghost Ship", "Outpost"],
+        name: "Rule the Waves",
+        cards: ["Native Village", "Astrolabe", "Blockade", "Caravan", "Sailor", "Treasure Map", "Bazaar", "Corsair", "Merchant Ship", "Wharf"],
         expansions: "seaside"
     },
     {
         id: 21,
         name: "Coastal Bombardment",
-        cards: ["Embargo", "Haven", "Fishing Village", "Warehouse", "Cutpurse", "Island", "Pirate Ship", "Merchant Ship", "Tactician", "Treasury"],
+        cards: ["Lighthouse", "Fishing Village", "Lookout", "Monkey", "Smugglers", "Island", "Salvager", "Bazaar", "Outpost", "Sea Witch"],
         expansions: "seaside"
     },
     {
         id: 22,
         name: "Castaways",
-        cards: ["Haven", "Fishing Village", "Smugglers", "Warehouse", "Caravan", "Island", "Navigator", "Explorer", "Merchant Ship", "Treasury"],
+        cards: [""],
         expansions: "seaside"
     },
     {
         id: 23,
         name: "Forward Planning",
-        cards: ["Lighthouse", "Native Village", "Pearl Diver", "Smugglers", "Cutpurse", "Navigator", "Bazaar", "Explorer", "Outpost", "Tactician"],
+        cards: [""],
         expansions: "seaside"
     },
     {
         id: 24,
         name: "Flotsam",
-        cards: ["Haven", "Pearl Diver", "Fishing Village", "Lookout", "Smugglers", "Island", "Navigator", "Sea Hag", "Ghost Ship", "Merchant Ship"],
+        cards: [""],
         expansions: "seaside"
     },
     {
         id: 25,
         name: "Jetsam",
-        cards: ["Embargo", "Native Village", "Ambassador", "Fishing Village", "Lookout", "Sea Hag", "Treasure Map", "Bazaar", "Merchant Ship", "Wharf"],
+        cards: [""],
         expansions: "seaside"
     },
     {
         id: 26,
         name: "Wave Machine",
-        cards: ["Haven", "Lighthouse", "Native Village", "Smugglers", "Warehouse", "Pirate Ship", "Salvager", "Explorer", "Treasury", "Wharf"],
+        cards: [""],
         expansions: "seaside"
     },
     {
         id: 27,
         name: "The Incoming Storm",
-        cards: ["Embargo", "Pearl Diver", "Ambassador", "Caravan", "Island", "Navigator", "Pirate Ship", "Bazaar", "Outpost", "Treasury"],
+        cards: [""],
         expansions: "seaside"
     },
     {
         id: 28,
         name: "The Race Around The World",
-        cards: ["Pearl Diver", "Lookout", "Warehouse", "Caravan", "Navigator", "Treasure Map", "Explorer", "Ghost Ship", "Tactician", "Wharf"],
+        cards: [""],
         expansions: "seaside"
     },
     {
         id: 29,
         name: "Securing Our Waters",
-        cards: ["Lighthouse", "Native Village", "Ambassador", "Island", "Salvager", "Sea Hag", "Treasure Map", "Explorer", "Ghost Ship", "Treasury"],
+        cards: [""],
         expansions: "seaside"
     },
     {
