@@ -1274,7 +1274,7 @@ var kingdoms = [
     },
     {
         id: 187,
-        name: "",
+        name: "Upper Management",
         cards: ["Pawn", "Masquerade", "Bridge", "Ironworks", "Nobles", "Encampment / Plunder", "Chariot Race", "Temple", "Archive", "Groundskeeper"],
         landscapes: ["Museum", "Wedding"],
         expansions: "intrigueempires"
