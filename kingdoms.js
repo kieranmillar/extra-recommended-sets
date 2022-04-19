@@ -1272,4 +1272,11 @@ var kingdoms = [
         notes: "Obelisk target is Crown.",
         expansions: "intrigueempires"
     },
+    {
+        id: 187,
+        name: "",
+        cards: ["Pawn", "Masquerade", "Bridge", "Ironworks", "Nobles", "Encampment / Plunder", "Chariot Race", "Temple", "Archive", "Groundskeeper"],
+        landscapes: ["Museum", "Wedding"],
+        expansions: "intrigueempires"
+    },
 ];
