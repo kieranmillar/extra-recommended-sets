@@ -149,8 +149,8 @@ var kingdoms = [
     },
     {
         id: 23,
-        name: "Forward Planning",
-        cards: [""],
+        name: "Open Seas",
+        cards: ["Haven", "Astrolabe", "Fishing Village", "Monkey", "Sea Chart", "Warehouse", "Caravan", "Sailor", "Corsair", "Pirate"],
         expansions: "seaside"
     },
     {
