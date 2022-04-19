@@ -1286,4 +1286,11 @@ var kingdoms = [
         landscapes: ["Tax", "Triumphal Arch"],
         expansions: "intrigueempires"
     },
+    {
+        id: 189,
+        name: "Matchmakers",
+        cards: ["Shanty Town", "Baron", "Conspirator", "Secret Passage", "Duke", "Royal Blacksmith", "Encampment / Plunder", "Enchantress", "Gladiator / Fortune", "Archive"],
+        landscapes: ["Labyrinth", "Orchard"],
+        expansions: "intrigueempires"
+    },
 ];
