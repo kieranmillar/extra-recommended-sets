@@ -168,7 +168,7 @@ var kingdoms = [
     {
         id: 26,
         name: "Wave Machine",
-        cards: [""],
+        cards: ["Haven", "Lighthouse", "Astrolabe", "Lookout", "Caravan", "Cutpurse", "Tide Pools", "Treasure Map", "Corsair", "Tactician"],
         expansions: "seaside"
     },
     {
