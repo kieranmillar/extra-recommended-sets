@@ -15,7 +15,8 @@ var reviewed = [
     "seaside",
     "empires",
     "baseempires",
-    "intrigueempires"
+    "intrigueempires",
+    "renaissance"
 ];
 
 var kingdoms = [
