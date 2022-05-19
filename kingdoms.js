@@ -904,50 +904,50 @@ var kingdoms = [
     },
     {
         id: 130,
-        name: "Pressure Points",
-        cards: ["Cellar", "Fishing Village", "Workshop", "Caravan", "Gardens", "Island", "Salvager", "Bazaar", "Library", "Mine"],
+        name: "Sunken Treasure",
+        cards: ["Village", "Bureaucrat", "Moneylender", "Smithy", "Bandit", "Native Village", "Astrolabe", "Treasure Map", "Corsair", "Pirate"],
         expansions: "baseseaside"
     },
     {
         id: 131,
-        name: "Double Planning",
-        cards: ["Moat", "Pearl Diver", "Fishing Village", "Vassal", "Navigator", "Poacher", "Remodel", "Market", "Merchant Ship", "Tactician"],
+        name: "",
+        cards: [],
         expansions: "baseseaside"
     },
     {
         id: 132,
-        name: "The Real Merchant Ships",
-        cards: ["Chapel", "Haven", "Merchant", "Smithy", "Smugglers", "Gardens", "Treasure Map", "Festival", "Outpost", "Wharf"],
+        name: "",
+        cards: [],
         expansions: "baseseaside"
     },
     {
         id: 133,
-        name: "Slipstream",
-        cards: ["Embargo", "Lighthouse", "Native Village", "Warehouse", "Caravan", "Militia", "Salvager", "Bandit", "Council Room", "Sentry"],
+        name: "",
+        cards: [],
         expansions: "baseseaside"
     },
     {
         id: 134,
-        name: "Turbulent Seas",
-        cards: ["Haven", "Lookout", "Vassal", "Village", "Workshop", "Cutpurse", "Bazaar", "Ghost Ship", "Market", "Witch"],
+        name: "",
+        cards: [],
         expansions: "baseseaside"
     },
     {
         id: 135,
-        name: "Boats in Moats",
-        cards: ["Moat", "Native Village", "Ambassador", "Poacher", "Remodel", "Explorer", "Festival", "Ghost Ship", "Treasury", "Artisan"],
+        name: "",
+        cards: [],
         expansions: "baseseaside"
     },
     {
         id: 136,
-        name: "Ripples",
-        cards: ["Cellar", "Embargo", "Haven", "Harbinger", "Bureaucrat", "Caravan", "Pirate Ship", "Explorer", "Laboratory", "Mine"],
+        name: "",
+        cards: [],
         expansions: "baseseaside"
     },
     {
         id: 137,
-        name: "Beach Combing",
-        cards: ["Merchant", "Warehouse", "Island", "Moneylender", "Remodel", "Sea Hag", "Bazaar", "Market", "Tactician", "Wharf"],
+        name: "",
+        cards: [],
         expansions: "baseseaside"
     },
     {
@@ -1302,5 +1302,5 @@ var kingdoms = [
         cards: ["Shanty Town", "Baron", "Conspirator", "Secret Passage", "Duke", "Royal Blacksmith", "Encampment / Plunder", "Enchantress", "Gladiator / Fortune", "Archive"],
         landscapes: ["Labyrinth", "Orchard"],
         expansions: "intrigueempires"
-    },
+    }
 ];
