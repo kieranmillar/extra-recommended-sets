@@ -940,8 +940,8 @@ var kingdoms = [
     },
     {
         id: 136,
-        name: "",
-        cards: [],
+        name: "Paddling Pool",
+        cards: ["Merchant", "Gardens", "Militia", "Moneylender", "Witch", "Lighthouse", "Lookout", "Caravan", "Pirate", "Treasury"],
         expansions: "baseseaside"
     },
     {
