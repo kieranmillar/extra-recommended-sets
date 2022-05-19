@@ -934,8 +934,8 @@ var kingdoms = [
     },
     {
         id: 135,
-        name: "",
-        cards: [],
+        name: "Setting Sail",
+        cards: ["Cellar", "Harbinger", "Vassal", "Workshop", "Festival", "Native Village", "Sailor", "Bazaar", "Merchant Ship", "Tactician"],
         expansions: "baseseaside"
     },
     {
