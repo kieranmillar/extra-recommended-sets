@@ -916,8 +916,8 @@ var kingdoms = [
     },
     {
         id: 132,
-        name: "",
-        cards: [],
+        name: "Wade Through the Wreckage",
+        cards: ["Cellar", "Moat", "Gardens", "Market", "Artisan", "Caravan", "Tide Pools", "Bazaar", "Outpost", "Sea Witch"],
         expansions: "baseseaside"
     },
     {
