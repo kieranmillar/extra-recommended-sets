@@ -940,8 +940,8 @@ var kingdoms = [
     },
     {
         id: 136,
-        name: "Paddling Pool",
-        cards: ["Merchant", "Gardens", "Militia", "Moneylender", "Witch", "Lighthouse", "Lookout", "Caravan", "Pirate", "Treasury"],
+        name: "Diversion",
+        cards: ["Village", "Remodel", "Bandit", "Library", "Sentry", "Haven", "Native Village", "Astrolabe", "Blockade", "Corsair"],
         expansions: "baseseaside"
     },
     {
@@ -952,13 +952,13 @@ var kingdoms = [
     },
     {
         id: 138,
-        name: "",
+        name: "Library, Tide Pools and Fishing Village",
         cards: [],
         expansions: "baseseaside"
     },
     {
         id: 139,
-        name: "",
+        name: "Double Tactician play treasures with Sailor",
         cards: [],
         expansions: "baseseaside"
     },
