@@ -922,8 +922,8 @@ var kingdoms = [
     },
     {
         id: 133,
-        name: "",
-        cards: [],
+        name: "Row Blocks",
+        cards: ["Harbinger", "Merchant", "Village", "Festival", "Sentry", "Lookout", "Monkey", "Sea Chart", "Blockade", "Cutpurse"],
         expansions: "baseseaside"
     },
     {
