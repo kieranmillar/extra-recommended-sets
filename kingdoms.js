@@ -910,8 +910,8 @@ var kingdoms = [
     },
     {
         id: 131,
-        name: "",
-        cards: [],
+        name: "Speed Boats",
+        cards: ["Militia", "Remodel", "Throne Room", "Festival", "Mine", "Haven", "Lighthouse", "Fishing Village", "Warehouse", "Wharf"],
         expansions: "baseseaside"
     },
     {
