@@ -928,8 +928,8 @@ var kingdoms = [
     },
     {
         id: 134,
-        name: "",
-        cards: [],
+        name: "Nothing to Declare",
+        cards: ["Chapel", "Poacher", "Council Room", "Laboratory", "Witch", "Fishing Village", "Smugglers", "Island", "Salvager", "Treasury"],
         expansions: "baseseaside"
     },
     {
