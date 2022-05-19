@@ -952,14 +952,14 @@ var kingdoms = [
     },
     {
         id: 138,
-        name: "Captain's Log",
-        cards: ["Lighthouse", "Ambassador", "Fishing Village", "Salvager", "Throne Room", "Treasure Map", "Library", "Market", "Outpost", "Artisan"],
+        name: "",
+        cards: [],
         expansions: "baseseaside"
     },
     {
         id: 139,
-        name: "Swimming Uphill",
-        cards: ["Native Village", "Pearl Diver", "Lookout", "Workshop", "Militia", "Smithy", "Throne Room", "Bandit", "Treasury", "Witch"],
+        name: "",
+        cards: [],
         expansions: "baseseaside"
     },
     {
