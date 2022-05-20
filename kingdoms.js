@@ -13,6 +13,7 @@ var reviewed = [
     "intrigue",
     "baseintrigue",
     "seaside",
+    "baseseaside",
     "empires",
     "baseempires",
     "intrigueempires"
@@ -946,8 +947,8 @@ var kingdoms = [
     },
     {
         id: 137,
-        name: "",
-        cards: [],
+        name: "Boats in Moats",
+        cards: ["Moat", "Workshop", "Market", "Witch", "Artisan", "Monkey", "Smugglers", "Island", "Bazaar", "Wharf"],
         expansions: "baseseaside"
     },
     {
