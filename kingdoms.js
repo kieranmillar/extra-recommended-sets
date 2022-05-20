@@ -952,8 +952,8 @@ var kingdoms = [
     },
     {
         id: 138,
-        name: "Library, Tide Pools and Fishing Village",
-        cards: [],
+        name: "Knowledge is Quay",
+        cards: ["Chapel", "Bureaucrat", "Remodel", "Library", "Mine", "Lighthouse", "Astrolabe", "Fishing Village", "Tide Pools", "Sea Witch"],
         expansions: "baseseaside"
     },
     {
