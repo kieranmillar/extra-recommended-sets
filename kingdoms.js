@@ -958,8 +958,8 @@ var kingdoms = [
     },
     {
         id: 139,
-        name: "Double Tactician play treasures with Sailor",
-        cards: [],
+        name: "Forward Planning",
+        cards: ["Village", "Gardens", "Militia", "Throne Room", "Laboratory", "Sailor", "Salvager", "Outpost", "Pirate", "Tactician"],
         expansions: "baseseaside"
     },
     {
