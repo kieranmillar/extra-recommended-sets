@@ -17,6 +17,8 @@ var checkboxElements = [
 var errorsElement = document.getElementById("errors");
 var kingdomContainerElement = document.getElementById("kingdomContainer");
 
+var playedKingdoms = [];
+
 function getSets() {
     errorsElement.textContent = "";
     kingdomContainerElement.textContent = "";
@@ -45,9 +47,11 @@ function getSets() {
 
     const result = kingdoms.filter(kingdom => kingdom.expansions == searchString);
     if (result.length == 0) {
-        errorsElement.textContent = "No kingdoms were found for some weird reason.";
+        errorsElement.textContent = "No kingdoms found (they might be on the TODO list)";
         return;
     }
+	
+	loadPlayedKingdoms();
 
     result.forEach(kingdom => {
         let container = createKingdomContainer (kingdom);
@@ -57,19 +61,42 @@ function getSets() {
 
 function createKingdomContainer (kingdom) {
     let container = document.createElement("div");
+	container.id = "kingdom" + kingdom.id;
+	container.classList.add("kingdom");
 
-    let nameHeader = document.createElement("h2");
+	let playedCheckbox = document.createElement("input");
+	playedCheckbox.type = "checkbox";
+	playedCheckbox.onclick = function(){togglePlayedKingdom(kingdom.id);};
+	
+	if (playedKingdoms.includes(kingdom.id)) {
+		container.classList.add("played");
+		playedCheckbox.checked = true;
+	}
+	container.appendChild(playedCheckbox);
+
+    let nameHeader = document.createElement("label");
+	nameHeader.classList.add("kingdomName");
     nameHeader.textContent = kingdom.name;
     container.appendChild(nameHeader);
 
     let cardsTable = document.createElement("div");
-    let cardsTableHeader = document.createElement("h3");
-    cardsTableHeader.textContent = "Cards";
-    cardsTable.appendChild(cardsTableHeader);
+	let cardsList = document.createElement("p");
+	let cardsString = "";
     kingdom.cards.forEach(card => {
-        let cardContainer = createCardContainer(card);
-        cardsTable.appendChild(cardContainer);
+        cardsString += card + ", ";
     });
+	cardsString = cardsString.slice(0, -2);
+	if (kingdom.hasOwnProperty("landscapes")) {
+		cardsString += ", <em>";
+		kingdom.landscapes.forEach(card => {
+			cardsString += card + ", ";
+		});
+		cardsString = cardsString.slice(0, -2);
+		cardsString += "</em>";
+	}
+	cardsList.innerHTML = cardsString;
+	cardsTable.appendChild(cardsList);
+
     container.appendChild(cardsTable);
 
     if (kingdom.hasOwnProperty("extras")) {
@@ -77,23 +104,15 @@ function createKingdomContainer (kingdom) {
         let extrasTableHeader = document.createElement("h3");
         extrasTableHeader.textContent = "Extra Cards";
         extrasTable.appendChild(extrasTableHeader);
+		let extrasList = document.createElement("p");
+		let extrasString = "";
         kingdom.extras.forEach(card => {
-            let cardContainer = createCardContainer(card);
-            extrasTable.appendChild(cardContainer);
-        });
+			extrasString += card + ", ";
+		});
+		extrasList.textContent = extrasString.slice(0, -2);
+		extrasTable.appendChild(extrasList);
+		
         container.appendChild(extrasTable);
-    }
-
-    if (kingdom.hasOwnProperty("landscapes")) {
-        let landscapesTable = document.createElement("div");
-        let landscapesTableHeader = document.createElement("h3");
-        landscapesTableHeader.textContent = "Landscapes";
-        landscapesTable.appendChild(landscapesTableHeader);
-        kingdom.landscapes.forEach(card => {
-            let cardContainer = createCardContainer(card);
-            landscapesTable.appendChild(cardContainer);
-        });
-        container.appendChild(landscapesTable);
     }
 
     if (kingdom.hasOwnProperty("notes")) {
@@ -101,7 +120,7 @@ function createKingdomContainer (kingdom) {
         let notesHeader = document.createElement("h3");
         notesHeader.textContent = "Notes";
         notesSection.appendChild(notesHeader);
-        let notesText = document.createElement("div");
+        let notesText = document.createElement("p");
         notesText.textContent = kingdom.notes;
         notesSection.appendChild(notesText);
         container.appendChild(notesSection);
@@ -110,8 +129,24 @@ function createKingdomContainer (kingdom) {
     return container;
 }
 
-function createCardContainer (cardName) {
-    let container = document.createElement("div");
-    container.textContent = cardName;
-    return container;
+function togglePlayedKingdom(id) {
+	let kingdomContainer = document.getElementById("kingdom" + id);
+	if (playedKingdoms.includes(id)) {
+		kingdomContainer.classList.remove("played");
+		playedKingdoms = playedKingdoms.filter(x => x !== id);
+	} else {
+		kingdomContainer.classList.add("played");
+		playedKingdoms.push(id);
+	}
+	savePlayedKingdoms();
+}
+
+function savePlayedKingdoms() {
+	localStorage.setItem("playedKingdoms", JSON.stringify(playedKingdoms));
+}
+
+function loadPlayedKingdoms() {
+    if (localStorage.getItem("playedKingdoms") != null)	{
+        playedKingdoms = JSON.parse(localStorage.getItem("playedKingdoms"));
+    }
 }

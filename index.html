@@ -12,50 +12,56 @@
 		content="Kieran Millar" />
 		
 		<meta name="revised"
-		content="Kieran Millar, 20/05/2022" />
+		content="Kieran Millar, 14/06/2022" />
 		
-		<link rel="stylesheet" type="text/css" href="styles/css/main.css">
+		<link rel="stylesheet" type="text/css" href="styles.css">
 		
 		<link rel="icon" type="image/png" href="../favicon.png" />
 		
 	</head>
 	<body>
-		<h1>Extra Recommended Sets</h1>		
+		<h1>Extra Recommended Sets for Dominion</h1>
+
+		<p>All sets made by kieranmillar on Reddit and Discord.</p>
+		
+		<p>Each set has a checkbox before its name you can use to keep track of which ones you've played. This is automatically saved to your device's local storage, and persists between site visits. This is the only data stored and never leaves your device, no privacy problems or cookies here.</p>
+		
+		<h2>Choose Expansions</h2>
 
         <p>Select one or two expansions to get extra recommended sets for.</p>
 
         <input type="checkbox" id="base" name="base" value="base">
-        <label for="base">Base (2nd Edition)</label><br>
+        <label for="base">Base 2nd Edition</label><br>
         <input type="checkbox" id="intrigue" name="intrigue" value="intrigue">
-        <label for="intrigue">Intrigue (2nd Edition)</label><br>
+        <label for="intrigue">Intrigue 2nd Edition</label><br>
         <input type="checkbox" id="seaside" name="seaside" value="seaside">
-        <label for="seaside">Seaside (2nd Edition)</label><br>
-        <input type="checkbox" id="alchemy" name="alchemy" value="alchemy">
-        <label for="alchemy">Alchemy</label><br>
+        <label for="seaside">Seaside 2nd Edition</label><br>
+        <input type="checkbox" id="alchemy" name="alchemy" value="alchemy" disabled>
+        <label for="alchemy">Alchemy (TODO)</label><br>
         <input type="checkbox" id="prosperity" name="prosperity" value="prosperity">
-        <label for="prosperity">Prosperity</label><br>
-        <input type="checkbox" id="hinterlands" name="hinterlands" value="hinterlands">
-        <label for="hinterlands">Hinterlands</label><br>
-        <input type="checkbox" id="darkages" name="darkages" value="darkages">
-        <label for="darkages">Dark Ages</label><br>
-        <input type="checkbox" id="cornguilds" name="cornguilds" value="cornguilds">
-        <label for="cornguilds">Cornucopia & Guilds</label><br>
-        <input type="checkbox" id="adventures" name="adventures" value="adventures">
-        <label for="adventures">Adventures</label><br>
+        <label for="prosperity">Prosperity 2nd Edition</label><br>
+        <input type="checkbox" id="hinterlands" name="hinterlands" value="hinterlands" disabled>
+        <label for="hinterlands">Hinterlands 2nd Edition (TODO)</label><br>
+        <input type="checkbox" id="darkages" name="darkages" value="darkages" disabled>
+        <label for="darkages">Dark Ages (TODO)</label><br>
+        <input type="checkbox" id="cornguilds" name="cornguilds" value="cornguilds" disabled>
+        <label for="cornguilds">Cornucopia & Guilds (TODO)</label><br>
+        <input type="checkbox" id="adventures" name="adventures" value="adventures" disabled>
+        <label for="adventures">Adventures (TODO)</label><br>
         <input type="checkbox" id="empires" name="empires" value="empires">
         <label for="empires">Empires</label><br>
-        <input type="checkbox" id="nocturne" name="nocturne" value="nocturne">
-        <label for="nocturne">Nocturne</label><br>
-        <input type="checkbox" id="renaissance" name="renaissance" value="renaissance">
-        <label for="renaissance">Renaissance</label><br>
-        <input type="checkbox" id="menagerie" name="menagerie" value="menagerie">
-        <label for="menagerie">Menagerie</label><br>
-	<input type="checkbox" id="allies" name="allies" value="allies">
-        <label for="allies">Menagerie</label><br>
+        <input type="checkbox" id="nocturne" name="nocturne" value="nocturne" disabled>
+        <label for="nocturne">Nocturne (TODO)</label><br>
+        <input type="checkbox" id="renaissance" name="renaissance" value="renaissance" disabled>
+        <label for="renaissance">Renaissance (TODO)</label><br>
+        <input type="checkbox" id="menagerie" name="menagerie" value="menagerie" disabled>
+        <label for="menagerie">Menagerie (TODO)</label><br>
+		<input type="checkbox" id="allies" name="allies" value="allies" disabled>
+        <label for="allies">Allies (TODO)</label><br>
 
         <button onclick="getSets()">Get Recommended Sets</button>
 
-        <p id="errors"></p>
+        <p id="errors" class="error"></p>
 
         <div id="kingdomContainer"></div>
 

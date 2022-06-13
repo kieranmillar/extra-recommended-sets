@@ -1,0 +1,23 @@
+.kingdom {
+	width: 100%;
+}
+
+.kingdom + .kingdom {
+	border-top: 2px solid black;
+}
+
+.played {
+	text-decoration: line-through;
+	background-color: lightgray;
+}
+
+.kingdomName {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.error {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: red;
+}
