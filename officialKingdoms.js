@@ -192,7 +192,7 @@ var officialKingdoms = [
 	{
         id: 28,
         name: "Son of Size Distortion",
-        cards: ["Bureaucrat". "Gardens", "Moneylender", "Bandit", "Witch", "Amulet", "Duplicate", "Messenger", "Giant", "Treasure Trove"],
+        cards: ["Bureaucrat", "Gardens", "Moneylender", "Bandit", "Witch", "Amulet", "Duplicate", "Messenger", "Giant", "Treasure Trove"],
 		landscapes: ["Bonfire", "Raid"],
         expansions: "baseadventures"
     },
@@ -209,5 +209,66 @@ var officialKingdoms = [
         cards: ["Bureaucrat", "Gardens", "Moneylender", "Laboratory", "Market", "Patrician / Emporium", "Catapult / Rocks", "Farmer's Market", "Charm", "Groundskeeper"],
 		landscapes: ["Aqueduct", "Conquest"],
         expansions: "baseempires"
+    },
+	{
+        id: 31,
+        name: "Night Shift",
+        cards: ["Gardens", "Poacher", "Smithy", "Bandit", "Mine", "Druid", "Ghost Town", "Night Watchman", "Exorcist", "Idol"],
+		extras: ["Boons", "Will-O'-Wisp", "Imp", "Ghost"],
+		notes: "Druid boons are The Earth's Gift, The Flame's Gift and The Forest's Gift.",
+        expansions: "basenocturne"
+    },
+	{
+        id: 32,
+        name: "Idle Hands",
+        cards: ["Cellar", "Harbinger", "Merchant", "Moneylender", "Market", "Bard", "Conclave", "Devil's Workshop", "Cursed Village", "Tragic Hero"],
+		extras: ["Boons", "Hexes", "Will-O'-Wisp", "Imp"],
+        expansions: "basenocturne"
+    },
+	{
+        id: 33,
+        name: "Idle Hands",
+        cards: ["Merchant", "Vassal", "Smithy", "Market", "Mine", "Acting Troupe", "Cargo Ship", "Recruiter", "Seer", "Treasurer"],
+		extras: ["Key"],
+		landscapes: ["Road Network"],
+        expansions: "baserenaissance"
+    },
+	{
+        id: 34,
+        name: "Capture the Flag",
+        cards: ["Cellar", "Harbinger", "Workshop", "Remodel", "Festival", "Lackeys", "Flag Bearer", "Scholar", "Swashbuckler", "Villain"],
+		extras: ["Flag", "Treasure Chest"],
+		landscapes: ["Barracks", "Pageant"],
+        expansions: "baserenaissance"
+    },
+	{
+        id: 35,
+        name: "Pony Express",
+        cards: ["Cellar", "Village", "Market", "Mine", "Artisan", "Supplies", "Stockpile", "Barge", "Paddock", "Destrier"],
+		landscapes: ["Stampede", "Way of the Seal"],
+		extras: ["Horse"],
+        expansions: "basemenagerie"
+    },
+	{
+        id: 36,
+        name: "Garden of Cats",
+        cards: ["Moat", "Harbinger", "Merchant", "Gardens", "Bandit", "Black Cat", "Scrap", "Snowy Village", "Displace", "Sanctuary"],
+		landscapes: ["Toil", "Way of the Mole"],
+		extras: ["Horse"],
+        expansions: "basemenagerie"
+    },
+	{
+        id: 36,
+        name: "Allies for Beginners",
+        cards: ["Harbinger", "Vassal", "Gardens", "Remodel", "Market", "Sycophant", "Odysseys", "Broker", "Capital City", "Galleria"],
+		landscapes: ["Crafter's Guild"],
+        expansions: "baseallies"
+    },
+	{
+        id: 37,
+        name: "Warring Shopkeepers",
+        cards: ["Moat", "Merchant", "Moneylender", "Bandit", "Laboratory", "Clashes", "Royal Galley", "Town", "Emissary", "Guildmaster"],
+		landscapes: ["League of Shopkeepers"],
+        expansions: "baseallies"
     }
 ]
