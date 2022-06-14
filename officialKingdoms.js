@@ -781,4 +781,177 @@ var officialKingdoms = [
 		landscapes: ["Coastal Haven"],
         expansions: "alchemyallies"
     },
+	{
+        id: 111,
+        name: "Beginners",
+        cards: ["Watchtower", "Monument", "Worker's Village", "Counting House", "Rabble", "Royal Seal", "Venture", "Goons", "Bank", "Expand"],
+		extras: ["Colony", "Platinum"],
+        expansions: "prosperity"
+    },
+	{
+        id: 112,
+        name: "Friendly Interactive",
+        cards: ["Trade Route", "Bishop", "Worker's Village", "City", "Contraband", "Royal Seal", "Vault", "Hoard", "Forge", "Peddler"],
+		extras: ["Colony", "Platinum"],
+        expansions: "prosperity"
+    },
+	{
+        id: 113,
+        name: "Big Actions",
+        cards: ["Loan", "Quarry", "Talisman", "City", "Mint", "Rabble", "Vault", "Grand Market", "Expand", "King's Court"],
+		extras: ["Colony", "Platinum"],
+        expansions: "prosperity"
+    },
+	{
+        id: 114,
+        name: "Instant Gratification",
+        cards: ["Watchtower", "Bishop", "Mint", "Hoard", "Expand", "Noble Brigand", "Trader", "Haggler", "Ill-Gotten Gains", "Farmland"],
+		extras: ["Colony", "Platinum"],
+        expansions: "prosperityhinterlands"
+    },
+	{
+        id: 115,
+        name: "Treasure Trove",
+        cards: ["Trade Route", "Monument", "Royal Seal", "Venture", "Bank", "Fool's Gold", "Develop", "Cache", "Ill-Gotten Gains", "Mandarin"],
+		extras: ["Colony", "Platinum"],
+        expansions: "prosperityhinterlands"
+    },
+	{
+        id: 116,
+        name: "One Man's Trash",
+        cards: ["Monument", "Talisman", "City", "Venture", "Grand Market", "Forager", "Market Square", "Counterfeit", "Graverobber", "Rogue"],
+		extras: ["Colony", "Platinum", "Shelters"],
+        expansions: "prosperitydarkages"
+    },
+	{
+        id: 117,
+        name: "Honor Among Thieves",
+        cards: ["Watchtower", "Quarry", "Hoard", "Forge", "Peddler", "Squire", "Procession", "Bandit Camp", "Rebuild", "Rogue"],
+		extras: ["Colony", "Platinum", "Shelters", "Spoils"],
+        expansions: "prosperitydarkages"
+    },
+	{
+        id: 118,
+        name: "Detours",
+        cards: ["Trade Route", "Rabble", "Venture", "Hoard", "Peddler", "Farming Village", "Remake", "Tournament", "Horn of Plenty", "Jester"],
+		extras: ["Colony", "Platinum", "Prizes"],
+        expansions: "prosperitycornguilds"
+    },
+	{
+        id: 119,
+        name: "Quarrymen",
+        cards: ["Quarry", "City", "Mountebank", "Grand Market", "Expand", "Stonemason", "Taxman", "Baker", "Merchant Guild", "Soothsayer"],
+		extras: ["Colony", "Platinum"],
+        expansions: "prosperitycornguilds"
+    },
+	{
+        id: 120,
+        name: "Metal & Meat",
+        cards: ["Watchtower", "Monument", "Venture", "Forge", "King's Court", "Candlestick Maker", "Stonemason", "Plaza", "Taxman", "Butcher"],
+		extras: ["Colony", "Platinum"],
+        expansions: "prosperitycornguilds"
+    },
+	{
+        id: 121,
+        name: "Penny Pinching",
+        cards: ["Counting House", "Royal Seal", "Goons", "Bank", "Peddler", "Doctor", "Advisor", "Herald", "Journeyman", "Merchant Guild"],
+		extras: ["Colony", "Platinum"],
+        expansions: "prosperitycornguilds"
+    },
+	{
+        id: 122,
+        name: "Last Will and Monument",
+        cards: ["Bishop", "Monument", "Counting House", "Rabble", "Vault", "Coin of the Realm", "Dungeon", "Messenger", "Relic", "Treasure Trove"],
+		extras: ["Colony", "Platinum"],
+		landscapes: ["Inheritance"],
+        expansions: "prosperityadventures"
+    },
+	{
+        id: 123,
+        name: "Think Big",
+        cards: ["Contraband", "Hoard", "Expand", "King's Court", "Peddler", "Miser", "Distant Lands", "Giant", "Storyteller", "Hireling"],
+		extras: ["Colony", "Platinum"],
+		landscapes: ["Ball", "Ferry"],
+        expansions: "prosperityadventures"
+    },
+	{
+        id: 124,
+        name: "Big Time",
+        cards: ["Loan", "Royal Seal", "Grand Market", "Bank", "Forge", "Royal Blacksmith", "Patrician / Emporium", "Gladiator / Fortune", "Villa", "Capital"],
+		extras: ["Colony", "Platinum"],
+		landscapes: ["Dominate", "Obelisk"],
+		notes: "Obelisk randomly assigned",
+        expansions: "prosperityempires"
+    },
+	{
+        id: 125,
+        name: "Gilded Gates",
+        cards: ["Bishop", "Monument", "Talisman", "Mint", "Peddler", "City Quarter", "Encampment / Plunder", "Chariot Race", "Groundskeeper", "Wild Hunt"],
+		extras: ["Colony", "Platinum"],
+		landscapes: ["Basilica", "Palace"],
+        expansions: "prosperityempires"
+    },
+	{
+        id: 126,
+        name: "Treasures of the Night",
+        cards: ["Loan", "Contraband", "Royal Seal", "Venture", "Bank", "Guardian", "Night Watchman", "Crypt", "Vampire", "Raider"],
+		extras: ["Colony", "Platinum", "Hexes", "Bat"],
+        expansions: "prosperitynocturne"
+    },
+	{
+        id: 127,
+        name: "Day at the Races",
+        cards: ["Trade Route", "Watchtower", "Bishop", "Talisman", "Peddler", "Druid", "Blessed Village", "Cemetary", "Tormentor", "Tragic Hero"],
+		extras: ["Colony", "Platinum", "Haunted Mirror", "Boons", "Hexes", "Will-O'-Wisp", "Ghost"],
+		notes: "Druid boons are The Swamp's Gift, The River's Gift and The Forest's Gift.",
+        expansions: "prosperitynocturne"
+    },
+	{
+        id: 128,
+        name: "Dreamers of Dreams",
+        cards: ["Watchtower", "Monument", "Worker's Village", "Vault", "Expand", "Cargo Ship", "Priest", "Old Witch", "Scepter", "Scholar"],
+		extras: ["Colony", "Platinum"],
+		landscapes: ["Academy"],
+        expansions: "prosperityrenaissance"
+    },
+	{
+        id: 129,
+        name: "Movers and Shakers",
+        cards: ["Loan", "City", "Rabble", "Grand Market", "Bank", "Hideout", "Patron", "Research", "Treasurer", "Villain"],
+		extras: ["Colony", "Platinum", "Key"],
+		landscapes: ["Capitalism", "Citadel"],
+        expansions: "prosperityrenaissance"
+    },
+	{
+        id: 130,
+        name: "Limited Time Offer",
+        cards: ["Talisman", "Worker's Village", "Mint", "Peddler", "Grand Market", "Supplies", "Displace", "Fisherman", "Destrier", "Wayfarer"],
+		extras: ["Colony", "Platinum", "Horse"],
+		landscapes: ["Desperation", "Way of the Frog"],
+        expansions: "prosperitymenagerie"
+    },
+	{
+        id: 131,
+        name: "Birth of a Nation",
+        cards: ["Trade Route", "Monument", "Quarry", "City", "Rabble", "Camel Train", "Stockpile", "Mastermind", "Paddock", "Animal Fair"],
+		extras: ["Colony", "Platinum", "Horse"],
+		landscapes: ["Reap", "Way of the Otter"],
+        expansions: "prosperitymenagerie"
+    },
+	{
+        id: 132,
+        name: "Inventing Mania",
+        cards: ["Quarry", "Talisman", "Rabble", "Expand", "King's Court", "Bauble", "Augurs", "Importer", "Carpenter", "Capital City"],
+		extras: ["Colony", "Platinum"],
+		landscapes: ["Family of Inventors"],
+        expansions: "prosperityallies"
+    },
+	{
+        id: 133,
+        name: "Bank of Toadies",
+        cards: ["Trade Route", "City", "Mint", "Vault", "Bank", "Sycophant", "Odysseys", "Broker", "Town", "Marquis"],
+		extras: ["Colony", "Platinum"],
+		landscapes: ["League of Bankers"],
+        expansions: "prosperityallies"
+    },
 ]
