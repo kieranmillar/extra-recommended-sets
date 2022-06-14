@@ -1312,8 +1312,8 @@ var kingdoms = [
     },
     {
         id: 191,
-        name: "",
-        cards: [],
+        name: "Investigation",
+        cards: ["Courtyard", "Swindler", "Conspirator", "Torturer", "Nobles", "Lighthouse", "Astrolabe", "Lookout", "Warehouse", "Bazaar"],
         expansions: "intrigueseaside"
     },
     {
