@@ -270,5 +270,230 @@ var officialKingdoms = [
         cards: ["Moat", "Merchant", "Moneylender", "Bandit", "Laboratory", "Clashes", "Royal Galley", "Town", "Emissary", "Guildmaster"],
 		landscapes: ["League of Shopkeepers"],
         expansions: "baseallies"
+    },
+	{
+        id: 38,
+        name: "Victory Dance",
+        cards: ["Masquerade", "Baron", "Ironworks", "Mill", "Courtier", "Duke", "Patrol", "Replace", "Harem", "Nobles"],
+        expansions: "intrigue"
+    },
+	{
+        id: 39,
+        name: "The Plot Thickens",
+        cards: ["Lurker", "Pawn", "Steward", "Swindler", "Conspirator", "Ironworks", "Mining Village", "Secret Passage", "Torturer", "Trading Post"],
+        expansions: "intrigue"
+    },
+	{
+        id: 40,
+        name: "Best Wishes",
+        cards: ["Courtyard", "Shanty Town", "Wishing Well", "Baron", "Conspirator", "Diplomat", "Secret Passage", "Duke", "Torturer", "Upgrade"],
+        expansions: "intrigue"
+    },
+	{
+        id: 41,
+        name: "A Star to Steer By",
+        cards: ["Swindler", "Wishing Well", "Diplomat", "Secret Passage", "Courtier", "Lookout", "Monkey", "Tide Pools", "Treasure Map", "Bazaar"],
+        expansions: "intrigueseaside"
+    },
+	{
+        id: 42,
+        name: "Shore Patrol",
+        cards: ["Pawn", "Shanty Town", "Patrol", "Replace", "Trading Post", "Lighthouse", "Sea Chart", "Cutpurse", "Island", "Wharf"],
+        expansions: "intrigueseaside"
+    },
+	{
+        id: 43,
+        name: "Servants",
+        cards: ["Pawn", "Steward", "Conspirator", "Mill", "Minion", "Transmute", "Vineyard", "Scrying Pool", "Golem", "Possession"],
+		extras: ["Potion"],
+        expansions: "intriguealchemy"
+    },
+	{
+        id: 44,
+        name: "Secret Research",
+        cards: ["Masquerade", "Shanty Town", "Bridge", "Minion", "Torturer", "Nobles", "Herbalist", "University", "Familiar", "Philosopher's Stone"],
+		extras: ["Potion"],
+        expansions: "intriguealchemy"
+    },
+	{
+        id: 45,
+        name: "Pools, Tools and Fools",
+        cards: ["Lurker", "Wishing Well", "Baron", "Ironworks", "Trading Post", "Nobles", "Apothecary", "Scrying Pool", "Golem", "Apprentice"],
+		extras: ["Potion"],
+        expansions: "intriguealchemy"
+    },
+	{
+        id: 46,
+        name: "Paths to Victory",
+        cards: ["Pawn", "Shanty Town", "Baron", "Upgrade", "Harem", "Bishop", "Monument", "Counting House", "Goons", "Peddler"],
+		extras: ["Colony", "Platinum"],
+        expansions: "intrigueprosperity"
+    },
+	{
+        id: 47,
+        name: "All Along the Watchtower",
+        cards: ["Pawn", "Bridge", "Mill", "Mining Village", "Torturer", "Trade Route", "Watchtower", "Talisman", "Vault", "Hoard"],
+		extras: ["Colony", "Platinum"],
+        expansions: "intrigueprosperity"
+    },
+	{
+        id: 48,
+        name: "Lucky Seven",
+        cards: ["Lurker", "Swindler", "Wishing Well", "Bridge", "Patrol", "Vault", "Bank", "Expand", "Forge", "King's Court"],
+		extras: ["Colony", "Platinum"],
+        expansions: "intrigueprosperity"
+    },
+	{
+        id: 49,
+        name: "Money for Nothing",
+        cards: ["Pawn", "Shanty Town", "Patrol", "Replace", "Torturer", "Tunnel", "Jack of all Trades", "Silk Road", "Cache", "Cartographer"],
+        expansions: "intriguehinterlands"
+    },
+	{
+        id: 50,
+        name: "The Duke's Ball",
+        cards: ["Masquerade", "Conspirator", "Duke", "Upgrade", "Harem", "Duchess", "Scheme", "Noble Brigand", "Haggler", "Inn"],
+        expansions: "intriguehinterlands"
+    },
+	{
+        id: 51,
+        name: "Prophecy",
+        cards: ["Wishing Well", "Baron", "Conspirator", "Secret Passage", "Nobles", "Vagrant", "Armory", "Ironmonger", "Mystic", "Rebuild"],
+		extras: ["Shelters"],
+        expansions: "intriguedarkages"
+    },
+	{
+        id: 52,
+        name: "Invasion",
+        cards: ["Swindler", "Diplomat", "Torturer", "Upgrade", "Harem", "Beggar", "Squire", "Urchin", "Marauder", "Rogue"],
+		extras: ["Mercenary", "Ruins", "Shelters", "Spoils"],
+        expansions: "intriguedarkages"
+    },
+	{
+        id: 53,
+        name: "Last Laughs",
+        cards: ["Pawn", "Steward", "Swindler", "Minion", "Nobles", "Farming Village", "Horse Traders", "Harvest", "Hunting Party", "Jester"],
+        expansions: "intriguecornguilds"
+    },
+	{
+        id: 54,
+        name: "The Spice of Life",
+        cards: ["Courtyard", "Wishing Well", "Diplomat", "Mining Village", "Courtier", "Replace", "Remake", "Tournament", "Young Witch", "Horn of Plenty", "Fairgrounds"],
+		extras: ["Prizes"],
+		notes: "Wishing Well is the Bane",
+        expansions: "intriguecornguilds"
+    },
+	{
+        id: 55,
+        name: "Small Victories",
+        cards: ["Pawn", "Conspirator", "Secret Passage", "Duke", "Harem", "Hamlet", "Fortune Teller", "Remake", "Tournament", "Hunting Party"],
+		extras: ["Prizes"],
+        expansions: "intriguecornguilds"
+    },
+	{
+        id: 56,
+        name: "Name That Card",
+        cards: ["Courtyard", "Wishing Well", "Replace", "Harem", "Nobles", "Doctor", "Masterpiece", "Advisor", "Plaza", "Baker"],
+        expansions: "intriguecornguilds"
+    },
+	{
+		id: 57,
+        name: "Tricks of the Trade",
+        cards: ["Masquerade", "Conspirator", "Mill", "Secret Passage", "Nobles", "Stonemason", "Herald", "Butcher", "Journeyman", "Soothsayer"],
+        expansions: "intriguecornguilds"
+	},
+	{
+		id: 58,
+        name: "Decision, Decisions",
+        cards: ["Pawn", "Bridge", "Mining Village", "Duke", "Upgrade", "Candlestick Maker", "Masterpiece", "Taxman", "Butcher", "Merchant Guild"],
+        expansions: "intriguecornguilds"
+	},
+	{
+        id: 59,
+        name: "Royalty Factory",
+        cards: ["Swindler", "Conspirator", "Courtier", "Harem", "Nobles", "Page", "Raze", "Duplicate", "Bridge Troll", "Royal Carriage"],
+		extras: ["Treasure Hunter", "Warrior", "Hero", "Champion"],
+		landscapes: ["Pilgrimage"],
+        expansions: "intrigueadventures"
+    },
+	{
+        id: 60,
+        name: "Masters of Finance",
+        cards: ["Pawn", "Shanty Town", "Steward", "Bridge", "Upgrade", "Gear", "Transmogrify", "Artificer", "Distant Lands", "Wine Merchant"],
+		landscapes: ["Ball", "Borrow"],
+        expansions: "intrigueadventures"
+    },
+	{
+        id: 61,
+        name: "Delicious Torture",
+        cards: ["Baron", "Bridge", "Ironworks", "Torturer", "Harem", "Settlers / Bustling Village", "Castles", "Enchantress", "Sacrifice", "Crown"],
+		landscapes: ["Arena", "Banquet"],
+        expansions: "intrigueempires"
+    },
+	{
+        id: 62,
+        name: "Buddy System",
+        cards: ["Pawn", "Masquerade", "Mining Village", "Trading Post", "Nobles", "Engineer", "Catapult / Rocks", "Archive", "Capital", "Forum"],
+		landscapes: ["Salt the Earth", "Wolf Den"],
+        expansions: "intrigueempires"
+    },
+	{
+        id: 63,
+        name: "Shadowy Figures",
+        cards: ["Bridge", "Conspirator", "Mill", "Secret Passage", "Nobles", "Faithful Hound", "Conclave", "Shepherd", "Cobbler", "Tragic Hero"],
+		extras: ["Pasture"],
+        expansions: "intriguenocturne"
+    },
+	{
+        id: 64,
+        name: "Impending Doom",
+        cards: ["Lurker", "Swindler", "Mining Village", "Courtier", "Upgrade", "Monstery", "Leprechaun", "Necromancer", "Tormentor", "Werewolf"],
+		extras: ["Hexes", "Wish", "Zombie Apprentice", "Zombie Mason", "Zombie Spy"],
+        expansions: "intriguenocturne"
+    },
+	{
+        id: 65,
+        name: "Memento Mori",
+        cards: ["Lurker", "Swindler", "Ironworks", "Patrol", "Upgrade", "Experiment", "Flag Bearer", "Patron", "Silk Merchant", "Recruiter"],
+		extras: ["Flag"],
+		landscapes: ["Citadel"],
+        expansions: "intriguerenaissance"
+    },
+	{
+        id: 66,
+        name: "Clockwork Court",
+        cards: ["Steward", "Mining Village", "Courtier", "Replace", "Nobles", "Acting Troupe", "Inventor", "Research", "Scepter", "Scholar"],
+		landscapes: ["Fleet", "Sinister Plot"],
+        expansions: "intriguerenaissance"
+    },
+	{
+        id: 67,
+        name: "Dog & Pony Show",
+        cards: ["Pawn", "Mill", "Torturer", "Upgrade", "Nobles", "Camel Train", "Goatherd", "Sheepdog", "Cavalry", "Paddock"],
+		landscapes: ["Commerce", "Way of the Horse"],
+		extras: ["Horse"],
+        expansions: "intriguemenagerie"
+    },
+	{
+        id: 68,
+        name: "Explosions",
+        cards: ["Courtyard", "Lurker", "Wishing Well", "Diplomat", "Replace", "Scrap", "Bounty Hunter", "Coven", "Hunting Lodge", "Animal Fair"],
+		landscapes: ["Populate", "Way of the Squirrel"],
+		extras: ["Horse"],
+        expansions: "intriguemenagerie"
+    },
+	{
+        id: 69,
+        name: "Dark Dealings",
+        cards: ["Lurker", "Steward", "Secret Passage", "Courtier", "Nobles", "Townsfolk", "Broker", "Courier", "Contract", "Hunter"],
+		landscapes: ["Circle of Witches"],
+        expansions: "intrigueallies"
+    },
+	{
+        id: 70,
+        name: "Pawns and Underlings",
+        cards: ["Pawn", "Baron", "Conspirator", "Patrol", "Replace", "Merchant Camp", "Underling", "Wizards", "Innkeeper", "Swap"],
+		landscapes: ["Plateau Shepherds"],
+        expansions: "intrigueallies"
     }
 ]

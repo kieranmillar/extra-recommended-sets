@@ -139,7 +139,7 @@ function getSets() {
 
     const result = k.filter(kingdom => kingdom.expansions == searchString);
     if (result.length == 0) {
-        errorsElement.textContent = "No kingdoms found (they might be on the todo list)";
+        errorsElement.textContent = "No sets found. They might not be implemented yet.";
         return;
     }
 	
