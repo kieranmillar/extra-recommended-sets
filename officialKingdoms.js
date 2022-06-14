@@ -1067,7 +1067,7 @@ var officialKingdoms = [
         cards: ["Develop", "Spice Merchant", "Cartographer", "Haggler", "Farmland", "Lackeys", "Flag Bearer", "Mountain Village", "Silk Merchant", "Spices"],
 		extras: ["Flag"],
 		landscapes: ["Silos"],
-        expansions: "hinterlandsnocturne"
+        expansions: "hinterlandsrenaissance"
     },
 	{
         id: 151,
@@ -1075,7 +1075,7 @@ var officialKingdoms = [
         cards: ["Crossroads", "Oasis", "Noble Brigand", "Trader", "Cache", "Ducat", "Patron", "Scepter", "Seer", "Swashbuckler"],
 		extras: ["Treasure Chest"],
 		landscapes: ["Barracks", "Guildhall"],
-        expansions: "hinterlandsnocturne"
+        expansions: "hinterlandsrenaissance"
     },
 	{
         id: 152,

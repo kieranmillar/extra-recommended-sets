@@ -269,3 +269,5 @@ function wipeLocalData() {
 		location.reload(); 
 	}
 }
+
+document.addEventListener('DOMContentLoaded', function(){ goToLocation("extras"); }, false);
