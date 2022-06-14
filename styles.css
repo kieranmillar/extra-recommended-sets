@@ -1,3 +1,35 @@
+#tabs {
+    display: flex;
+	flex-flow: row;
+	width: 100%;
+}
+
+.tab {
+    background-color: lightgrey;
+    border: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.tab.active {
+	background-color: white;
+	border-bottom: 0;
+}
+
+#locations {
+	padding: 5px;
+	overflow: auto;
+	height: 100%;
+}
+
+.location {
+	display: none;
+}
+
+.location.active {
+	display: block;
+}
+
 .kingdom {
 	width: 100%;
 }
