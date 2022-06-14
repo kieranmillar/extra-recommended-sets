@@ -37,6 +37,8 @@
 				<h2>Choose Expansions</h2>
 
 				<p>Select one or two expansions to get extra recommended sets for.</p>
+				
+				<p id="disabledNote">If an expansion is disabled then I haven't made sets for it yet.</p>
 
 				<input type="checkbox" id="base" name="base" value="base">
 				<label for="base">Base 2nd Edition</label><br>
@@ -44,27 +46,27 @@
 				<label for="intrigue">Intrigue 2nd Edition</label><br>
 				<input type="checkbox" id="seaside" name="seaside" value="seaside">
 				<label for="seaside">Seaside 2nd Edition</label><br>
-				<input type="checkbox" id="alchemy" name="alchemy" value="alchemy">
+				<input type="checkbox" id="alchemy" name="alchemy" value="alchemy" disabled>
 				<label for="alchemy">Alchemy</label><br>
-				<input type="checkbox" id="prosperity" name="prosperity" value="prosperity">
+				<input type="checkbox" id="prosperity" name="prosperity" value="prosperity" disabled>
 				<label for="prosperity">Prosperity 2nd Edition</label><br>
-				<input type="checkbox" id="hinterlands" name="hinterlands" value="hinterlands">
+				<input type="checkbox" id="hinterlands" name="hinterlands" value="hinterlands" disabled>
 				<label for="hinterlands">Hinterlands 2nd Edition</label><br>
-				<input type="checkbox" id="darkages" name="darkages" value="darkages">
+				<input type="checkbox" id="darkages" name="darkages" value="darkages" disabled>
 				<label for="darkages">Dark Ages</label><br>
-				<input type="checkbox" id="cornguilds" name="cornguilds" value="cornguilds">
+				<input type="checkbox" id="cornguilds" name="cornguilds" value="cornguilds" disabled>
 				<label for="cornguilds">Cornucopia & Guilds</label><br>
-				<input type="checkbox" id="adventures" name="adventures" value="adventures">
+				<input type="checkbox" id="adventures" name="adventures" value="adventures" disabled>
 				<label for="adventures">Adventures</label><br>
 				<input type="checkbox" id="empires" name="empires" value="empires">
 				<label for="empires">Empires</label><br>
-				<input type="checkbox" id="nocturne" name="nocturne" value="nocturne">
+				<input type="checkbox" id="nocturne" name="nocturne" value="nocturne" disabled>
 				<label for="nocturne">Nocturne</label><br>
-				<input type="checkbox" id="renaissance" name="renaissance" value="renaissance">
+				<input type="checkbox" id="renaissance" name="renaissance" value="renaissance" disabled>
 				<label for="renaissance">Renaissance</label><br>
-				<input type="checkbox" id="menagerie" name="menagerie" value="menagerie">
+				<input type="checkbox" id="menagerie" name="menagerie" value="menagerie" disabled>
 				<label for="menagerie">Menagerie</label><br>
-				<input type="checkbox" id="allies" name="allies" value="allies">
+				<input type="checkbox" id="allies" name="allies" value="allies" disabled>
 				<label for="allies">Allies</label><br>
 
 				<button onclick="getSets()">Get Recommended Sets</button>

@@ -9,6 +9,7 @@ var locAbout = document.getElementById("loc_about");
 var locChangelog = document.getElementById("loc_changelog");
 
 var kingdomsTitleElement = document.getElementById("kingdoms_title");
+var disabledNoteElement = document.getElementById("disabledNote");
 var checkboxElements = [
     document.getElementById("base"),
     document.getElementById("intrigue"),
@@ -47,6 +48,17 @@ function goToLocation(loc) {
 			isExtras = true;
 			locKingdoms.classList.add("active");
 			tabExtras.classList.add("active");
+			disabledNoteElement.hidden = false;
+			checkboxElements[3].disabled = true;
+			checkboxElements[4].disabled = true;
+			checkboxElements[5].disabled = true;
+			checkboxElements[6].disabled = true;
+			checkboxElements[7].disabled = true;
+			checkboxElements[8].disabled = true;
+			checkboxElements[10].disabled = true;
+			checkboxElements[11].disabled = true;
+			checkboxElements[12].disabled = true;
+			checkboxElements[13].disabled = true;
 			kingdomsTitleElement.textContent = "Extra Recommended Sets";
 			clearSets();
 			break;
@@ -54,6 +66,17 @@ function goToLocation(loc) {
 			isExtras = false;
 			locKingdoms.classList.add("active");
 			tabOfficial.classList.add("active");
+			disabledNoteElement.hidden = true;
+			checkboxElements[3].disabled = false;
+			checkboxElements[4].disabled = false;
+			checkboxElements[5].disabled = false;
+			checkboxElements[6].disabled = false;
+			checkboxElements[7].disabled = false;
+			checkboxElements[8].disabled = false;
+			checkboxElements[10].disabled = false;
+			checkboxElements[11].disabled = false;
+			checkboxElements[12].disabled = false;
+			checkboxElements[13].disabled = false;
 			kingdomsTitleElement.textContent = "Offcial Recommended Sets";
 			clearSets();
 			break;
@@ -160,7 +183,6 @@ function createKingdomContainer(kingdom) {
     nameHeader.textContent = kingdom.name;
     container.appendChild(nameHeader);
 
-    let cardsTable = document.createElement("div");
 	let cardsList = document.createElement("p");
 	let cardsString = "";
     kingdom.cards.forEach(card => {
@@ -176,35 +198,22 @@ function createKingdomContainer(kingdom) {
 		cardsString += "</em>";
 	}
 	cardsList.innerHTML = cardsString;
-	cardsTable.appendChild(cardsList);
-
-    container.appendChild(cardsTable);
+    container.appendChild(cardsList);
 
     if (kingdom.hasOwnProperty("extras")) {
-        let extrasTable = document.createElement("div");
-        let extrasTableHeader = document.createElement("h3");
-        extrasTableHeader.textContent = "Extra Cards";
-        extrasTable.appendChild(extrasTableHeader);
 		let extrasList = document.createElement("p");
 		let extrasString = "";
         kingdom.extras.forEach(card => {
 			extrasString += card + ", ";
 		});
-		extrasList.textContent = extrasString.slice(0, -2);
-		extrasTable.appendChild(extrasList);
-		
-        container.appendChild(extrasTable);
+		extrasList.innerHTML = "<strong>Extras: </strong>" + extrasString.slice(0, -2);
+        container.appendChild(extrasList);
     }
 
     if (kingdom.hasOwnProperty("notes")) {
-        let notesSection = document.createElement("div");
-        let notesHeader = document.createElement("h3");
-        notesHeader.textContent = "Notes";
-        notesSection.appendChild(notesHeader);
         let notesText = document.createElement("p");
-        notesText.textContent = kingdom.notes;
-        notesSection.appendChild(notesText);
-        container.appendChild(notesSection);
+        notesText.innerHTML = "<strong>Notes: </strong>" + kingdom.notes;
+        container.appendChild(notesText);
     }
 
     return container;

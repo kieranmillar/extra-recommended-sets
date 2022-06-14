@@ -96,5 +96,118 @@ var officialKingdoms = [
         cards: ["Moat", "Vassal", "Bureaucrat", "Remodel", "Market", "Witch", "University", "Alchemist", "Philosopher's Stone", "Golem"],
 		extras: ["Potion"],
         expansions: "basealchemy"
+    },
+	{
+        id: 14,
+        name: "Biggest Money",
+        cards: ["Harbinger", "Moneylender", "Laboratory", "Mine", "Artisan", "Mint", "Royal Seal", "Venture", "Grand Market", "Bank"],
+		extras: ["Colony", "Platinum"],
+        expansions: "baseprosperity"
+    },
+	{
+        id: 15,
+        name: "The King's Army",
+        cards: ["Moat", "Merchant", "Village", "Bureaucrat", "Council Room", "Rabble", "Vault", "Goons", "Expand", "King's Court"],
+		extras: ["Colony", "Platinum"],
+        expansions: "baseprosperity"
+    },
+	{
+        id: 16,
+        name: "The Good Life",
+        cards: ["Cellar", "Village", "Bureaucrat", "Gardens", "Artisan", "Monument", "Contraband", "Counting House", "Mountebank", "Hoard"],
+		extras: ["Colony", "Platinum"],
+        expansions: "baseprosperity"
+    },
+	{
+        id: 17,
+        name: "Highway Robbery",
+        cards: ["Cellar", "Workshop", "Moneylender", "Throne Room", "Library", "Oasis", "Noble Brigand", "Highway", "Inn", "Margrave"],
+        expansions: "basehinterlands"
+    },
+	{
+        id: 18,
+        name: "Adventures Abroad",
+        cards: ["Vassal", "Remodel", "Festival", "Laboratory", "Sentry", "Crossroads", "Fool's Gold", "Oracle", "Silk Merchant", "Farmland"],
+        expansions: "basehinterlands"
+    },
+	{
+        id: 19,
+        name: "High and Low",
+        cards: ["Cellar", "Workshop", "Moneylender", "Throne Room", "Witch", "Poor House", "Hermit", "Wandering Minstrel", "Mystic", "Hunting Grounds"],
+		extras: ["Madman", "Shelters"],
+        expansions: "basedarkages"
+    },
+	{
+        id: 20,
+        name: "Chivalry and Revelry",
+        cards: ["Gardens", "Remodel", "Festival", "Laboratory", "Library", "Squire", "Rats", "Scavenger", "Knights", "Altar"],
+		extras: ["Shelters"],
+        expansions: "basedarkages"
+    },
+	{
+        id: 21,
+        name: "Bounty of the Hunt",
+        cards: ["Cellar", "Militia", "Moneylender", "Smithy", "Festival", "Menagerie", "Tournament", "Harvest", "Horn of Plenty", "Hunting Party"],
+		extras: ["Prizes"],
+        expansions: "basecornguilds"
+    },
+	{
+        id: 22,
+        name: "Bad Omens",
+        cards: ["Merchant", "Bureaucrat", "Poacher", "Throne Room", "Laboratory", "Hamlet", "Fortune Teller", "Remake", "Horn of Plenty", "Jester"],
+        expansions: "basecornguilds"
+    },
+	{
+        id: 23,
+        name: "The Jester's Workshop",
+        cards: ["Merchant", "Workshop", "Remodel", "Laboratory", "Market", "Artisan", "Farming Village", "Horse Traders", "Young Witch", "Jester", "Fairgrounds"],
+		notes: "Merchant is the Bane",
+        expansions: "basecornguilds"
+    },
+	{
+        id: 24,
+        name: "Arts and Crafts",
+        cards: ["Cellar", "Workshop", "Moneylender", "Laboratory", "Festival", "Stonemason", "Advisor", "Baker", "Journeyman", "Merchant Guild"],
+        expansions: "basecornguilds"
+    },
+	{
+        id: 25,
+        name: "Clean Living",
+        cards: ["Village", "Militia", "Moneylender", "Gardens", "Bandit", "Candlestick Maker", "Doctor", "Butcher", "Baker", "Soothsayer"],
+        expansions: "basecornguilds"
+    },
+	{
+        id: 26,
+        name: "Gilding the Lily",
+        cards: ["Merchant", "Remodel", "Library", "Market", "Sentry", "Candlestick Maker", "Masterpiece", "Plaza", "Taxman", "Herald"],
+        expansions: "basecornguilds"
+    },
+	{
+        id: 27,
+        name: "Level Up",
+        cards: ["Merchant", "Workshop", "Militia", "Throne Room", "Market", "Dungeon", "Gear", "Guide", "Miser", "Lost City"],
+		landscapes: ["Training"],
+        expansions: "baseadventures"
+    },
+	{
+        id: 28,
+        name: "Son of Size Distortion",
+        cards: ["Bureaucrat". "Gardens", "Moneylender", "Bandit", "Witch", "Amulet", "Duplicate", "Messenger", "Giant", "Treasure Trove"],
+		landscapes: ["Bonfire", "Raid"],
+        expansions: "baseadventures"
+    },
+	{
+        id: 29,
+        name: "Everything in Moderation",
+        cards: ["Cellar", "Village", "Workshop", "Remodel", "Library", "Overlord", "Enchantress", "Temple", "Forum", "Legionary"],
+		landscapes: ["Orchard", "Windfall"],
+        expansions: "baseempires"
+    },
+	{
+        id: 30,
+        name: "Silver Bullets",
+        cards: ["Bureaucrat", "Gardens", "Moneylender", "Laboratory", "Market", "Patrician / Emporium", "Catapult / Rocks", "Farmer's Market", "Charm", "Groundskeeper"],
+		landscapes: ["Aqueduct", "Conquest"],
+        expansions: "baseempires"
     }
 ]
