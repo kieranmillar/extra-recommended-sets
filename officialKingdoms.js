@@ -654,5 +654,131 @@ var officialKingdoms = [
         cards: ["Haven", "Lookout", "Treasure Map", "Outpost", "Treasury", "Forts", "Town", "Emissary", "Swap", "Marquis"],
 		landscapes: ["Market Towns"],
         expansions: "seasideallies"
-    }
+    },
+	{
+        id: 94,
+        name: "Counting Contest",
+        cards: ["Apothecary", "Herbalist", "Philosopher's Stone", "Golem", "Quarry", "Counting House", "Rabble", "Goons", "Hoard", "Bank"],
+		extras: ["Colony", "Platinum", "Potion"],
+        expansions: "alchemyprosperity"
+    },
+	{
+        id: 95,
+        name: "Lower Learning",
+        cards: ["Vineyard", "University", "Familiar", "Apprentice", "Bishop", "Talisman", "Worker's Village", "Mint", "Vault", "Peddler"],
+		extras: ["Colony", "Platinum", "Potion"],
+        expansions: "alchemyprosperity"
+    },
+	{
+        id: 96,
+        name: "Schemes and Dreams",
+        cards: ["Transmute", "Apothecary", "Herbalist", "Philosopher's Stone", "Apprentice", "Duchess", "Fool's Gold", "Scheme", "Jack of all Trades", "Ill-Gotten Gains"],
+		extras: ["Potion"],
+        expansions: "alchemyhinterlands"
+    },
+	{
+        id: 97,
+        name: "Wine Country",
+        cards: ["Vineyard", "University", "Familiar", "Golem", "Apprentice", "Crossroads", "Nomad Camp", "Haggler", "Highway", "Farmland"],
+		extras: ["Potion"],
+        expansions: "alchemyhinterlands"
+    },
+	{
+        id: 98,
+        name: "Infestations",
+        cards: ["Transmute", "Vineyard", "Scrying Pool", "Apprentice", "Market Square", "Armory", "Feodum", "Rats", "Wandering Minstrel", "Cultist"],
+		extras: ["Potion", "Ruins", "Shelters"],
+        expansions: "alchemydarkages"
+    },
+	{
+        id: 99,
+        name: "Lamentations",
+        cards: ["Apothecary", "Herbalist", "University", "Golem", "Beggar", "Forager", "Ironmonger", "Catacombs", "Counterfeit", "Pillage"],
+		extras: ["Potion", "Shelters", "Spoils"],
+        expansions: "alchemydarkages"
+    },
+	{
+        id: 100,
+        name: "Clown College",
+        cards: ["University", "Alchemist", "Familiar", "Philosopher's Stone", "Golem", "Menagerie", "Horse Traders", "Remake", "Harvest", "Jester"],
+		extras: ["Potion"],
+        expansions: "alchemycornguilds"
+    },
+	{
+        id: 101,
+        name: "Wine & Dine",
+        cards: ["Transmute", "Vineyard", "Apothecary", "Herbalist", "Scrying Pool", "Apprentice", "Hamlet", "Young Witch", "Horn of Plenty", "Hunting Party", "Fairgrounds"],
+		extras: ["Potion"],
+		notes: "Herbalist is the Bane",
+        expansions: "alchemycornguilds"
+    },
+	{
+        id: 102,
+        name: "Illuminati",
+        cards: ["Scrying Pool", "University", "Philosopher's Stone", "Golem", "Apprentice", "Stonemason", "Masterpiece", "Herald", "Butcher", "Merchant Guild"],
+		extras: ["Potion"],
+        expansions: "alchemycornguilds"
+    },
+	{
+        id: 103,
+        name: "Tonics & Toxins",
+        cards: ["Transmute", "Vineyard", "Herbalist", "Alchemist", "Familiar", "Candlestick Maker", "Doctor", "Plaza", "Baker", "Soothsayer"],
+		extras: ["Potion"],
+        expansions: "alchemycornguilds"
+    },
+	{
+        id: 104,
+        name: "Haste Potion",
+        cards: ["Transmute", "Vineyard", "Scrying Pool", "University", "Apprentice", "Magpie", "Messenger", "Port", "Royal Carriage", "Treasure Trove"],
+		extras: ["Potion"],
+		landscapes: ["Plan"],
+        expansions: "alchemyadventures"
+    },
+	{
+        id: 105,
+        name: "Cursecatchers",
+        cards: ["Apothecary", "Herbalist", "Familiar", "Philosopher's Stone", "Golem", "Peasant", "Ratcatcher", "Amulet", "Caravan Guard", "Bridge Troll"],
+		extras: ["Potion", "Soldier", "Fugitive", "Disciple", "Teacher"],
+		landscapes: ["Save", "Trade"],
+        expansions: "alchemyadventures"
+    },
+	{
+        id: 106,
+        name: "Collectors",
+        cards: ["Transmute", "Apothecary", "Herbalist", "University", "Apprentice", "City Quarter", "Encampment / Plunder", "Enchantress", "Farmer's Market", "Crown"],
+		extras: ["Potion"],
+		landscapes: ["Collonade", "Museum"],
+        expansions: "alchemyempires"
+    },
+	{
+        id: 107,
+        name: "Nightmare Fuel",
+        cards: ["Transmute", "Vineyard", "Alchemist", "Apprentice", "Tracker", "Bard", "Blessed Village", "Cemetary", "Skulk", "Sacred Grove"],
+		extras: ["Potion", "Haunted Mirror", "Pouch", "Boons", "Hexes", "Will-O'-Wisp", "Ghost"],
+        expansions: "alchemynocturne"
+    },
+	{
+        id: 108,
+        name: "Peek-a-Boo",
+        cards: ["Apothecary", "Scrying Pool", "Alchemist", "Golem", "Lackeys", "Cargo Ship", "Improve", "Patron", "Silk Merchant", "Sculptor"],
+		extras: ["Potion"],
+		landscapes: ["Cathedral"],
+        expansions: "alchemyrenaissance"
+    },
+	{
+        id: 109,
+        name: "Class of 20",
+        cards: ["Transmute", "Vineyard", "University", "Smowy Village", "Cavalry", "Coven", "Hunting Lodge", "Kiln", "Livery", "Wayfarer"],
+		extras: ["Horse", "Potion"],
+		landscapes: ["Delay", "Way of the Owl"],
+        expansions: "alchemymenagerie"
+    },
+	{
+        id: 110,
+        name: "Recursion",
+        cards: ["Scrying Pool", "Alchemist", "Golem", "Apprentice", "Importer", "Merchant Camp", "Wizards", "Barbarian", "Galleria", "Modify"],
+		extras: ["Potion"],
+		landscapes: ["Coastal Haven"],
+        expansions: "alchemyallies"
+    },
 ]
