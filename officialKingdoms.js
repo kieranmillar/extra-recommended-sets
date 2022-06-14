@@ -954,4 +954,158 @@ var officialKingdoms = [
 		landscapes: ["League of Bankers"],
         expansions: "prosperityallies"
     },
+	{
+        id: 134,
+        name: "Introduction",
+        cards: ["Crossroads", "Develop", "Oasis", "Jack of all Trades", "Nomad Camp", "Spice Merchant", "Cache", "Haggler", "Margrave", "Stables"],
+        expansions: "hinterlands"
+    },
+	{
+        id: 135,
+        name: "Fair Trades",
+        cards: ["Duchess", "Develop", "Noble Brigand", "Silk Road", "Trader", "Cartographer", "Ill-Gotten Gains", "Stables", "Border Village", "Farmland"],
+        expansions: "hinterlands"
+    },
+	{
+        id: 136,
+        name: "Bargains",
+        cards: ["Duchess", "Fool's Gold", "Scheme", "Nomad Camp", "Spice Merchant", "Trader", "Cache", "Haggler", "Highway", "Border Village"],
+        expansions: "hinterlands"
+    },
+	{
+        id: 137,
+        name: "Gambits",
+        cards: ["Crossroads", "Oasis", "Oracle", "Tunnel", "Jack of all Trades", "Nomad Camp", "Cartographer", "Embassy", "Inn", "Mandarin"],
+        expansions: "hinterlands"
+    },
+	{
+        id: 138,
+        name: "Far From Home",
+        cards: ["Fool's Gold", "Develop", "Cartographer", "Embassy", "Haggler", "Beggar", "Feodum", "Marauder", "Wandering Minstrel", "Count"],
+		extras: ["Ruins", "Shelters", "Spoils"],
+        expansions: "hinterlandsdarkages"
+    },
+	{
+        id: 139,
+        name: "Expeditions",
+        cards: ["Crossroads", "Tunnel", "Spice Merchant", "Highway", "Farmland", "Poor House", "Storeroom", "Ironmonger", "Catacombs", "Altar"],
+		extras: ["Shelters"],
+        expansions: "hinterlandsdarkages"
+    },
+	{
+        id: 140,
+        name: "Blue Harvest",
+        cards: ["Fool's Gold", "Tunnel", "Noble Brigand", "Trader", "Mandarin", "Hamlet", "Horse Traders", "Tournament", "Horn of Plenty", "Jester"],
+		extras: ["Prizes"],
+        expansions: "hinterlandscornguilds"
+    },
+	{
+        id: 141,
+        name: "Traveling Circus",
+        cards: ["Fool's Gold", "Oasis", "Nomad Camp", "Embassy", "Border Village", "Menagerie", "Farming Village", "Hunting Party", "Jester", "Fairgrounds"],
+        expansions: "hinterlandscornguilds"
+    },
+	{
+        id: 142,
+        name: "Exchanges",
+        cards: ["Develop", "Trader", "Ill-Gotten Gains", "Stables", "Border Village", "Stonemason", "Masterpiece", "Herald", "Butcher", "Soothsayer"],
+        expansions: "hinterlandscornguilds"
+    },
+	{
+        id: 143,
+        name: "Road to Riches",
+        cards: ["Crossroads", "Tunnel", "Spice Merchant", "Highway", "Farmland", "Candlestick Maker", "Advisor", "Baker", "Journeyman", "Merchant Guild"],
+        expansions: "hinterlandscornguilds"
+    },
+	{
+        id: 144,
+        name: "Traders and Raiders",
+        cards: ["Develop", "Spice Merchant", "Trader", "Haggler", "Farmland", "Page", "Port", "Haunted Woods", "Lost City", "Wine Merchant"],
+		extras: ["Treasure Hunter", "Warrior", "Hero", "Champion"],
+		landscapes: ["Raid"],
+        expansions: "hinterlandsadventures"
+    },
+	{
+        id: 145,
+        name: "Journeys",
+        cards: ["Crossroads", "Silk Road", "Cartographer", "Highway", "Inn", "Guide", "Ranger", "Bridge Troll", "Distant Lands", "Giant"],
+		landscapes: ["Expedition", "Inheritance"],
+        expansions: "hinterlandsadventures"
+    },
+	{
+        id: 146,
+        name: "Simple Plans",
+        cards: ["Develop", "Haggler", "Ill-Gotten Gains", "Stables", "Border Village", "Patrician / Emporium", "Catapult / Rocks", "Temple", "Villa", "Forum"],
+		landscapes: ["Donate", "Labyrinth"],
+        expansions: "hinterlandsempires"
+    },
+	{
+        id: 147,
+        name: "Expansion",
+        cards: ["Tunnel", "Spice Merchant", "Cache", "Highway", "Farmland", "Engineer", "Encampment / Plunder", "Castles", "Charm", "Legionary"],
+		landscapes: ["Battlefield", "Fountain"],
+        expansions: "hinterlandsempires"
+    },
+	{
+        id: 148,
+        name: "Search Party",
+        cards: ["Oasis", "Scheme", "Cartographer", "Highway", "Inn", "Druid", "Faithful Hound", "Conclave", "Cobbler", "Werewolf"],
+		extras: ["Boons", "Hexes", "Will-O'-Wisp"],
+		notes: "Druid boons are The Mountain's Gift, The Sky's Gift and The Sun's Gift.",
+        expansions: "hinterlandsnocturne"
+    },
+	{
+        id: 149,
+        name: "Counting Sheep",
+        cards: ["Crossroads", "Tunnel", "Noble Brigand", "Haggler", "Farmland", "Leprechaun", "Bard", "Shepherd", "Crypt", "Pooka"],
+		extras: ["Cursed Gold", "Pasture", "Boons", "Hexes", "Will-O'-Wisp"],
+        expansions: "hinterlandsnocturne"
+    },
+	{
+        id: 150,
+        name: "Sweetened Deals",
+        cards: ["Develop", "Spice Merchant", "Cartographer", "Haggler", "Farmland", "Lackeys", "Flag Bearer", "Mountain Village", "Silk Merchant", "Spices"],
+		extras: ["Flag"],
+		landscapes: ["Silos"],
+        expansions: "hinterlandsnocturne"
+    },
+	{
+        id: 151,
+        name: "A Penny Saved",
+        cards: ["Crossroads", "Oasis", "Noble Brigand", "Trader", "Cache", "Ducat", "Patron", "Scepter", "Seer", "Swashbuckler"],
+		extras: ["Treasure Chest"],
+		landscapes: ["Barracks", "Guildhall"],
+        expansions: "hinterlandsnocturne"
+    },
+	{
+        id: 152,
+        name: "Big Blue",
+        cards: ["Fool's Gold", "Tunnel", "Trader", "Cartographer", "Margrave", "Black Cat", "Sleigh", "Sheepdog", "Village Green", "Falconer"],
+		extras: ["Horse"],
+		landscapes: ["Banish", "Way of the Turtle"],
+        expansions: "hinterlandsmenagerie"
+    },
+	{
+        id: 153,
+        name: "Intersection",
+        cards: ["Develop", "Nomad Camp", "Haggler", "Stables", "Farmland", "Supplies", "Cardinal", "Hostelry", "Livery", "Mastermind"],
+		extras: ["Horse"],
+		landscapes: ["Gamble", "Way of the Mouse"],
+		notes: "Way of the Mouse uses Crossroads",
+        expansions: "hinterlandsmenagerie"
+    },
+	{
+        id: 154,
+        name: "Longest Tunnel",
+        cards: ["Tunnel", "Jack of all Trades", "Haggler", "Margrave", "Farmland", "Bauble", "Carpenter", "Innkeeper", "Capital City", "Contract"],
+		landscapes: ["Fellowship of Scribes"],
+        expansions: "hinterlandsallies"
+    },
+	{
+        id: 155,
+        name: "Expertise",
+        cards: ["Crossroads", "Spice Merchant", "Highway", "Inn", "Border Village", "Townsfolk", "Underling", "Barbarian", "Highwayman", "Specialist"],
+		landscapes: ["Order of Masons"],
+        expansions: "hinterlandsallies"
+    },
 ]
