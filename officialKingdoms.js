@@ -245,16 +245,16 @@ var officialKingdoms = [
         id: 35,
         name: "Pony Express",
         cards: ["Cellar", "Village", "Market", "Mine", "Artisan", "Supplies", "Stockpile", "Barge", "Paddock", "Destrier"],
-		landscapes: ["Stampede", "Way of the Seal"],
 		extras: ["Horse"],
+		landscapes: ["Stampede", "Way of the Seal"],
         expansions: "basemenagerie"
     },
 	{
         id: 36,
         name: "Garden of Cats",
         cards: ["Moat", "Harbinger", "Merchant", "Gardens", "Bandit", "Black Cat", "Scrap", "Snowy Village", "Displace", "Sanctuary"],
-		landscapes: ["Toil", "Way of the Mole"],
 		extras: ["Horse"],
+		landscapes: ["Toil", "Way of the Mole"],
         expansions: "basemenagerie"
     },
 	{
@@ -470,16 +470,16 @@ var officialKingdoms = [
         id: 67,
         name: "Dog & Pony Show",
         cards: ["Pawn", "Mill", "Torturer", "Upgrade", "Nobles", "Camel Train", "Goatherd", "Sheepdog", "Cavalry", "Paddock"],
-		landscapes: ["Commerce", "Way of the Horse"],
 		extras: ["Horse"],
+		landscapes: ["Commerce", "Way of the Horse"],
         expansions: "intriguemenagerie"
     },
 	{
         id: 68,
         name: "Explosions",
         cards: ["Courtyard", "Lurker", "Wishing Well", "Diplomat", "Replace", "Scrap", "Bounty Hunter", "Coven", "Hunting Lodge", "Animal Fair"],
-		landscapes: ["Populate", "Way of the Squirrel"],
 		extras: ["Horse"],
+		landscapes: ["Populate", "Way of the Squirrel"],
         expansions: "intriguemenagerie"
     },
 	{
@@ -495,5 +495,164 @@ var officialKingdoms = [
         cards: ["Pawn", "Baron", "Conspirator", "Patrol", "Replace", "Merchant Camp", "Underling", "Wizards", "Innkeeper", "Swap"],
 		landscapes: ["Plateau Shepherds"],
         expansions: "intrigueallies"
+    },
+	{
+        id: 71,
+        name: "High Seas",
+        cards: ["Haven", "Lookout", "Warehouse", "Blockade", "Caravan", "Island", "Bazaar", "Corsair", "Pirate", "Wharf"],
+        expansions: "seaside"
+    },
+	{
+        id: 72,
+        name: "Buried Treasure",
+        cards: ["Lighthouse", "Astrolabe", "Fishing Village", "Monkey", "Sea Chart", "Cutpurse", "Sailor", "Treasure Map", "Outpost", "Tactician"],
+        expansions: "seaside"
+    },
+	{
+        id: 73,
+        name: "Gummed Up",
+        cards: ["Haven", "Sea Chart", "Warehouse", "Sailor", "Sea Witch", "Vineyard", "Herbalist", "Familiar", "Philosopher's Stone", "Apprentice"],
+		extras: ["Potion"],
+        expansions: "seasidealchemy"
+    },
+	{
+        id: 74,
+        name: "Exploding Kingdom",
+        cards: ["Fishing Village", "Lookout", "Outpost", "Tactician", "Wharf", "Bishop", "Quarry", "City", "Grand Market", "King's Court"],
+		extras: ["Colony", "Platinum"],
+        expansions: "seasideprosperity"
+    },
+	{
+        id: 75,
+        name: "Pirate Bay",
+        cards: ["Native Village", "Astrolabe", "Monkey", "Corsair", "Treasury", "Investment", "Charlatan", "Magnate", "Mint", "Hoard"],
+		extras: ["Colony", "Platinum"],
+        expansions: "seasideprosperity"
+    },
+	{
+        id: 76,
+        name: "Travelers",
+        cards: ["Lookout", "Warehouse", "Cutpurse", "Island", "Merchant Ship", "Crossroads", "Cartographer", "Souk", "Stables", "Farmland"],
+        expansions: "seasidehinterlands"
+    },
+	{
+        id: 77,
+        name: "Runners",
+        cards: ["Smugglers", "Blockade", "Caravan", "Sailor", "Bazaar", "Guard Dog", "Nomads", "Berserker", "Cauldron", "Wheelwright"],
+        expansions: "seasidehinterlands"
+    },
+	{
+        id: 78,
+        name: "Watery Graves",
+        cards: ["Native Village", "Salvager", "Treasure Map", "Corsair", "Treasury", "Hermit", "Rats", "Scavenger", "Count", "Graverobber"],
+		extras: ["Madman", "Shelters"],
+        expansions: "seasidedarkages"
+    },
+	{
+        id: 79,
+        name: "Peasants",
+        cards: ["Haven", "Lighthouse", "Fishing Village", "Warehouse", "Island", "Poor House", "Vagrant", "Forager", "Armory", "Band of Misfits"],
+		extras: ["Shelters"],
+        expansions: "seasidedarkages"
+    },
+	{
+        id: 80,
+        name: "Collector",
+        cards: ["Fishing Village", "Smugglers", "Blockade", "Tide Pools", "Merchant Ship", "Fortune Teller", "Farming Village", "Harvest", "Hunting Party", "Fairgrounds"],
+        expansions: "seasidecornguilds"
+    },
+	{
+        id: 81,
+        name: "Island Builder",
+        cards: ["Native Village", "Sea Chart", "Island", "Salvager", "Treasury", "Stonemason", "Advisor", "Plaza", "Baker", "Merchant Guild"],
+        expansions: "seasidecornguilds"
+    },
+	{
+        id: 82,
+        name: "Prince of Orange",
+        cards: ["Astrolabe", "Fishing Village", "Caravan", "Sailor", "Merchant Ship", "Page", "Amulet", "Dungeon", "Haunted Woods", "Swamp Hag"],
+		extras: ["Treasure Hunter", "Warrior", "Hero", "Champion"],
+		landscapes: ["Mission"],
+        expansions: "seasideadventures"
+    },
+	{
+        id: 83,
+        name: "Gifts and Mathoms",
+        cards: ["Haven", "Smugglers", "Blockade", "Sailor", "Salvager", "Caravan Guard", "Messenger", "Bridge Troll", "Lost City", "Hireling"],
+		landscapes: ["Expedition", "Quest"],
+        expansions: "seasideadventures"
+    },
+	{
+        id: 84,
+        name: "Boxed In",
+        cards: ["Smugglers", "Warehouse", "Salvager", "Tactician", "Wharf", "Encampment / Plunder", "Castles", "Chariot Race", "Enchantress", "Gladiator / Fortune"],
+		landscapes: ["Tax", "Wall"],
+        expansions: "seasideempires"
+    },
+	{
+        id: 85,
+        name: "King of the Sea",
+        cards: ["Haven", "Native Village", "Corsair", "Pirate", "Sea Witch", "Overlord", "Farmer's Market", "Temple", "Archive", "Wild Hunt"],
+		landscapes: ["Delve", "Fountain"],
+        expansions: "seasideempires"
+    },
+	{
+        id: 86,
+        name: "The New Black",
+        cards: ["Caravan", "Sailor", "Corsair", "Merchant Ship", "Tactician", "Ghost Town", "Secret Cave", "Cobbler", "Den of Sin", "Raider"],
+		extras: ["Magic Lamp", "Wish"],
+        expansions: "seasidenocturne"
+    },
+	{
+        id: 87,
+        name: "Forbidden Isle",
+        cards: ["Monkey", "Salvager", "Tide Pools", "Bazaar", "Pirate", "Tracker", "Blessed Village", "Cemetary", "Idol", "Tragic Hero"],
+		extras: ["Haunted Mirror", "Pouch", "Boons", "Will-O'-Wisp", "Ghost"],
+        expansions: "seasidenocturne"
+    },
+	{
+        id: 88,
+        name: "Free Shipping",
+        cards: ["Smugglers", "Blockade", "Island", "Outpost", "Wharf", "Lackeys", "Acting Troupe", "Cargo Ship", "Research", "Spices"],
+		landscapes: ["Innovation"],
+        expansions: "seasiderenaissance"
+    },
+	{
+        id: 89,
+        name: "Digging For Treasure",
+        cards: ["Native Village", "Astrolabe", "Caravan", "Salvager", "Treasure Map", "Border Guard", "Flag Bearer", "Inventor", "Sculptor", "Swashbuckler"],
+		extras: ["Flag", "Horn", "Lantern", "Treasure Chest"],
+		landscapes: ["Crop Rotation", "Silos"],
+        expansions: "seasiderenaissance"
+    },
+	{
+        id: 90,
+        name: "Innsmouth",
+        cards: ["Lighthouse", "Fishing Village", "Caravan", "Tide Pools", "Pirate", "Sheepdog", "Groom", "Coven", "Barge", "Animal Fair"],
+		extras: ["Horse"],
+		landscapes: ["Invest", "Way of the Goat"],
+        expansions: "seasidemenagerie"
+    },
+	{
+        id: 91,
+        name: "Ruritania",
+        cards: ["Astrolabe", "Warehouse", "Tide Pools", "Outpost", "Tactician", "Sleigh", "Bounty Hunter", "Cavalry", "Village Green", "Falconer"],
+		extras: ["Horse"],
+		landscapes: ["Alliance", "Way of the Monkey"],
+        expansions: "seasidemenagerie"
+    },
+	{
+        id: 92,
+        name: "Forward Thinking",
+        cards: ["Native Village", "Warehouse", "Cutpurse", "Sea Witch", "Tactician", "Odysseys", "Sentinel", "Royal Galley", "Guildmaster", "Highwayman"],
+		landscapes: ["Cave Dwellers"],
+        expansions: "seasideallies"
+    },
+	{
+        id: 93,
+        name: "Treasure Hunt",
+        cards: ["Haven", "Lookout", "Treasure Map", "Outpost", "Treasury", "Forts", "Town", "Emissary", "Swap", "Marquis"],
+		landscapes: ["Market Towns"],
+        expansions: "seasideallies"
     }
 ]
