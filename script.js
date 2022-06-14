@@ -77,7 +77,7 @@ function goToLocation(loc) {
 			checkboxElements[11].disabled = false;
 			checkboxElements[12].disabled = false;
 			checkboxElements[13].disabled = false;
-			kingdomsTitleElement.textContent = "Offcial Recommended Sets";
+			kingdomsTitleElement.textContent = "Official Recommended Sets";
 			clearSets();
 			break;
 		case "faq":
