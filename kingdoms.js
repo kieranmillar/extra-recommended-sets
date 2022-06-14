@@ -1303,5 +1303,65 @@ var kingdoms = [
         cards: ["Shanty Town", "Baron", "Conspirator", "Secret Passage", "Duke", "Royal Blacksmith", "Encampment / Plunder", "Enchantress", "Gladiator / Fortune", "Archive"],
         landscapes: ["Labyrinth", "Orchard"],
         expansions: "intrigueempires"
+    },
+    {
+        id: 190,
+        name: "Remote Territory",
+        cards: ["Baron", "Secret Passage", "Courtier", "Trading Post", "Harem", "Native Village", "Monkey", "Smugglers", "Corsair", "Treasury"],
+        expansions: "intrigueseaside"
+    },
+    {
+        id: 191,
+        name: "",
+        cards: [],
+        expansions: "intrigueseaside"
+    },
+    {
+        id: 192,
+        name: "",
+        cards: [],
+        expansions: "intrigueseaside"
+    },
+    {
+        id: 193,
+        name: "",
+        cards: [],
+        expansions: "intrigueseaside"
+    },
+    {
+        id: 194,
+        name: "",
+        cards: [],
+        expansions: "intrigueseaside"
+    },
+    {
+        id: 195,
+        name: "",
+        cards: [],
+        expansions: "intrigueseaside"
+    },
+    {
+        id: 196,
+        name: "",
+        cards: [],
+        expansions: "intrigueseaside"
+    },
+    {
+        id: 197,
+        name: "",
+        cards: [],
+        expansions: "intrigueseaside"
+    },
+    {
+        id: 198,
+        name: "",
+        cards: [],
+        expansions: "intrigueseaside"
+    },
+    {
+        id: 199,
+        name: "",
+        cards: [],
+        expansions: "intrigueseaside"
     }
 ];
