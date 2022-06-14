@@ -1318,8 +1318,8 @@ var kingdoms = [
     },
     {
         id: 192,
-        name: "",
-        cards: [],
+        name: "The Navigator",
+        cards: ["Bridge", "Ironworks", "Mining Village", "Duke", "Patrol", "Fishing Village", "Sea Chart", "Island", "Sailor", "Pirate"],
         expansions: "intrigueseaside"
     },
     {
