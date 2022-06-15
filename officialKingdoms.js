@@ -1563,7 +1563,7 @@ var officialKingdoms = [
 		id: 217,
 		name: "True Believers",
         cards: ["Faithful Hound", "Secret Cave", "Blessed Village", "Crypt", "Sacred Grove", "Border Guard", "Cargo Ship", "Scholar", "Sculptor", "Villain"],
-		extras: ["Magic Lamp", "Boons", "Will-O'-Wisp", "Wish"],
+		extras: ["Horn", "Lantern", "Magic Lamp", "Boons", "Will-O'-Wisp", "Wish"],
 		landscapes: ["Cathedral", "Piazza"],
         expansions: "nocturnerenaissance"
 	},
@@ -1599,4 +1599,96 @@ var officialKingdoms = [
 		landscapes: ["Woodworker's Guild"],
         expansions: "nocturneallies"
 	},
+	{
+		id: 222,
+		name: "Overture",
+        cards: ["Lackeys", "Acting Troupe", "Experiment", "Improve", "Flag Bearer", "Hideout", "Inventor", "Old Witch", "Seer", "Treasurer"],
+		extras: ["Flag", "Key"],
+		landscapes: ["Fair"],
+        expansions: "renaissance"
+	},
+	{
+		id: 223,
+		name: "Prelude",
+        cards: ["Border Guard", "Ducat", "Cargo Ship", "Mountain Village", "Priest", "Silk Merchant", "Recruiter", "Sculptor", "Swashbuckler", "Villain"],
+		extras: ["Horn", "Lantern", "Treasure Chest"],
+		landscapes: ["Citadel", "Star Chart"],
+        expansions: "renaissance"
+	},
+	{
+		id: 224,
+		name: "Biding Time",
+        cards: ["Ducat", "Priest", "Recruiter", "Scepter", "Swashbuckler", "Goatherd", "Cavalry", "Coven", "Displace", "Fisherman"],
+		extras: ["Horse", "Treasure Chest"],
+		landscapes: ["Sinister Plot", "Way of the Turtle"],
+        expansions: "renaissancemenagerie"
+	},
+	{
+		id: 225,
+		name: "Villager Madness",
+        cards: ["Border Guard", "Flag Bearer", "Patron", "Silk Merchant", "Spices", "Cardinal", "Groom", "Kiln", "Livery", "Wayfarer"],
+		extras: ["Horse", "Flag", "Horn", "Lantern"],
+		landscapes: ["Academy", "Demand"],
+        expansions: "renaissancemenagerie"
+	},
+	{
+		id: 226,
+		name: "Production Line",
+        cards: ["Experiment", "Mountain Village", "Patron", "Spices", "Treasurer", "Townsfolk", "Importer", "Wizards", "Courier", "Modify"],
+		extras: ["Key"],
+		landscapes: ["Exploration", "Band of Nomads"],
+        expansions: "renaissanceallies"
+	},
+	{
+		id: 227,
+		name: "Age of Scribes",
+        cards: ["Acting Troupe", "Inventor", "Research", "Old Witch", "Villain", "Odysseys", "Underling", "Capital City", "Galleria", "Specialist"],
+		landscapes: ["Sinister Plot", "Fellowship of Scribes"],
+        expansions: "renaissanceallies"
+	},
+	{
+		id: 228,
+		name: "Intro to Horses",
+        cards: ["Supplies", "Goatherd", "Scrap", "Sheepdog", "Hostelry", "Barge", "Livery", "Paddock", "Destrier", "Animal Fair"],
+		extras: ["Horse"],
+		landscapes: ["Enhance", "Way of the Sheep"],
+        expansions: "menagerie"
+	},
+	{
+		id: 229,
+		name: "Intro to Exile",
+        cards: ["Black Cat", "Camel Train", "Snowy Village", "Stockpile", "Bounty Hunter", "Cardinal", "Falconer", "Mastermind", "Sanctuary", "Wayfarer"],
+		landscapes: ["March", "Way of the Worm"],
+        expansions: "menagerie"
+	},
+	{
+		id: 230,
+		name: "Wise Owls",
+        cards: ["Black Cat", "Bounty Hunter", "Hostelry", "Hunting Lodge", "Animal Fair", "Merchant Camp", "Wizards", "Town", "Barbarian", "Marquis"],
+		extras: ["Horse"],
+		landscapes: ["Way of the Owl", "Fellowship of Scribes"],
+        expansions: "menagerieallies"
+	},
+	{
+		id: 231,
+		name: "Mountain Kings",
+        cards: ["Supplies", "Scrap", "Snowy Village", "Barge", "Coven", "Forts", "Broker", "Courier", "Guildmaster", "Skirmisher"],
+		extras: ["Horse"],
+		landscapes: ["Toil", "Mountain Folk"],
+        expansions: "menagerieallies"
+	},
+	{
+		id: 232,
+		name: "Decisions Decisions",
+        cards: ["Bauble", "Townsfolk", "Merchant Camp", "Courier", "Innkeeper", "Royal Galley", "Highwayman", "Hunter", "Modify", "Marquis"],
+		landscapes: ["City-State"],
+        expansions: "allies"
+	},
+	{
+		id: 233,
+		name: "Foresight",
+        cards: ["Augurs", "Sentinel", "Underling", "Carpenter", "Town", "Barbarian", "Emissary", "Galleria", "Skirmisher", "Specialist"],
+		landscapes: ["Order of Astrologers"],
+        expansions: "allies"
+	}
 ]
