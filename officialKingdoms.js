@@ -1252,4 +1252,122 @@ var officialKingdoms = [
 		landscapes: ["Desert Guides"],
         expansions: "darkagesallies"
 	},
+	{
+		id: 176,
+        name: "Misfortune",
+        cards: ["Candlestick Maker", "Doctor", "Fortune Teller", "Advisor", "Farming Village", "Horse Traders", "Taxman", "Jester", "Soothsayer", "Fairgrounds"],
+        expansions: "cornguilds"
+	},
+	{
+		id: 177,
+        name: "Baking Contest",
+        cards: ["Stonemason", "Masterpiece", "Menagerie", "Farming Village", "Herald", "Remake", "Tournament", "Baker", "Harvest", "Journeyman"],
+		extras: ["Prizes"],
+        expansions: "cornguilds"
+	},
+	{
+		id: 178,
+        name: "The Hero's Return",
+        cards: ["Menagerie", "Farming Village", "Horse Traders", "Jester", "Fairgrounds", "Page", "Miser", "Ranger", "Artificer", "Relic"],
+		extras: ["Treasure Hunter", "Warrior", "Hero", "Champion"],
+		landscapes: ["Travelling Fair"],
+        expansions: "cornguildsadventures"
+	},
+	{
+		id: 179,
+        name: "Seacraft and Witchcraft",
+        cards: ["Hamlet", "Fortune Teller", "Tournament", "Young Witch", "Horn of Plenty", "Peasant", "Guide", "Transmogrify", "Storyteller", "Swamp Hag", "Wine Merchant"],
+		extras: ["Prizes", "Soldier", "Fugitive", "Disciple", "Teacher"],
+		landscapes: ["Ferry", "Seaway"],
+		notes: "Guide is the Bane",
+        expansions: "cornguildsadventures"
+	},
+	{
+		id: 180,
+        name: "Spendthrift",
+        cards: ["Stonemason", "Doctor", "Masterpiece", "Merchant Guild", "Soothsayer", "Gear", "Magpie", "Miser", "Artificer", "Storyteller"],
+		landscapes: ["Lost Arts"],
+        expansions: "cornguildsadventures"
+	},
+	{
+		id: 181,
+        name: "Queen of Tan",
+        cards: ["Candlestick Maker", "Advisor", "Herald", "Butcher", "Journeyman", "Coin of the Realm", "Ratcatcher", "Guide", "Duplicate", "Royal Carriage"],
+		landscapes: ["Pathfinding", "Save"],
+        expansions: "cornguildsadventures"
+	},
+	{
+		id: 182,
+        name: "Zookeepers",
+        cards: ["Menagerie", "Horse Traders", "Tournament", "Jester", "Fairgrounds", "Overlord", "Settlers / Bustling Village", "Sacrifice", "Villa", "Wild Hunt"],
+		extras: ["Prizes"],
+		landscapes: ["Annex", "Colonnade"],
+        expansions: "cornguildsempires"
+	},
+	{
+		id: 183,
+        name: "Cash Flow",
+        cards: ["Doctor", "Herald", "Baker", "Butcher", "Soothsayer", "Engineer", "City Quarter", "Royal Blacksmith", "Castles", "Gladiator / Fortune"],
+		landscapes: ["Baths", "Mountain Pass"],
+        expansions: "cornguildsempires"
+	},
+	{
+		id: 184,
+        name: "The Endless Fair",
+        cards: ["Fortune Teller", "Farming Village", "Baker", "Merchant Guild", "Fairgrounds", "Monastery", "Pixie", "Devil's Workshop", "Exorcist", "Shepherd"],
+		extras: ["Goat", "Pasture", "Boons", "Will-O'-Wisp", "Imp", "Ghost"],
+        expansions: "cornguildsnocturne"
+	},
+	{
+		id: 185,
+        name: "Happy Chaos",
+        cards: ["Doctor", "Masterpiece", "Herald", "Harvest", "Jester", "Faithful Hound", "Changeling", "Fool", "Blessed Village", "Sacred Grove"],
+		extras: ["Lucky Coin", "Boons", "Will-O'-Wisp"],
+        expansions: "cornguildsnocturne"
+	},
+	{
+		id: 186,
+        name: "Combo Corner",
+        cards: ["Stonemason", "Herald", "Horse Traders", "Horn of Plenty", "Jester", "Ducat", "Experiment", "Hideout", "Sculptor", "Seer"],
+		landscapes: ["Canal"],
+        expansions: "cornguildsrenaissance"
+	},
+	{
+		id: 187,
+        name: "Filling the Coffers",
+        cards: ["Menagerie", "Plaza", "Baker", "Butcher", "Merchant Guild", "Priest", "Recruiter", "Spices", "Swashbuckler", "Treasurer"],
+		extras: ["Key", "Treasure Chest"],
+		landscapes: ["City Gate", "Star Chart"],
+        expansions: "cornguildsrenaissance"
+	},
+	{
+		id: 188,
+        name: "Living in Exile",
+        cards: ["Hamlet", "Taxman", "Jester", "Journeyman", "Fairgrounds", "Scrap", "Stockpile", "Hostelry", "Gatekeeper", "Livery"],
+		extras: ["Horse"],
+		landscapes: ["Enclave", "Way of the Mule"],
+        expansions: "cornguildsmenagerie"
+	},
+	{
+		id: 189,
+        name: "Thrill of the Hunt",
+        cards: ["Menagerie", "Horse Traders", "Tournament", "Butcher", "Hunting Party", "Black Cat", "Camel Train", "Bounty Hunter", "Village Green", "Mastermind"],
+		extras: ["Prizes"],
+		landscapes: ["Pursue", "Way of the Rat"],
+        expansions: "cornguildsmenagerie"
+	},
+	{
+		id: 190,
+        name: "Huge Collections",
+        cards: ["Menagerie", "Advisor", "Plaza", "Hunting Party", "Fairgrounds", "Clashes", "Forts", "Sentinel", "Contract", "Galleria"],
+		landscapes: ["Woodworker's Guild"],
+        expansions: "cornguildsallies"
+	},
+	{
+		id: 191,
+        name: "Forest Scouts",
+        cards: ["Candlestick Maker", "Farming Village", "Baker", "Jester", "Journeyman", "Augurs", "Sentinel", "Innkeeper", "Royal Galley", "Emissary"],
+		landscapes: ["Forest Dwellers"],
+        expansions: "cornguildsallies"
+	},
 ]
