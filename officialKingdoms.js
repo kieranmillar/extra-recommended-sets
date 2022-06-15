@@ -1462,4 +1462,78 @@ var officialKingdoms = [
 		landscapes: ["Seaway", "Market Towns"],
         expansions: "adventuresallies"
 	},
+	{
+		id: 204,
+		name: "Basic Intro",
+        cards: ["Engineer", "City Quarter", "Patrician / Emporium", "Castles", "Chariot Race", "Farmer's Market", "Sacrifice", "Villa", "Forum", "Legionary"],
+		landscapes: ["Tower", "Wedding"],
+        expansions: "empires"
+	},
+	{
+		id: 205,
+		name: "Advanced Intro",
+        cards: ["Royal Blacksmith", "Settlers / Bustling Village", "Catapult / Rocks", "Enchantress", "Gladiator / Fortune", "Temple", "Archive", "Capital", "Crown", "Groundskeeper"],
+		landscapes: ["Arena", "Triumphal Arch"],
+        expansions: "empires"
+	},
+	{
+		id: 206,
+		name: "Luftschloss",
+        cards: ["Engineer", "Castles", "Catapult / Rocks", "Temple", "Archive", "Changeling", "Fool", "Cemetary", "Exorcist", "Shepherd"],
+		extras: ["Haunted Mirror", "Lucky Coin", "Pasture", "Boons", "Will-O'-Wisp", "Imp", "Ghost"],
+		landscapes: ["Tomb"],
+        expansions: "empiresnocturne"
+	},
+	{
+		id: 207,
+		name: "Pooka Pranks",
+        cards: ["Settlers / Bustling Village", "Chariot Race", "Sacrifice", "Forum", "Groundskeeper", "Faithful Hound", "Pixie", "Ghost Town", "Skulk", "Pooka"],
+		extras: ["Cursed Gold", "Goat", "Boons", "Hexes", "Will-O'-Wisp"],
+		landscapes: ["Banquet"],
+        expansions: "empiresnocturne"
+	},
+	{
+		id: 208,
+		name: "Exploring the City",
+        cards: ["City Quarter", "Farmer's Market", "Sacrifice", "Groundskeeper", "Wild Hunt", "Cargo Ship", "Experiment", "Mountain Village", "Priest", "Sculptor"],
+		landscapes: ["Battlefield", "Exploration"],
+        expansions: "empiresrenaissance"
+	},
+	{
+		id: 209,
+		name: "Navigating the Sewers",
+        cards: ["Patrician / Emporium", "Chariot Race", "Enchantress", "Gladiator / Fortune", "Villa", "Acting Troupe", "Improve", "Flag Bearer", "Old Witch", "Scepter"],
+		extras: ["Flag"],
+		landscapes: ["Ritual", "Sewers"],
+        expansions: "empiresrenaissance"
+	},
+	{
+		id: 210,
+		name: "No Money Down",
+        cards: ["Engineer", "City Quarter", "Catapult / Rocks", "Villa", "Crown", "Sleigh", "Stockpile", "Cavalry", "Wayfarer", "Animal Fair"],
+		extras: ["Horse"],
+		landscapes: ["Advance", "Way of the Pig"],
+        expansions: "empiresmenagerie"
+	},
+	{
+		id: 211,
+		name: "Detours and Shortcuts",
+        cards: ["Overlord", "Settlers / Bustling Village", "Enchantress", "Sacrifice", "Wild Hunt", "Camel Train", "Snowy Village", "Fisherman", "Gatekeeper", "Sanctuary"],
+		landscapes: ["Transport", "Triumphal Arch"],
+        expansions: "empiresmenagerie"
+	},
+	{
+		id: 212,
+		name: "Island Empire",
+        cards: ["City Quarter", "Settlers / Bustling Village", "Enchantress", "Farmer's Market", "Wild Hunt", "Sycophant", "Forts", "Contract", "Specialist", "Swap"],
+		landscapes: ["Orchard", "Island Folk"],
+        expansions: "empiresallies"
+	},
+	{
+		id: 213,
+		name: "Castle Wars",
+        cards: ["Patrician / Emporium", "Castles", "Catapult / Rocks", "Charm", "Crown", "Clashes", "Importer", "Carpenter", "Capital City", "Hunter"],
+		landscapes: ["Triumph", "Trappers' Lodge"],
+        expansions: "empiresallies"
+	},
 ]
