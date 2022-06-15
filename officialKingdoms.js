@@ -1370,4 +1370,96 @@ var officialKingdoms = [
 		landscapes: ["Forest Dwellers"],
         expansions: "cornguildsallies"
 	},
+	{
+		id: 192,
+		name: "Gentle Intro",
+        cards: ["Ratcatcher", "Amulet", "Dungeon", "Duplicate", "Port", "Ranger", "Distant Lands", "Giant", "Treasure Trove", "Hireling"],
+		landscapes: ["Scouting Party"],
+        expansions: "adventures"
+	},
+	{
+		id: 193,
+		name: "Expert Intro",
+        cards: ["Coin of the Realm", "Peasant", "Raze", "Caravan Guard", "Magpie", "Transmogrify", "Haunted Woods", "Lost City", "Swamp Hag", "Wine Merchant"],
+		extras: ["Soldier", "Fugitive", "Disciple", "Teacher"],
+		landscapes: ["Mission", "Plan"],
+        expansions: "adventures"
+	},
+	{
+		id: 194,
+		name: "Area Control",
+        cards: ["Coin of the Realm", "Page", "Relic", "Treasure Trove", "Wine Merchant", "Catapult / Rocks", "Farmer's Market", "Capital", "Charm", "Crown"],
+		extras: ["Treasure Hunter", "Warrior", "Hero", "Champion"],
+		landscapes: ["Banquet", "Keep"],
+        expansions: "adventuresempires"
+	},
+	{
+		id: 195,
+		name: "No Money No Problems",
+        cards: ["Peasant", "Dungeon", "Duplicate", "Transmogrify", "Hireling", "Royal Blacksmith", "Encampment / Plunder", "Temple", "Villa", "Archive"],
+		extras: ["Soldier", "Fugitive", "Disciple", "Teacher"],
+		landscapes: ["Bandit Fort", "Mission"],
+        expansions: "adventuresempires"
+	},
+	{
+		id: 196,
+		name: "Monster Mash",
+        cards: ["Ratcatcher", "Messenger", "Bridge Troll", "Giant", "Storyteller", "Guardian", "Pixie", "Conclave", "Vampire", "Werewolf"],
+		extras: ["Goat", "Boons", "Hexes", "Bat", "Will-O'-Wisp"],
+		landscapes: ["Quest"],
+        expansions: "adventuresnocturne"
+	},
+	{
+		id: 197,
+		name: "Lost in the Woods",
+        cards: ["Caravan Guard", "Guide", "Ranger", "Haunted Woods", "Hireling", "Druid", "Tracker", "Fool", "Blessed Village", "Sacred Grove"],
+		extras: ["Lucky Coin", "Pouch", "Boons", "Will-O'-Wisp"],
+		landscapes: ["Pilgrimage"],
+		notes: "Druid boons are The Sky's Gift, The Field's Gift and The Sea's Gift.",
+        expansions: "adventuresnocturne"
+	},
+	{
+		id: 198,
+		name: "Progress",
+        cards: ["Raze", "Ranger", "Transmogrify", "Swamp Hag", "Hireling", "Experiment", "Improve", "Silk Merchant", "Recruiter", "Seer"],
+		landscapes: ["Piazza", "Training"],
+        expansions: "adventuresrenaissance"
+	},
+	{
+		id: 199,
+		name: "Once Upon a Time",
+        cards: ["Duplicate", "Distant Lands", "Haunted Woods", "Royal Carriage", "Storyteller", "Lackeys", "Acting Troupe", "Priest", "Sculptor", "Spices"],
+		landscapes: ["Ferry", "Innovation"],
+        expansions: "adventuresrenaissance"
+	},
+	{
+		id: 200,
+		name: "Horse Feathers",
+        cards: ["Ratcatcher", "Magpie", "Ranger", "Relic", "Royal Carriage", "Sleigh", "Stockpile", "Displace", "Falconer", "Destrier"],
+		extras: ["Horse"],
+		landscapes: ["Pilgrimage", "Way of the Ox"],
+        expansions: "adventuresmenagerie"
+	},
+	{
+		id: 201,
+		name: "Sooner or Later",
+        cards: ["Raze", "Amulet", "Caravan Guard", "Dungeon", "Giant", "Groom", "Village Green", "Barge", "Gatekeeper", "Mastermind"],
+		extras: ["Horse"],
+		landscapes: ["Mission", "Toil"],
+        expansions: "adventuresmenagerie"
+	},
+	{
+		id: 202,
+		name: "Adventures in Pickpocketing",
+        cards: ["Duplicate", "Miser", "Artificer", "Lost City", "Treasure Trove", "Bauble", "Augurs", "Innkeeper", "Modify", "Specialist"],
+		landscapes: ["Mission", "Gang of Pickpockets"],
+        expansions: "adventuresallies"
+	},
+	{
+		id: 203,
+		name: "Future Perfect",
+        cards: ["Caravan Guard", "Gear", "Port", "Transmogrify", "Haunted Woods", "Sycophant", "Forts", "Sentinel", "Skirmisher", "Marquis"],
+		landscapes: ["Seaway", "Market Towns"],
+        expansions: "adventuresallies"
+	},
 ]
