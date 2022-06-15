@@ -1536,4 +1536,67 @@ var officialKingdoms = [
 		landscapes: ["Triumph", "Trappers' Lodge"],
         expansions: "empiresallies"
 	},
+	{
+		id: 214,
+		name: "Dusk",
+        cards: ["Faithful Hound", "Monastery", "Fool", "Night Watchman", "Blessed Village", "Shepherd", "Cobbler", "Den of Sin", "Tormentor", "Tragic Hero"],
+		extras: ["Lucky Coin", "Pasture", "Boons", "Hexes", "Will-O'-Wisp"],
+        expansions: "nocturne"
+	},
+	{
+		id: 215,
+		name: "Midnight",
+        cards: ["Druid", "Leprechaun", "Secret Cave", "Conclave", "Devil's Workshop", "Exorcist", "Crypt", "Cursed Village", "Pooka", "Raider"],
+		extras: ["Cursed Gold", "Magic Lamp", "Boons", "Hexes", "Will-O'-Wisp", "Imp", "Ghost", "Wish"],
+		notes: "Druid boons are The Swamp's Gift, The Flame's Gift and The Wind's Gift.",
+        expansions: "nocturne"
+	},
+	{
+		id: 216,
+		name: "Becoming a Monster",
+        cards: ["Monastery", "Devil's Workshop", "Shepherd", "Skulk", "Tragic Hero", "Experiment", "Mountain Village", "Research", "Old Witch", "Spices"],
+		extras: ["Pasture", "Hexes", "Imp"],
+		landscapes: ["Exploration"],
+        expansions: "nocturnerenaissance"
+	},
+	{
+		id: 217,
+		name: "True Believers",
+        cards: ["Faithful Hound", "Secret Cave", "Blessed Village", "Crypt", "Sacred Grove", "Border Guard", "Cargo Ship", "Scholar", "Sculptor", "Villain"],
+		extras: ["Magic Lamp", "Boons", "Will-O'-Wisp", "Wish"],
+		landscapes: ["Cathedral", "Piazza"],
+        expansions: "nocturnerenaissance"
+	},
+	{
+		id: 218,
+		name: "Seize the Night",
+        cards: ["Monastery", "Devil's Workshop", "Exorcist", "Skulk", "Cobbler", "Supplies", "Sheepdog", "Hostelry", "Barge", "Falconer"],
+		extras: ["Horse", "Hexes", "Will-O'-Wisp", "Imp", "Ghost"],
+		landscapes: ["Seize the Day", "Way of the Sheep"],
+        expansions: "nocturnemenagerie"
+	},
+	{
+		id: 219,
+		name: "Animal Crackers",
+        cards: ["Faithful Hound", "Pixie", "Shepherd", "Pooka", "Sacred Grove", "Black Cat", "Goatherd", "Groom", "Hunting Lodge", "Kiln"],
+		extras: ["Horse", "Cursed Gold", "Goat", "Pasture", "Boons", "Will-O'-Wisp"],
+		landscapes: ["Enhance", "Way of the Chameleon"],
+        expansions: "nocturnemenagerie"
+	},
+	{
+		id: 220,
+		name: "Love and Death",
+        cards: ["Faithful Hound", "Conclave", "Necromancer", "Den of Sin", "Idol", "Bauble", "Sycophant", "Augurs", "Carpenter", "Hunter"],
+		extras: ["Boons", "Will-O'-Wisp", "Zombie Apprentice", "Zombie Mason", "Zombie Spy"],
+		landscapes: ["Peaceful Cult"],
+        expansions: "nocturneallies"
+	},
+	{
+		id: 221,
+		name: "Play it Again Sam",
+        cards: ["Tracker", "Leprechaun", "Blessed Village", "Skulk", "Tormentor", "Wizards", "Courier", "Royal Galley", "Hunter", "Swap"],
+		extras: ["Pouch", "Boons", "Hexes", "Will-O'-Wisp", "Wish"],
+		landscapes: ["Woodworker's Guild"],
+        expansions: "nocturneallies"
+	},
 ]
