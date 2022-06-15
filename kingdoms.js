@@ -1324,8 +1324,8 @@ var kingdoms = [
     },
     {
         id: 193,
-        name: "",
-        cards: [],
+        name: "Treading Water",
+        cards: ["Pawn", "Masquerade", "Shanty Town", "Mill", "Minion", "Lighthouse", "Blockade", "Salvager", "Tide Pools", "Sea Witch"],
         expansions: "intrigueseaside"
     },
     {
