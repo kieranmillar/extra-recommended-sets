@@ -1324,14 +1324,14 @@ var kingdoms = [
     },
     {
         id: 193,
-        name: "Treading Water",
+        name: "Keeping Above Water",
         cards: ["Pawn", "Masquerade", "Shanty Town", "Mill", "Minion", "Lighthouse", "Blockade", "Salvager", "Tide Pools", "Sea Witch"],
         expansions: "intrigueseaside"
     },
     {
         id: 194,
-        name: "",
-        cards: [],
+        name: "Undercover",
+        cards: ["Lurker", "Steward", "Baron", "Conspirator", "Replace", "Haven", "Bazaar", "Merchant Ship", "Outpost", "Tactician"],
         expansions: "intrigueseaside"
     },
     {
