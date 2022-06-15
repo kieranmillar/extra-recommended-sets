@@ -1336,8 +1336,8 @@ var kingdoms = [
     },
     {
         id: 195,
-        name: "",
-        cards: [],
+        name: "Officer's Mess",
+        cards: ["Pawn", "Swindler", "Wishing Well", "Diplomat", "Duke", "Blockade", "Island", "Sailor", "Treasure Map", "Treasury"],
         expansions: "intrigueseaside"
     },
     {
