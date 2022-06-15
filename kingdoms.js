@@ -1342,14 +1342,14 @@ var kingdoms = [
     },
     {
         id: 196,
-        name: "",
-        cards: [],
+        name: "Sea Monsters",
+        cards: ["Mining Village", "Secret Passage", "Replace", "Torturer", "Nobles", "SmugglerS", "Warehouse", "Caravan", "Corsair", "Wharf"],
         expansions: "intrigueseaside"
     },
     {
         id: 197,
-        name: "",
-        cards: [],
+        name: "Submarine",
+        cards: ["Wishing Well", "Diplomat", "Ironworks", "Upgrade", "Harem", "Astrolabe", "Tide Pools", "Merchant Ship", "Outpost", "Pirate"],
         expansions: "intrigueseaside"
     },
     {
@@ -1363,5 +1363,65 @@ var kingdoms = [
         name: "",
         cards: [],
         expansions: "intrigueseaside"
+    },
+    {
+        id: 200,
+        name: "",
+        cards: [],
+        expansions: "seasideempires"
+    },
+    {
+        id: 201,
+        name: "",
+        cards: [],
+        expansions: "seasideempires"
+    },
+    {
+        id: 202,
+        name: "",
+        cards: [],
+        expansions: "seasideempires"
+    },
+    {
+        id: 203,
+        name: "",
+        cards: [],
+        expansions: "seasideempires"
+    },
+    {
+        id: 204,
+        name: "",
+        cards: [],
+        expansions: "seasideempires"
+    },
+    {
+        id: 205,
+        name: "",
+        cards: [],
+        expansions: "seasideempires"
+    },
+    {
+        id: 206,
+        name: "",
+        cards: [],
+        expansions: "seasideempires"
+    },
+    {
+        id: 207,
+        name: "",
+        cards: [],
+        expansions: "seasideempires"
+    },
+    {
+        id: 208,
+        name: "",
+        cards: [],
+        expansions: "seasideempires"
+    },
+    {
+        id: 209,
+        name: "",
+        cards: [],
+        expansions: "seasideempires"
     }
 ];
