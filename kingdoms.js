@@ -14,6 +14,7 @@ var reviewed = [
     "baseintrigue",
     "seaside",
     "baseseaside",
+    "intrigueseaside",
     "empires",
     "baseempires",
     "intrigueempires"
@@ -1354,14 +1355,14 @@ var kingdoms = [
     },
     {
         id: 198,
-        name: "",
-        cards: [],
+        name: "Banished",
+        cards: ["Wishing Well", "Mill", "Courtier", "Duke", "Patrol", "Haven", "Native Village", "Blockade", "Island", "Sea Witch"],
         expansions: "intrigueseaside"
     },
     {
         id: 199,
-        name: "",
-        cards: [],
+        name: "Sea Shanty",
+        cards: ["Shanty Town", "Bridge", "Minion", "Trading Post", "Nobles", "Haven", "Monkey", "Cutpurse", "Treasure Map", "Wharf"],
         expansions: "intrigueseaside"
     },
     {
