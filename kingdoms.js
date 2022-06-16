@@ -1344,7 +1344,7 @@ var kingdoms = [
     {
         id: 196,
         name: "Sea Monsters",
-        cards: ["Mining Village", "Secret Passage", "Replace", "Torturer", "Nobles", "SmugglerS", "Warehouse", "Caravan", "Corsair", "Wharf"],
+        cards: ["Mining Village", "Secret Passage", "Replace", "Torturer", "Nobles", "Smugglers", "Warehouse", "Caravan", "Corsair", "Wharf"],
         expansions: "intrigueseaside"
     },
     {
