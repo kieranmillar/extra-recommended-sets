@@ -1388,9 +1388,9 @@ var kingdoms = [
     },
     {
         id: 203,
-        name: "",
-        cards: [],
-        landscapes: [],
+        name: "Take the Risk",
+        cards: ["Fishing Village", "Lookout", "Warehouse", "Tide Pools", "Corsair", "Settlers / Bustling Village", "Chariot Race", "Gladiator / Fortune", "Archive", "Legionary"],
+        landscapes: ["Dominate", "Museum"],
         expansions: "seasideempires"
     },
     {
