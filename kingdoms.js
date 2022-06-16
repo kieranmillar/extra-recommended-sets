@@ -1381,9 +1381,9 @@ var kingdoms = [
     },
     {
         id: 202,
-        name: "",
-        cards: [],
-        landscapes: [],
+        name: "Royal Heist",
+        cards: ["Haven", "Cutpurse", "Bazaar", "Pirate", "Sea Witch", "Royal Blacksmith", "Farmers' Market", "Sacrifice", "Charm", "Crown"],
+        landscapes: ["Aqueduct", "Tower"],
         expansions: "seasideempires"
     },
     {
