@@ -1367,8 +1367,9 @@ var kingdoms = [
     },
     {
         id: 200,
-        name: "",
-        cards: [],
+        name: "Capital Gains",
+        cards: ["Lookout", "Monkey", "Sea Chart", "Smugglers", "Treasure Map", "Engineer", "Encampment / Plunder", "Villa", "Capital", "Wild Hunt"],
+        lanscapes: ["Palace", "Triumph"],
         expansions: "seasideempires"
     },
     {
