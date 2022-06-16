@@ -1369,61 +1369,70 @@ var kingdoms = [
         id: 200,
         name: "Capital Gains",
         cards: ["Lookout", "Monkey", "Sea Chart", "Smugglers", "Treasure Map", "Engineer", "Encampment / Plunder", "Villa", "Capital", "Wild Hunt"],
-        lanscapes: ["Palace", "Triumph"],
+        landscapes: ["Palace", "Triumph"],
         expansions: "seasideempires"
     },
     {
         id: 201,
-        name: "",
-        cards: [],
+        name: "From Humble Beginnings",
+        cards: ["Native Village", "Astrolabe", "Blockade", "Island", "Wharf", "City Quarter", "Patrician / Emporium", "Catapult / Rocks", "Enchantress", "Groundskeeper"],
+        landscapes: ["Advance", "Battlefield"],
         expansions: "seasideempires"
     },
     {
         id: 202,
         name: "",
         cards: [],
+        landscapes: [],
         expansions: "seasideempires"
     },
     {
         id: 203,
         name: "",
         cards: [],
+        landscapes: [],
         expansions: "seasideempires"
     },
     {
         id: 204,
         name: "",
         cards: [],
+        landscapes: [],
         expansions: "seasideempires"
     },
     {
         id: 205,
         name: "",
         cards: [],
+        landscapes: [],
         expansions: "seasideempires"
     },
     {
         id: 206,
         name: "",
         cards: [],
+        landscapes: [],
         expansions: "seasideempires"
     },
     {
         id: 207,
         name: "",
         cards: [],
+        landscapes: [],
         expansions: "seasideempires"
     },
     {
         id: 208,
         name: "",
         cards: [],
+        landscapes: [],
         expansions: "seasideempires"
     },
     {
         id: 209,
         name: "",
         cards: [],
+        landscapes: [],
         expansions: "seasideempires"
     }
 ];
