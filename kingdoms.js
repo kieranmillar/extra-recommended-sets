@@ -1402,9 +1402,9 @@ var kingdoms = [
     },
     {
         id: 205,
-        name: "",
-        cards: [],
-        landscapes: [],
+        name: "Shifting Sands",
+        cards: ["Lighthouse", "Astrolabe", "Smugglers", "Sailor", "Tactician", "Patrician / Emporium", "Temple", "Villa", "Capital", "Legionary"],
+        landscapes: ["Arena", "Windfall"],
         expansions: "seasideempires"
     },
     {
