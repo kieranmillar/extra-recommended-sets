@@ -1416,9 +1416,9 @@ var kingdoms = [
     },
     {
         id: 207,
-        name: "",
-        cards: [],
-        landscapes: [],
+        name: "Sea of Copper",
+        cards: ["Astrolabe", "Warehouse", "Tide Pools", "Merchant Ship", "Treasury", "Enchantress", "Sacrifice", "Charm", "Forum", "Legionary"],
+        landscapes: ["Annex", "Fountain"],
         expansions: "seasideempires"
     },
     {
