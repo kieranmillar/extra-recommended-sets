@@ -17,7 +17,8 @@ var reviewed = [
     "intrigueseaside",
     "empires",
     "baseempires",
-    "intrigueempires"
+    "intrigueempires",
+    "seasideempires"
 ];
 
 var kingdoms = [
@@ -203,71 +204,71 @@ var kingdoms = [
     },
     {
         id: 30,
-        name: "Investing In Today",
-        cards: ["Trade Route", "Watchtower", "Monument", "Worker's Village", "City", "Contraband", "Counting House", "Vault", "Bank", "Expand"],
+        name: "",
+        cards: [],
         extras: ["Colony", "Platinum"],
         expansions: "prosperity"
     },
     {
         id: 31,
-        name: "Added Value",
-        cards: ["Loan", "Monument", "Worker's Village", "Contraband", "Mint", "Rabble", "Venture", "Grand Market", "Hoard", "Forge"],
+        name: "",
+        cards: [],
         extras: ["Colony", "Platinum"],
         expansions: "prosperity"
     },
     {
         id: 32,
-        name: "The Long Crusade",
-        cards: ["Watchtower", "Bishop", "Quarry", "Talisman", "City", "Mint", "Venture", "Bank", "King's Court", "Peddler"],
+        name: "",
+        cards: [],
         extras: ["Colony", "Platinum"],
         expansions: "prosperity"
     },
     {
         id: 33,
-        name: "Triple Jump",
-        cards: ["Trade Route", "Monument", "Quarry", "Counting House", "Royal Seal", "Vault", "Goons", "Hoard", "Expand", "King's Court"],
+        name: "",
+        cards: [],
         extras: ["Colony", "Platinum"],
         expansions: "prosperity"
     },
     {
         id: 34,
-        name: "Diet Plan",
-        cards: ["Watchtower", "Monument", "City", "Contraband", "Rabble", "Hoard", "Bank", "Expand", "King's Court", "Peddler"],
+        name: "",
+        cards: [],
         extras: ["Colony", "Platinum"],
         expansions: "prosperity"
     },
     {
         id: 35,
-        name: "Watch This",
-        cards: ["Loan", "Watchtower", "Talisman", "Worker's Village", "Mint", "Mountebank", "Vault", "Goons", "Grand Market", "Forge"],
+        name: "",
+        cards: [],
         extras: ["Colony", "Platinum"],
         expansions: "prosperity"
     },
     {
         id: 36,
-        name: "The Gift Of Forgiveness",
-        cards: ["Trade Route", "Bishop", "Worker's Village", "City", "Counting House", "Rabble", "Royal Seal", "Grand Market", "Hoard", "Peddler"],
+        name: "",
+        cards: [],
         extras: ["Colony", "Platinum"],
         expansions: "prosperity"
     },
     {
         id: 37,
-        name: "On Sale",
-        cards: ["Loan", "Quarry", "Worker's Village", "Contraband", "Mint", "Royal Seal", "Vault", "Grand Market", "Expand", "Peddler"],
+        name: "",
+        cards: [],
         extras: ["Colony", "Platinum"],
         expansions: "prosperity"
     },
     {
         id: 38,
-        name: "Swimming With Sharks",
-        cards: ["Loan", "Monument", "Quarry", "City", "Mountebank", "Venture", "Goons", "Hoard", "Expand", "Forge"],
-        notes: "Do not include Colony or Platinum.",
+        name: "",
+        cards: [],
+        extras: ["Colony", "Platinum"],
         expansions: "prosperity"
     },
     {
         id: 39,
-        name: "Get The Point",
-        cards: ["Bishop", "Talisman", "Worker's Village", "Counting House", "Rabble", "Goons", "Bank", "Expand", "Forge", "King's Court"],
+        name: "",
+        cards: [],
         extras: ["Colony", "Platinum"],
         expansions: "prosperity"
     },
@@ -1036,71 +1037,71 @@ var kingdoms = [
     },
     {
         id: 150,
-        name: "All That Glistens",
-        cards: ["Watchtower", "Bishop", "Moneylender", "Monument", "Smithy", "Bandit", "Festival", "Laboratory", "Grand Market", "Hoard"],
+        name: "",
+        cards: [],
         extras: ["Colony", "Platinum"],
         expansions: "baseprosperity"
     },
     {
         id: 151,
-        name: "Big Cash Prizes",
-        cards: ["Chapel", "Village", "City", "Laboratory", "Market", "Mint", "Rabble", "Artisan", "Bank", "Expand"],
+        name: "",
+        cards: [],
         extras: ["Colony", "Platinum"],
         expansions: "baseprosperity"
     },
     {
         id: 152,
-        name: "The Watchmen",
-        cards: ["Loan", "Watchtower", "Workshop", "Monument", "Remodel", "Quarry", "Festival", "Mine", "Witch", "Peddler"],
+        name: "",
+        cards: [],
         extras: ["Colony", "Platinum"],
         expansions: "baseprosperity"
     },
     {
         id: 153,
-        name: "Co-op Mode",
-        cards: ["Moat", "Village", "Gardens", "Poacher", "Talisman", "Contraband", "Council Room", "Goons", "King's Court", "Peddler"],
+        name: "",
+        cards: [],
         extras: ["Colony", "Platinum"],
         expansions: "baseprosperity"
     },
     {
         id: 154,
-        name: "Burns and Smithers",
-        cards: ["Cellar", "Harbinger", "Workshop", "Smithy", "Worker's Village", "City", "Counting House", "Vault", "Witch", "Expand"],
+        name: "",
+        cards: [],
         extras: ["Colony", "Platinum"],
         expansions: "baseprosperity"
     },
     {
         id: 155,
-        name: "Black Friday",
-        cards: ["Village", "Bureaucrat", "Moneylender", "Poacher", "Quarry", "Talisman", "Laboratory", "Rabble", "Grand Market", "Forge"],
+        name: "",
+        cards: [],
         extras: ["Colony", "Platinum"],
         expansions: "baseprosperity"
     },
     {
         id: 156,
-        name: "Breakthrough",
-        cards: ["Merchant", "Trade Route", "Monument", "Throne Room", "Festival", "Market", "Mine", "Royal Seal", "Grand Market", "King's Court"],
+        name: "",
+        cards: [],
         extras: ["Colony", "Platinum"],
         expansions: "baseprosperity"
     },
     {
         id: 157,
-        name: "Your Deck Will Fail vs No It Won't",
-        cards: ["Chapel", "Harbinger", "Gardens", "Moneylender", "Council Room", "Mountebank", "Royal Seal", "Venture", "Hoard", "Bank"],
+        name: "",
+        cards: [],
         extras: ["Colony", "Platinum"],
         expansions: "baseprosperity"
     },
     {
         id: 158,
-        name: "Tear It All Down",
-        cards: ["Cellar", "Bishop", "Militia", "Remodel", "Throne Room", "Worker's Village", "Mine", "Mint", "Rabble", "Peddler"],
+        name: "",
+        cards: [],
         extras: ["Colony", "Platinum"],
         expansions: "baseprosperity"
     },
     {
         id: 159,
-        name: "Cashing In",
-        cards: ["Loan", "Watchtower", "Contraband", "Laboratory", "Market", "Sentry", "Artisan", "Goons", "Grand Market", "Forge"],
+        name: "",
+        cards: [],
         extras: ["Colony", "Platinum"],
         expansions: "baseprosperity"
     },
@@ -1430,9 +1431,9 @@ var kingdoms = [
     },
     {
         id: 209,
-        name: "",
-        cards: [],
-        landscapes: [],
+        name: "Buddy System",
+        cards: ["Cutpurse", "Salvager", "Treasure Map", "Corsair", "Treasury", "City Quarter", "Overlord", "Charm", "Forum", "Groundskeeper"],
+        landscapes: ["Defiled Shrine", "Donate"],
         expansions: "seasideempires"
     }
 ];
