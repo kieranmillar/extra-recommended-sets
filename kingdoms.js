@@ -1402,16 +1402,16 @@ var kingdoms = [
     },
     {
         id: 205,
-        name: "Shifting Sands",
+        name: "Changing Tides",
         cards: ["Lighthouse", "Astrolabe", "Smugglers", "Sailor", "Tactician", "Patrician / Emporium", "Temple", "Villa", "Capital", "Legionary"],
         landscapes: ["Arena", "Windfall"],
         expansions: "seasideempires"
     },
     {
         id: 206,
-        name: "",
-        cards: [],
-        landscapes: [],
+        name: "Anti-Competitive Practice",
+        cards: ["Haven", "Native Village", "Sea Chart", "Cutpurse", "Outpost", "Patrician / Emporium", "Chariot Race", "Enchantress", "Archive", "Crown"],
+        landscapes: ["Bandit Fort", "Wolf Den"],
         expansions: "seasideempires"
     },
     {
