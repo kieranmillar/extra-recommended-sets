@@ -1423,9 +1423,9 @@ var kingdoms = [
     },
     {
         id: 208,
-        name: "",
-        cards: [],
-        landscapes: [],
+        name: "Score and Draw",
+        cards: ["Lighthouse", "Fishing Village", "Monkey", "Pirate", "Sea Witch", "Royal Blacksmith", "Encampment / Plunder", "Catapult / Rocks", "Farmers' Market", "Groundskeeper"],
+        landscapes: ["Conquest", "Delve"],
         expansions: "seasideempires"
     },
     {
