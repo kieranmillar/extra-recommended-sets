@@ -1395,9 +1395,9 @@ var kingdoms = [
     },
     {
         id: 204,
-        name: "",
-        cards: [],
-        landscapes: [],
+        name: "Admirals",
+        cards: ["Sea Chart", "Island", "Salvager", "Bazaar", "Wharf", "Engineer", "Overlord", "Castles", "Gladiator / Fortune", "Forum"],
+        landscapes: ["Colonnade", "Wedding"],
         expansions: "seasideempires"
     },
     {
