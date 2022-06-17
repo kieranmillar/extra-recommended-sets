@@ -204,8 +204,8 @@ var kingdoms = [
     },
     {
         id: 30,
-        name: "",
-        cards: [],
+        name: "Slow and Steady",
+        cards: ["Watchtower", "Clerk", "Investment", "Monument", "Tiara", "Worker's Village", "Vault", "Grand Market", "Hoard", "Expand"],
         extras: ["Colony", "Platinum"],
         expansions: "prosperity"
     },
