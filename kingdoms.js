@@ -204,7 +204,7 @@ var kingdoms = [
     },
     {
         id: 30,
-        name: "Slow and Steady",
+        name: "Soft Cap",
         cards: ["Watchtower", "Clerk", "Investment", "Monument", "Tiara", "Worker's Village", "Vault", "Grand Market", "Hoard", "Expand"],
         extras: ["Colony", "Platinum"],
         expansions: "prosperity"
