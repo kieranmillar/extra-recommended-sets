@@ -1052,8 +1052,8 @@ var kingdoms = [
     },
     {
         id: 152,
-        name: "",
-        cards: [],
+        name: "Reduce, Reuse, Recycle",
+        cards: ["Moat", "Village", "Moneylender", "Mine", "Witch", "Anvil", "Tiara", "Charlatan", "Hoard", "Bank"],
         extras: ["Colony", "Platinum"],
         expansions: "baseprosperity"
     },
