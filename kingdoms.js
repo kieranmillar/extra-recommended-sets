@@ -225,8 +225,8 @@ var kingdoms = [
     },
     {
         id: 33,
-        name: "Taken to Court",
-        cards: ["Anvil", "Quarry", "Worker's Village", "Collection", "Rabble", "War Chest", "Grand Market", "Forge", "King's Court", "Peddler"],
+        name: "For Sale",
+        cards: ["Anvil", "Investment", "Quarry", "Worker's Village", "Collection", "Rabble", "War Chest", "Grand Market", "Forge", "King's Court"],
         extras: ["Colony", "Platinum"],
         expansions: "prosperity"
     },
