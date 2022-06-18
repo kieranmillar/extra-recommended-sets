@@ -253,8 +253,8 @@ var kingdoms = [
     },
     {
         id: 37,
-        name: "",
-        cards: [],
+        name: "At Great Expense",
+        cards: ["Anvil", "Monument", "Worker's Village", "Magnate", "Mint", "Vault", "Hoard", "Bank", "Forge", "King's Court"],
         extras: ["Colony", "Platinum"],
         expansions: "prosperity"
     },
