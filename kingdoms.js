@@ -1045,8 +1045,8 @@ var kingdoms = [
     },
     {
         id: 151,
-        name: "",
-        cards: [],
+        name: "Runaway Inflation",
+        cards: ["Chapel", "Vassal", "Workshop", "Poacher", "Festival", "Watchtower", "Monument", "City", "Collection", "Expand"],
         extras: ["Colony", "Platinum"],
         expansions: "baseprosperity"
     },
