@@ -1059,8 +1059,8 @@ var kingdoms = [
     },
     {
         id: 153,
-        name: "",
-        cards: [],
+        name: "Con Artist",
+        cards: ["Merchant", "Gardens", "Library", "Market", "Artisan", "Quarry", "Crystal Ball", "Vault", "King's Court", "Peddler"],
         extras: ["Colony", "Platinum"],
         expansions: "baseprosperity"
     },
