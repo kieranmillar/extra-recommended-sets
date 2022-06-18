@@ -260,8 +260,8 @@ var kingdoms = [
     },
     {
         id: 38,
-        name: "",
-        cards: [],
+        name: "The Taste of Success",
+        cards: ["Bishop", "Investment", "Quarry", "City", "Collection", "Mint" "Rabble", "War Chest", "Grand Market", "Bank"],
         extras: ["Colony", "Platinum"],
         expansions: "prosperity"
     },
