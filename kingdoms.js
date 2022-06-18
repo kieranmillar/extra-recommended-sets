@@ -232,8 +232,8 @@ var kingdoms = [
     },
     {
         id: 34,
-        name: "",
-        cards: [],
+        name: "Defective Goods",
+        cards: ["Watchtower", "Monument", "Worker's Village", "Charlatan", "City", "Magnate", "Vault", "Expand", "King's Court", "Peddler"],
         extras: ["Colony", "Platinum"],
         expansions: "prosperity"
     },
