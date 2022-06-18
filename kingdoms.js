@@ -246,8 +246,8 @@ var kingdoms = [
     },
     {
         id: 36,
-        name: "",
-        cards: [],
+        name: "Low Standards",
+        cards: ["Clerk", "Tiara", "Collection", "Crystal Ball", "Mint", "Rabble", "Vault", "War Chest", "Grand Market", "Peddler"],
         extras: ["Colony", "Platinum"],
         expansions: "prosperity"
     },
