@@ -218,8 +218,8 @@ var kingdoms = [
     },
     {
         id: 32,
-        name: "",
-        cards: [],
+        name: "Treasure Engine?",
+        cards: ["Anvil", "Watchtower", "Bishop", "Clerk", "Monument", "Crystal Ball", "Mint", "Rabble", "Hoard", "Bank"],
         extras: ["Colony", "Platinum"],
         expansions: "prosperity"
     },
