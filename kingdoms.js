@@ -13,6 +13,7 @@ var reviewed = [
     "intrigue",
     "baseintrigue",
     "seaside",
+    "prosperity",
     "baseseaside",
     "intrigueseaside",
     "empires",
@@ -261,14 +262,14 @@ var kingdoms = [
     {
         id: 38,
         name: "The Taste of Success",
-        cards: ["Bishop", "Investment", "Quarry", "City", "Collection", "Mint" "Rabble", "War Chest", "Grand Market", "Bank"],
+        cards: ["Bishop", "Investment", "Quarry", "City", "Collection", "Mint", "Rabble", "War Chest", "Grand Market", "Bank"],
         extras: ["Colony", "Platinum"],
         expansions: "prosperity"
     },
     {
         id: 39,
-        name: "",
-        cards: [],
+        name: "Don't Blink",
+        cards: ["Anvil", "Watchtower", "Quarry", "Charlatan", "City", "Collection", "Expand", "Forge", "King's Court", "Peddler"],
         extras: ["Colony", "Platinum"],
         expansions: "prosperity"
     },
