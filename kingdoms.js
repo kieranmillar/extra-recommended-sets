@@ -211,8 +211,8 @@ var kingdoms = [
     },
     {
         id: 31,
-        name: "",
-        cards: [],
+        name: "Before and After",
+        cards: ["Bishop", "Quarry", "Tiara", "Charlatan", "City", "Magnate", "Mint", "War Chest", "Bank", "Peddler"],
         extras: ["Colony", "Platinum"],
         expansions: "prosperity"
     },
