@@ -1038,8 +1038,8 @@ var kingdoms = [
     },
     {
         id: 150,
-        name: "",
-        cards: [],
+        name: "I Didn't Want It Anyway",
+        cards: ["Militia", "Throne Room", "Bandit", "Laboratory", "Sentry", "Bishop", "Worker's Village", "Magnate", "War Chest", "Grand Market"],
         extras: ["Colony", "Platinum"],
         expansions: "baseprosperity"
     },
