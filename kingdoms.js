@@ -16,6 +16,7 @@ var reviewed = [
     "baseseaside",
     "intrigueseaside",
     "prosperity",
+    "baseprosperity",
     "empires",
     "baseempires",
     "intrigueempires",
@@ -1101,8 +1102,8 @@ var kingdoms = [
     },
     {
         id: 159,
-        name: "",
-        cards: [],
+        name: "Seeing Double",
+        cards: ["Moat", "Militia", "Remodel", "Throne Room", "Sentry", "Tiara", "Rabble", "Hoard", "Bank", "Peddler"],
         extras: ["Colony", "Platinum"],
         expansions: "baseprosperity"
     },
