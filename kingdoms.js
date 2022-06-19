@@ -1066,8 +1066,8 @@ var kingdoms = [
     },
     {
         id: 154,
-        name: "",
-        cards: [],
+        name: "Rewind",
+        cards: ["Merchant", "Village", "Workshop", "Council Room", "Festival", "Clerk", "Magnate", "War Chest", "Hoard", "Forge"],
         extras: ["Colony", "Platinum"],
         expansions: "baseprosperity"
     },
