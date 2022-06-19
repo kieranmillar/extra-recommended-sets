@@ -1094,8 +1094,8 @@ var kingdoms = [
     },
     {
         id: 158,
-        name: "",
-        cards: [],
+        name: "Security Flaw",
+        cards: ["Cellar", "Village", "Bandit", "Festival", "Witch", "Anvil", "Watchtower", "Monument", "King's Court", "Peddler"],
         extras: ["Colony", "Platinum"],
         expansions: "baseprosperity"
     },
