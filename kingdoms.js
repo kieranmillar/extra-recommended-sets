@@ -1080,8 +1080,8 @@ var kingdoms = [
     },
     {
         id: 156,
-        name: "",
-        cards: [],
+        name: "Market Squared",
+        cards: ["Vassal", "Moneylender", "Poacher", "Market", "Sentry", "Investment", "Quarry", "Charlatan", "Grand Market", "Expand"],
         extras: ["Colony", "Platinum"],
         expansions: "baseprosperity"
     },
