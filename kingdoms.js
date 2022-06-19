@@ -1087,8 +1087,8 @@ var kingdoms = [
     },
     {
         id: 157,
-        name: "",
-        cards: [],
+        name: "Stop and Swap",
+        cards: ["Cellar", "Harbinger", "Bureaucrat", "Laboratory", "Mine", "Bishop", "Investment", "Worker's Village", "Collection", "Crystal Ball"],
         extras: ["Colony", "Platinum"],
         expansions: "baseprosperity"
     },
