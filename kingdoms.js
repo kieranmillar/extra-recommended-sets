@@ -1073,8 +1073,8 @@ var kingdoms = [
     },
     {
         id: 155,
-        name: "",
-        cards: [],
+        name: "Back to Basics",
+        cards: ["Cellar", "Harbinger", "Militia", "Remodel", "Smithy", "Tiara", "Worker's Vilage", "City", "Mint", "Rabble"],
         extras: ["Colony", "Platinum"],
         expansions: "baseprosperity"
     },
