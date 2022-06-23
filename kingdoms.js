@@ -1444,5 +1444,68 @@ var kingdoms = [
         cards: ["Shanty Town", "Secret Passage", "Patrol", "Trading Post", "Nobles", "Monument", "Quarry", "Tiara", "Bank", "Expand"],
         extras: ["Colony", "Platinum"],
         expansions: "intrigueprosperity"
+    },
+    {
+        id: 211,
+        name: "",
+        cards: [],
+        extras: ["Colony", "Platinum"],
+        expansions: "intrigueprosperity"
+    },
+    {
+        id: 212,
+        name: "",
+        cards: [],
+        extras: ["Colony", "Platinum"],
+        expansions: "intrigueprosperity"
+    },
+    {
+        id: 213,
+        name: "",
+        cards: [],
+        extras: ["Colony", "Platinum"],
+        expansions: "intrigueprosperity"
+    },
+    {
+        id: 214,
+        name: "",
+        cards: [],
+        extras: ["Colony", "Platinum"],
+        expansions: "intrigueprosperity"
+    },
+    {
+        id: 215,
+        name: "",
+        cards: [],
+        extras: ["Colony", "Platinum"],
+        expansions: "intrigueprosperity"
+    },
+    {
+        id: 216,
+        name: "",
+        cards: [],
+        extras: ["Colony", "Platinum"],
+        expansions: "intrigueprosperity"
+    },
+    {
+        id: 217,
+        name: "",
+        cards: [],
+        extras: ["Colony", "Platinum"],
+        expansions: "intrigueprosperity"
+    },
+    {
+        id: 218,
+        name: "",
+        cards: [],
+        extras: ["Colony", "Platinum"],
+        expansions: "intrigueprosperity"
+    },
+    {
+        id: 219,
+        name: "",
+        cards: [],
+        extras: ["Colony", "Platinum"],
+        expansions: "intrigueprosperity"
     }
 ];
