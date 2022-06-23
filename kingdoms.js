@@ -1437,5 +1437,12 @@ var kingdoms = [
         cards: ["Cutpurse", "Salvager", "Treasure Map", "Corsair", "Treasury", "City Quarter", "Overlord", "Charm", "Forum", "Groundskeeper"],
         landscapes: ["Defiled Shrine", "Donate"],
         expansions: "seasideempires"
+    },
+    {
+        id: 210,
+        name: "The Aristocrats",
+        cards: ["Shanty Town", "Secret Passage", "Patrol", "Trading Post", "Nobles", "Monument", "Quarry", "Tiara", "Bank", "Expand"],
+        extras: ["Colony", "Platinum"],
+        expansions: "intrigueprosperity"
     }
 ];
