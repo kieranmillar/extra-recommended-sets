@@ -1468,8 +1468,8 @@ var kingdoms = [
     },
     {
         id: 214,
-        name: "",
-        cards: [],
+        name: "Fundraising Party",
+        cards: ["Courtyard", "Masquerade", "Mill", "Secret Passage", "Minion", "Investment", "Tiara", "Collection", "Crystal Ball", "Grand Market"],
         extras: ["Colony", "Platinum"],
         expansions: "intrigueprosperity"
     },
