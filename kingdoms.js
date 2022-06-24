@@ -1454,8 +1454,8 @@ var kingdoms = [
     },
     {
         id: 212,
-        name: "",
-        cards: [],
+        name: "Stuck in the Mud",
+        cards: ["Masquerade", "Diplomat", "Replace", "Torturer", "Harem", "Clerk", "Charlatan", "Mint", "War Chest", "Hoard"],
         extras: ["Colony", "Platinum"],
         expansions: "intrigueprosperity"
     },
