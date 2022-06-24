@@ -1447,8 +1447,8 @@ var kingdoms = [
     },
     {
         id: 211,
-        name: "",
-        cards: [],
+        name: "Jester Imposter",
+        cards: ["Lurker", "Steward", "Swindler", "Conspirator", "Mill", "Anvil", "Watchtower", "Bishop", "Worker's Village", "King's Court"],
         extras: ["Colony", "Platinum"],
         expansions: "intrigueprosperity"
     },
