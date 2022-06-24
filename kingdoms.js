@@ -1461,8 +1461,8 @@ var kingdoms = [
     },
     {
         id: 213,
-        name: "",
-        cards: [],
+        name: "Changing Priorities",
+        cards: ["Pawn", "Bridge", "Ironworks", "Mining Village", "Minion", "Watchtower", "Quarry", "City", "Forge", "Peddler"],
         extras: ["Colony", "Platinum"],
         expansions: "intrigueprosperity"
     },
