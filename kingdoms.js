@@ -1508,5 +1508,75 @@ var kingdoms = [
         cards: ["Lurker", "Courtier", "Replace", "Torturer", "Nobles", "Clerk", "Quarry", "City", "Grand Market", "Forge"],
         extras: ["Colony", "Platinum"],
         expansions: "intrigueprosperity"
+    },
+    {
+        id: 220,
+        name: "",
+        cards: [],
+        extras: ["Colony", "Platinum"],
+        expansions: "seasideprosperity"
+    },
+    {
+        id: 221,
+        name: "",
+        cards: [],
+        extras: ["Colony", "Platinum"],
+        expansions: "seasideprosperity"
+    },
+    {
+        id: 222,
+        name: "",
+        cards: [],
+        extras: ["Colony", "Platinum"],
+        expansions: "seasideprosperity"
+    },
+    {
+        id: 223,
+        name: "",
+        cards: [],
+        extras: ["Colony", "Platinum"],
+        expansions: "seasideprosperity"
+    },
+    {
+        id: 224,
+        name: "",
+        cards: [],
+        extras: ["Colony", "Platinum"],
+        expansions: "seasideprosperity"
+    },
+    {
+        id: 225,
+        name: "",
+        cards: [],
+        extras: ["Colony", "Platinum"],
+        expansions: "seasideprosperity"
+    },
+    {
+        id: 226,
+        name: "",
+        cards: [],
+        extras: ["Colony", "Platinum"],
+        expansions: "seasideprosperity"
+    },
+    {
+        id: 227,
+        name: "",
+        cards: [],
+        extras: ["Colony", "Platinum"],
+        expansions: "seasideprosperity"
+    },
+    {
+        id: 228,
+        name: "",
+        cards: [],
+        extras: ["Colony", "Platinum"],
+        expansions: "seasideprosperity"
+    },
+    {
+        id: 229,
+        name: "",
+        cards: [],
+        extras: ["Colony", "Platinum"],
+        expansions: "seasideprosperity"
     }
 ];
