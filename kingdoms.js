@@ -1475,8 +1475,8 @@ var kingdoms = [
     },
     {
         id: 215,
-        name: "",
-        cards: [],
+        name: "Rise Through the Ranks",
+        cards: ["Wishing Well", "Conspirator", "Diplomat", "Courtier", "Upgrade", "Bishop", "War Chest", "Grand Market", "King's Court", "Peddler"],
         extras: ["Colony", "Platinum"],
         expansions: "intrigueprosperity"
     },
