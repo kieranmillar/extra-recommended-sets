@@ -1489,8 +1489,8 @@ var kingdoms = [
     },
     {
         id: 217,
-        name: "",
-        cards: [],
+        name: "Luddites",
+        cards: ["Swindler", "Ironworks", "Mill", "Duke", "Patrol", "Clerk", "Monument", "Charlatan", "War Chest", "Hoard"],
         extras: ["Colony", "Platinum"],
         expansions: "intrigueprosperity"
     },
