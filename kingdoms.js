@@ -1496,8 +1496,8 @@ var kingdoms = [
     },
     {
         id: 218,
-        name: "",
-        cards: [],
+        name: "Master Exploder",
+        cards: ["Pawn", "Steward", "Bridge", "Mill", "Minion", "Watchtower", "Investment", "Worker's Village", "King's Court", "Peddler"],
         extras: ["Colony", "Platinum"],
         expansions: "intrigueprosperity"
     },
