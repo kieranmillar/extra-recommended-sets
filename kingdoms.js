@@ -1482,8 +1482,8 @@ var kingdoms = [
     },
     {
         id: 216,
-        name: "",
-        cards: [],
+        name: "It Adds Up",
+        cards: ["Courtyard", "Baron", "Mining Village", "Trading Post", "Harem", "Anvil", "Magnate", "Vault", "Hoard", "Expand"],
         extras: ["Colony", "Platinum"],
         expansions: "intrigueprosperity"
     },
