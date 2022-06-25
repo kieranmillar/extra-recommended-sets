@@ -17,6 +17,7 @@ var reviewed = [
     "intrigueseaside",
     "prosperity",
     "baseprosperity",
+    "intrigueprosperity",
     "empires",
     "baseempires",
     "intrigueempires",
@@ -1503,8 +1504,8 @@ var kingdoms = [
     },
     {
         id: 219,
-        name: "",
-        cards: [],
+        name: "Cost of Living",
+        cards: ["Lurker", "Courtier", "Replace", "Torturer", "Nobles", "Clerk", "Quarry", "City", "Grand Market", "Forge"],
         extras: ["Colony", "Platinum"],
         expansions: "intrigueprosperity"
     }
