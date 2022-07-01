@@ -1518,8 +1518,8 @@ var kingdoms = [
     },
     {
         id: 221,
-        name: "",
-        cards: [],
+        name: "Copper Strategist",
+        cards: ["Haven", "Fishing Village", "Island", "Corsair", "Outpost", "Monument", "Worker's Village", "Magnate", "Grand Market", "Bank"],
         extras: ["Colony", "Platinum"],
         expansions: "seasideprosperity"
     },
