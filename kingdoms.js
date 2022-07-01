@@ -1511,8 +1511,8 @@ var kingdoms = [
     },
     {
         id: 220,
-        name: "",
-        cards: [],
+        name: "Bubbles",
+        cards: ["Haven", "Lighthouse", "Sea Chart", "Blockade", "Salvager", "Investment", "City", "Rabble", "Hoard", "Peddler"],
         extras: ["Colony", "Platinum"],
         expansions: "seasideprosperity"
     },
