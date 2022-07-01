@@ -1525,8 +1525,8 @@ var kingdoms = [
     },
     {
         id: 222,
-        name: "",
-        cards: [],
+        name: "Final Thoughts",
+        cards: ["Native Village", "Cutpurse", "Pirate", "Sea Witch", "Tactician", "Anvil", "Watchtower", "Quarry", "Crystal Ball", "Forge"],
         extras: ["Colony", "Platinum"],
         expansions: "seasideprosperity"
     },
