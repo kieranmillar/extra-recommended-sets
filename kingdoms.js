@@ -1553,8 +1553,8 @@ var kingdoms = [
     },
     {
         id: 226,
-        name: "",
-        cards: [],
+        name: "Tidal Wave",
+        cards: ["Lighthouse", "Treasure Map", "Bazaar", "Corsair", "Wharf", "Bishop", "Clerk", "Rabble", "War Chest", "King's Court"],
         extras: ["Colony", "Platinum"],
         expansions: "seasideprosperity"
     },
