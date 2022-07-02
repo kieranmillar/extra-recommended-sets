@@ -1539,8 +1539,8 @@ var kingdoms = [
     },
     {
         id: 224,
-        name: "",
-        cards: [],
+        name: "Push Your Luck",
+        cards: ["Monkey", "Blockade", "Caravan", "Sailor", "Merchant Ship", "Tiara", "Worker's Village", "Vault", "Hoard", "Expand"],
         extras: ["Colony", "Platinum"],
         expansions: "seasideprosperity"
     },
