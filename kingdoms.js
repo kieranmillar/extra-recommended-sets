@@ -1546,8 +1546,8 @@ var kingdoms = [
     },
     {
         id: 225,
-        name: "",
-        cards: [],
+        name: "Crowded Harbour",
+        cards: ["Lighthouse", "Fishing Village", "Warehouse", "Blockade", "Tide Pools", "Watchtower", "Worker's Village", "Charlatan", "Crystal Ball", "Grand Market"],
         extras: ["Colony", "Platinum"],
         expansions: "seasideprosperity"
     },
