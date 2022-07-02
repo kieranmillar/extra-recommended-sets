@@ -1532,8 +1532,8 @@ var kingdoms = [
     },
     {
         id: 223,
-        name: "",
-        cards: [],
+        name: "Hard Carry",
+        cards: ["Smugglers", "Cutpurse", "Merchant Ship", "Treasury", "Wharf", "Clerk", "Charlatan", "Collection", "Mint", "Treasury"],
         extras: ["Colony", "Platinum"],
         expansions: "seasideprosperity"
     },
