@@ -1560,8 +1560,8 @@ var kingdoms = [
     },
     {
         id: 227,
-        name: "",
-        cards: [],
+        name: "Plunder the Seas",
+        cards: ["Caravan", "Island", "Bazaar", "Pirate", "Sea Witch", "Investment", "Quarry", "Tiara", "Collection", "Magnate"],
         extras: ["Colony", "Platinum"],
         expansions: "seasideprosperity"
     },
