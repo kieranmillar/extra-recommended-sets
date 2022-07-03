@@ -3,6 +3,8 @@
 id: A number matching its position in the array.
 name: The kingdom name
 cards: An array of card names
+colony: A boolean to include Colony and Platinum
+shelters: A boolean to include Shelters
 extras: An array of extra component names (optional)
 landscapes: An array of landscape names (optional)
 notes: Any extra notes (optional)
@@ -101,21 +103,21 @@ var officialKingdoms = [
         id: 14,
         name: "Biggest Money",
         cards: ["Harbinger", "Moneylender", "Laboratory", "Mine", "Artisan", "Mint", "Royal Seal", "Venture", "Grand Market", "Bank"],
-		extras: ["Colony", "Platinum"],
+		colony: true,
         expansions: "baseprosperity"
     },
 	{
         id: 15,
         name: "The King's Army",
         cards: ["Moat", "Merchant", "Village", "Bureaucrat", "Council Room", "Rabble", "Vault", "Goons", "Expand", "King's Court"],
-		extras: ["Colony", "Platinum"],
+		colony: true,
         expansions: "baseprosperity"
     },
 	{
         id: 16,
         name: "The Good Life",
         cards: ["Cellar", "Village", "Bureaucrat", "Gardens", "Artisan", "Monument", "Contraband", "Counting House", "Mountebank", "Hoard"],
-		extras: ["Colony", "Platinum"],
+		colony: true,
         expansions: "baseprosperity"
     },
 	{
@@ -134,14 +136,15 @@ var officialKingdoms = [
         id: 19,
         name: "High and Low",
         cards: ["Cellar", "Workshop", "Moneylender", "Throne Room", "Witch", "Poor House", "Hermit", "Wandering Minstrel", "Mystic", "Hunting Grounds"],
-		extras: ["Madman", "Shelters"],
+		shelters: true,
+		extras: ["Madman"],
         expansions: "basedarkages"
     },
 	{
         id: 20,
         name: "Chivalry and Revelry",
         cards: ["Gardens", "Remodel", "Festival", "Laboratory", "Library", "Squire", "Rats", "Scavenger", "Knights", "Altar"],
-		extras: ["Shelters"],
+		shelters: true,
         expansions: "basedarkages"
     },
 	{
@@ -206,7 +209,7 @@ var officialKingdoms = [
 	{
         id: 30,
         name: "Silver Bullets",
-        cards: ["Bureaucrat", "Gardens", "Moneylender", "Laboratory", "Market", "Patrician / Emporium", "Catapult / Rocks", "Farmer's Market", "Charm", "Groundskeeper"],
+        cards: ["Bureaucrat", "Gardens", "Moneylender", "Laboratory", "Market", "Patrician / Emporium", "Catapult / Rocks", "Farmers' Market", "Charm", "Groundskeeper"],
 		landscapes: ["Aqueduct", "Conquest"],
         expansions: "baseempires"
     },
@@ -326,21 +329,21 @@ var officialKingdoms = [
         id: 47,
         name: "Paths to Victory",
         cards: ["Pawn", "Shanty Town", "Baron", "Upgrade", "Harem", "Bishop", "Monument", "Counting House", "Goons", "Peddler"],
-		extras: ["Colony", "Platinum"],
+		colony: true,
         expansions: "intrigueprosperity"
     },
 	{
         id: 48,
         name: "All Along the Watchtower",
         cards: ["Pawn", "Bridge", "Mill", "Mining Village", "Torturer", "Trade Route", "Watchtower", "Talisman", "Vault", "Hoard"],
-		extras: ["Colony", "Platinum"],
+		colony: true,
         expansions: "intrigueprosperity"
     },
 	{
         id: 49,
         name: "Lucky Seven",
         cards: ["Lurker", "Swindler", "Wishing Well", "Bridge", "Patrol", "Vault", "Bank", "Expand", "Forge", "King's Court"],
-		extras: ["Colony", "Platinum"],
+		colony: true,
         expansions: "intrigueprosperity"
     },
 	{
@@ -359,14 +362,15 @@ var officialKingdoms = [
         id: 52,
         name: "Prophecy",
         cards: ["Wishing Well", "Baron", "Conspirator", "Secret Passage", "Nobles", "Vagrant", "Armory", "Ironmonger", "Mystic", "Rebuild"],
-		extras: ["Shelters"],
+		shelters: true,
         expansions: "intriguedarkages"
     },
 	{
         id: 53,
         name: "Invasion",
         cards: ["Swindler", "Diplomat", "Torturer", "Upgrade", "Harem", "Beggar", "Squire", "Urchin", "Marauder", "Rogue"],
-		extras: ["Mercenary", "Ruins", "Shelters", "Spoils"],
+		shelters: true,
+		extras: ["Mercenary", "Ruins", "Spoils"],
         expansions: "intriguedarkages"
     },
 	{
@@ -519,14 +523,14 @@ var officialKingdoms = [
         id: 75,
         name: "Exploding Kingdom",
         cards: ["Fishing Village", "Lookout", "Outpost", "Tactician", "Wharf", "Bishop", "Quarry", "City", "Grand Market", "King's Court"],
-		extras: ["Colony", "Platinum"],
+		colony: true,
         expansions: "seasideprosperity"
     },
 	{
         id: 76,
         name: "Pirate Bay",
         cards: ["Native Village", "Astrolabe", "Monkey", "Corsair", "Treasury", "Investment", "Charlatan", "Magnate", "Mint", "Hoard"],
-		extras: ["Colony", "Platinum"],
+		colony: true,
         expansions: "seasideprosperity"
     },
 	{
@@ -545,14 +549,15 @@ var officialKingdoms = [
         id: 79,
         name: "Watery Graves",
         cards: ["Native Village", "Salvager", "Treasure Map", "Corsair", "Treasury", "Hermit", "Rats", "Scavenger", "Count", "Graverobber"],
-		extras: ["Madman", "Shelters"],
+		shelters: true,
+		extras: ["Madman"],
         expansions: "seasidedarkages"
     },
 	{
         id: 80,
         name: "Peasants",
         cards: ["Haven", "Lighthouse", "Fishing Village", "Warehouse", "Island", "Poor House", "Vagrant", "Forager", "Armory", "Band of Misfits"],
-		extras: ["Shelters"],
+		shelters: true,
         expansions: "seasidedarkages"
     },
 	{
@@ -592,7 +597,7 @@ var officialKingdoms = [
 	{
         id: 86,
         name: "King of the Sea",
-        cards: ["Haven", "Native Village", "Corsair", "Pirate", "Sea Witch", "Overlord", "Farmer's Market", "Temple", "Archive", "Wild Hunt"],
+        cards: ["Haven", "Native Village", "Corsair", "Pirate", "Sea Witch", "Overlord", "Farmers' Market", "Temple", "Archive", "Wild Hunt"],
 		landscapes: ["Delve", "Fountain"],
         expansions: "seasideempires"
     },
@@ -659,14 +664,16 @@ var officialKingdoms = [
         id: 95,
         name: "Counting Contest",
         cards: ["Apothecary", "Herbalist", "Philosopher's Stone", "Golem", "Quarry", "Counting House", "Rabble", "Goons", "Hoard", "Bank"],
-		extras: ["Colony", "Platinum", "Potion"],
+		colony: true,
+		extras: ["Potion"],
         expansions: "alchemyprosperity"
     },
 	{
         id: 96,
         name: "Lower Learning",
         cards: ["Vineyard", "University", "Familiar", "Apprentice", "Bishop", "Talisman", "Worker's Village", "Mint", "Vault", "Peddler"],
-		extras: ["Colony", "Platinum", "Potion"],
+		colony: true,
+		extras: ["Potion"],
         expansions: "alchemyprosperity"
     },
 	{
@@ -687,14 +694,16 @@ var officialKingdoms = [
         id: 99,
         name: "Infestations",
         cards: ["Transmute", "Vineyard", "Scrying Pool", "Apprentice", "Market Square", "Armory", "Feodum", "Rats", "Wandering Minstrel", "Cultist"],
-		extras: ["Potion", "Ruins", "Shelters"],
+		shelters: true,
+		extras: ["Potion", "Ruins"],
         expansions: "alchemydarkages"
     },
 	{
         id: 100,
         name: "Lamentations",
         cards: ["Apothecary", "Herbalist", "University", "Golem", "Beggar", "Forager", "Ironmonger", "Catacombs", "Counterfeit", "Pillage"],
-		extras: ["Potion", "Shelters", "Spoils"],
+		shelters: true,
+		extras: ["Potion", "Spoils"],
         expansions: "alchemydarkages"
     },
 	{
@@ -745,9 +754,9 @@ var officialKingdoms = [
 	{
         id: 107,
         name: "Collectors",
-        cards: ["Transmute", "Apothecary", "Herbalist", "University", "Apprentice", "City Quarter", "Encampment / Plunder", "Enchantress", "Farmer's Market", "Crown"],
+        cards: ["Transmute", "Apothecary", "Herbalist", "University", "Apprentice", "City Quarter", "Encampment / Plunder", "Enchantress", "Farmers' Market", "Crown"],
 		extras: ["Potion"],
-		landscapes: ["Collonade", "Museum"],
+		landscapes: ["Colonnade", "Museum"],
         expansions: "alchemyempires"
     },
 	{
@@ -785,84 +794,88 @@ var officialKingdoms = [
         id: 112,
         name: "Beginners",
         cards: ["Watchtower", "Monument", "Worker's Village", "Counting House", "Rabble", "Royal Seal", "Venture", "Goons", "Bank", "Expand"],
-		extras: ["Colony", "Platinum"],
+		colony: true,
         expansions: "prosperity"
     },
 	{
         id: 113,
         name: "Friendly Interactive",
         cards: ["Trade Route", "Bishop", "Worker's Village", "City", "Contraband", "Royal Seal", "Vault", "Hoard", "Forge", "Peddler"],
-		extras: ["Colony", "Platinum"],
+		colony: true,
         expansions: "prosperity"
     },
 	{
         id: 114,
         name: "Big Actions",
         cards: ["Loan", "Quarry", "Talisman", "City", "Mint", "Rabble", "Vault", "Grand Market", "Expand", "King's Court"],
-		extras: ["Colony", "Platinum"],
+		colony: true,
         expansions: "prosperity"
     },
 	{
         id: 115,
         name: "Instant Gratification",
         cards: ["Watchtower", "Bishop", "Mint", "Hoard", "Expand", "Noble Brigand", "Trader", "Haggler", "Ill-Gotten Gains", "Farmland"],
-		extras: ["Colony", "Platinum"],
+		colony: true,
         expansions: "prosperityhinterlands"
     },
 	{
         id: 116,
         name: "Treasure Trove",
         cards: ["Trade Route", "Monument", "Royal Seal", "Venture", "Bank", "Fool's Gold", "Develop", "Cache", "Ill-Gotten Gains", "Mandarin"],
-		extras: ["Colony", "Platinum"],
+		colony: true,
         expansions: "prosperityhinterlands"
     },
 	{
         id: 117,
         name: "One Man's Trash",
         cards: ["Monument", "Talisman", "City", "Venture", "Grand Market", "Forager", "Market Square", "Counterfeit", "Graverobber", "Rogue"],
-		extras: ["Colony", "Platinum", "Shelters"],
+		colony: true,
+		shelters: true,
         expansions: "prosperitydarkages"
     },
 	{
         id: 118,
         name: "Honor Among Thieves",
         cards: ["Watchtower", "Quarry", "Hoard", "Forge", "Peddler", "Squire", "Procession", "Bandit Camp", "Rebuild", "Rogue"],
-		extras: ["Colony", "Platinum", "Shelters", "Spoils"],
+		colony: true,
+		shelters: true,
+		extras: ["Spoils"],
         expansions: "prosperitydarkages"
     },
 	{
         id: 119,
         name: "Detours",
         cards: ["Trade Route", "Rabble", "Venture", "Hoard", "Peddler", "Farming Village", "Remake", "Tournament", "Horn of Plenty", "Jester"],
-		extras: ["Colony", "Platinum", "Prizes"],
+		colony: true,
+		extras: ["Prizes"],
         expansions: "prosperitycornguilds"
     },
 	{
         id: 120,
         name: "Quarrymen",
         cards: ["Quarry", "City", "Mountebank", "Grand Market", "Expand", "Stonemason", "Taxman", "Baker", "Merchant Guild", "Soothsayer"],
-		extras: ["Colony", "Platinum"],
+		colony: true,
         expansions: "prosperitycornguilds"
     },
 	{
         id: 121,
         name: "Metal & Meat",
         cards: ["Watchtower", "Monument", "Venture", "Forge", "King's Court", "Candlestick Maker", "Stonemason", "Plaza", "Taxman", "Butcher"],
-		extras: ["Colony", "Platinum"],
+		colony: true,
         expansions: "prosperitycornguilds"
     },
 	{
         id: 122,
         name: "Penny Pinching",
         cards: ["Counting House", "Royal Seal", "Goons", "Bank", "Peddler", "Doctor", "Advisor", "Herald", "Journeyman", "Merchant Guild"],
-		extras: ["Colony", "Platinum"],
+		colony: true,
         expansions: "prosperitycornguilds"
     },
 	{
         id: 123,
         name: "Last Will and Monument",
         cards: ["Bishop", "Monument", "Counting House", "Rabble", "Vault", "Coin of the Realm", "Dungeon", "Messenger", "Relic", "Treasure Trove"],
-		extras: ["Colony", "Platinum"],
+		colony: true,
 		landscapes: ["Inheritance"],
         expansions: "prosperityadventures"
     },
@@ -870,7 +883,7 @@ var officialKingdoms = [
         id: 124,
         name: "Think Big",
         cards: ["Contraband", "Hoard", "Expand", "King's Court", "Peddler", "Miser", "Distant Lands", "Giant", "Storyteller", "Hireling"],
-		extras: ["Colony", "Platinum"],
+		colony: true,
 		landscapes: ["Ball", "Ferry"],
         expansions: "prosperityadventures"
     },
@@ -878,7 +891,7 @@ var officialKingdoms = [
         id: 125,
         name: "Big Time",
         cards: ["Loan", "Royal Seal", "Grand Market", "Bank", "Forge", "Royal Blacksmith", "Patrician / Emporium", "Gladiator / Fortune", "Villa", "Capital"],
-		extras: ["Colony", "Platinum"],
+		colony: true,
 		landscapes: ["Dominate", "Obelisk"],
 		notes: "Obelisk randomly assigned",
         expansions: "prosperityempires"
@@ -887,7 +900,7 @@ var officialKingdoms = [
         id: 126,
         name: "Gilded Gates",
         cards: ["Bishop", "Monument", "Talisman", "Mint", "Peddler", "City Quarter", "Encampment / Plunder", "Chariot Race", "Groundskeeper", "Wild Hunt"],
-		extras: ["Colony", "Platinum"],
+		colony: true,
 		landscapes: ["Basilica", "Palace"],
         expansions: "prosperityempires"
     },
@@ -895,14 +908,16 @@ var officialKingdoms = [
         id: 127,
         name: "Treasures of the Night",
         cards: ["Loan", "Contraband", "Royal Seal", "Venture", "Bank", "Guardian", "Night Watchman", "Crypt", "Vampire", "Raider"],
-		extras: ["Colony", "Platinum", "Hexes", "Bat"],
+		colony: true,
+		extras: ["Hexes", "Bat"],
         expansions: "prosperitynocturne"
     },
 	{
         id: 128,
         name: "Day at the Races",
         cards: ["Trade Route", "Watchtower", "Bishop", "Talisman", "Peddler", "Druid", "Blessed Village", "Cemetary", "Tormentor", "Tragic Hero"],
-		extras: ["Colony", "Platinum", "Haunted Mirror", "Boons", "Hexes", "Will-O'-Wisp", "Ghost"],
+		colony: true,
+		extras: ["Haunted Mirror", "Boons", "Hexes", "Will-O'-Wisp", "Ghost"],
 		notes: "Druid boons are The Swamp's Gift, The River's Gift and The Forest's Gift.",
         expansions: "prosperitynocturne"
     },
@@ -910,7 +925,7 @@ var officialKingdoms = [
         id: 129,
         name: "Dreamers of Dreams",
         cards: ["Watchtower", "Monument", "Worker's Village", "Vault", "Expand", "Cargo Ship", "Priest", "Old Witch", "Scepter", "Scholar"],
-		extras: ["Colony", "Platinum"],
+		colony: true,
 		landscapes: ["Academy"],
         expansions: "prosperityrenaissance"
     },
@@ -918,7 +933,8 @@ var officialKingdoms = [
         id: 130,
         name: "Movers and Shakers",
         cards: ["Loan", "City", "Rabble", "Grand Market", "Bank", "Hideout", "Patron", "Research", "Treasurer", "Villain"],
-		extras: ["Colony", "Platinum", "Key"],
+		colony: true,
+		extras: ["Key"],
 		landscapes: ["Capitalism", "Citadel"],
         expansions: "prosperityrenaissance"
     },
@@ -926,7 +942,8 @@ var officialKingdoms = [
         id: 131,
         name: "Limited Time Offer",
         cards: ["Talisman", "Worker's Village", "Mint", "Peddler", "Grand Market", "Supplies", "Displace", "Fisherman", "Destrier", "Wayfarer"],
-		extras: ["Colony", "Platinum", "Horse"],
+		colony: true,
+		extras: ["Horse"],
 		landscapes: ["Desperation", "Way of the Frog"],
         expansions: "prosperitymenagerie"
     },
@@ -934,7 +951,8 @@ var officialKingdoms = [
         id: 132,
         name: "Birth of a Nation",
         cards: ["Trade Route", "Monument", "Quarry", "City", "Rabble", "Camel Train", "Stockpile", "Mastermind", "Paddock", "Animal Fair"],
-		extras: ["Colony", "Platinum", "Horse"],
+		colony: true,
+		extras: ["Horse"],
 		landscapes: ["Reap", "Way of the Otter"],
         expansions: "prosperitymenagerie"
     },
@@ -942,7 +960,7 @@ var officialKingdoms = [
         id: 133,
         name: "Inventing Mania",
         cards: ["Quarry", "Talisman", "Rabble", "Expand", "King's Court", "Bauble", "Augurs", "Importer", "Carpenter", "Capital City"],
-		extras: ["Colony", "Platinum"],
+		colony: true,
 		landscapes: ["Family of Inventors"],
         expansions: "prosperityallies"
     },
@@ -950,7 +968,7 @@ var officialKingdoms = [
         id: 134,
         name: "Bank of Toadies",
         cards: ["Trade Route", "City", "Mint", "Vault", "Bank", "Sycophant", "Odysseys", "Broker", "Town", "Marquis"],
-		extras: ["Colony", "Platinum"],
+		colony: true,
 		landscapes: ["League of Bankers"],
         expansions: "prosperityallies"
     },
@@ -982,14 +1000,15 @@ var officialKingdoms = [
         id: 139,
         name: "Far From Home",
         cards: ["Fool's Gold", "Develop", "Cartographer", "Embassy", "Haggler", "Beggar", "Feodum", "Marauder", "Wandering Minstrel", "Count"],
-		extras: ["Ruins", "Shelters", "Spoils"],
+		shelters: true,
+		extras: ["Ruins", "Spoils"],
         expansions: "hinterlandsdarkages"
     },
 	{
         id: 140,
         name: "Expeditions",
         cards: ["Crossroads", "Tunnel", "Spice Merchant", "Highway", "Farmland", "Poor House", "Storeroom", "Ironmonger", "Catacombs", "Altar"],
-		extras: ["Shelters"],
+		shelters: true,
         expansions: "hinterlandsdarkages"
     },
 	{
@@ -1112,49 +1131,55 @@ var officialKingdoms = [
         id: 157,
         name: "Grim Parade",
         cards: ["Forager", "Market Square", "Armory", "Fortress", "Procession", "Band of Misfits", "Catacombs", "Cultist", "Knights", "Hunting Grounds"],
-		extras: ["Ruins", "Shelters"],
+		shelters: true,
+		extras: ["Ruins"],
         expansions: "darkages"
     },
 	{
         id: 158,
         name: "Chess With Death",
         cards: ["Vagrant", "Sage", "Storeroom", "Rats", "Scavenger", "Bandit Camp", "Graverobber", "Junk Dealer", "Mystic", "Pillage"],
-		extras: ["Shelters", "Spoils"],
+		shelters: true,
+		extras: ["Spoils"],
         expansions: "darkages"
     },
 	{
         id: 159,
         name: "Dark Carnival",
         cards: ["Hermit", "Fortress", "Band of Misfits", "Cultist", "Junk Dealer", "Hamlet", "Menagerie", "Knights", "Horn of Plenty", "Fairgrounds"],
-		extras: ["Madman", "Ruins", "Shelters",],
+		shelters: true,
+		extras: ["Madman", "Ruins"],
         expansions: "darkagescornguilds"
     },
 	{
         id: 160,
         name: "To the Victor",
         cards: ["Death Cart", "Marauder", "Bandit Camp", "Counterfeit", "Pillage", "Sage", "Remake", "Tournament", "Harvest", "Hunting Party"],
-		extras: ["Prizes", "Ruins", "Shelters", "Spoils"],
+		shelters: true,
+		extras: ["Prizes", "Ruins", "Spoils"],
         expansions: "darkagescornguilds"
     },
 	{
         id: 161,
         name: "Stoneground",
         cards: ["Ironmonger", "Procession", "Marauder", "Rogue", "Hunting Grounds", "Candlestick Maker", "Stonemason", "Advisor", "Plaza", "Baker"],
-		extras: ["Ruins", "Shelters", "Spoils"],
+		shelters: true,
+		extras: ["Ruins", "Spoils"],
         expansions: "darkagescornguilds"
     },
 	{
         id: 162,
         name: "Class Struggle",
         cards: ["Poor House", "Market Square", "Feodum", "Fortress", "Knights", "Doctor", "Taxman", "Butcher", "Journeyman", "Merchant Guild"],
-		extras: ["Shelters"],
+		shelters: true,
         expansions: "darkagescornguilds"
     },
 	{
         id: 163,
         name: "Cemetery Polka",
         cards: ["Marauder", "Procession", "Wandering Minstrel", "Graverobber", "Rogue", "Peasant", "Amulet", "Caravan Guard", "Relic", "Hireling"],
-		extras: ["Ruins", "Shelters", "Spoils", "Soldier", "Fugitive", "Disciple", "Teacher"],
+		shelters: true,
+		extras: ["Ruins", "Spoils", "Soldier", "Fugitive", "Disciple", "Teacher"],
 		landscapes: ["Alms"],
         expansions: "darkagesadventures"
     },
@@ -1162,7 +1187,8 @@ var officialKingdoms = [
         id: 164,
         name: "Groovy Decay",
         cards: ["Death Cart", "Fortress", "Rats", "Cultist", "Knights", "Ratcatcher", "Raze", "Dungeon", "Transmogrify", "Haunted Woods"],
-		extras: ["Ruins", "Shelters"],
+		shelters: true,
+		extras: ["Ruins"],
 		landscapes: ["Lost Arts", "Pathfinding"],
         expansions: "darkagesadventures"
     },
@@ -1170,7 +1196,8 @@ var officialKingdoms = [
         id: 165,
         name: "Tomb of the Rat King",
         cards: ["Storeroom", "Death Cart", "Fortress", "Rats", "Pillage", "City Quarter", "Castles", "Chariot Race", "Sacrifice", "Legionary"],
-		extras: ["Ruins", "Shelters", "Spoils"],
+		shelters: true,
+		extras: ["Ruins", "Spoils"],
 		landscapes: ["Advance", "Tomb"],
         expansions: "darkagesempires"
     },
@@ -1178,7 +1205,8 @@ var officialKingdoms = [
         id: 166,
         name: "Triumph of the Bandit King",
         cards: ["Market Square", "Procession", "Bandit Camp", "Catacombs", "Hunting Grounds", "Engineer", "Capital", "Charm", "Groundskeeper", "Legionary"],
-		extras: ["Shelters", "Spoils"],
+		shelters: true,
+		extras: ["Spoils"],
 		landscapes: ["Defiled Shrine", "Triumph"],
         expansions: "darkagesempires"
     },
@@ -1186,7 +1214,8 @@ var officialKingdoms = [
 		id: 167,
         name: "The Squire's Ritual",
         cards: ["Squire", "Hermit", "Feodum", "Ironmonger", "Rogue", "Patrician / Emporium", "Settlers / Bustling Village", "Catapult / Rocks", "Archive", "Crown"],
-		extras: ["Madman", "Shelters"],
+		shelters: true,
+		extras: ["Madman"],
 		landscapes: ["Museum", "Ritual"],
         expansions: "darkagesempires"
 	},
@@ -1194,21 +1223,24 @@ var officialKingdoms = [
 		id: 168,
         name: "Grave Matters",
         cards: ["Squire", "Forager", "Market Square", "Armory", "Graverobber", "Cemetary", "Necromancer", "Skulk", "Cursed Village", "Tormentor"],
-		extras: ["Shelters", "Haunted Mirror", "Hexes", "Ghost", "Zombie Apprentice", "Zombie Mason", "Zombie Spy"],
+		shelters: true,
+		extras: ["Haunted Mirror", "Hexes", "Ghost", "Zombie Apprentice", "Zombie Mason", "Zombie Spy"],
         expansions: "darkagesnocturne"
 	},
 	{
 		id: 169,
         name: "Rats and Bats",
         cards: ["Hermit", "Fortress", "Rats", "Catacombs", "Count", "Tracker", "Changeling", "Devil's Workshop", "Sacred Grove", "Vampire"],
-		extras: ["Madman", "Shelters", "Pouch", "Boons", "Hexes", "Will-O'-Wisp", "Bat"],
+		shelters: true,
+		extras: ["Madman", "Pouch", "Boons", "Hexes", "Will-O'-Wisp", "Bat"],
         expansions: "darkagesnocturne"
 	},
 	{
 		id: 170,
         name: "Stargazing",
         cards: ["Hermit", "Sage", "Procession", "Wandering Minstrel", "Mystic", "Border Guard", "Patron", "Silk Merchant", "Seer", "Swashbuckler"],
-		extras: ["Madman", "Shelters", "Horn", "Lantern", "Treasure Chest"],
+		shelters: true,
+		extras: ["Madman", "Horn", "Lantern", "Treasure Chest"],
 		landscapes: ["Star Chart"],
         expansions: "darkagesrenaissance"
 	},
@@ -1216,7 +1248,8 @@ var officialKingdoms = [
 		id: 171,
         name: "Sewer Rats",
         cards: ["Rats", "Count", "Counterfeit", "Cultist", "Graverobber", "Lackeys", "Improve", "Flag Bearer", "Mountain Village", "Research"],
-		extras: ["Ruins", "Shelters", "Flag"],
+		shelters: true,
+		extras: ["Ruins", "Flag"],
 		landscapes: ["Crop Rotation", "Sewers"],
         expansions: "darkagesrenaissance"
 	},
@@ -1224,7 +1257,8 @@ var officialKingdoms = [
 		id: 172,
         name: "Friendly Carnage",
         cards: ["Beggar", "Market Square", "Fortress", "Catacombs", "Altar", "Goatherd", "Cardinal", "Falconer", "Hunting Lodge", "Animal Fair"],
-		extras: ["Horse", "Shelters"],
+		shelters: true,
+		extras: ["Horse"],
 		landscapes: ["Ride", "Way of the Camel"],
         expansions: "darkagesmenagerie"
 	},
@@ -1232,7 +1266,8 @@ var officialKingdoms = [
 		id: 173,
         name: "Gift Horses",
         cards: ["Squire", "Sage", "Rats", "Pillage", "Hunting Grounds", "Camel Train", "Scrap", "Displace", "Paddock", "Destrier"],
-		extras: ["Horse", "Shelters", "Spoils"],
+		shelters: true,
+		extras: ["Horse", "Spoils"],
 		landscapes: ["Bargain", "Way of the Butterfly"],
         expansions: "darkagesmenagerie"
 	},
@@ -1240,7 +1275,8 @@ var officialKingdoms = [
 		id: 174,
         name: "Grave Business",
         cards: ["Poor House", "Beggar", "Forager", "Bandit Camp", "Graverobber", "Wizards", "Broker", "Barbarian", "Contract", "Highwayman"],
-		extras: ["Shelters", "Spoils"],
+		shelters: true,
+		extras: ["Spoils"],
 		landscapes: ["Cave Dwellers"],
         expansions: "darkagesallies"
 	},
@@ -1248,7 +1284,8 @@ var officialKingdoms = [
 		id: 175,
         name: "Rat Traders",
         cards: ["Squire", "Death Cart", "Rats", "Count", "Knights", "Townsflok", "Importer", "Emissary", "Skirmisher", "Swap"],
-		extras: ["Ruins", "Shelters"],
+		shelters: true,
+		extras: ["Ruins"],
 		landscapes: ["Desert Guides"],
         expansions: "darkagesallies"
 	},
@@ -1388,7 +1425,7 @@ var officialKingdoms = [
 	{
 		id: 194,
 		name: "Area Control",
-        cards: ["Coin of the Realm", "Page", "Relic", "Treasure Trove", "Wine Merchant", "Catapult / Rocks", "Farmer's Market", "Capital", "Charm", "Crown"],
+        cards: ["Coin of the Realm", "Page", "Relic", "Treasure Trove", "Wine Merchant", "Catapult / Rocks", "Farmers' Market", "Capital", "Charm", "Crown"],
 		extras: ["Treasure Hunter", "Warrior", "Hero", "Champion"],
 		landscapes: ["Banquet", "Keep"],
         expansions: "adventuresempires"
@@ -1465,7 +1502,7 @@ var officialKingdoms = [
 	{
 		id: 204,
 		name: "Basic Intro",
-        cards: ["Engineer", "City Quarter", "Patrician / Emporium", "Castles", "Chariot Race", "Farmer's Market", "Sacrifice", "Villa", "Forum", "Legionary"],
+        cards: ["Engineer", "City Quarter", "Patrician / Emporium", "Castles", "Chariot Race", "Farmers' Market", "Sacrifice", "Villa", "Forum", "Legionary"],
 		landscapes: ["Tower", "Wedding"],
         expansions: "empires"
 	},
@@ -1495,7 +1532,7 @@ var officialKingdoms = [
 	{
 		id: 208,
 		name: "Exploring the City",
-        cards: ["City Quarter", "Farmer's Market", "Sacrifice", "Groundskeeper", "Wild Hunt", "Cargo Ship", "Experiment", "Mountain Village", "Priest", "Sculptor"],
+        cards: ["City Quarter", "Farmers' Market", "Sacrifice", "Groundskeeper", "Wild Hunt", "Cargo Ship", "Experiment", "Mountain Village", "Priest", "Sculptor"],
 		landscapes: ["Battlefield", "Exploration"],
         expansions: "empiresrenaissance"
 	},
@@ -1525,7 +1562,7 @@ var officialKingdoms = [
 	{
 		id: 212,
 		name: "Island Empire",
-        cards: ["City Quarter", "Settlers / Bustling Village", "Enchantress", "Farmer's Market", "Wild Hunt", "Sycophant", "Forts", "Contract", "Specialist", "Swap"],
+        cards: ["City Quarter", "Settlers / Bustling Village", "Enchantress", "Farmers' Market", "Wild Hunt", "Sycophant", "Forts", "Contract", "Specialist", "Swap"],
 		landscapes: ["Orchard", "Island Folk"],
         expansions: "empiresallies"
 	},
