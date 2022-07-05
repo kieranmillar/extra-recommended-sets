@@ -1569,8 +1569,8 @@ var kingdoms = [
     },
     {
         id: 228,
-        name: "",
-        cards: [],
+        name: "Excess Capacity",
+        cards: ["Haven", "Lookout", "Warehouse", "Tide Pools", "Tactician", "Monument", "City", "Vault", "King's Court", "Peddler"],
 		colony: true,
         expansions: "seasideprosperity"
     },
