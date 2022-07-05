@@ -20,6 +20,7 @@ var reviewed = [
     "prosperity",
     "baseprosperity",
     "intrigueprosperity",
+    "seasideprosperity",
     "empires",
     "baseempires",
     "intrigueempires",
@@ -1576,8 +1577,8 @@ var kingdoms = [
     },
     {
         id: 229,
-        name: "",
-        cards: [],
+        name: "Monkey Business",
+        cards: ["Native Village", "Astrolabe", "Monkey", "Sea Chart", "Salvager", "Anvil", "Charlatan", "Mint", "Bank", "Expand"],
 		colony: true,
         expansions: "seasideprosperity"
     },
