@@ -1586,9 +1586,9 @@ var kingdoms = [
     {
         id: 230,
         name: "Mega-Money",
-        cards: ["Tiara", "Worker's Village", "War Chest", "Bank", "Forge", "Royal Blacksmith", "Enchantress", "Gladiator / Fortune", "Crown", "Forum"],
+        cards: ["Tiara", "Worker's Village", "War Chest", "Bank", "Forge", "Royal Blacksmith", "Enchantress", "Archive", "Crown", "Forum"],
 		colony: true,
-		landscapes: ["Conquest", "Dominate"],
+		landscapes: ["Conquest", "Fountain"],
         expansions: "prosperityempires"
     },
     {
