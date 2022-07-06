@@ -102,23 +102,22 @@ var officialKingdoms = [
 	{
         id: 14,
         name: "Biggest Money",
-        cards: ["Harbinger", "Moneylender", "Laboratory", "Mine", "Artisan", "Mint", "Royal Seal", "Venture", "Grand Market", "Bank"],
+        cards: ["Harbinger", "Moneylender", "Laboratory", "Mine", "Artisan", "Tiara", "Crystal Ball", "Mint", "Grand Market", "Bank"],
 		colony: true,
         expansions: "baseprosperity"
     },
 	{
         id: 15,
         name: "The King's Army",
-        cards: ["Moat", "Merchant", "Village", "Bureaucrat", "Council Room", "Rabble", "Vault", "Goons", "Expand", "King's Court"],
+        cards: ["Moat", "Merchant", "Village", "Bureaucrat", "Council Room", "Collection", "Rabble", "Vault", "Expand", "King's Court"],
 		colony: true,
         expansions: "baseprosperity"
     },
 	{
         id: 16,
-        name: "The Good Life",
-        cards: ["Cellar", "Village", "Bureaucrat", "Gardens", "Artisan", "Monument", "Contraband", "Counting House", "Mountebank", "Hoard"],
-		colony: true,
-        expansions: "baseprosperity"
+        name: "",
+        cards: [],
+        expansions: "(removed)"
     },
 	{
         id: 17,
@@ -328,21 +327,20 @@ var officialKingdoms = [
 	{
         id: 47,
         name: "Paths to Victory",
-        cards: ["Pawn", "Shanty Town", "Baron", "Upgrade", "Harem", "Bishop", "Monument", "Counting House", "Goons", "Peddler"],
+        cards: ["Pawn", "Shanty Town", "Baron", "Upgrade", "Harem", "Bishop", "Monument", "Collection", "Magnate", "Peddler"],
 		colony: true,
         expansions: "intrigueprosperity"
     },
 	{
         id: 48,
-        name: "All Along the Watchtower",
-        cards: ["Pawn", "Bridge", "Mill", "Mining Village", "Torturer", "Trade Route", "Watchtower", "Talisman", "Vault", "Hoard"],
-		colony: true,
-        expansions: "intrigueprosperity"
+        name: "",
+        cards: [],
+        expansions: "(removed)"
     },
 	{
         id: 49,
         name: "Lucky Seven",
-        cards: ["Lurker", "Swindler", "Wishing Well", "Bridge", "Patrol", "Vault", "Bank", "Expand", "Forge", "King's Court"],
+        cards: ["Wishing Well", "Baron", "Mining Village", "Patrol", "Upgrade", "Tiara", "Bank", "Expand", "Forge", "King's Court"],
 		colony: true,
         expansions: "intrigueprosperity"
     },
@@ -662,16 +660,14 @@ var officialKingdoms = [
     },
 	{
         id: 95,
-        name: "Counting Contest",
-        cards: ["Apothecary", "Herbalist", "Philosopher's Stone", "Golem", "Quarry", "Counting House", "Rabble", "Goons", "Hoard", "Bank"],
-		colony: true,
-		extras: ["Potion"],
-        expansions: "alchemyprosperity"
+        name: "",
+        cards: [],
+        expansions: "(removed)"
     },
 	{
         id: 96,
         name: "Lower Learning",
-        cards: ["Vineyard", "University", "Familiar", "Apprentice", "Bishop", "Talisman", "Worker's Village", "Mint", "Vault", "Peddler"],
+        cards: ["Vineyard", "University", "Familiar", "Apprentice", "Anvil", "Bishop", "Worker's Village", "Charlatan", "Mint", "Peddler"],
 		colony: true,
 		extras: ["Potion"],
         expansions: "alchemyprosperity"
@@ -793,59 +789,59 @@ var officialKingdoms = [
 	{
         id: 112,
         name: "Beginners",
-        cards: ["Watchtower", "Monument", "Worker's Village", "Counting House", "Rabble", "Royal Seal", "Venture", "Goons", "Bank", "Expand"],
+        cards: ["Watchtower", "Clerk", "Monument", "Tiara", "Worker's Village", "Crystal Ball", "Magnate", "Rabble", "Bank", "Expand"],
 		colony: true,
         expansions: "prosperity"
     },
 	{
         id: 113,
         name: "Friendly Interactive",
-        cards: ["Trade Route", "Bishop", "Worker's Village", "City", "Contraband", "Royal Seal", "Vault", "Hoard", "Forge", "Peddler"],
+        cards: ["Bishop", "Tiara", "Worker's Village", "City", "Collection", "War Chest", "Vault", "Hoard", "Forge", "Peddler"],
 		colony: true,
         expansions: "prosperity"
     },
 	{
         id: 114,
-        name: "Big Actions",
-        cards: ["Loan", "Quarry", "Talisman", "City", "Mint", "Rabble", "Vault", "Grand Market", "Expand", "King's Court"],
-		colony: true,
-        expansions: "prosperity"
+        name: "",
+        cards: [],
+        expansions: "(removed)"
     },
 	{
         id: 115,
         name: "Instant Gratification",
-        cards: ["Watchtower", "Bishop", "Mint", "Hoard", "Expand", "Noble Brigand", "Trader", "Haggler", "Ill-Gotten Gains", "Farmland"],
+        cards: ["Watchtower", "Bishop", "Mint", "Hoard", "Expand", "Oasis", "Trail", "Berserker", "Cauldron", "Haggler"],
 		colony: true,
         expansions: "prosperityhinterlands"
     },
 	{
         id: 116,
         name: "Treasure Trove",
-        cards: ["Trade Route", "Monument", "Royal Seal", "Venture", "Bank", "Fool's Gold", "Develop", "Cache", "Ill-Gotten Gains", "Mandarin"],
+        cards: ["Clerk", "Monument", "Tiara", "Crystal Ball", "Bank", "Fool's Gold", "Develop", "Guard Dog", "Cauldron", "Inn"],
 		colony: true,
         expansions: "prosperityhinterlands"
     },
 	{
         id: 117,
         name: "One Man's Trash",
-        cards: ["Monument", "Talisman", "City", "Venture", "Grand Market", "Forager", "Market Square", "Counterfeit", "Graverobber", "Rogue"],
-		colony: true,
-		shelters: true,
-        expansions: "prosperitydarkages"
-    },
-	{
-        id: 118,
-        name: "Honor Among Thieves",
-        cards: ["Watchtower", "Quarry", "Hoard", "Forge", "Peddler", "Squire", "Procession", "Bandit Camp", "Rebuild", "Rogue"],
+        cards: ["Anvil", "City", "Crystal Ball", "Magnate", "War Chest", "Squire", "Forager", "Market Square", "Counterfeit", "Pillage"],
 		colony: true,
 		shelters: true,
 		extras: ["Spoils"],
         expansions: "prosperitydarkages"
     },
 	{
+        id: 118,
+        name: "Honor Among Thieves",
+        cards: ["Watchtower", "Quarry", "Collection", "Hoard", "Forge", "Squire", "Marauder", "Procession", "Bandit Camp", "Rogue"],
+		colony: true,
+		shelters: true,
+		extras: ["Ruins", "Spoils"],
+        expansions: "prosperitydarkages"
+    },
+	{
         id: 119,
         name: "Detours",
-        cards: ["Trade Route", "Rabble", "Venture", "Hoard", "Peddler", "Farming Village", "Remake", "Tournament", "Horn of Plenty", "Jester"],
+        cards: ["Clerk", "Crystal Ball", "Magnate", "Hoard", "Forge", "Farming Village", "Remake", "Tournament", "Horn of Plenty", "Jester"],
 		colony: true,
 		extras: ["Prizes"],
         expansions: "prosperitycornguilds"
@@ -853,28 +849,26 @@ var officialKingdoms = [
 	{
         id: 120,
         name: "Quarrymen",
-        cards: ["Quarry", "City", "Mountebank", "Grand Market", "Expand", "Stonemason", "Taxman", "Baker", "Merchant Guild", "Soothsayer"],
+        cards: ["Quarry", "Charlatan", "City", "Grand Market", "Expand", "Candlestick Maker", "Baker", "Butcher", "Merchant Guild", "Soothsayer"],
 		colony: true,
         expansions: "prosperitycornguilds"
     },
 	{
         id: 121,
-        name: "Metal & Meat",
-        cards: ["Watchtower", "Monument", "Venture", "Forge", "King's Court", "Candlestick Maker", "Stonemason", "Plaza", "Taxman", "Butcher"],
-		colony: true,
-        expansions: "prosperitycornguilds"
+        name: "",
+        cards: [],
+        expansions: "(removed)"
     },
 	{
         id: 122,
-        name: "Penny Pinching",
-        cards: ["Counting House", "Royal Seal", "Goons", "Bank", "Peddler", "Doctor", "Advisor", "Herald", "Journeyman", "Merchant Guild"],
-		colony: true,
-        expansions: "prosperitycornguilds"
+        name: "",
+        cards: [],
+        expansions: "(removed)"
     },
 	{
         id: 123,
         name: "Last Will and Monument",
-        cards: ["Bishop", "Monument", "Counting House", "Rabble", "Vault", "Coin of the Realm", "Dungeon", "Messenger", "Relic", "Treasure Trove"],
+        cards: ["Bishop", "Monument", "Collection", "Magnate", "Vault", "Coin of the Realm", "Dungeon", "Messenger", "Port", "Relic"],
 		colony: true,
 		landscapes: ["Inheritance"],
         expansions: "prosperityadventures"
@@ -882,7 +876,7 @@ var officialKingdoms = [
 	{
         id: 124,
         name: "Think Big",
-        cards: ["Contraband", "Hoard", "Expand", "King's Court", "Peddler", "Miser", "Distant Lands", "Giant", "Storyteller", "Hireling"],
+        cards: ["War Chest", "Hoard", "Expand", "King's Court", "Peddler", "Miser", "Distant Lands", "Giant", "Storyteller", "Hireling"],
 		colony: true,
 		landscapes: ["Ball", "Ferry"],
         expansions: "prosperityadventures"
@@ -890,7 +884,7 @@ var officialKingdoms = [
 	{
         id: 125,
         name: "Big Time",
-        cards: ["Loan", "Royal Seal", "Grand Market", "Bank", "Forge", "Royal Blacksmith", "Patrician / Emporium", "Gladiator / Fortune", "Villa", "Capital"],
+        cards: ["Investment", "Tiara", "Grand Market", "Bank", "Forge", "Royal Blacksmith", "Patrician / Emporium", "Gladiator / Fortune", "Villa", "Capital"],
 		colony: true,
 		landscapes: ["Dominate", "Obelisk"],
 		notes: "Obelisk randomly assigned",
@@ -899,7 +893,7 @@ var officialKingdoms = [
 	{
         id: 126,
         name: "Gilded Gates",
-        cards: ["Bishop", "Monument", "Talisman", "Mint", "Peddler", "City Quarter", "Encampment / Plunder", "Chariot Race", "Groundskeeper", "Wild Hunt"],
+        cards: ["Anvil", "Collection", "Mint", "War Chest", "Peddler", "City Quarter", "Encampment / Plunder", "Chariot Race", "Groundskeeper", "Wild Hunt"],
 		colony: true,
 		landscapes: ["Basilica", "Palace"],
         expansions: "prosperityempires"
@@ -907,7 +901,7 @@ var officialKingdoms = [
 	{
         id: 127,
         name: "Treasures of the Night",
-        cards: ["Loan", "Contraband", "Royal Seal", "Venture", "Bank", "Guardian", "Night Watchman", "Crypt", "Vampire", "Raider"],
+        cards: ["Investment", "Tiara", "Charlatan", "Crystal Ball", "War Chest", "Guardian", "Night Watchman", "Crypt", "Vampire", "Raider"],
 		colony: true,
 		extras: ["Hexes", "Bat"],
         expansions: "prosperitynocturne"
@@ -915,7 +909,7 @@ var officialKingdoms = [
 	{
         id: 128,
         name: "Day at the Races",
-        cards: ["Trade Route", "Watchtower", "Bishop", "Talisman", "Peddler", "Druid", "Blessed Village", "Cemetary", "Tormentor", "Tragic Hero"],
+        cards: ["Anvil", "Watchtower", "Bishop", "Clerk", "Peddler", "Druid", "Blessed Village", "Cemetary", "Tormentor", "Tragic Hero"],
 		colony: true,
 		extras: ["Haunted Mirror", "Boons", "Hexes", "Will-O'-Wisp", "Ghost"],
 		notes: "Druid boons are The Swamp's Gift, The River's Gift and The Forest's Gift.",
@@ -924,7 +918,7 @@ var officialKingdoms = [
 	{
         id: 129,
         name: "Dreamers of Dreams",
-        cards: ["Watchtower", "Monument", "Worker's Village", "Vault", "Expand", "Cargo Ship", "Priest", "Old Witch", "Scepter", "Scholar"],
+        cards: ["Watchtower", "Monument", "Worker's Village", "Charlatan", "Vault", "Cargo Ship", "Priest", "Old Witch", "Scepter", "Scholar"],
 		colony: true,
 		landscapes: ["Academy"],
         expansions: "prosperityrenaissance"
@@ -932,7 +926,7 @@ var officialKingdoms = [
 	{
         id: 130,
         name: "Movers and Shakers",
-        cards: ["Loan", "City", "Rabble", "Grand Market", "Bank", "Hideout", "Patron", "Research", "Treasurer", "Villain"],
+        cards: ["Investment", "City", "Rabble", "Grand Market", "Bank", "Hideout", "Patron", "Research", "Treasurer", "Villain"],
 		colony: true,
 		extras: ["Key"],
 		landscapes: ["Capitalism", "Citadel"],
@@ -941,7 +935,7 @@ var officialKingdoms = [
 	{
         id: 131,
         name: "Limited Time Offer",
-        cards: ["Talisman", "Worker's Village", "Mint", "Peddler", "Grand Market", "Supplies", "Displace", "Fisherman", "Destrier", "Wayfarer"],
+        cards: ["Anvil", "Worker's Village", "Mint", "Grand Market", "Peddler", "Supplies", "Displace", "Fisherman", "Destrier", "Wayfarer"],
 		colony: true,
 		extras: ["Horse"],
 		landscapes: ["Desperation", "Way of the Frog"],
@@ -949,8 +943,8 @@ var officialKingdoms = [
     },
 	{
         id: 132,
-        name: "Birth of a Nation",
-        cards: ["Trade Route", "Monument", "Quarry", "City", "Rabble", "Camel Train", "Stockpile", "Mastermind", "Paddock", "Animal Fair"],
+        name: "Otter Chaos",
+        cards: ["Clerk", "Monument", "Quarry", "City", "War Chest", "Camel Train", "Hunting Lodge", "Mastermind", "Paddock", "Animal Fair"],
 		colony: true,
 		extras: ["Horse"],
 		landscapes: ["Reap", "Way of the Otter"],
@@ -959,7 +953,7 @@ var officialKingdoms = [
 	{
         id: 133,
         name: "Inventing Mania",
-        cards: ["Quarry", "Talisman", "Rabble", "Expand", "King's Court", "Bauble", "Augurs", "Importer", "Carpenter", "Capital City"],
+        cards: ["Anvil", "Quarry", "Rabble", "Expand", "King's Court", "Bauble", "Augurs", "Importer", "Carpenter", "Capital City"],
 		colony: true,
 		landscapes: ["Family of Inventors"],
         expansions: "prosperityallies"
@@ -967,7 +961,7 @@ var officialKingdoms = [
 	{
         id: 134,
         name: "Bank of Toadies",
-        cards: ["Trade Route", "City", "Mint", "Vault", "Bank", "Sycophant", "Odysseys", "Broker", "Town", "Marquis"],
+        cards: ["Clerk", "Investment", "City", "Vault", "Bank", "Sycophant", "Odysseys", "Broker", "Town", "Marquis"],
 		colony: true,
 		landscapes: ["League of Bankers"],
         expansions: "prosperityallies"
