@@ -1585,10 +1585,10 @@ var kingdoms = [
     },
     {
         id: 230,
-        name: "This partiular set combination is still work in progress",
-        cards: [],
+        name: "Mega-Money",
+        cards: ["Tiara", "Worker's Village", "War Chest", "Bank", "Forge", "Royal Blacksmith", "Enchantress", "Gladiator / Fortune", "Crown", "Forum"],
 		colony: true,
-		landscapes: [],
+		landscapes: ["Conquest", "Dominate"],
         expansions: "prosperityempires"
     },
     {
