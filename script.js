@@ -186,7 +186,13 @@ function createKingdomContainer(kingdom) {
 	let cardsList = document.createElement("p");
     kingdom.cards.forEach(card => {
         cardsString += card + ", ";
-		clipboardString += card + ", ";
+		let cardName = card;
+		if (kingdom.hasOwnProperty("obelisk")) {
+			if (kingdom.obelisk == card) {
+				//cardName += "(o)"; not supported just yet
+			}
+		}
+		clipboardString += cardName + ", ";
     });
 	cardsString = cardsString.slice(0, -2);
 	clipboardString = clipboardString.slice(0, -2);
@@ -195,7 +201,7 @@ function createKingdomContainer(kingdom) {
 		cardsString += "<em>";
 		kingdom.landscapes.forEach(card => {
 			cardsString += ", " + card;
-			clipboardString += ", " + card ;
+			clipboardString += ", " + card;
 		});
 		cardsString += "</em>";
 	}
@@ -227,9 +233,16 @@ function createKingdomContainer(kingdom) {
         container.appendChild(extrasList);
     }
 
-    if (kingdom.hasOwnProperty("notes")) {
+    if (kingdom.hasOwnProperty("notes") || kingdom.hasOwnProperty("obelisk")) {
         let notesText = document.createElement("p");
-        notesText.innerHTML = "<strong>Notes: </strong>" + kingdom.notes;
+		let notesString = "<strong>Notes: </strong>";
+		if (kingdom.hasOwnProperty("notes")) {
+			notesString += kingdom.notes + " ";
+		}
+		if (kingdom.hasOwnProperty("obelisk")) {
+			notesString += kingdom.obelisk + " is the Obelisk target. ";
+		}
+        notesText.innerHTML = notesString;
         container.appendChild(notesText);
     }
 

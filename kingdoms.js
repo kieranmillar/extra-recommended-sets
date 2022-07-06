@@ -3,10 +3,11 @@
 id: A number matching its position in the array.
 name: The kingdom name
 cards: An array of card names
-colony: A boolean to include Colony and Platinum
-shelters: A boolean to include Shelters
+colony: A boolean to include Colony and Platinum (optional)
+shelters: A boolean to include Shelters (optional)
 extras: An array of extra component names (optional)
 landscapes: An array of landscape names (optional)
+obelisk: The card chosen as the Obelisk target (optional)
 notes: Any extra notes (optional)
 expansions: Concatenated string of expansions required, matching checkbox names in order, no spaces
 -----*/
@@ -554,7 +555,7 @@ var kingdoms = [
         name: "Anything Goes",
         cards: ["Royal Blacksmith", "Encampment / Plunder", "Patrician / Emporium", "Farmers' Market", "Sacrifice", "Temple", "Charm", "Crown", "Forum", "Legionary"],
         landscapes: ["Wedding", "Obelisk"],
-        notes: "Obelisk target is Royal Blacksmith.",
+        obelisk: "Royal Blacksmith",
         expansions: "empires"
     },
     {
@@ -1288,7 +1289,7 @@ var kingdoms = [
         name: "Landlords",
         cards: ["Steward", "Baron", "Mining Village", "Courtier", "Nobles", "Enchantress", "Villa", "Crown", "Groundskeeper", "Wild Hunt"],
         landscapes: ["Obelisk", "Triumph"],
-        notes: "Obelisk target is Crown.",
+        obelisk: "Crown",
         expansions: "intrigueempires"
     },
     {
@@ -1584,10 +1585,10 @@ var kingdoms = [
     },
     {
         id: 230,
-        name: "Mega-Money",
-        cards: ["Tiara", "Worker's Village", "War Chest", "Bank", "Forge", "Royal Blacksmith", "Enchantress", "Gladiator / Fortune", "Crown", "Forum"],
+        name: "This partiular set combination is still work in progress",
+        cards: [],
 		colony: true,
-		landscapes: ["Conquest", "Dominate"],
+		landscapes: [],
         expansions: "prosperityempires"
     },
     {
