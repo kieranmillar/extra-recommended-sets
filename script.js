@@ -50,7 +50,6 @@ function goToLocation(loc) {
 			tabExtras.classList.add("active");
 			disabledNoteElement.hidden = false;
 			checkboxElements[3].disabled = true;
-			checkboxElements[4].disabled = true;
 			checkboxElements[5].disabled = true;
 			checkboxElements[6].disabled = true;
 			checkboxElements[7].disabled = true;
@@ -68,7 +67,6 @@ function goToLocation(loc) {
 			tabOfficial.classList.add("active");
 			disabledNoteElement.hidden = true;
 			checkboxElements[3].disabled = false;
-			checkboxElements[4].disabled = false;
 			checkboxElements[5].disabled = false;
 			checkboxElements[6].disabled = false;
 			checkboxElements[7].disabled = false;
@@ -175,7 +173,7 @@ function createKingdomContainer(kingdom) {
 			playedCheckbox.checked = true;
 		}
 	}
-	
+
 	container.appendChild(playedCheckbox);
 
     let nameHeader = document.createElement("label");
@@ -183,38 +181,77 @@ function createKingdomContainer(kingdom) {
     nameHeader.textContent = kingdom.name;
     container.appendChild(nameHeader);
 
-	let cardsList = document.createElement("p");
 	let cardsString = "";
+	let clipboardString = "";
+	let cardsList = document.createElement("p");
     kingdom.cards.forEach(card => {
         cardsString += card + ", ";
+		let cardName = card;
+		if (kingdom.hasOwnProperty("obelisk")) {
+			if (kingdom.obelisk == card) {
+				//cardName += "(o)"; not supported just yet
+			}
+		}
+		clipboardString += cardName + ", ";
     });
 	cardsString = cardsString.slice(0, -2);
+	clipboardString = clipboardString.slice(0, -2);
+
 	if (kingdom.hasOwnProperty("landscapes")) {
-		cardsString += ", <em>";
+		cardsString += "<em>";
 		kingdom.landscapes.forEach(card => {
-			cardsString += card + ", ";
+			cardsString += ", " + card;
+			clipboardString += ", " + card;
 		});
-		cardsString = cardsString.slice(0, -2);
 		cardsString += "</em>";
 	}
 	cardsList.innerHTML = cardsString;
     container.appendChild(cardsList);
 
-    if (kingdom.hasOwnProperty("extras")) {
+	if (kingdom.hasOwnProperty("colony")) {
+		clipboardString += ", Platinum, Colony";
+	}
+	if (kingdom.hasOwnProperty("shelters")) {
+		clipboardString += ", Shelters";
+	}
+
+    if (kingdom.hasOwnProperty("extras") || kingdom.hasOwnProperty("colony") || kingdom.hasOwnProperty("shelters")) {
 		let extrasList = document.createElement("p");
 		let extrasString = "";
-        kingdom.extras.forEach(card => {
-			extrasString += card + ", ";
-		});
+		if (kingdom.hasOwnProperty("extras")) {
+			kingdom.extras.forEach(card => {
+				extrasString += card + ", ";
+			});
+		}
+		if (kingdom.hasOwnProperty("colony")) {
+			extrasString += "Platinum, Colony, ";
+		}
+		if (kingdom.hasOwnProperty("shelters")) {
+			extrasString += "Shelters, ";
+		}
 		extrasList.innerHTML = "<strong>Extras: </strong>" + extrasString.slice(0, -2);
         container.appendChild(extrasList);
     }
 
-    if (kingdom.hasOwnProperty("notes")) {
+    if (kingdom.hasOwnProperty("notes") || kingdom.hasOwnProperty("obelisk")) {
         let notesText = document.createElement("p");
-        notesText.innerHTML = "<strong>Notes: </strong>" + kingdom.notes;
+		let notesString = "<strong>Notes: </strong>";
+		if (kingdom.hasOwnProperty("notes")) {
+			notesString += kingdom.notes + " ";
+		}
+		if (kingdom.hasOwnProperty("obelisk")) {
+			notesString += kingdom.obelisk + " is the Obelisk target. ";
+		}
+        notesText.innerHTML = notesString;
         container.appendChild(notesText);
     }
+
+	let clipboardButton = document.createElement("button");
+	clipboardButton.innerHTML = "Copy to clipboard";
+	container.appendChild(clipboardButton);
+	clipboardButton.addEventListener ("click", function() {
+		navigator.clipboard.writeText(clipboardString);
+	});
 
     return container;
 }

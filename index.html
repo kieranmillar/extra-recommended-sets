@@ -12,7 +12,7 @@
 		content="Kieran Millar" />
 		
 		<meta name="revised"
-		content="Kieran Millar, 17/06/2022" />
+		content="Kieran Millar, 06/07/2022" />
 		
 		<link rel="stylesheet" type="text/css" href="styles.css">
 		
@@ -25,8 +25,8 @@
 		<div id="tabs">
 			<h3 id="tab_extras" class="tab active" onclick="goToLocation('extras')">Extra Sets</h3>
 			<h3 id="tab_official" class="tab" onclick="goToLocation('official')">Official Sets</h3>
-			<h3 id="tab_faq" class="tab" onclick="goToLocation('faq')">FAQ</h3>
 			<h3 id="tab_about" class="tab" onclick="goToLocation('about')">About</h3>
+			<h3 id="tab_faq" class="tab" onclick="goToLocation('faq')">FAQ</h3>
 			<h3 id="tab_changelog" class="tab" onclick="goToLocation('changelog')">Changelog</h3>
 		</div>
 		
@@ -48,10 +48,10 @@
 				<label for="seaside">Seaside 2nd Edition</label><br>
 				<input type="checkbox" id="alchemy" name="alchemy" value="alchemy" disabled>
 				<label for="alchemy">Alchemy</label><br>
-				<input type="checkbox" id="prosperity" name="prosperity" value="prosperity" disabled>
-				<label for="prosperity">Prosperity</label><br>
+				<input type="checkbox" id="prosperity" name="prosperity" value="prosperity">
+				<label for="prosperity">Prosperity 2nd Edition</label><br>
 				<input type="checkbox" id="hinterlands" name="hinterlands" value="hinterlands" disabled>
-				<label for="hinterlands">Hinterlands</label><br>
+				<label for="hinterlands">Hinterlands 2nd Edition</label><br>
 				<input type="checkbox" id="darkages" name="darkages" value="darkages" disabled>
 				<label for="darkages">Dark Ages</label><br>
 				<input type="checkbox" id="cornguilds" name="cornguilds" value="cornguilds" disabled>
@@ -74,6 +74,26 @@
 				<p id="errors" class="error"></p>
 
 				<div id="kingdomContainer"></div>
+			</div>
+			
+			<div id="loc_about" class="location">
+				<h1>About</h1>
+				<p>This site contains a load of extra recommended sets for the board game Dominion. 10 for each combination of one or two sets (except for Alchemy on its own, of which their are none due to its card pool being very small).</p>
+				<p>Each set has a checkbox before its name you can use to keep track of which ones you've played. This is automatically saved to your device's local storage, and persists between site visits. This is the only data stored and never leaves your device, no privacy problems or cookies here.</p>
+				<p>The official sets from the rulebooks are also on their own tab for easy reference and to use the same system to keep track of which you've played, if you want to use that.</p>
+				<p>This site and all the extra sets are made by Kieran Millar.</p>
+				<p>You can contact me on Reddit and Discord. My username on both sites is kieranmillar.</p>
+				<p>Some cool links:</p>
+				<ul>
+					<li><a href="https://dominionstrategy.com/">Dominion Strategy site</a></li>
+					<li><a href="https://wiki.dominionstrategy.com/">Dominion Wiki</a></li>
+					<li><a href="https://www.reddit.com/r/dominion/">Dominion Reddit</a></li>
+					<li><a href="https://www.domi.link/discord/">Dominion Discord</a></li>
+					<li><a href="https://www.youtube.com/c/DominionCards/">My Youtube channel of Dominion strategy videos</a></li>
+					<li><a href="https://github.com/kieranmillar/extra-recommended-sets/">This site's Github repo</a></li>
+				</ul>
+				<p>Use the button below to uncheck all of the kingdoms.</p>
+				<button onclick="wipeLocalData()">Wipe Local Data (Warning: Can't be undone!)</button>
 			</div>
 			
 			<div id="loc_faq" class="location">
@@ -112,29 +132,16 @@
 				<p>Yes, feel free. You may be interested in the JSON-ified official sets list, for example. I'd rather the sets I designed live here though.</p>
 			</div>
 			
-			<div id="loc_about" class="location">
-				<h1>About</h1>
-				<p>This site contains a load of extra recommended sets for the board game Dominion. 10 for each combination of one or two sets (except for Alchemy on its own, of which their are none due to its card pool being very small).</p>
-				<p>Each set has a checkbox before its name you can use to keep track of which ones you've played. This is automatically saved to your device's local storage, and persists between site visits. This is the only data stored and never leaves your device, no privacy problems or cookies here.</p>
-				<p>The official sets from the rulebooks are also on their own tab for easy reference and to use the same system to keep track of which you've played, if you want to use that.</p>
-				<p>This site and all the extra sets are made by Kieran Millar.</p>
-				<p>You can contact me on Reddit and Discord. My username on both sites is kieranmillar.</p>
-				<p>Some cool links:</p>
-				<ul>
-					<li><a href="https://dominionstrategy.com/">Dominion Strategy site</a></li>
-					<li><a href="https://wiki.dominionstrategy.com/">Dominion Wiki</a></li>
-					<li><a href="https://www.reddit.com/r/dominion/">Dominion Reddit</a></li>
-					<li><a href="https://www.domi.link/discord/">Dominion Discord</a></li>
-					<li><a href="https://www.youtube.com/c/DominionCards/">My Youtube channel of Dominion strategy videos</a></li>
-					<li><a href="https://github.com/kieranmillar/extra-recommended-sets/">This site's Github repo</a></li>
-				</ul>
-				<p>Use the button below to uncheck all of the kingdoms.</p>
-				<button onclick="wipeLocalData()">Wipe Local Data (Warning: Can't be undone!)</button>
-			</div>
-			
 			<div id="loc_changelog" class="location">
 				<h1>Changelog</h1>
 				<ul>
+					<li>6th Jul 2022
+						<ul>
+							<li>Prosperity 2nd Ed and Hinterlands 2nd Ed official sets
+							<li>Most of Propsertiy 2E extra sets (just combined with Empires remaining)</li>
+							<li>Copy to clipboard buttons</li>
+						</ul>
+					</li>
 					<li>17th Jun 2022 - Initial release with Base, Intrigue, Seaside and Empires</li>
 				</ul>
 			</div>
