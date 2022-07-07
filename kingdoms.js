@@ -1601,10 +1601,10 @@ var kingdoms = [
     },
     {
         id: 232,
-        name: "",
-        cards: [],
+        name: "How Charming",
+        cards: ["Clerk", "Grand Market", "Hoard", "Expand", "King's Court", "Castles", "Temple", "Villa", "Charm", "Wild Hunt"],
 		colony: true,
-		landscapes: [],
+		landscapes: ["Orchard", "Triumphal Arch"],
         expansions: "prosperityempires"
     },
     {
