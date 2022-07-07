@@ -1609,10 +1609,10 @@ var kingdoms = [
     },
     {
         id: 233,
-        name: "",
-        cards: [],
+        name: "Tale of Two Cities",
+        cards: ["Bishop", "Clerk", "City", "Crystal Ball", "Vault", "City Quarter", "Encampment / Plunder", "Farmers' Market", "Forum", "Legionary"],
 		colony: true,
-		landscapes: [],
+		landscapes: ["Dominate", "Tomb"],
         expansions: "prosperityempires"
     },
     {
