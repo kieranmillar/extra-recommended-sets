@@ -1593,10 +1593,10 @@ var kingdoms = [
     },
     {
         id: 231,
-        name: "",
-        cards: [],
+        name: "Going Through Phases",
+        cards: ["Watchtower", "Charlatan", "Collection", "Rabble", "Peddler", "Overlord", "Patrician / Emporium", "Settlers / Bustling Village", "Catapult / Rocks", "Sacrifice"],
 		colony: true,
-		landscapes: [],
+		landscapes: ["Arena", "Banquet"],
         expansions: "prosperityempires"
     },
     {
