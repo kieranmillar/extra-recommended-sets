@@ -1625,10 +1625,10 @@ var kingdoms = [
     },
     {
         id: 235,
-        name: "",
-        cards: [],
+        name: "Looming Threats",
+        cards: ["Monument", "Quarry", "Grand Market", "Expand", "Peddler", "Engineer", "Encampment / Plunder", "Gladiator / Fortune", "Temple", "Crown"],
 		colony: true,
-		landscapes: [],
+		landscapes: ["Mountain Pass", "Salt the Earth"],
         expansions: "prosperityempires"
     },
     {
