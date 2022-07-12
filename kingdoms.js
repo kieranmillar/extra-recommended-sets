@@ -25,7 +25,8 @@ var reviewed = [
     "empires",
     "baseempires",
     "intrigueempires",
-    "seasideempires"
+    "seasideempires",
+    "prosperityempires"
 ];
 
 var kingdoms = [
@@ -1612,7 +1613,7 @@ var kingdoms = [
         name: "Tale of Two Cities",
         cards: ["Bishop", "Clerk", "City", "Crystal Ball", "Vault", "City Quarter", "Encampment / Plunder", "Farmers' Market", "Forum", "Legionary"],
 		colony: true,
-		landscapes: ["Dominate", "Tomb"],
+		landscapes: ["Dominate", "Wall"],
         expansions: "prosperityempires"
     },
     {
@@ -1649,16 +1650,16 @@ var kingdoms = [
     },
     {
         id: 238,
-        name: "",
-        cards: [],
+        name: "Regulations",
+        cards: ["Investment", "Quarry", "Charlatan", "King's Court", "Peddler", "Overlord", "Enchantress", "Groundskeeper", "Legionary", "Wild Hunt"],
 		colony: true,
-		landscapes: [],
+		landscapes: ["Wolf Den", "Annex"],
         expansions: "prosperityempires"
     },
     {
         id: 239,
         name: "Victory Parade",
-        cards: ["Watchtower", "Tiara", "Msgnste", "Hoard", "Forge", "City Quarter", "Settlers / Bustling Village", "Chariot Race", "Charm", "Forum"],
+        cards: ["Watchtower", "Tiara", "Magnate", "Hoard", "Forge", "City Quarter", "Settlers / Bustling Village", "Chariot Race", "Charm", "Forum"],
 		colony: true,
 		landscapes: ["Tomb", "Triumph"],
         expansions: "prosperityempires"
