@@ -1617,10 +1617,10 @@ var kingdoms = [
     },
     {
         id: 234,
-        name: "",
-        cards: [],
+        name: "Competing Concerns",
+        cards: ["Anvil", "Investment", "Worker's Village", "Magnate", "Hoard", "Chariot Race", "Enchantress", "Capital", "Groundskeeper", "Legionary"],
 		colony: true,
-		landscapes: [],
+		landscapes: ["Battlefield", "Tax"],
         expansions: "prosperityempires"
     },
     {
