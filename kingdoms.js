@@ -1641,10 +1641,10 @@ var kingdoms = [
     },
     {
         id: 237,
-        name: "",
-        cards: [],
+        name: "Siege Weapons",
+        cards: ["Watchtower", "Worker's Village", "City", "Collection", "War Chest", "Engineer", "Patrician / Emporium", "Catapult / Rocks", "Farmers' Market", "Archive"],
 		colony: true,
-		landscapes: [],
+		landscapes: ["Museum", "Tower"],
         expansions: "prosperityempires"
     },
     {
