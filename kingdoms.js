@@ -25,7 +25,8 @@ var reviewed = [
     "empires",
     "baseempires",
     "intrigueempires",
-    "seasideempires"
+    "seasideempires",
+    "prosperityempires"
 ];
 
 var kingdoms = [
@@ -1585,82 +1586,82 @@ var kingdoms = [
     },
     {
         id: 230,
-        name: "This partiular set combination is still work in progress",
-        cards: [],
+        name: "Mega-Money",
+        cards: ["Tiara", "Worker's Village", "War Chest", "Bank", "Forge", "Royal Blacksmith", "Enchantress", "Archive", "Crown", "Forum"],
 		colony: true,
-		landscapes: [],
+		landscapes: ["Conquest", "Fountain"],
         expansions: "prosperityempires"
     },
     {
         id: 231,
-        name: "",
-        cards: [],
+        name: "Going Through Phases",
+        cards: ["Watchtower", "Charlatan", "Collection", "Rabble", "Peddler", "Overlord", "Patrician / Emporium", "Settlers / Bustling Village", "Catapult / Rocks", "Sacrifice"],
 		colony: true,
-		landscapes: [],
+		landscapes: ["Arena", "Banquet"],
         expansions: "prosperityempires"
     },
     {
         id: 232,
-        name: "",
-        cards: [],
+        name: "How Charming",
+        cards: ["Clerk", "Grand Market", "Hoard", "Expand", "King's Court", "Castles", "Temple", "Villa", "Charm", "Wild Hunt"],
 		colony: true,
-		landscapes: [],
+		landscapes: ["Orchard", "Triumphal Arch"],
         expansions: "prosperityempires"
     },
     {
         id: 233,
-        name: "",
-        cards: [],
+        name: "Tale of Two Cities",
+        cards: ["Bishop", "Clerk", "City", "Crystal Ball", "Vault", "City Quarter", "Encampment / Plunder", "Farmers' Market", "Forum", "Legionary"],
 		colony: true,
-		landscapes: [],
+		landscapes: ["Dominate", "Wall"],
         expansions: "prosperityempires"
     },
     {
         id: 234,
-        name: "",
-        cards: [],
+        name: "Competing Concerns",
+        cards: ["Anvil", "Investment", "Worker's Village", "Magnate", "Hoard", "Chariot Race", "Enchantress", "Capital", "Groundskeeper", "Legionary"],
 		colony: true,
-		landscapes: [],
+		landscapes: ["Battlefield", "Tax"],
         expansions: "prosperityempires"
     },
     {
         id: 235,
-        name: "",
-        cards: [],
+        name: "Looming Threats",
+        cards: ["Monument", "Quarry", "Grand Market", "Expand", "Peddler", "Engineer", "Encampment / Plunder", "Gladiator / Fortune", "Temple", "Crown"],
 		colony: true,
-		landscapes: [],
+		landscapes: ["Mountain Pass", "Salt the Earth"],
         expansions: "prosperityempires"
     },
     {
         id: 236,
-        name: "",
-        cards: [],
+        name: "Unorthodox",
+        cards: ["Anvil", "Bishop", "Charlatan", "Crystal Ball", "Mint", "Royal Blacksmith", "Settlers / Bustling Village", "Castles", "Sacrifice", "Villa"],
 		colony: true,
-		landscapes: [],
+		landscapes: ["Colonnade", "Windfall"],
         expansions: "prosperityempires"
     },
     {
         id: 237,
-        name: "",
-        cards: [],
+        name: "Siege Weapons",
+        cards: ["Watchtower", "Worker's Village", "City", "Collection", "War Chest", "Engineer", "Patrician / Emporium", "Catapult / Rocks", "Farmers' Market", "Archive"],
 		colony: true,
-		landscapes: [],
+		landscapes: ["Museum", "Tower"],
         expansions: "prosperityempires"
     },
     {
         id: 238,
-        name: "",
-        cards: [],
+        name: "Regulations",
+        cards: ["Investment", "Quarry", "Charlatan", "King's Court", "Peddler", "Overlord", "Enchantress", "Groundskeeper", "Legionary", "Wild Hunt"],
 		colony: true,
-		landscapes: [],
+		landscapes: ["Wolf Den", "Annex"],
         expansions: "prosperityempires"
     },
     {
         id: 239,
-        name: "",
-        cards: [],
+        name: "Victory Parade",
+        cards: ["Watchtower", "Tiara", "Magnate", "Hoard", "Forge", "City Quarter", "Settlers / Bustling Village", "Chariot Race", "Charm", "Forum"],
 		colony: true,
-		landscapes: [],
+		landscapes: ["Tomb", "Triumph"],
         expansions: "prosperityempires"
     }
 ];
