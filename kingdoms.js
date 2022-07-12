@@ -1657,10 +1657,10 @@ var kingdoms = [
     },
     {
         id: 239,
-        name: "",
-        cards: [],
+        name: "Victory Parade",
+        cards: ["Watchtower", "Tiara", "Msgnste", "Hoard", "Forge", "City Quarter", "Settlers / Bustling Village", "Chariot Race", "Charm", "Forum"],
 		colony: true,
-		landscapes: [],
+		landscapes: ["Tomb", "Triumph"],
         expansions: "prosperityempires"
     }
 ];
