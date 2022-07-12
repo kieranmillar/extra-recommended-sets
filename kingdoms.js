@@ -1633,10 +1633,10 @@ var kingdoms = [
     },
     {
         id: 236,
-        name: "",
-        cards: [],
+        name: "Unorthodox",
+        cards: ["Anvil", "Bishop", "Charlatan", "Crystal Ball", "Mint", "Royal Blacksmith", "Settlers / Bustling Village", "Castles", "Sacrifice", "Villa"],
 		colony: true,
-		landscapes: [],
+		landscapes: ["Colonnade", "Windfall"],
         expansions: "prosperityempires"
     },
     {
