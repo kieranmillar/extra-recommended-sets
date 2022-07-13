@@ -294,8 +294,8 @@ var kingdoms = [
     },
     {
         id: 42,
-        name: "",
-        cards: [],
+        name: "The Lowlands",
+        cards: ["Crossroads", "Develop", "Guard Dog", "Scheme", "Tunnel", "Spice Merchant", "Berserker", "Souk", "Wheelwright", "Border Village"],
         expansions: "hinterlands"
     },
     {
