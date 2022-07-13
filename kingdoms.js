@@ -1115,7 +1115,7 @@ var kingdoms = [
     },
     {
         id: 160,
-        name: "",
+        name: "This set combination is in progress",
         cards: [],
         expansions: "basehinterlands"
     },
@@ -1663,5 +1663,265 @@ var kingdoms = [
 		colony: true,
 		landscapes: ["Tomb", "Triumph"],
         expansions: "prosperityempires"
+    },
+	{
+        id: 240,
+        name: "This set combination is in progress",
+        cards: [],
+        expansions: "intriguehinterlands"
+    },
+    {
+        id: 241,
+        name: "",
+        cards: [],
+        expansions: "intriguehinterlands"
+    },
+    {
+        id: 242,
+        name: "",
+        cards: [],
+        expansions: "intriguehinterlands"
+    },
+    {
+        id: 243,
+        name: "",
+        cards: [],
+        expansions: "intriguehinterlands"
+    },
+    {
+        id: 244,
+        name: "",
+        cards: [],
+        expansions: "intriguehinterlands"
+    },
+    {
+        id: 245,
+        name: "",
+        cards: [],
+        expansions: "intriguehinterlands"
+    },
+    {
+        id: 246,
+        name: "",
+        cards: [],
+        expansions: "intriguehinterlands"
+    },
+    {
+        id: 247,
+        name: "",
+        cards: [],
+        expansions: "intriguehinterlands"
+    },
+    {
+        id: 248,
+        name: "",
+        cards: [],
+        expansions: "intriguehinterlands"
+    },
+    {
+        id: 249,
+        name: "",
+        cards: [],
+		expansions: "intriguehinterlands"
+    },
+		{
+        id: 250,
+        name: "This set combination is in progress",
+        cards: [],
+        expansions: "seasidehinterlands"
+    },
+    {
+        id: 251,
+        name: "",
+        cards: [],
+        expansions: "seasidehinterlands"
+    },
+    {
+        id: 252,
+        name: "",
+        cards: [],
+        expansions: "seasidehinterlands"
+    },
+    {
+        id: 253,
+        name: "",
+        cards: [],
+        expansions: "seasidehinterlands"
+    },
+    {
+        id: 254,
+        name: "",
+        cards: [],
+        expansions: "seasidehinterlands"
+    },
+    {
+        id: 255,
+        name: "",
+        cards: [],
+        expansions: "seasidehinterlands"
+    },
+    {
+        id: 256,
+        name: "",
+        cards: [],
+        expansions: "seasidehinterlands"
+    },
+    {
+        id: 257,
+        name: "",
+        cards: [],
+        expansions: "seasidehinterlands"
+    },
+    {
+        id: 258,
+        name: "",
+        cards: [],
+        expansions: "seasidehinterlands"
+    },
+    {
+        id: 259,
+        name: "",
+        cards: [],
+		expansions: "seasidehinterlands"
+    },
+	{
+        id: 260,
+        name: "This set combination is in progress",
+        cards: [],
+		colony: true,
+        expansions: "prosperityhinterlands"
+    },
+    {
+        id: 261,
+        name: "",
+        cards: [],
+		colony: true,
+        expansions: "prosperityhinterlands"
+    },
+    {
+        id: 262,
+        name: "",
+        cards: [],
+		colony: true,
+        expansions: "prosperityhinterlands"
+    },
+    {
+        id: 263,
+        name: "",
+        cards: [],
+		colony: true,
+        expansions: "prosperityhinterlands"
+    },
+    {
+        id: 264,
+        name: "",
+        cards: [],
+		colony: true,
+        expansions: "prosperityhinterlands"
+    },
+    {
+        id: 265,
+        name: "",
+        cards: [],
+		colony: true,
+        expansions: "prosperityhinterlands"
+    },
+    {
+        id: 266,
+        name: "",
+        cards: [],
+		colony: true,
+        expansions: "prosperityhinterlands"
+    },
+    {
+        id: 267,
+        name: "",
+        cards: [],
+		colony: true,
+        expansions: "prosperityhinterlands"
+    },
+    {
+        id: 268,
+        name: "",
+        cards: [],
+		colony: true,
+        expansions: "prosperityhinterlands"
+    },
+    {
+        id: 269,
+        name: "",
+        cards: [],
+		colony: true,
+        expansions: "prosperityhinterlands"
+    },
+	{
+        id: 270,
+        name: "This set combination is in progress",
+        cards: [],
+		landscapes: [],
+        expansions: "hinterlandsempires"
+    },
+	{
+        id: 271,
+        name: "",
+        cards: [],
+		landscapes: [],
+        expansions: "hinterlandsempires"
+    },
+	{
+        id: 272,
+        name: "",
+        cards: [],
+		landscapes: [],
+        expansions: "hinterlandsempires"
+    },
+	{
+        id: 273,
+        name: "",
+        cards: [],
+		landscapes: [],
+        expansions: "hinterlandsempires"
+    },
+	{
+        id: 274,
+        name: "",
+        cards: [],
+		landscapes: [],
+        expansions: "hinterlandsempires"
+    },
+	{
+        id: 275,
+        name: "",
+        cards: [],
+		landscapes: [],
+        expansions: "hinterlandsempires"
+    },
+	{
+        id: 276,
+        name: "",
+        cards: [],
+		landscapes: [],
+        expansions: "hinterlandsempires"
+    },
+	{
+        id: 277,
+        name: "",
+        cards: [],
+		landscapes: [],
+        expansions: "hinterlandsempires"
+    },
+	{
+        id: 278,
+        name: "",
+        cards: [],
+		landscapes: [],
+        expansions: "hinterlandsempires"
+    },
+	{
+        id: 279,
+        name: "",
+        cards: [],
+		landscapes: [],
+        expansions: "hinterlandsempires"
     }
 ];
