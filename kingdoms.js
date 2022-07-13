@@ -306,8 +306,8 @@ var kingdoms = [
     },
     {
         id: 44,
-        name: "",
-        cards: [],
+        name: "Going the Distance",
+        cards: ["Crossroads", "Scheme", "Tunnel", "Jack of all Trades", "Cartographer", "Highway", "Inn", "Souk", "Stables", "Witch's Hut"],
         expansions: "hinterlands"
     },
     {
