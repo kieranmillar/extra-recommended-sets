@@ -288,8 +288,8 @@ var kingdoms = [
     },
     {
         id: 41,
-        name: "",
-        cards: [],
+        name: "Medium Large",
+        cards: ["Jack of all Trades", "Trader", "Trail", "Weaver", "Cartographer", "Cauldron", "Inn", "Margrave", "Witch's Hut", "Farmland"],
         expansions: "hinterlands"
     },
     {
