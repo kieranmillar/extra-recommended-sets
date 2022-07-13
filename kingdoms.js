@@ -300,8 +300,8 @@ var kingdoms = [
     },
     {
         id: 43,
-        name: "",
-        cards: [],
+        name: "Serenity",
+        cards: ["Fool's Gold", "Oasis", "Scheme", "Nomads", "Trader", "Trail", "Berserker", "Cartographer", "Stables", "Farmland"],
         expansions: "hinterlands"
     },
     {
