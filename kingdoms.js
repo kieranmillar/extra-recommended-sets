@@ -282,62 +282,62 @@ var kingdoms = [
     },
     {
         id: 40,
-        name: "Cyclone",
-        cards: ["Duchess", "Oasis", "Scheme", "Jack of All Trades", "Nomad Camp", "Cartographer", "Embassy", "Inn", "Stables", "Farmland"],
+        name: "Meet the Neighbours",
+        cards: ["Guard Dog", "Oasis", "Scheme", "Nomads", "Spice Merchant", "Haggler", "Highway", "Stables", "Wheelwright", "Border Village"],
         expansions: "hinterlands"
     },
     {
         id: 41,
-        name: "Road To Nowhere",
-        cards: ["Crossroads", "Fool's Gold", "Oracle", "Noble Brigand", "Trader", "Cartographer", "Embassy", "Haggler", "Highway", "Border Village"],
+        name: "",
+        cards: [],
         expansions: "hinterlands"
     },
     {
         id: 42,
-        name: "Landlords",
-        cards: ["Scheme", "Tunnel", "Noble Brigand", "Silk Road", "Spice Merchant", "Cache", "Ill-Gotten Gains", "Inn", "Margrave", "Stables"],
+        name: "",
+        cards: [],
         expansions: "hinterlands"
     },
     {
         id: 43,
-        name: "Ladder Game",
-        cards: ["Fool's Gold", "Develop", "Oasis", "Noble Brigand", "Nomad Camp", "Spice Merchant", "Embassy", "Highway", "Stables", "Border Village"],
+        name: "",
+        cards: [],
         expansions: "hinterlands"
     },
     {
         id: 44,
-        name: "Critical Junction",
-        cards: ["Crossroads", "Fool's Gold", "Scheme", "Silk Road", "Spice Merchant", "Haggler", "Highway", "Mandarin", "Margrave", "Farmland"],
+        name: "",
+        cards: [],
         expansions: "hinterlands"
     },
     {
         id: 45,
-        name: "Medium of Exchange",
-        cards: ["Crossroads", "Duchess", "Oasis", "Oracle", "Trader", "Haggler", "Ill-Gotten Gains", "Inn", "Margrave", "Border Village"],
+        name: "",
+        cards: [],
         expansions: "hinterlands"
     },
     {
         id: 46,
-        name: "Happy Medium",
-        cards: ["Oasis", "Oracle", "Tunnel", "Jack of All Trades", "Nomad Camp", "Spice Merchant", "Cartographer", "Ill-Gotten Gains", "Stables", "Border Village"],
+        name: "",
+        cards: [],
         expansions: "hinterlands"
     },
     {
         id: 47,
-        name: "Inhibitions",
-        cards: ["Crossroads", "Develop", "Oasis", "Jack of All Trades", "Nomad Camp", "Embassy", "Haggler", "Highway", "Inn", "Farmland"],
+        name: "",
+        cards: [],
         expansions: "hinterlands"
     },
     {
         id: 48,
-        name: "Getting Out of Hand",
-        cards: ["Fool's Gold", "Oracle", "Tunnel", "Noble Brigand", "Silk Road", "Spice Merchant", "Trader", "Cartographer", "Margrave", "Border Village"],
+        name: "",
+        cards: [],
         expansions: "hinterlands"
     },
     {
         id: 49,
-        name: "Gish Gallop",
-        cards: ["Crossroads", "Duchess", "Oasis", "Scheme", "Nomad Camp", "Silk Road", "Trader", "Cache", "Mandarin", "Stables"],
+        name: "",
+        cards: [],
         expansions: "hinterlands"
     },
     {
@@ -1115,63 +1115,63 @@ var kingdoms = [
     },
     {
         id: 160,
-        name: "D.I.Y.",
-        cards: ["Moat", "Merchant", "Village", "Noble Brigand", "Remodel", "Smithy", "Haggler", "Highway", "Inn", "Stables"],
+        name: "",
+        cards: [],
         expansions: "basehinterlands"
     },
     {
         id: 161,
-        name: "Green Hill Zone",
-        cards: ["Cellar", "Oracle", "Bureaucrat", "Gardens", "Moneylender", "Silk Road", "Bandit", "Ill-Gotten Gains", "Margrave", "Border Village"],
+        name: "",
+        cards: [],
         expansions: "basehinterlands"
     },
     {
         id: 162,
-        name: "Silver Surfer",
-        cards: ["Chapel", "Crossroads", "Oasis", "Scheme", "Jack of All Trades", "Remodel", "Throne Room", "Embassy", "Festival", "Market"],
+        name: "",
+        cards: [],
         expansions: "basehinterlands"
     },
     {
         id: 163,
-        name: "Flip Flop",
-        cards: ["Cellar", "Develop", "Harbinger", "Tunnel", "Village", "Poacher", "Silk Road", "Spice Merchant", "Council Room", "Farmland"],
+        name: "",
+        cards: [],
         expansions: "basehinterlands"
     },
     {
         id: 164,
-        name: "Loved and Treasured",
-        cards: ["Scheme", "Moneylender", "Nomad Camp", "Trader", "Cache", "Ill-Gotten Gains", "Inn", "Laboratory", "Mine", "Sentry"],
+        name: "",
+        cards: [],
         expansions: "basehinterlands"
     },
     {
         id: 165,
-        name: "Expenses Paid Trip",
-        cards: ["Duchess", "Develop", "Militia", "Throne Room", "Embassy", "Festval", "Market", "Stables", "Artisan", "Border Village"],
+        name: "",
+        cards: [],
         expansions: "basehinterlands"
     },
     {
         id: 166,
-        name: "Neighbouring Factions",
-        cards: ["Fool's Gold", "Moat", "Oasis", "Village", "Workshop", "Spice Merchant", "Laboratory", "Mandarin", "Margrave", "Witch"],
+        name: "",
+        cards: [],
         expansions: "basehinterlands"
     },
     {
         id: 167,
-        name: "Far-Reaching Consequences",
-        cards: ["Crossroads", "Vassal", "Moneylender", "Nomad Camp", "Smithy", "Bandit", "Cartographer", "Haggler", "Inn", "Artisan"],
+        name: "",
+        cards: [],
         expansions: "basehinterlands"
     },
     {
         id: 168,
-        name: "My Liege",
-        cards: ["Crossroads", "Scheme", "Tunnel", "Vassal", "Gardens", "Spice Merchant", "Council Room", "Laboratory", "Artisan", "Border Village"],
+        name: "",
+        cards: [],
         expansions: "basehinterlands"
     },
     {
         id: 169,
-        name: "You Take The High Road",
-        cards: ["Cellar", "Moneylender", "Noble Brigand", "Nomad Camp", "Remodel", "Trader", "Cartographer", "Festival", "Highway", "Library"],
-        expansions: "basehinterlands"
+        name: "",
+        cards: [],
+	expansions: "basehinterlands"
     },
     {
         id: 170,
