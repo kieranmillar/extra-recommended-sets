@@ -312,8 +312,8 @@ var kingdoms = [
     },
     {
         id: 45,
-        name: "",
-        cards: [],
+        name: "Cruel or Kind?",
+        cards: ["Fool's Gold", "Develop", "Scheme", "Nomads", "Cauldron", "Haggler", "Highway", "Margrave", "Souk", "Border Village"],
         expansions: "hinterlands"
     },
     {
