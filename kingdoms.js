@@ -318,8 +318,8 @@ var kingdoms = [
     },
     {
         id: 46,
-        name: "",
-        cards: [],
+        name: "Alternative Markets",
+        cards: ["Crossroads", "Develop", "Guard Dog", "Spice Merchant", "Weaver", "Cauldron", "Inn", "Stables", "Wheelwright", "Farmland"],
         expansions: "hinterlands"
     },
     {
