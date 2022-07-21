@@ -22,6 +22,7 @@ var reviewed = [
     "baseprosperity",
     "intrigueprosperity",
     "seasideprosperity",
+    "hinterlands",
     "empires",
     "baseempires",
     "intrigueempires",
@@ -336,8 +337,8 @@ var kingdoms = [
     },
     {
         id: 49,
-        name: "",
-        cards: [],
+        name: "Passive Aggressive",
+        cards: ["Fool's Gold", "Guard Dog", "Tunnel", "Trader", "Berserker", "Cartographer", "Haggler", "Margrave", "Stables", "Border Village"],
         expansions: "hinterlands"
     },
     {
