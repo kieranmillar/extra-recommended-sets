@@ -330,8 +330,8 @@ var kingdoms = [
     },
     {
         id: 48,
-        name: "",
-        cards: [],
+        name: "All That Glistens",
+        cards: ["Fool's Gold", "Develop", "Oasis", "Jack of all Trades", "Weaver", "Cauldron", "Highway", "Inn", "Stables", "Witch's Hut"],
         expansions: "hinterlands"
     },
     {
