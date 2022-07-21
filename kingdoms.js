@@ -22,6 +22,7 @@ var reviewed = [
     "baseprosperity",
     "intrigueprosperity",
     "seasideprosperity",
+    "hinterlands",
     "empires",
     "baseempires",
     "intrigueempires",
@@ -282,62 +283,62 @@ var kingdoms = [
     },
     {
         id: 40,
-        name: "Cyclone",
-        cards: ["Duchess", "Oasis", "Scheme", "Jack of All Trades", "Nomad Camp", "Cartographer", "Embassy", "Inn", "Stables", "Farmland"],
+        name: "Meet the Neighbours",
+        cards: ["Guard Dog", "Oasis", "Scheme", "Nomads", "Spice Merchant", "Haggler", "Highway", "Stables", "Wheelwright", "Border Village"],
         expansions: "hinterlands"
     },
     {
         id: 41,
-        name: "Road To Nowhere",
-        cards: ["Crossroads", "Fool's Gold", "Oracle", "Noble Brigand", "Trader", "Cartographer", "Embassy", "Haggler", "Highway", "Border Village"],
+        name: "Medium Large",
+        cards: ["Jack of all Trades", "Trader", "Trail", "Weaver", "Cartographer", "Cauldron", "Inn", "Margrave", "Witch's Hut", "Farmland"],
         expansions: "hinterlands"
     },
     {
         id: 42,
-        name: "Landlords",
-        cards: ["Scheme", "Tunnel", "Noble Brigand", "Silk Road", "Spice Merchant", "Cache", "Ill-Gotten Gains", "Inn", "Margrave", "Stables"],
+        name: "The Lowlands",
+        cards: ["Crossroads", "Develop", "Guard Dog", "Scheme", "Tunnel", "Spice Merchant", "Berserker", "Souk", "Wheelwright", "Border Village"],
         expansions: "hinterlands"
     },
     {
         id: 43,
-        name: "Ladder Game",
-        cards: ["Fool's Gold", "Develop", "Oasis", "Noble Brigand", "Nomad Camp", "Spice Merchant", "Embassy", "Highway", "Stables", "Border Village"],
+        name: "Serenity",
+        cards: ["Fool's Gold", "Oasis", "Scheme", "Nomads", "Trader", "Trail", "Berserker", "Cartographer", "Stables", "Farmland"],
         expansions: "hinterlands"
     },
     {
         id: 44,
-        name: "Critical Junction",
-        cards: ["Crossroads", "Fool's Gold", "Scheme", "Silk Road", "Spice Merchant", "Haggler", "Highway", "Mandarin", "Margrave", "Farmland"],
+        name: "Going the Distance",
+        cards: ["Crossroads", "Scheme", "Tunnel", "Jack of all Trades", "Cartographer", "Highway", "Inn", "Souk", "Stables", "Witch's Hut"],
         expansions: "hinterlands"
     },
     {
         id: 45,
-        name: "Medium of Exchange",
-        cards: ["Crossroads", "Duchess", "Oasis", "Oracle", "Trader", "Haggler", "Ill-Gotten Gains", "Inn", "Margrave", "Border Village"],
+        name: "Cruel or Kind?",
+        cards: ["Fool's Gold", "Develop", "Scheme", "Nomads", "Cauldron", "Haggler", "Highway", "Margrave", "Souk", "Border Village"],
         expansions: "hinterlands"
     },
     {
         id: 46,
-        name: "Happy Medium",
-        cards: ["Oasis", "Oracle", "Tunnel", "Jack of All Trades", "Nomad Camp", "Spice Merchant", "Cartographer", "Ill-Gotten Gains", "Stables", "Border Village"],
+        name: "Alternative Markets",
+        cards: ["Crossroads", "Develop", "Guard Dog", "Spice Merchant", "Weaver", "Cauldron", "Inn", "Stables", "Wheelwright", "Farmland"],
         expansions: "hinterlands"
     },
     {
         id: 47,
-        name: "Inhibitions",
-        cards: ["Crossroads", "Develop", "Oasis", "Jack of All Trades", "Nomad Camp", "Embassy", "Haggler", "Highway", "Inn", "Farmland"],
+        name: "Jacking Up Prices",
+        cards: ["Crossroads", "Oasis", "Jack of all Trades", "Nomads", "Spice Merchant", "Trader", "Haggler", "Inn", "Souk", "Wheelwright"],
         expansions: "hinterlands"
     },
     {
         id: 48,
-        name: "Getting Out of Hand",
-        cards: ["Fool's Gold", "Oracle", "Tunnel", "Noble Brigand", "Silk Road", "Spice Merchant", "Trader", "Cartographer", "Margrave", "Border Village"],
+        name: "All That Glistens",
+        cards: ["Fool's Gold", "Develop", "Oasis", "Jack of all Trades", "Weaver", "Cauldron", "Highway", "Inn", "Stables", "Witch's Hut"],
         expansions: "hinterlands"
     },
     {
         id: 49,
-        name: "Gish Gallop",
-        cards: ["Crossroads", "Duchess", "Oasis", "Scheme", "Nomad Camp", "Silk Road", "Trader", "Cache", "Mandarin", "Stables"],
+        name: "Passive Aggressive",
+        cards: ["Fool's Gold", "Guard Dog", "Tunnel", "Trader", "Berserker", "Cartographer", "Haggler", "Margrave", "Stables", "Border Village"],
         expansions: "hinterlands"
     },
     {
@@ -1115,63 +1116,63 @@ var kingdoms = [
     },
     {
         id: 160,
-        name: "D.I.Y.",
-        cards: ["Moat", "Merchant", "Village", "Noble Brigand", "Remodel", "Smithy", "Haggler", "Highway", "Inn", "Stables"],
+        name: "This set combination is in progress",
+        cards: [],
         expansions: "basehinterlands"
     },
     {
         id: 161,
-        name: "Green Hill Zone",
-        cards: ["Cellar", "Oracle", "Bureaucrat", "Gardens", "Moneylender", "Silk Road", "Bandit", "Ill-Gotten Gains", "Margrave", "Border Village"],
+        name: "",
+        cards: [],
         expansions: "basehinterlands"
     },
     {
         id: 162,
-        name: "Silver Surfer",
-        cards: ["Chapel", "Crossroads", "Oasis", "Scheme", "Jack of All Trades", "Remodel", "Throne Room", "Embassy", "Festival", "Market"],
+        name: "",
+        cards: [],
         expansions: "basehinterlands"
     },
     {
         id: 163,
-        name: "Flip Flop",
-        cards: ["Cellar", "Develop", "Harbinger", "Tunnel", "Village", "Poacher", "Silk Road", "Spice Merchant", "Council Room", "Farmland"],
+        name: "",
+        cards: [],
         expansions: "basehinterlands"
     },
     {
         id: 164,
-        name: "Loved and Treasured",
-        cards: ["Scheme", "Moneylender", "Nomad Camp", "Trader", "Cache", "Ill-Gotten Gains", "Inn", "Laboratory", "Mine", "Sentry"],
+        name: "",
+        cards: [],
         expansions: "basehinterlands"
     },
     {
         id: 165,
-        name: "Expenses Paid Trip",
-        cards: ["Duchess", "Develop", "Militia", "Throne Room", "Embassy", "Festval", "Market", "Stables", "Artisan", "Border Village"],
+        name: "",
+        cards: [],
         expansions: "basehinterlands"
     },
     {
         id: 166,
-        name: "Neighbouring Factions",
-        cards: ["Fool's Gold", "Moat", "Oasis", "Village", "Workshop", "Spice Merchant", "Laboratory", "Mandarin", "Margrave", "Witch"],
+        name: "",
+        cards: [],
         expansions: "basehinterlands"
     },
     {
         id: 167,
-        name: "Far-Reaching Consequences",
-        cards: ["Crossroads", "Vassal", "Moneylender", "Nomad Camp", "Smithy", "Bandit", "Cartographer", "Haggler", "Inn", "Artisan"],
+        name: "",
+        cards: [],
         expansions: "basehinterlands"
     },
     {
         id: 168,
-        name: "My Liege",
-        cards: ["Crossroads", "Scheme", "Tunnel", "Vassal", "Gardens", "Spice Merchant", "Council Room", "Laboratory", "Artisan", "Border Village"],
+        name: "",
+        cards: [],
         expansions: "basehinterlands"
     },
     {
         id: 169,
-        name: "You Take The High Road",
-        cards: ["Cellar", "Moneylender", "Noble Brigand", "Nomad Camp", "Remodel", "Trader", "Cartographer", "Festival", "Highway", "Library"],
-        expansions: "basehinterlands"
+        name: "",
+        cards: [],
+	expansions: "basehinterlands"
     },
     {
         id: 170,
@@ -1663,5 +1664,265 @@ var kingdoms = [
 		colony: true,
 		landscapes: ["Tomb", "Triumph"],
         expansions: "prosperityempires"
+    },
+	{
+        id: 240,
+        name: "This set combination is in progress",
+        cards: [],
+        expansions: "intriguehinterlands"
+    },
+    {
+        id: 241,
+        name: "",
+        cards: [],
+        expansions: "intriguehinterlands"
+    },
+    {
+        id: 242,
+        name: "",
+        cards: [],
+        expansions: "intriguehinterlands"
+    },
+    {
+        id: 243,
+        name: "",
+        cards: [],
+        expansions: "intriguehinterlands"
+    },
+    {
+        id: 244,
+        name: "",
+        cards: [],
+        expansions: "intriguehinterlands"
+    },
+    {
+        id: 245,
+        name: "",
+        cards: [],
+        expansions: "intriguehinterlands"
+    },
+    {
+        id: 246,
+        name: "",
+        cards: [],
+        expansions: "intriguehinterlands"
+    },
+    {
+        id: 247,
+        name: "",
+        cards: [],
+        expansions: "intriguehinterlands"
+    },
+    {
+        id: 248,
+        name: "",
+        cards: [],
+        expansions: "intriguehinterlands"
+    },
+    {
+        id: 249,
+        name: "",
+        cards: [],
+		expansions: "intriguehinterlands"
+    },
+		{
+        id: 250,
+        name: "This set combination is in progress",
+        cards: [],
+        expansions: "seasidehinterlands"
+    },
+    {
+        id: 251,
+        name: "",
+        cards: [],
+        expansions: "seasidehinterlands"
+    },
+    {
+        id: 252,
+        name: "",
+        cards: [],
+        expansions: "seasidehinterlands"
+    },
+    {
+        id: 253,
+        name: "",
+        cards: [],
+        expansions: "seasidehinterlands"
+    },
+    {
+        id: 254,
+        name: "",
+        cards: [],
+        expansions: "seasidehinterlands"
+    },
+    {
+        id: 255,
+        name: "",
+        cards: [],
+        expansions: "seasidehinterlands"
+    },
+    {
+        id: 256,
+        name: "",
+        cards: [],
+        expansions: "seasidehinterlands"
+    },
+    {
+        id: 257,
+        name: "",
+        cards: [],
+        expansions: "seasidehinterlands"
+    },
+    {
+        id: 258,
+        name: "",
+        cards: [],
+        expansions: "seasidehinterlands"
+    },
+    {
+        id: 259,
+        name: "",
+        cards: [],
+		expansions: "seasidehinterlands"
+    },
+	{
+        id: 260,
+        name: "This set combination is in progress",
+        cards: [],
+		colony: true,
+        expansions: "prosperityhinterlands"
+    },
+    {
+        id: 261,
+        name: "",
+        cards: [],
+		colony: true,
+        expansions: "prosperityhinterlands"
+    },
+    {
+        id: 262,
+        name: "",
+        cards: [],
+		colony: true,
+        expansions: "prosperityhinterlands"
+    },
+    {
+        id: 263,
+        name: "",
+        cards: [],
+		colony: true,
+        expansions: "prosperityhinterlands"
+    },
+    {
+        id: 264,
+        name: "",
+        cards: [],
+		colony: true,
+        expansions: "prosperityhinterlands"
+    },
+    {
+        id: 265,
+        name: "",
+        cards: [],
+		colony: true,
+        expansions: "prosperityhinterlands"
+    },
+    {
+        id: 266,
+        name: "",
+        cards: [],
+		colony: true,
+        expansions: "prosperityhinterlands"
+    },
+    {
+        id: 267,
+        name: "",
+        cards: [],
+		colony: true,
+        expansions: "prosperityhinterlands"
+    },
+    {
+        id: 268,
+        name: "",
+        cards: [],
+		colony: true,
+        expansions: "prosperityhinterlands"
+    },
+    {
+        id: 269,
+        name: "",
+        cards: [],
+		colony: true,
+        expansions: "prosperityhinterlands"
+    },
+	{
+        id: 270,
+        name: "This set combination is in progress",
+        cards: [],
+		landscapes: [],
+        expansions: "hinterlandsempires"
+    },
+	{
+        id: 271,
+        name: "",
+        cards: [],
+		landscapes: [],
+        expansions: "hinterlandsempires"
+    },
+	{
+        id: 272,
+        name: "",
+        cards: [],
+		landscapes: [],
+        expansions: "hinterlandsempires"
+    },
+	{
+        id: 273,
+        name: "",
+        cards: [],
+		landscapes: [],
+        expansions: "hinterlandsempires"
+    },
+	{
+        id: 274,
+        name: "",
+        cards: [],
+		landscapes: [],
+        expansions: "hinterlandsempires"
+    },
+	{
+        id: 275,
+        name: "",
+        cards: [],
+		landscapes: [],
+        expansions: "hinterlandsempires"
+    },
+	{
+        id: 276,
+        name: "",
+        cards: [],
+		landscapes: [],
+        expansions: "hinterlandsempires"
+    },
+	{
+        id: 277,
+        name: "",
+        cards: [],
+		landscapes: [],
+        expansions: "hinterlandsempires"
+    },
+	{
+        id: 278,
+        name: "",
+        cards: [],
+		landscapes: [],
+        expansions: "hinterlandsempires"
+    },
+	{
+        id: 279,
+        name: "",
+        cards: [],
+		landscapes: [],
+        expansions: "hinterlandsempires"
     }
 ];

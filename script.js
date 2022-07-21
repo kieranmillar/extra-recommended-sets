@@ -50,7 +50,6 @@ function goToLocation(loc) {
 			tabExtras.classList.add("active");
 			disabledNoteElement.hidden = false;
 			checkboxElements[3].disabled = true;
-			checkboxElements[5].disabled = true;
 			checkboxElements[6].disabled = true;
 			checkboxElements[7].disabled = true;
 			checkboxElements[8].disabled = true;
@@ -67,7 +66,6 @@ function goToLocation(loc) {
 			tabOfficial.classList.add("active");
 			disabledNoteElement.hidden = true;
 			checkboxElements[3].disabled = false;
-			checkboxElements[5].disabled = false;
 			checkboxElements[6].disabled = false;
 			checkboxElements[7].disabled = false;
 			checkboxElements[8].disabled = false;
