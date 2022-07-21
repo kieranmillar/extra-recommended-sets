@@ -324,8 +324,8 @@ var kingdoms = [
     },
     {
         id: 47,
-        name: "",
-        cards: [],
+        name: "Jacking Up Prices",
+        cards: ["Crossroads", "Oasis", "Jack of all Trades", "Nomads", "Spice Merchant", "Trader", "Haggler", "Inn", "Souk", "Wheelwright"],
         expansions: "hinterlands"
     },
     {
