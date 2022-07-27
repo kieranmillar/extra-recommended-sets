@@ -1122,8 +1122,8 @@ var kingdoms = [
     },
     {
         id: 161,
-        name: "",
-        cards: [],
+        name: "Underground Network",
+        cards: ["Cellar", "Merchant", "Poacher", "Smithy", "Mine", "Develop", "Nomads", "Trail", "Weaver", "Cauldron"],
         expansions: "basehinterlands"
     },
     {
