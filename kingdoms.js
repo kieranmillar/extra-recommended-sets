@@ -1128,8 +1128,8 @@ var kingdoms = [
     },
     {
         id: 162,
-        name: "",
-        cards: [],
+        name: "The Long Long Road",
+        cards: ["Moat", "Village", "Bureaucrat", "Witch", "Artisan", "Crossroads", "Oasis", "Spice Merchant", "Cartographer", "Highway"],
         expansions: "basehinterlands"
     },
     {
