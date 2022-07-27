@@ -1116,8 +1116,8 @@ var kingdoms = [
     },
     {
         id: 160,
-        name: "This set combination is in progress",
-        cards: [],
+        name: "Chop and Change",
+        cards: ["Gardens", "Remodel", "Bandit", "Market", "Sentry", "Crossroads", "Fool's Gold", "Stables", "Witch's Hut", "Farmland"],
         expansions: "basehinterlands"
     },
     {
