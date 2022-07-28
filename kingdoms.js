@@ -1152,8 +1152,8 @@ var kingdoms = [
     },
     {
         id: 166,
-        name: "",
-        cards: [],
+        name: "The Great Outdoors",
+        cards: ["Cellar", "Harbinger", "Gardens", "Bandit", "Market", "Develop", "Trader", "Weaver", "Stables", "Border Village"],
         expansions: "basehinterlands"
     },
     {
