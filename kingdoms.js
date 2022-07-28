@@ -1146,8 +1146,8 @@ var kingdoms = [
     },
     {
         id: 165,
-        name: "",
-        cards: [],
+        name: "Paths to Victory",
+        cards: ["Merchant", "Workshop", "Remodel", "Throne Room", "Sentry", "Trader", "Trail", "Margrave", "Witch's Hut", "Border Village"],
         expansions: "basehinterlands"
     },
     {
