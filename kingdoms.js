@@ -1164,8 +1164,8 @@ var kingdoms = [
     },
     {
         id: 168,
-        name: "",
-        cards: [],
+        name: "Slim Pickings",
+        cards: ["Chapel", "Moat", "Smithy", "Throne Room", "Bandit", "Fool's Gold", "Scheme", "Nomads", "Berserker", "Inn"],
         expansions: "basehinterlands"
     },
     {
