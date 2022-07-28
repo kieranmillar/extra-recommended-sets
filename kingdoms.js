@@ -1158,8 +1158,8 @@ var kingdoms = [
     },
     {
         id: 167,
-        name: "",
-        cards: [],
+        name: "Rollercoaster",
+        cards: ["Vassal", "Militia", "Festival", "Laboratory", "Artisan", "Oasis", "Scheme", "Jack of all Trades", "Spice Merchant", "Wheelwright"],
         expansions: "basehinterlands"
     },
     {
