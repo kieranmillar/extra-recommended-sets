@@ -23,6 +23,7 @@ var reviewed = [
     "intrigueprosperity",
     "seasideprosperity",
     "hinterlands",
+    "basehinterlands",
     "empires",
     "baseempires",
     "intrigueempires",
@@ -1170,8 +1171,8 @@ var kingdoms = [
     },
     {
         id: 169,
-        name: "",
-        cards: [],
+        name: "Your Deck Souks",
+        cards: ["Village", "Bureaucrat", "Poacher", "Market", "Witch", "Crossroads", "Guard Dog", "Tunnel", "Souk", "Farmland"],
 	expansions: "basehinterlands"
     },
     {
