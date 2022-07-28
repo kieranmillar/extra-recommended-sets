@@ -1140,8 +1140,8 @@ var kingdoms = [
     },
     {
         id: 164,
-        name: "",
-        cards: [],
+        name: "Bulging Veins",
+        cards: ["Chapel", "Harbinger", "Throne Room", "Laboratory", "Library", "Guard Dog", "Tunnel", "Nomads", "Berserker", "Inn"],
         expansions: "basehinterlands"
     },
     {
