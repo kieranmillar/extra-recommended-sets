@@ -1134,8 +1134,8 @@ var kingdoms = [
     },
     {
         id: 163,
-        name: "",
-        cards: [],
+        name: "Tough Love",
+        cards: ["Vassal", "Village", "Moneylender", "Council Room", "Festival", "Scheme", "Cauldron", "Haggler", "Souk", "Farmland"],
         expansions: "basehinterlands"
     },
     {
