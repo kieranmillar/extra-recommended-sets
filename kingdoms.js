@@ -23,6 +23,7 @@ var reviewed = [
     "intrigueprosperity",
     "seasideprosperity",
     "hinterlands",
+    "basehinterlands",
     "empires",
     "baseempires",
     "intrigueempires",
@@ -1116,62 +1117,62 @@ var kingdoms = [
     },
     {
         id: 160,
-        name: "This set combination is in progress",
-        cards: [],
+        name: "Chop and Change",
+        cards: ["Gardens", "Remodel", "Bandit", "Market", "Sentry", "Crossroads", "Fool's Gold", "Stables", "Witch's Hut", "Farmland"],
         expansions: "basehinterlands"
     },
     {
         id: 161,
-        name: "",
-        cards: [],
+        name: "Underground Network",
+        cards: ["Cellar", "Merchant", "Poacher", "Smithy", "Mine", "Develop", "Nomads", "Trail", "Weaver", "Cauldron"],
         expansions: "basehinterlands"
     },
     {
         id: 162,
-        name: "",
-        cards: [],
+        name: "The Long Long Road",
+        cards: ["Moat", "Village", "Bureaucrat", "Witch", "Artisan", "Crossroads", "Oasis", "Spice Merchant", "Cartographer", "Highway"],
         expansions: "basehinterlands"
     },
     {
         id: 163,
-        name: "",
-        cards: [],
+        name: "Tough Love",
+        cards: ["Vassal", "Village", "Moneylender", "Council Room", "Festival", "Scheme", "Cauldron", "Haggler", "Souk", "Farmland"],
         expansions: "basehinterlands"
     },
     {
         id: 164,
-        name: "",
-        cards: [],
+        name: "Bulging Veins",
+        cards: ["Chapel", "Harbinger", "Throne Room", "Laboratory", "Library", "Guard Dog", "Tunnel", "Nomads", "Berserker", "Inn"],
         expansions: "basehinterlands"
     },
     {
         id: 165,
-        name: "",
-        cards: [],
+        name: "Paths to Victory",
+        cards: ["Merchant", "Workshop", "Remodel", "Throne Room", "Sentry", "Trader", "Trail", "Margrave", "Witch's Hut", "Border Village"],
         expansions: "basehinterlands"
     },
     {
         id: 166,
-        name: "",
-        cards: [],
+        name: "The Great Outdoors",
+        cards: ["Cellar", "Harbinger", "Gardens", "Bandit", "Market", "Develop", "Trader", "Weaver", "Stables", "Border Village"],
         expansions: "basehinterlands"
     },
     {
         id: 167,
-        name: "",
-        cards: [],
+        name: "Rollercoaster",
+        cards: ["Vassal", "Militia", "Festival", "Laboratory", "Artisan", "Oasis", "Scheme", "Jack of all Trades", "Spice Merchant", "Wheelwright"],
         expansions: "basehinterlands"
     },
     {
         id: 168,
-        name: "",
-        cards: [],
+        name: "Slim Pickings",
+        cards: ["Chapel", "Moat", "Smithy", "Throne Room", "Bandit", "Fool's Gold", "Scheme", "Nomads", "Berserker", "Inn"],
         expansions: "basehinterlands"
     },
     {
         id: 169,
-        name: "",
-        cards: [],
+        name: "Your Deck Souks",
+        cards: ["Village", "Bureaucrat", "Poacher", "Market", "Witch", "Crossroads", "Guard Dog", "Tunnel", "Souk", "Farmland"],
 	expansions: "basehinterlands"
     },
     {
