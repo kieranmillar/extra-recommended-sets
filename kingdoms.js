@@ -1668,8 +1668,8 @@ var kingdoms = [
     },
 	{
         id: 240,
-        name: "This set combination is in progress",
-        cards: [],
+        name: "Spinning Your Wheels",
+        cards: ["Pawn", "Shanty Town", "Mill", "Secret Passage", "Upgrade", "Guard Dog", "Tunnel", "Weaver", "Highway", "Wheelwright"],
         expansions: "intriguehinterlands"
     },
     {
