@@ -449,7 +449,7 @@ var officialKingdoms = [
 	{
         id: 65,
         name: "Impending Doom",
-        cards: ["Lurker", "Swindler", "Mining Village", "Courtier", "Upgrade", "Monstery", "Leprechaun", "Necromancer", "Tormentor", "Werewolf"],
+        cards: ["Lurker", "Swindler", "Mining Village", "Courtier", "Upgrade", "Monastery", "Leprechaun", "Necromancer", "Tormentor", "Werewolf"],
 		extras: ["Hexes", "Wish", "Zombie Apprentice", "Zombie Mason", "Zombie Spy"],
         expansions: "intriguenocturne"
     },
@@ -609,7 +609,7 @@ var officialKingdoms = [
 	{
         id: 88,
         name: "Forbidden Isle",
-        cards: ["Monkey", "Salvager", "Tide Pools", "Bazaar", "Pirate", "Tracker", "Blessed Village", "Cemetary", "Idol", "Tragic Hero"],
+        cards: ["Monkey", "Salvager", "Tide Pools", "Bazaar", "Pirate", "Tracker", "Blessed Village", "Cemetery", "Idol", "Tragic Hero"],
 		extras: ["Haunted Mirror", "Pouch", "Boons", "Will-O'-Wisp", "Ghost"],
         expansions: "seasidenocturne"
     },
@@ -757,7 +757,7 @@ var officialKingdoms = [
 	{
         id: 108,
         name: "Nightmare Fuel",
-        cards: ["Transmute", "Vineyard", "Alchemist", "Apprentice", "Tracker", "Bard", "Blessed Village", "Cemetary", "Skulk", "Sacred Grove"],
+        cards: ["Transmute", "Vineyard", "Alchemist", "Apprentice", "Tracker", "Bard", "Blessed Village", "Cemetery", "Skulk", "Sacred Grove"],
 		extras: ["Potion", "Haunted Mirror", "Pouch", "Boons", "Hexes", "Will-O'-Wisp", "Ghost"],
         expansions: "alchemynocturne"
     },
@@ -772,7 +772,7 @@ var officialKingdoms = [
 	{
         id: 110,
         name: "Class of 20",
-        cards: ["Transmute", "Vineyard", "University", "Smowy Village", "Cavalry", "Coven", "Hunting Lodge", "Kiln", "Livery", "Wayfarer"],
+        cards: ["Transmute", "Vineyard", "University", "Snowy Village", "Cavalry", "Coven", "Hunting Lodge", "Kiln", "Livery", "Wayfarer"],
 		extras: ["Horse", "Potion"],
 		landscapes: ["Delay", "Way of the Owl"],
         expansions: "alchemymenagerie"
@@ -908,7 +908,7 @@ var officialKingdoms = [
 	{
         id: 128,
         name: "Day at the Races",
-        cards: ["Anvil", "Watchtower", "Bishop", "Clerk", "Peddler", "Druid", "Blessed Village", "Cemetary", "Tormentor", "Tragic Hero"],
+        cards: ["Anvil", "Watchtower", "Bishop", "Clerk", "Peddler", "Druid", "Blessed Village", "Cemetery", "Tormentor", "Tragic Hero"],
 		colony: true,
 		extras: ["Haunted Mirror", "Boons", "Hexes", "Will-O'-Wisp", "Ghost"],
 		notes: "Druid boons are The Swamp's Gift, The River's Gift and The Forest's Gift.",
@@ -1214,7 +1214,7 @@ var officialKingdoms = [
 	{
 		id: 168,
         name: "Grave Matters",
-        cards: ["Squire", "Forager", "Market Square", "Armory", "Graverobber", "Cemetary", "Necromancer", "Skulk", "Cursed Village", "Tormentor"],
+        cards: ["Squire", "Forager", "Market Square", "Armory", "Graverobber", "Cemetery", "Necromancer", "Skulk", "Cursed Village", "Tormentor"],
 		shelters: true,
 		extras: ["Haunted Mirror", "Hexes", "Ghost", "Zombie Apprentice", "Zombie Mason", "Zombie Spy"],
         expansions: "darkagesnocturne"
@@ -1275,7 +1275,7 @@ var officialKingdoms = [
 	{
 		id: 175,
         name: "Rat Traders",
-        cards: ["Squire", "Death Cart", "Rats", "Count", "Knights", "Townsflok", "Importer", "Emissary", "Skirmisher", "Swap"],
+        cards: ["Squire", "Death Cart", "Rats", "Count", "Knights", "Townsfolk", "Importer", "Emissary", "Skirmisher", "Swap"],
 		shelters: true,
 		extras: ["Ruins"],
 		landscapes: ["Desert Guides"],
@@ -1508,7 +1508,7 @@ var officialKingdoms = [
 	{
 		id: 206,
 		name: "Luftschloss",
-        cards: ["Engineer", "Castles", "Catapult / Rocks", "Temple", "Archive", "Changeling", "Fool", "Cemetary", "Exorcist", "Shepherd"],
+        cards: ["Engineer", "Castles", "Catapult / Rocks", "Temple", "Archive", "Changeling", "Fool", "Cemetery", "Exorcist", "Shepherd"],
 		extras: ["Haunted Mirror", "Lucky Coin", "Pasture", "Boons", "Will-O'-Wisp", "Imp", "Ghost"],
 		landscapes: ["Tomb"],
         expansions: "empiresnocturne"
