@@ -1680,8 +1680,8 @@ var kingdoms = [
     },
     {
         id: 242,
-        name: "",
-        cards: [],
+        name: "Negotiators",
+        cards: ["Lurker", "Conspirator", "Torturer", "Trading Post", "Nobles", "Scheme", "Cauldron", "Haggler", "Inn", "Margrave"],
         expansions: "intriguehinterlands"
     },
     {
