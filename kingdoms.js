@@ -1674,8 +1674,8 @@ var kingdoms = [
     },
     {
         id: 241,
-        name: "",
-        cards: [],
+        name: "False Advertising",
+        cards: ["Courtyard", "Swindler", "Ironworks", "Mining Village", "Secret Passage", "Crossroads", "Tunnel", "Jack of all Trades", "Silk Merchant", "Stables"],
         expansions: "intriguehinterlands"
     },
     {
