@@ -1698,8 +1698,8 @@ var kingdoms = [
     },
     {
         id: 245,
-        name: "",
-        cards: [],
+        name: "Search Space",
+        cards: ["Masquerade", "Diplomat", "Minion", "Replace", "Upgrade", "Fool's Gold", "Oasis", "Tunnel", "Nomads", "Wheelwright"],
         expansions: "intriguehinterlands"
     },
     {
