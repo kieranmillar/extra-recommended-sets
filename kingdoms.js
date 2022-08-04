@@ -1692,8 +1692,8 @@ var kingdoms = [
     },
     {
         id: 244,
-        name: "",
-        cards: [],
+        name: "Future Perfect",
+        cards: ["Wishing Well", "Baron", "Conspirator", "Mill", "Harem", "Crossroads", "Develop", "Weaver", "Cartographer", "Witch's Hut"],
         expansions: "intriguehinterlands"
     },
     {
