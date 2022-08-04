@@ -1686,8 +1686,8 @@ var kingdoms = [
     },
     {
         id: 243,
-        name: "",
-        cards: [],
+        name: "Dance Party",
+        cards: ["Masquerade", "Bridge", "Duke", "Minion", "Replace", "Oasis", "Trail", "Berserker", "Highway", "Farmland"],
         expansions: "intriguehinterlands"
     },
     {
