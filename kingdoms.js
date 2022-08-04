@@ -1698,14 +1698,14 @@ var kingdoms = [
     },
     {
         id: 245,
-        name: "Search Space",
+        name: "Opportunity Knocks",
         cards: ["Masquerade", "Diplomat", "Minion", "Replace", "Upgrade", "Fool's Gold", "Oasis", "Tunnel", "Nomads", "Wheelwright"],
         expansions: "intriguehinterlands"
     },
     {
         id: 246,
-        name: "",
-        cards: [],
+        name: "Souk It Up",
+        cards: ["Lurker", "Pawn", "Swindler", "Mining Village", "Torturer", "Guard Dog", "Jack of all Trades", "Souk", "Stables", "Border Village"],
         expansions: "intriguehinterlands"
     },
     {
