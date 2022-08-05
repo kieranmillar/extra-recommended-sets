@@ -7,6 +7,10 @@ colony: A boolean to include Colony and Platinum
 shelters: A boolean to include Shelters
 extras: An array of extra component names (optional)
 landscapes: An array of landscape names (optional)
+obelisk: The obelisk target, should already be listed in the cards list (optional)
+bane: Which card is the bane, should already be listed in the cards list (optional)
+mouse: Which card is the Way of the Mouse target, should not be listed in the cards list (optional)
+druid: An array of boons, 3 max (optional)
 notes: Any extra notes (optional)
 expansions: Concatenated string of expansions required, matching checkbox names in order, no spaces
 -----*/
@@ -163,7 +167,7 @@ var officialKingdoms = [
         id: 23,
         name: "The Jester's Workshop",
         cards: ["Merchant", "Workshop", "Remodel", "Laboratory", "Market", "Artisan", "Farming Village", "Horse Traders", "Young Witch", "Jester", "Fairgrounds"],
-		notes: "Merchant is the Bane",
+		bane: "Merchant",
         expansions: "basecornguilds"
     },
 	{
@@ -217,7 +221,7 @@ var officialKingdoms = [
         name: "Night Shift",
         cards: ["Gardens", "Poacher", "Smithy", "Bandit", "Mine", "Druid", "Ghost Town", "Night Watchman", "Exorcist", "Idol"],
 		extras: ["Boons", "Will-O'-Wisp", "Imp", "Ghost"],
-		notes: "Druid boons are The Earth's Gift, The Flame's Gift and The Forest's Gift.",
+		druid: ["The Earth's Gift", "The Flame's Gift", "The Forest's Gift"],
         expansions: "basenocturne"
     },
 	{
@@ -382,7 +386,7 @@ var officialKingdoms = [
         name: "The Spice of Life",
         cards: ["Courtyard", "Wishing Well", "Diplomat", "Mining Village", "Courtier", "Replace", "Remake", "Tournament", "Young Witch", "Horn of Plenty", "Fairgrounds"],
 		extras: ["Prizes"],
-		notes: "Wishing Well is the Bane",
+		bane: "Wishing Well",
         expansions: "intriguecornguilds"
     },
 	{
@@ -713,7 +717,7 @@ var officialKingdoms = [
         name: "Wine & Dine",
         cards: ["Transmute", "Vineyard", "Apothecary", "Herbalist", "Scrying Pool", "Apprentice", "Hamlet", "Young Witch", "Horn of Plenty", "Hunting Party", "Fairgrounds"],
 		extras: ["Potion"],
-		notes: "Herbalist is the Bane",
+		bane: "Herbalist",
         expansions: "alchemycornguilds"
     },
 	{
@@ -911,7 +915,7 @@ var officialKingdoms = [
         cards: ["Anvil", "Watchtower", "Bishop", "Clerk", "Peddler", "Druid", "Blessed Village", "Cemetery", "Tormentor", "Tragic Hero"],
 		colony: true,
 		extras: ["Haunted Mirror", "Boons", "Hexes", "Will-O'-Wisp", "Ghost"],
-		notes: "Druid boons are The Swamp's Gift, The River's Gift and The Forest's Gift.",
+		druid: ["The Swamp's Gift", "The River's Gift", "The Forest's Gift"],
         expansions: "prosperitynocturne"
     },
 	{
@@ -1062,7 +1066,7 @@ var officialKingdoms = [
         name: "Search Party",
         cards: ["Oasis", "Scheme", "Cartographer", "Inn", "Souk", "Druid", "Faithful Hound", "Conclave", "Cobbler", "Werewolf"],
 		extras: ["Boons", "Hexes", "Will-O'-Wisp"],
-		notes: "Druid boons are The Mountain's Gift, The Sky's Gift and The Sun's Gift.",
+		druid: ["The Mountain's Gift", "The Sky's Gift", "The Sun's Gift"],
         expansions: "hinterlandsnocturne"
     },
 	{
@@ -1102,7 +1106,7 @@ var officialKingdoms = [
         cards: ["Develop", "Nomads", "Stables", "Wheelwright", "Farmland", "Supplies", "Cardinal", "Hostelry", "Livery", "Mastermind"],
 		extras: ["Horse"],
 		landscapes: ["Gamble", "Way of the Mouse"],
-		notes: "Way of the Mouse uses Crossroads",
+		mouse: "Crossroads",
         expansions: "hinterlandsmenagerie"
     },
 	{
@@ -1308,7 +1312,7 @@ var officialKingdoms = [
         cards: ["Hamlet", "Fortune Teller", "Tournament", "Young Witch", "Horn of Plenty", "Peasant", "Guide", "Transmogrify", "Storyteller", "Swamp Hag", "Wine Merchant"],
 		extras: ["Prizes", "Soldier", "Fugitive", "Disciple", "Teacher"],
 		landscapes: ["Ferry", "Seaway"],
-		notes: "Guide is the Bane",
+		bane: "Guide",
         expansions: "cornguildsadventures"
 	},
 	{
@@ -1444,7 +1448,7 @@ var officialKingdoms = [
         cards: ["Caravan Guard", "Guide", "Ranger", "Haunted Woods", "Hireling", "Druid", "Tracker", "Fool", "Blessed Village", "Sacred Grove"],
 		extras: ["Lucky Coin", "Pouch", "Boons", "Will-O'-Wisp"],
 		landscapes: ["Pilgrimage"],
-		notes: "Druid boons are The Sky's Gift, The Field's Gift and The Sea's Gift.",
+		druid: ["The Sky's Gift", "The Field's Gift", "The Sea's Gift"],
         expansions: "adventuresnocturne"
 	},
 	{
@@ -1577,7 +1581,7 @@ var officialKingdoms = [
 		name: "Midnight",
         cards: ["Druid", "Leprechaun", "Secret Cave", "Conclave", "Devil's Workshop", "Exorcist", "Crypt", "Cursed Village", "Pooka", "Raider"],
 		extras: ["Cursed Gold", "Magic Lamp", "Boons", "Hexes", "Will-O'-Wisp", "Imp", "Ghost", "Wish"],
-		notes: "Druid boons are The Swamp's Gift, The Flame's Gift and The Wind's Gift.",
+		druid: ["The Swamp's Gift", "The Flame's Gift", "The Wind's Gift"],
         expansions: "nocturne"
 	},
 	{

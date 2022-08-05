@@ -7,7 +7,10 @@ colony: A boolean to include Colony and Platinum (optional)
 shelters: A boolean to include Shelters (optional)
 extras: An array of extra component names (optional)
 landscapes: An array of landscape names (optional)
-obelisk: The card chosen as the Obelisk target (optional)
+obelisk: The obelisk target, should already be listed in the cards list (optional)
+bane: Which card is the bane, should already be listed in the cards list (optional)
+mouse: Which card is the Way of the Mouse target, should not be listed in the cards list (optional)
+druid: An array of boons, 3 max (optional)
 notes: Any extra notes (optional)
 expansions: Concatenated string of expansions required, matching checkbox names in order, no spaces
 -----*/
@@ -643,7 +646,7 @@ var kingdoms = [
         name: "Life's Ups and Downs",
         cards: ["Druid", "Pixie", "Changeling", "Bard", "Conclave", "Cursed Village", "Idol", "Sacred Grove", "Tragic Hero", "Raider"],
         extras: ["Goat", "Boons", "Hexes", "Will-O'-Wisp"],
-        notes: "Druid boons are The Field's Gift (+Action), The River's Gift (+Card at cleanup) and The Sky's Gift (discard for Gold).",
+        druid: ["The Field's Gift", "The River's Gift", "The Sky's Gift"],
         expansions: "nocturne"
     },
     {
@@ -686,7 +689,7 @@ var kingdoms = [
         name: "Factory Method",
         cards: ["Druid", "Guardian", "Tracker", "Night Watchman", "Cemetary", "Conclave", "Shepherd", "Skulk", "Cobbler", "Werewolf"],
         extras: ["Haunted Mirror", "Pasture", "Pouch", "Boons", "Hexes", "Will-O'-Wisp", "Ghost"],
-        notes: "Druid boons are The Forest's Gift (+Buy), The Swamp's Gift (Will-O'-Wisp) and The Wind's Gift (draw and discard).",
+		druid: ["The Forest's Gift", "The Swamp's Gift", "The Wind's Gift"],
         expansions: "nocturne"
     },
     {

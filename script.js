@@ -184,13 +184,13 @@ function createKingdomContainer(kingdom) {
 	let cardsList = document.createElement("p");
     kingdom.cards.forEach(card => {
         cardsString += card + ", ";
-		let cardName = card;
-		if (kingdom.hasOwnProperty("obelisk")) {
-			if (kingdom.obelisk == card) {
-				//cardName += "(o)"; not supported just yet
+		clipboardString += clipboardSanitise(card, kingdom);
+		if (kingdom.hasOwnProperty("bane")) {
+			if (card == "Young Witch") {
+				clipboardString += ": " + clipboardSanitise(kingdom.bane, kingdom, false);
 			}
 		}
-		clipboardString += cardName + ", ";
+		clipboardString += ", ";
     });
 	cardsString = cardsString.slice(0, -2);
 	clipboardString = clipboardString.slice(0, -2);
@@ -200,6 +200,16 @@ function createKingdomContainer(kingdom) {
 		kingdom.landscapes.forEach(card => {
 			cardsString += ", " + card;
 			clipboardString += ", " + card;
+			if (kingdom.hasOwnProperty("obelisk")) {
+				if (card == "Obelisk") {
+					clipboardString += ": " + clipboardSanitise(kingdom.obelisk, kingdom, false);
+				}
+			}
+			if (kingdom.hasOwnProperty("mouse")) {
+				if (card == "Way of the Mouse") {
+					clipboardString += ": " + clipboardSanitise(kingdom.mouse, kingdom);
+				}
+			}
 		});
 		cardsString += "</em>";
 	}
@@ -207,7 +217,7 @@ function createKingdomContainer(kingdom) {
     container.appendChild(cardsList);
 
 	if (kingdom.hasOwnProperty("colony")) {
-		clipboardString += ", Platinum, Colony";
+		clipboardString += ", Colonies";
 	}
 	if (kingdom.hasOwnProperty("shelters")) {
 		clipboardString += ", Shelters";
@@ -231,7 +241,11 @@ function createKingdomContainer(kingdom) {
         container.appendChild(extrasList);
     }
 
-    if (kingdom.hasOwnProperty("notes") || kingdom.hasOwnProperty("obelisk")) {
+    if (kingdom.hasOwnProperty("notes") ||
+			kingdom.hasOwnProperty("obelisk") ||
+			kingdom.hasOwnProperty("bane") ||
+			kingdom.hasOwnProperty("druid") ||
+			kingdom.hasOwnProperty("mouse")) {
         let notesText = document.createElement("p");
 		let notesString = "<strong>Notes: </strong>";
 		if (kingdom.hasOwnProperty("notes")) {
@@ -239,6 +253,20 @@ function createKingdomContainer(kingdom) {
 		}
 		if (kingdom.hasOwnProperty("obelisk")) {
 			notesString += kingdom.obelisk + " is the Obelisk target. ";
+		}
+		if (kingdom.hasOwnProperty("bane")) {
+			notesString += kingdom.bane + " is the Bane. ";
+		}
+		if (kingdom.hasOwnProperty("druid")) {
+			notesString += "Druid boons are ";
+			kingdom.druid.forEach(boon => {
+				notesString += boon + ", ";
+			});
+			notesString = notesString.slice(0, -2);
+			notesString += ". ";
+		}
+		if (kingdom.hasOwnProperty("mouse")) {
+			notesString += "Way of the Mouse uses " + kingdom.mouse + ". ";
 		}
         notesText.innerHTML = notesString;
         container.appendChild(notesText);
@@ -303,6 +331,27 @@ function wipeLocalData() {
 		localStorage.clear();
 		location.reload(); 
 	}
+}
+
+function clipboardSanitise(card, kingdom, includeDruidBoons = true) {
+	let result = '';
+	let slashPosition = card.indexOf(" / ");
+	if (slashPosition == -1) {
+		result = card;
+	} else {
+		result = card.substring(0, slashPosition);
+	}
+	if (includeDruidBoons) {
+		if (kingdom.hasOwnProperty("druid")) {
+			if (card == "Druid") {
+				result += ":";
+				kingdom.druid.forEach(boon => {
+					result += " (" + boon + ")";
+				});
+			}
+		}
+	}
+	return result;
 }
 
 document.addEventListener('DOMContentLoaded', function(){ goToLocation("extras"); }, false);
