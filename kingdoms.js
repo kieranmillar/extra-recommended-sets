@@ -1710,8 +1710,8 @@ var kingdoms = [
     },
     {
         id: 247,
-        name: "",
-        cards: [],
+        name: "Walk the Walk",
+        cards: ["Ironworks", "Duke", "Patrol", "Trading Post", "Nobles", "Develop", "Scheme", "Spice Merchant", "Trail", "Cauldron"],
         expansions: "intriguehinterlands"
     },
     {
