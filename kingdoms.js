@@ -1716,8 +1716,8 @@ var kingdoms = [
     },
     {
         id: 248,
-        name: "",
-        cards: [],
+        name: "Black Markets",
+        cards: ["Shanty Town", "Swindler", "Conspirator", "Diplomat", "Secret Passage", "Trader", "Berserker", "Inn", "Souk", "Witch's Hut"],
         expansions: "intriguehinterlands"
     },
     {
