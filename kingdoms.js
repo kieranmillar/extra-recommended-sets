@@ -24,6 +24,7 @@ var reviewed = [
     "seasideprosperity",
     "hinterlands",
     "basehinterlands",
+    "intriguehinterlands",
     "empires",
     "baseempires",
     "intrigueempires",
