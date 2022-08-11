@@ -1722,8 +1722,8 @@ var kingdoms = [
     },
     {
         id: 249,
-        name: "",
-        cards: [],
+        name: "The High Court",
+        cards: ["Courtyard", "Steward", "Wishing Well", "Baron", "Courtier", "Fool's Gold", "Oasis", "Haggler", "Margrave", "Border Village"],
 		expansions: "intriguehinterlands"
     },
 		{
