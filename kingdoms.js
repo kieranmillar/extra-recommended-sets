@@ -27,6 +27,7 @@ var reviewed = [
     "seasideprosperity",
     "hinterlands",
     "basehinterlands",
+    "intriguehinterlands",
     "empires",
     "baseempires",
     "intrigueempires",
@@ -1671,62 +1672,62 @@ var kingdoms = [
     },
 	{
         id: 240,
-        name: "This set combination is in progress",
-        cards: [],
+        name: "Spinning Your Wheels",
+        cards: ["Pawn", "Shanty Town", "Mill", "Secret Passage", "Upgrade", "Guard Dog", "Tunnel", "Weaver", "Highway", "Wheelwright"],
         expansions: "intriguehinterlands"
     },
     {
         id: 241,
-        name: "",
-        cards: [],
+        name: "False Advertising",
+        cards: ["Courtyard", "Swindler", "Ironworks", "Mining Village", "Secret Passage", "Crossroads", "Tunnel", "Jack of all Trades", "Silk Merchant", "Stables"],
         expansions: "intriguehinterlands"
     },
     {
         id: 242,
-        name: "",
-        cards: [],
+        name: "Negotiators",
+        cards: ["Lurker", "Conspirator", "Torturer", "Trading Post", "Nobles", "Scheme", "Cauldron", "Haggler", "Inn", "Margrave"],
         expansions: "intriguehinterlands"
     },
     {
         id: 243,
-        name: "",
-        cards: [],
+        name: "Dance Party",
+        cards: ["Masquerade", "Bridge", "Duke", "Minion", "Replace", "Oasis", "Trail", "Berserker", "Highway", "Farmland"],
         expansions: "intriguehinterlands"
     },
     {
         id: 244,
-        name: "",
-        cards: [],
+        name: "Future Perfect",
+        cards: ["Wishing Well", "Baron", "Conspirator", "Mill", "Harem", "Crossroads", "Develop", "Weaver", "Cartographer", "Witch's Hut"],
         expansions: "intriguehinterlands"
     },
     {
         id: 245,
-        name: "",
-        cards: [],
+        name: "Opportunity Knocks",
+        cards: ["Masquerade", "Diplomat", "Minion", "Replace", "Upgrade", "Fool's Gold", "Oasis", "Tunnel", "Nomads", "Wheelwright"],
         expansions: "intriguehinterlands"
     },
     {
         id: 246,
-        name: "",
-        cards: [],
+        name: "Souk It Up",
+        cards: ["Lurker", "Pawn", "Swindler", "Mining Village", "Torturer", "Guard Dog", "Jack of all Trades", "Souk", "Stables", "Border Village"],
         expansions: "intriguehinterlands"
     },
     {
         id: 247,
-        name: "",
-        cards: [],
+        name: "Walk the Walk",
+        cards: ["Ironworks", "Duke", "Patrol", "Trading Post", "Nobles", "Develop", "Scheme", "Spice Merchant", "Trail", "Cauldron"],
         expansions: "intriguehinterlands"
     },
     {
         id: 248,
-        name: "",
-        cards: [],
+        name: "Black Markets",
+        cards: ["Shanty Town", "Swindler", "Conspirator", "Diplomat", "Secret Passage", "Trader", "Berserker", "Inn", "Souk", "Witch's Hut"],
         expansions: "intriguehinterlands"
     },
     {
         id: 249,
-        name: "",
-        cards: [],
+        name: "The High Court",
+        cards: ["Courtyard", "Steward", "Wishing Well", "Baron", "Courtier", "Fool's Gold", "Oasis", "Haggler", "Margrave", "Border Village"],
 		expansions: "intriguehinterlands"
     },
 		{
