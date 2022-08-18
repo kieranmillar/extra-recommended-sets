@@ -1730,10 +1730,10 @@ var kingdoms = [
         cards: ["Courtyard", "Steward", "Wishing Well", "Baron", "Courtier", "Fool's Gold", "Oasis", "Haggler", "Margrave", "Border Village"],
 		expansions: "intriguehinterlands"
     },
-		{
+    {
         id: 250,
-        name: "This set combination is in progress",
-        cards: [],
+        name: "Set Sail",
+        cards: ["Native Village", "Sea Chart", "Warehouse", "Island", "Wharf", "Trader", "Weaver", "Inn", "Margrave", "Farmland"],
         expansions: "seasidehinterlands"
     },
     {
