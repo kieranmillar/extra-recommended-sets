@@ -1738,8 +1738,8 @@ var kingdoms = [
     },
     {
         id: 251,
-        name: "",
-        cards: [],
+        name: "Bendy Bananas",
+        cards: ["Lighthouse", "Monkey", "Smugglers", "Caravan", "Treasury", "Spice Merchant", "Cauldron", "Haggler", "Witch's Hut", "Border Village"],
         expansions: "seasidehinterlands"
     },
     {
