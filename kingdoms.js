@@ -1744,8 +1744,8 @@ var kingdoms = [
     },
     {
         id: 252,
-        name: "",
-        cards: [],
+        name: "Cease Side",
+        cards: ["Fishing Village", "Lookout", "Blockade", "Bazaar", "Outpost", "Develop", "Guard Dog", "Tunnel", "Nomads", "Highway"],
         expansions: "seasidehinterlands"
     },
     {
