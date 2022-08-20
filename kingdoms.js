@@ -1756,8 +1756,8 @@ var kingdoms = [
     },
     {
         id: 254,
-        name: "",
-        cards: [],
+        name: "Error in Translation",
+        cards: ["Astrolabe", "Sailor", "Salvager", "Treasure Map", "Tactician", "Trail", "Berserker", "Cartographer", "Highway", "Wheelwright"],
         expansions: "seasidehinterlands"
     },
     {
