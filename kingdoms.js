@@ -1750,8 +1750,8 @@ var kingdoms = [
     },
     {
         id: 253,
-        name: "",
-        cards: [],
+        name: "Wave Machine",
+        cards: ["Haven", "Tide Pools", "Merchant Ship", "Pirate", "Sea Witch", "Scheme", "Jack of All Trades", "Cauldron", "Inn", "Stables"],
         expansions: "seasidehinterlands"
     },
     {
