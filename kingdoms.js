@@ -1774,8 +1774,8 @@ var kingdoms = [
     },
     {
         id: 257,
-        name: "",
-        cards: [],
+        name: "Preparation",
+        cards: ["Lookout", "Sea Chart", "Blockade", "Tide Pools", "Outpost", "Crossroads", "Nomads", "Trail", "Haggler", "Farmland"],
         expansions: "seasidehinterlands"
     },
     {
