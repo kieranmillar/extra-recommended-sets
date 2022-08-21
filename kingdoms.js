@@ -1730,65 +1730,65 @@ var kingdoms = [
         cards: ["Courtyard", "Steward", "Wishing Well", "Baron", "Courtier", "Fool's Gold", "Oasis", "Haggler", "Margrave", "Border Village"],
 		expansions: "intriguehinterlands"
     },
-		{
+    {
         id: 250,
-        name: "This set combination is in progress",
-        cards: [],
+        name: "Set Sail",
+        cards: ["Native Village", "Sea Chart", "Warehouse", "Island", "Wharf", "Trader", "Weaver", "Inn", "Margrave", "Farmland"],
         expansions: "seasidehinterlands"
     },
     {
         id: 251,
-        name: "",
-        cards: [],
+        name: "Bendy Bananas",
+        cards: ["Lighthouse", "Monkey", "Smugglers", "Caravan", "Treasury", "Spice Merchant", "Cauldron", "Haggler", "Witch's Hut", "Border Village"],
         expansions: "seasidehinterlands"
     },
     {
         id: 252,
-        name: "",
-        cards: [],
+        name: "Cease Side",
+        cards: ["Fishing Village", "Lookout", "Blockade", "Bazaar", "Outpost", "Develop", "Guard Dog", "Tunnel", "Nomads", "Highway"],
         expansions: "seasidehinterlands"
     },
     {
         id: 253,
-        name: "",
-        cards: [],
+        name: "Bumpy Ride",
+        cards: ["Haven", "Tide Pools", "Merchant Ship", "Pirate", "Sea Witch", "Scheme", "Jack of All Trades", "Cauldron", "Inn", "Stables"],
         expansions: "seasidehinterlands"
     },
     {
         id: 254,
-        name: "",
-        cards: [],
+        name: "Error in Translation",
+        cards: ["Astrolabe", "Sailor", "Salvager", "Treasure Map", "Tactician", "Trail", "Berserker", "Cartographer", "Highway", "Wheelwright"],
         expansions: "seasidehinterlands"
     },
     {
         id: 255,
-        name: "",
-        cards: [],
+        name: "Tailwind",
+        cards: ["Native Village", "Smugglers", "Corsair", "Sea Witch", "Wharf", "Oasis", "Scheme", "Cartographer", "Souk", "Border Village"],
         expansions: "seasidehinterlands"
     },
     {
         id: 256,
-        name: "",
-        cards: [],
+        name: "Counterfeit Goods",
+        cards: ["Lighthouse", "Fishing Village", "Warehouse", "Island", "Pirate", "Crossroads", "Fool's Gold", "Tunnel", "Weaver", "Margrave"],
         expansions: "seasidehinterlands"
     },
     {
         id: 257,
-        name: "",
-        cards: [],
+        name: "Preparation",
+        cards: ["Lookout", "Sea Chart", "Blockade", "Tide Pools", "Outpost", "Crossroads", "Nomads", "Trail", "Haggler", "Farmland"],
         expansions: "seasidehinterlands"
     },
     {
         id: 258,
-        name: "",
-        cards: [],
+        name: "Tourist Trap",
+        cards: ["Astrolabe", "Cutpurse", "Island", "Treasure Map", "Treasury", "Fool's Gold", "Guard Dog", "Inn", "Stables", "Wheelwright"],
         expansions: "seasidehinterlands"
     },
     {
         id: 259,
-        name: "",
-        cards: [],
-		expansions: "seasidehinterlands"
+        name: "Deep Dive",
+        cards: ["Native Village", "Monkey", "Bazaar", "Pirate", "Tactician", "Develop", "Tunnel", "Nomads", "Spice Merchant", "Cartographer"],
+	expansions: "seasidehinterlands"
     },
 	{
         id: 260,
