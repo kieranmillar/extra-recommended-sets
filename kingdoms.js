@@ -1780,15 +1780,15 @@ var kingdoms = [
     },
     {
         id: 258,
-        name: "",
-        cards: [],
+        name: "Tourist Trap",
+        cards: ["Astrolabe", "Cutpurse", "Island", "Treasure Map", "Treasury", "Fool's Gold", "Guard Dog", "Inn", "Stables", "Wheelwright"],
         expansions: "seasidehinterlands"
     },
     {
         id: 259,
         name: "",
         cards: [],
-		expansions: "seasidehinterlands"
+	expansions: "seasidehinterlands"
     },
 	{
         id: 260,
