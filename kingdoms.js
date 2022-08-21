@@ -1786,8 +1786,8 @@ var kingdoms = [
     },
     {
         id: 259,
-        name: "",
-        cards: [],
+        name: "Deep Dive",
+        cards: ["Native Village", "Monkey", "Bazaar", "Pirate", "Tactician", "Develop", "Tunnel", "Nomads", "Spice Merchant", "Cartographer"],
 	expansions: "seasidehinterlands"
     },
 	{
