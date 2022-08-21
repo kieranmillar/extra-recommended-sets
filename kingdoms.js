@@ -1768,8 +1768,8 @@ var kingdoms = [
     },
     {
         id: 256,
-        name: "",
-        cards: [],
+        name: "Counterfeit Goods",
+        cards: ["Lighthouse", "Fishing Village", "Warehouse", "Island", "Pirate", "Crossroads", "Fool's Gold", "Tunnel", "Weaver", "Margrave"],
         expansions: "seasidehinterlands"
     },
     {
