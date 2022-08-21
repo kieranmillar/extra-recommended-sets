@@ -1762,8 +1762,8 @@ var kingdoms = [
     },
     {
         id: 255,
-        name: "",
-        cards: [],
+        name: "Tailwind",
+        cards: ["Native Village", "Smugglers", "Corsair", "Sea Witch", "Wharf", "Oasis", "Scheme", "Cartographer", "Souk", "Border Village"],
         expansions: "seasidehinterlands"
     },
     {
