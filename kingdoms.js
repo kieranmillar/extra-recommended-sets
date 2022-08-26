@@ -1806,8 +1806,8 @@ var kingdoms = [
     },
     {
         id: 262,
-        name: "",
-        cards: [],
+        name: "Fool's Curse",
+        cards: ["Anvil", "Bishop", "Clerk", "Worker's Village", "Charlatan", "Fool's Gold", "Guard Dog", "Trail", "Haggler", "Stables"],
 		colony: true,
         expansions: "prosperityhinterlands"
     },
