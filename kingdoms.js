@@ -1792,8 +1792,8 @@ var kingdoms = [
     },
 	{
         id: 260,
-        name: "This set combination is in progress",
-        cards: [],
+        name: "Price Range",
+        cards: ["Watchtower", "City", "Grand Market", "Hoard", "Forge", "Develop", "Oasis", "Nomads", "Margrave", "Farmland"],
 		colony: true,
         expansions: "prosperityhinterlands"
     },
