@@ -1799,8 +1799,8 @@ var kingdoms = [
     },
     {
         id: 261,
-        name: "",
-        cards: [],
+        name: "Tricky Treasure",
+        cards: ["Tiara", "Crystal Ball", "Magnate", "Vault", "War Chest", "Scheme", "Cauldron", "Inn", "Souk", "Stables"],
 		colony: true,
         expansions: "prosperityhinterlands"
     },
