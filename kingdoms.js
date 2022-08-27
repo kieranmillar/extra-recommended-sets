@@ -28,6 +28,7 @@ var reviewed = [
     "hinterlands",
     "basehinterlands",
     "intriguehinterlands",
+    "seasidehinterlands",
     "empires",
     "baseempires",
     "intrigueempires",
@@ -1813,8 +1814,8 @@ var kingdoms = [
     },
     {
         id: 263,
-        name: "",
-        cards: [],
+        name: "Interest Rate",
+        cards: ["Investment", "Collection", "Rabble", "King's Court", "Peddler", "Jack of All Trades", "Berserker", "Cartographer", "Haggler", "Border Village"],
 		colony: true,
         expansions: "prosperityhinterlands"
     },
