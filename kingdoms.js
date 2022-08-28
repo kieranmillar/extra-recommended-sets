@@ -1821,8 +1821,8 @@ var kingdoms = [
     },
     {
         id: 264,
-        name: "",
-        cards: [],
+        name: "Precious Materials",
+        cards: ["Quarry", "Tiara", "Mint", "Bank", "Expand", "Crossroads", "Scheme", "Tunnel", "Trail", "Witch's Hut"],
 		colony: true,
         expansions: "prosperityhinterlands"
     },
