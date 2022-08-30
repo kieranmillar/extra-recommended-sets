@@ -29,6 +29,7 @@ var reviewed = [
     "basehinterlands",
     "intriguehinterlands",
     "seasidehinterlands",
+    "prosperityhinterlands,
     "empires",
     "baseempires",
     "intrigueempires",
@@ -1856,8 +1857,8 @@ var kingdoms = [
     },
     {
         id: 269,
-        name: "",
-        cards: [],
+        name: "Fast vs Slow",
+        cards: ["Bishop", "Quarry", "City", "Forge", "Peddler", "Tunnel", "Spice Merchant", "Weaver", "Margrave", "Souk"],
 		colony: true,
         expansions: "prosperityhinterlands"
     },
