@@ -1835,8 +1835,8 @@ var kingdoms = [
     },
     {
         id: 266,
-        name: "",
-        cards: [],
+        name: "Grand Exchange",
+        cards: ["Clerk", "Monument", "Magnate", "King's Court", "Peddler", "Nomads", "Spice Merchant", "Cauldron", "Wheelwright", "Farmland"],
 		colony: true,
         expansions: "prosperityhinterlands"
     },
