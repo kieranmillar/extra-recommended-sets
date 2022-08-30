@@ -1849,8 +1849,8 @@ var kingdoms = [
     },
     {
         id: 268,
-        name: "",
-        cards: [],
+        name: "Pushed Around",
+        cards: ["Investment", "Worker's Village", "Collection", "Vault", "War Chest", "Fool's Gold", "Jack of All Trades", "Trail", "Berserker", "Stables"],
 		colony: true,
         expansions: "prosperityhinterlands"
     },
