@@ -1828,8 +1828,8 @@ var kingdoms = [
     },
     {
         id: 265,
-        name: "",
-        cards: [],
+        name: "Inns and Outs",
+        cards: ["Monument", "Charlatan", "Mint", "Grand Market", "Expand", "Guard Dog", "Weaver", "Cartographer", "Highway", "Inn"],
 		colony: true,
         expansions: "prosperityhinterlands"
     },
