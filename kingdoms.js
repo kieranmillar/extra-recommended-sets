@@ -28,6 +28,8 @@ var reviewed = [
     "hinterlands",
     "basehinterlands",
     "intriguehinterlands",
+    "seasidehinterlands",
+    "prosperityhinterlands,
     "empires",
     "baseempires",
     "intrigueempires",
@@ -1792,71 +1794,71 @@ var kingdoms = [
     },
 	{
         id: 260,
-        name: "This set combination is in progress",
-        cards: [],
+        name: "Price Range",
+        cards: ["Watchtower", "City", "Grand Market", "Hoard", "Forge", "Develop", "Oasis", "Nomads", "Margrave", "Farmland"],
 		colony: true,
         expansions: "prosperityhinterlands"
     },
     {
         id: 261,
-        name: "",
-        cards: [],
+        name: "Tricky Treasure",
+        cards: ["Tiara", "Crystal Ball", "Magnate", "Vault", "War Chest", "Scheme", "Cauldron", "Inn", "Souk", "Stables"],
 		colony: true,
         expansions: "prosperityhinterlands"
     },
     {
         id: 262,
-        name: "",
-        cards: [],
+        name: "Fool's Curse",
+        cards: ["Anvil", "Bishop", "Clerk", "Worker's Village", "Charlatan", "Fool's Gold", "Guard Dog", "Trail", "Haggler", "Stables"],
 		colony: true,
         expansions: "prosperityhinterlands"
     },
     {
         id: 263,
-        name: "",
-        cards: [],
+        name: "Interest Rate",
+        cards: ["Investment", "Collection", "Rabble", "King's Court", "Peddler", "Jack of All Trades", "Berserker", "Cartographer", "Haggler", "Border Village"],
 		colony: true,
         expansions: "prosperityhinterlands"
     },
     {
         id: 264,
-        name: "",
-        cards: [],
+        name: "Precious Materials",
+        cards: ["Quarry", "Tiara", "Mint", "Bank", "Expand", "Crossroads", "Scheme", "Tunnel", "Trail", "Witch's Hut"],
 		colony: true,
         expansions: "prosperityhinterlands"
     },
     {
         id: 265,
-        name: "",
-        cards: [],
+        name: "Inns and Outs",
+        cards: ["Monument", "Charlatan", "Mint", "Grand Market", "Expand", "Guard Dog", "Weaver", "Cartographer", "Highway", "Inn"],
 		colony: true,
         expansions: "prosperityhinterlands"
     },
     {
         id: 266,
-        name: "",
-        cards: [],
+        name: "Grand Exchange",
+        cards: ["Clerk", "Monument", "Magnate", "King's Court", "Peddler", "Nomads", "Spice Merchant", "Cauldron", "Wheelwright", "Farmland"],
 		colony: true,
         expansions: "prosperityhinterlands"
     },
     {
         id: 267,
-        name: "",
-        cards: [],
+        name: "Paying With Cash",
+        cards: ["Tiara", "Crystal Ball", "Grand Market", "Hoard", "Bank", "Crossroads", "Scheme", "Trader", "Witch's Hut", "Farmland"],
 		colony: true,
         expansions: "prosperityhinterlands"
     },
     {
         id: 268,
-        name: "",
-        cards: [],
+        name: "Pushed Around",
+        cards: ["Investment", "Worker's Village", "Collection", "Vault", "War Chest", "Fool's Gold", "Jack of All Trades", "Trail", "Berserker", "Stables"],
 		colony: true,
         expansions: "prosperityhinterlands"
     },
     {
         id: 269,
-        name: "",
-        cards: [],
+        name: "Fast vs Slow",
+        cards: ["Bishop", "Quarry", "City", "Forge", "Peddler", "Tunnel", "Spice Merchant", "Weaver", "Margrave", "Souk"],
 		colony: true,
         expansions: "prosperityhinterlands"
     },
