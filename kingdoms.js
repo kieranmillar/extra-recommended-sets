@@ -1842,8 +1842,8 @@ var kingdoms = [
     },
     {
         id: 267,
-        name: "",
-        cards: [],
+        name: "Paying With Cash",
+        cards: ["Tiara", "Crystal Ball", "Grand Market", "Hoard", "Bank", "Crossroads", "Scheme", "Trader", "Witch's Hut", "Farmland"],
 		colony: true,
         expansions: "prosperityhinterlands"
     },
