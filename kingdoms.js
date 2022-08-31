@@ -1878,9 +1878,9 @@ var kingdoms = [
     },
 	{
         id: 272,
-        name: "",
-        cards: [],
-		landscapes: [],
+        name: "Hunting Dogs",
+        cards: ["Guard Dog", "Tunnel", "Cauldron", "Inn", "Margrave", "Encampment / Plunder", "Patrician / Emporium", "Farmers' Market", "Charm", "Forum"],
+		landscapes: ["Labyrinth", "Triumph"],
         expansions: "hinterlandsempires"
     },
 	{
