@@ -1871,9 +1871,9 @@ var kingdoms = [
     },
 	{
         id: 271,
-        name: "",
-        cards: [],
-		landscapes: [],
+        name: "Appease the Gods",
+        cards: ["Nomads", "Spice Merchant", "Trader", "Trail", "Berserker", "Engineer", "Castles", "Galdiator / Fortune", "Sacrifice", "Wild Hunt"],
+		landscapes: ["Orchard", "Ritual"],
         expansions: "hinterlandsempires"
     },
 	{
