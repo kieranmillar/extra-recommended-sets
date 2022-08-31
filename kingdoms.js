@@ -1864,9 +1864,9 @@ var kingdoms = [
     },
 	{
         id: 270,
-        name: "This set combination is in progress",
-        cards: [],
-		landscapes: [],
+        name: "Keep On Carrying On",
+        cards: ["Crossroads", "Fool's Gold", "Stables", "Wheelwright", "Farmland", "Settlers / Bustling Village", "Enchantress", "Archive", "Capital", "Legionary"],
+		landscapes: ["Keep", "Windfall"],
         expansions: "hinterlandsempires"
     },
 	{
