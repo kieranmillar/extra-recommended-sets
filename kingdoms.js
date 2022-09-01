@@ -1885,9 +1885,9 @@ var kingdoms = [
     },
 	{
         id: 273,
-        name: "",
-        cards: [],
-		landscapes: [],
+        name: "Hidden Buys",
+        cards: ["Scheme", "Weaver", "Haggler", "Highway", "Border Village", "Royal Blacksmith", "Chariot Race", "Temple", "Crown", "Forum"],
+		landscapes: ["Mountain Pass", "Museum"],
         expansions: "hinterlandsempires"
     },
 	{
