@@ -1920,9 +1920,9 @@ var kingdoms = [
     },
 	{
         id: 278,
-        name: "",
-        cards: [],
-		landscapes: [],
+        name: "Sacrifice the Middleman",
+        cards: ["Develop", "Cauldron", "Souk", "Wheelwright", "Farmland", "Patrician / Emporium", "Sacrifice", "Archive", "Charm", "Groundskeeper"],
+		landscapes: ["Arena", "Annex"],
         expansions: "hinterlandsempires"
     },
 	{
