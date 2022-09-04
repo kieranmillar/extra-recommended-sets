@@ -34,7 +34,8 @@ var reviewed = [
     "baseempires",
     "intrigueempires",
     "seasideempires",
-    "prosperityempires"
+    "prosperityempires",
+    "hinterlandsempires"
 ];
 
 var kingdoms = [
@@ -1864,72 +1865,72 @@ var kingdoms = [
     },
 	{
         id: 270,
-        name: "This set combination is in progress",
-        cards: [],
-		landscapes: [],
+        name: "Keep On Carrying On",
+        cards: ["Crossroads", "Fool's Gold", "Stables", "Wheelwright", "Farmland", "Settlers / Bustling Village", "Enchantress", "Archive", "Capital", "Legionary"],
+		landscapes: ["Keep", "Windfall"],
         expansions: "hinterlandsempires"
     },
 	{
         id: 271,
-        name: "",
-        cards: [],
-		landscapes: [],
+        name: "Appease the Gods",
+        cards: ["Nomads", "Spice Merchant", "Trader", "Trail", "Berserker", "Engineer", "Castles", "Gladiator / Fortune", "Sacrifice", "Wild Hunt"],
+		landscapes: ["Orchard", "Ritual"],
         expansions: "hinterlandsempires"
     },
 	{
         id: 272,
-        name: "",
-        cards: [],
-		landscapes: [],
+        name: "Hunting Dogs",
+        cards: ["Guard Dog", "Tunnel", "Cauldron", "Inn", "Margrave", "Encampment / Plunder", "Patrician / Emporium", "Farmers' Market", "Charm", "Forum"],
+		landscapes: ["Labyrinth", "Triumph"],
         expansions: "hinterlandsempires"
     },
 	{
         id: 273,
-        name: "",
-        cards: [],
-		landscapes: [],
+        name: "Hidden Buys",
+        cards: ["Scheme", "Weaver", "Haggler", "Highway", "Border Village", "Royal Blacksmith", "Chariot Race", "Temple", "Crown", "Forum"],
+		landscapes: ["Mountain Pass", "Museum"],
         expansions: "hinterlandsempires"
     },
 	{
         id: 274,
-        name: "",
-        cards: [],
-		landscapes: [],
+        name: "Two Little Two Late",
+        cards: ["Oasis", "Jack of All Trades", "Weaver", "Souk", "Witch's Hut", "City Quarter", "Patrician / Emporium", "Catapult / Rocks", "Villa", "Groundskeeper"],
+		landscapes: ["Salt the Earth", "Wolf Den"],
         expansions: "hinterlandsempires"
     },
 	{
         id: 275,
-        name: "",
-        cards: [],
-		landscapes: [],
+        name: "Imperialism",
+        cards: ["Guard Dog", "Tunnel", "Cartographer", "Inn", "Border Village", "Overlord", "Settlers / Bustling Village", "Farmers' Market", "Legionary", "Wild Hunt"],
+		landscapes: ["Dominate", "Fountain"],
         expansions: "hinterlandsempires"
     },
 	{
         id: 276,
-        name: "",
-        cards: [],
-		landscapes: [],
+        name: "Blazing Saddles",
+        cards: ["Fool's Gold", "Oasis", "Nomads", "Trail", "Stables", "Engineer", "Royal Blacksmith", "Chariot Race", "Enchantress", "Temple"],
+		landscapes: ["Baths", "Battlefield"],
         expansions: "hinterlandsempires"
     },
 	{
         id: 277,
-        name: "",
-        cards: [],
-		landscapes: [],
+        name: "Transience",
+        cards: ["Crossroads", "Develop", "Nomads", "Trader", "Margrave", "Encampment / Plunder", "Castles", "Villa", "Capital", "Crown"],
+		landscapes: ["Advance", "Donate"],
         expansions: "hinterlandsempires"
     },
 	{
         id: 278,
-        name: "",
-        cards: [],
-		landscapes: [],
+        name: "Sacrifice the Middleman",
+        cards: ["Develop", "Cauldron", "Souk", "Wheelwright", "Farmland", "Patrician / Emporium", "Sacrifice", "Archive", "Charm", "Groundskeeper"],
+		landscapes: ["Arena", "Annex"],
         expansions: "hinterlandsempires"
     },
 	{
         id: 279,
-        name: "",
-        cards: [],
-		landscapes: [],
+        name: "Spare Change",
+        cards: ["Spice Merchant", "Weaver", "Cartographer", "Highway", "Witch's Hut", "City Quarter", "Overlord", "Settlers / Bustling Village", "Catapult / Rocks", "Gladiator / Fortune"],
+		landscapes: ["Banquet", "Colonnade"],
         expansions: "hinterlandsempires"
     }
 ];
