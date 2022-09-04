@@ -1906,9 +1906,9 @@ var kingdoms = [
     },
 	{
         id: 276,
-        name: "",
-        cards: [],
-		landscapes: [],
+        name: "Blazing Saddles",
+        cards: ["Fool's Gold", "Oasis", "Nomads", "Trail", "Stables", "Engineer", "Royal Blacksmith", "Chariot Race", "Enchantress", "Temple"],
+		landscapes: ["Baths", "Battlefield"],
         expansions: "hinterlandsempires"
     },
 	{
