@@ -34,7 +34,8 @@ var reviewed = [
     "baseempires",
     "intrigueempires",
     "seasideempires",
-    "prosperityempires"
+    "prosperityempires",
+    "hinterlandsempires"
 ];
 
 var kingdoms = [
@@ -1927,9 +1928,9 @@ var kingdoms = [
     },
 	{
         id: 279,
-        name: "",
-        cards: [],
-		landscapes: [],
+        name: "Spare Change",
+        cards: ["Spice Merchant", "Weaver", "Cartographer", "Highway", "Witch's Hut", "City Quarter", "Overlord", "Settlers / Bustling Village", "Catapult / Rocks", "Gladiator / Fortune"],
+		landscapes: ["Banquet", "Colonnade"],
         expansions: "hinterlandsempires"
     }
 ];
