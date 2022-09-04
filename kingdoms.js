@@ -1892,9 +1892,9 @@ var kingdoms = [
     },
 	{
         id: 274,
-        name: "",
-        cards: [],
-		landscapes: [],
+        name: "Two Little Two Late",
+        cards: ["Oasis", "Jack of All Trades", "Weaver", "Souk", "Witch's Hut", "City Quarter", "Patrician / Emporium", "Catapult / Rocks", "Villa", "Groundskeeper"],
+		landscapes: ["Salt the Earth", "Wolf Den"],
         expansions: "hinterlandsempires"
     },
 	{
