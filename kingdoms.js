@@ -1899,9 +1899,9 @@ var kingdoms = [
     },
 	{
         id: 275,
-        name: "",
-        cards: [],
-		landscapes: [],
+        name: "Imperialism",
+        cards: ["Guard Dog", "Tunnel", "Cartographer", "Inn", "Border Village", "Overlord", "Settlers / Bustling Village", "Farmers' Market", "Legionary", "Wild Hunt"],
+		landscapes: ["Dominate", "Fountain"],
         expansions: "hinterlandsempires"
     },
 	{
