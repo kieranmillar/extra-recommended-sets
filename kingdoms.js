@@ -1913,9 +1913,9 @@ var kingdoms = [
     },
 	{
         id: 277,
-        name: "",
-        cards: [],
-		landscapes: [],
+        name: "Transience",
+        cards: ["Crossroads", "Develop", "Nomads", "Trader", "Margrave", "Encampment / Plunder", "Castles", "Villa", "Capital", "Crown"],
+		landscapes: ["Advance", "Donate"],
         expansions: "hinterlandsempires"
     },
 	{
