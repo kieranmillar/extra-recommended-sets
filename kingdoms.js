@@ -706,81 +706,81 @@ var kingdoms = [
     {
         id: 100,
         name: "A New Age",
-        cards: ["Lackeys", "Cargo Ship", "Experiment", "Improve", "Flag Bearer", "Mountain Village", "Priest", "Sculptor", "Spices", "Villain"],
-        extras: ["Flag"],
-        landscapes: ["Fair", "Sinister Plot"],
+        cards: [],
+        extras: [],
+        landscapes: [],
         expansions: "renaissance"
     },
     {
         id: 101,
-        name: "Every Little Helps",
-        cards: ["Ducat", "Acting Troupe", "Cargo Ship", "Hideout", "Old Witch", "Scepter", "Sculptor", "Seer", "Spices", "Treasurer"],
-        extras: ["Key"],
-        landscapes: ["Pageant", "Canal"],
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
         expansions: "renaissance"
     },
     {
         id: 102,
-        name: "Deja Vu",
-        cards: ["Border Guard", "Experiment", "Improve", "Inventor", "Mountain Village", "Patron", "Silk Merchant", "Scholar", "Swashbuckler", "Villain"],
-        extras: ["Horn", "Lantern", "Treasure Chest"],
-        landscapes: ["City Gate", "Silos"],
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
         expansions: "renaissance"
     },
     {
         id: 103,
-        name: "The Village People",
-        cards: ["Border Guard", "Lackeys", "Improve", "Flag Bearer", "Silk Merchant", "Old Witch", "Recruiter", "Scepter", "Sculptor", "Treasurer"],
-        extras: ["Horn", "Lantern", "Flag", "Key"],
-        landscapes: ["Piazza", "Road Network"],
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
         expansions: "renaissance"
     },
     {
         id: 104,
-        name: "Don't Blink",
-        cards: ["Lackeys", "Experiment", "Inventor", "Patron", "Research", "Silk Merchant", "Scholar", "Seer", "Swashbuckler", "Villain"],
-        extras: ["Treasure Chest"],
-        landscapes: ["Academy", "Fleet"],
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
         expansions: "renaissance"
     },
     {
         id: 105,
-        name: "Peek-A-Boo",
-        cards: ["Border Guard", "Ducat", "Acting Troupe", "Cargo Ship", "Improve", "Patron", "Recruiter", "Old Witch", "Seer", "Swashbuckler"],
-        extras: ["Horn", "Lantern", "Treasure Chest"],
-        landscapes: ["Cathedral", "Citadel"],
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
         expansions: "renaissance"
     },
     {
         id: 106,
-        name: "Draw is Draw",
-        cards: ["Border Guard", "Acting Troupe", "Cargo Ship", "Flag Bearer", "Inventor", "Mountain Village", "Research", "Scepter", "Spices", "Villain"],
-        extras: ["Horn", "Lantern", "Flag"],
-        landscapes: ["Sewers", "Crop Rotation"],
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
         expansions: "renaissance"
     },
     {
         id: 107,
-        name: "Midas Touch",
-        cards: ["Ducat", "Acting Troupe", "Improve", "Flag Bearer", "Hideout", "Patron", "Priest", "Scholar", "Sculptor", "Treasurer"],
-        extras: ["Flag", "Key"],
-        landscapes: ["Capitalism", "Guildhall"],
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
         expansions: "renaissance"
     },
     {
         id: 108,
-        name: "Seeing Stars",
-        cards: ["Border Guard", "Experiment", "Inventor", "Research", "Silk Merchant", "Old Witch", "Scepter", "Seer", "Spices", "Treasurer"],
-        extras: ["Horn", "Lantern", "Key"],
-        landscapes: ["Star Chart", "Barracks"],
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
         expansions: "renaissance"
     },
     {
         id: 109,
-        name: "Top Up",
-        cards: ["Lackeys", "Ducat", "Improve", "Hideout", "Patron", "Recruiter", "Scholar", "Sculptor", "Swashbuckler", "Villain"],
-        extras: ["Treasure Chest"],
-        landscapes: ["Exploration", "Innovation"],
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
         expansions: "renaissance"
     },
     {
@@ -1932,5 +1932,495 @@ var kingdoms = [
         cards: ["Spice Merchant", "Weaver", "Cartographer", "Highway", "Witch's Hut", "City Quarter", "Overlord", "Settlers / Bustling Village", "Catapult / Rocks", "Gladiator / Fortune"],
 		landscapes: ["Banquet", "Colonnade"],
         expansions: "hinterlandsempires"
+    },
+	{
+        id: 280,
+        name: "This expansion combination is still in development",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "baserenaissance"
+    },
+	{
+        id: 281,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "baserenaissance"
+    },
+	{
+        id: 282,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "baserenaissance"
+    },
+	{
+        id: 283,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "baserenaissance"
+    },
+	{
+        id: 284,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "baserenaissance"
+    },
+	{
+        id: 285,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "baserenaissance"
+    },
+	{
+        id: 286,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "baserenaissance"
+    },
+	{
+        id: 287,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "baserenaissance"
+    },
+	{
+        id: 288,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "baserenaissance"
+    },
+	{
+        id: 289,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "baserenaissance"
+    },
+	{
+        id: 290,
+        name: "This expansion combination is still in development",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "intriguerenaissance"
+    },
+	{
+        id: 291,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "intriguerenaissance"
+    },
+	{
+        id: 292,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "intriguerenaissance"
+    },
+	{
+        id: 293,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "intriguerenaissance"
+    },
+	{
+        id: 294,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "intriguerenaissance"
+    },
+	{
+        id: 295,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "intriguerenaissance"
+    },
+	{
+        id: 296,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "intriguerenaissance"
+    },
+	{
+        id: 297,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "intriguerenaissance"
+    },
+	{
+        id: 298,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "intriguerenaissance"
+    },
+	{
+        id: 299,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "intriguerenaissance"
+    },
+	{
+        id: 300,
+        name: "This expansion combination is still in development",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "seasiderenaissance"
+    },
+	{
+        id: 301,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "seasiderenaissance"
+    },
+	{
+        id: 302,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "seasiderenaissance"
+    },
+	{
+        id: 303,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "seasiderenaissance"
+    },
+	{
+        id: 304,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "seasiderenaissance"
+    },
+	{
+        id: 305,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "seasiderenaissance"
+    },
+	{
+        id: 306,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "seasiderenaissance"
+    },
+	{
+        id: 307,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "seasiderenaissance"
+    },
+	{
+        id: 308,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "seasiderenaissance"
+    },
+	{
+        id: 309,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "seasiderenaissance"
+    },
+	{
+        id: 310,
+        name: "This expansion combination is still in development",
+        cards: [],
+        colony: true,
+        extras: [],
+        landscapes: [],
+        expansions: "prosperityrenaissance"
+    },
+	{
+        id: 311,
+        name: "",
+        cards: [],
+	    colony: true,
+        extras: [],
+        landscapes: [],
+        expansions: "prosperityrenaissance"
+    },
+	{
+        id: 312,
+        name: "",
+        cards: [],
+		colony: true,
+        extras: [],
+        landscapes: [],
+        expansions: "prosperityrenaissance"
+    },
+	{
+        id: 313,
+        name: "",
+        cards: [],
+		colony: true,
+        extras: [],
+        landscapes: [],
+        expansions: "prosperityrenaissance"
+    },
+	{
+        id: 314,
+        name: "",
+        cards: [],
+		colony: true,
+        extras: [],
+        landscapes: [],
+        expansions: "prosperityrenaissance"
+    },
+	{
+        id: 315,
+        name: "",
+        cards: [],
+		colony: true,
+        extras: [],
+        landscapes: [],
+        expansions: "prosperityrenaissance"
+    },
+	{
+        id: 316,
+        name: "",
+        cards: [],
+		colony: true,
+        extras: [],
+        landscapes: [],
+        expansions: "prosperityrenaissance"
+    },
+	{
+        id: 317,
+        name: "",
+        cards: [],
+		colony: true,
+        extras: [],
+        landscapes: [],
+        expansions: "prosperityrenaissance"
+    },
+	{
+        id: 318,
+        name: "",
+        cards: [],
+		colony: true,
+        extras: [],
+        landscapes: [],
+        expansions: "prosperityrenaissance"
+    },
+	{
+        id: 319,
+        name: "",
+        cards: [],
+		colony: true,
+        extras: [],
+        landscapes: [],
+        expansions: "prosperityrenaissance"
+    },
+	{
+        id: 320,
+        name: "This expansion combination is still in development",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "hinterlandsrenaissance"
+    },
+	{
+        id: 321,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "hinterlandsrenaissance"
+    },
+	{
+        id: 322,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "hinterlandsrenaissance"
+    },
+	{
+        id: 323,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "hinterlandsrenaissance"
+    },
+	{
+        id: 324,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "hinterlandsrenaissance"
+    },
+	{
+        id: 325,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "hinterlandsrenaissance"
+    },
+	{
+        id: 326,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "hinterlandsrenaissance"
+    },
+	{
+        id: 327,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "hinterlandsrenaissance"
+    },
+	{
+        id: 328,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "hinterlandsrenaissance"
+    },
+	{
+        id: 329,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "hinterlandsrenaissance"
+    },
+	{
+        id: 330,
+        name: "This expansion combination is still in development",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "empiresrenaissance"
+    },
+	{
+        id: 331,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "empiresrenaissance"
+    },
+	{
+        id: 332,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "empiresrenaissance"
+    },
+	{
+        id: 333,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "empiresrenaissance"
+    },
+	{
+        id: 334,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "empiresrenaissance"
+    },
+	{
+        id: 335,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "empiresrenaissance"
+    },
+	{
+        id: 336,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "empiresrenaissance"
+    },
+	{
+        id: 337,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "empiresrenaissance"
+    },
+	{
+        id: 338,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "empiresrenaissance"
+    },
+	{
+        id: 339,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "empiresrenaissance"
     }
 ];
