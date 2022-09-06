@@ -706,9 +706,9 @@ var kingdoms = [
     {
         id: 100,
         name: "A New Age",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        cards: ["Lackeys", "Cargo Ship", "Experiment", "Improve", "Flag Bearer", "Mountain Village", "Priest", "Sculptor", "Spices", "Villain"],
+        extras: ["Flag"],
+        landscapes: ["Fair", "Sinister Plot"],
         expansions: "renaissance"
     },
     {
