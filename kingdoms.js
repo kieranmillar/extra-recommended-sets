@@ -713,10 +713,10 @@ var kingdoms = [
     },
     {
         id: 101,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Every Little Helps",
+        cards: ["Ducat", "Acting Troupe", "Cargo Ship", "Hideout", "Silk Merchant", "Old Witch", "Scepter", "Sculptor", "Seer", "Treasurer"],
+        extras: ["Key"],
+        landscapes: ["Canal", "Pageant"],
         expansions: "renaissance"
     },
     {
