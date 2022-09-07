@@ -745,10 +745,10 @@ var kingdoms = [
     },
     {
         id: 105,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "The Villager People",
+        cards: ["Border Guard", "Lackeys", "Improve", "Flag Bearer", "Silk Merchant", "Old Witch", "Recruiter", "Scepter", "Sculptor", "Treasurer"],
+        extras: ["Horn", "Lantern", "Flag", "Key"],
+        landscapes: ["Piazza", "Road Network"],
         expansions: "renaissance"
     },
     {
