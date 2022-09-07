@@ -721,10 +721,10 @@ var kingdoms = [
     },
     {
         id: 102,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Deja Vu",
+        cards: ["Border Guard", "Acting Troupe", "Experiment", "Improve", "Inventor", "Mountain Village", "Research", "Silk Merchant", "Scholar", "Villain"],
+        extras: ["Horn", "Lantern"],
+        landscapes: ["City Gate", "Silos"],
         expansions: "renaissance"
     },
     {
