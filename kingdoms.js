@@ -729,10 +729,10 @@ var kingdoms = [
     },
     {
         id: 103,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Starch Art",
+        cards: ["Border Guard", "Ducat", "Lackeys", "Hideout", "Patron", "Priest", "Recruiter", "Scholar", "Spices", "Swashbuckler"],
+        extras: ["Horn", "Lantern", "Treasure Chest"],
+        landscapes: ["Fleet", "Star Chart"],
         expansions: "renaissance"
     },
     {
