@@ -737,10 +737,10 @@ var kingdoms = [
     },
     {
         id: 104,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Offering",
+        cards: ["Ducat", "Acting Troupe", "Cargo Ship", "Improve", "Inventor", "Patron", "Scepter", "Seer", "Swashbuckler", "Villain"],
+        extras: ["Treasure Chest"],
+        landscapes: ["Cathedral", "Crop Rotation"],
         expansions: "renaissance"
     },
     {
