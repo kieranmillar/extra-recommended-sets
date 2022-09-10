@@ -761,10 +761,9 @@ var kingdoms = [
     },
     {
         id: 107,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Hoarder",
+        cards: ["Ducat", "Acting Troupe", "Cargo Ship", "Experiment", "Mountain Village", "Priest", "Recruiter", "Scepter", "Scholar", "Villain"],
+        landscapes: ["Citadel", "Guildhall"],
         expansions: "renaissance"
     },
     {
