@@ -753,10 +753,10 @@ var kingdoms = [
     },
     {
         id: 106,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Unlocked Knowledge",
+        cards: ["Lackeys", "Experiment", "Flag Bearer", "Hideout", "Mountain Village", "Reasearch", "Scholar", "Seer", "Spices", "Treasurer"],
+        extras: ["Flag", "Key"],
+        landscapes: ["Barracks", "Sewers"],
         expansions: "renaissance"
     },
     {
