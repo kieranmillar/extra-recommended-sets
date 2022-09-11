@@ -14,30 +14,6 @@ druid: An array of boons, 3 max (optional)
 notes: Any extra notes (optional)
 expansions: Concatenated string of expansions required, matching checkbox names in order, no spaces
 -----*/
-var reviewed = [
-    "base",
-    "intrigue",
-    "baseintrigue",
-    "seaside",
-    "baseseaside",
-    "intrigueseaside",
-    "prosperity",
-    "baseprosperity",
-    "intrigueprosperity",
-    "seasideprosperity",
-    "hinterlands",
-    "basehinterlands",
-    "intriguehinterlands",
-    "seasidehinterlands",
-    "prosperityhinterlands",
-    "empires",
-    "baseempires",
-    "intrigueempires",
-    "seasideempires",
-    "prosperityempires",
-    "hinterlandsempires"
-];
-
 var kingdoms = [
     {
         id: 0,
@@ -754,7 +730,7 @@ var kingdoms = [
     {
         id: 106,
         name: "Unlocked Knowledge",
-        cards: ["Lackeys", "Experiment", "Flag Bearer", "Hideout", "Mountain Village", "Reasearch", "Scholar", "Seer", "Spices", "Treasurer"],
+        cards: ["Lackeys", "Experiment", "Flag Bearer", "Hideout", "Mountain Village", "Research", "Scholar", "Seer", "Spices", "Treasurer"],
         extras: ["Flag", "Key"],
         landscapes: ["Barracks", "Sewers"],
         expansions: "renaissance"
@@ -776,10 +752,10 @@ var kingdoms = [
     },
     {
         id: 109,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Gainsville",
+        cards: ["Experiment", "Flag Bearer", "Hideout", "Patron", "Research", "Silk Merchant", "Old Witch", "Sculptor", "Spices", "Swashbuckler"],
+        extras: ["Flag", "Treasure Chest"],
+        landscapes: ["Academy", "Innovation"],
         expansions: "renaissance"
     },
     {
