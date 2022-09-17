@@ -1926,10 +1926,9 @@ var kingdoms = [
     },
 	{
         id: 282,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Searching for Love",
+        cards: ["Chapel", "Village", "Bureaucrat", "Council Room", "Mine", "Ducat", "Lackeys", "Cargo Ship", "Patron", "Villain"],
+        landscapes: ["Exploration", "Fleet"],
         expansions: "baserenaissance"
     },
 	{
