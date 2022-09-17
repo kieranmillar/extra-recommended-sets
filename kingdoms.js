@@ -1910,10 +1910,10 @@ var kingdoms = [
     },
 	{
         id: 280,
-        name: "This expansion combination is still in development",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Garden Centre",
+        cards: ["Merchant", "Gardens", "Militia", "Smithy", "Market", "Border Guard", "Mountain Village", "Sculptor", "Seer", "Treasurer"],
+        extras: ["Horn", "Lantern", "Key"],
+        landscapes: ["Guildhall", "Road Network"],
         expansions: "baserenaissance"
     },
 	{
