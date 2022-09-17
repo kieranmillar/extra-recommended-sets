@@ -1933,10 +1933,10 @@ var kingdoms = [
     },
 	{
         id: 283,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Lost and Found",
+        cards: ["Cellar", "Harbinger", "Laboratory", "Witch", "Artisan", "Improve", "Mountain Village", "Priest", "Spices", "Swashbuckler"],
+        extras: ["Treasure Chest"],
+        landscapes: ["Piazza", "Sinister Plot"],
         expansions: "baserenaissance"
     },
 	{
