@@ -1918,10 +1918,10 @@ var kingdoms = [
     },
 	{
         id: 281,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "A Learning Opportunity",
+        cards: ["Vassal", "Workshop", "Poacher", "Throne Room", "Festival", "Experiment", "Flag Bearer", "Patron", "Silk Merchant", "Scholar"],
+        extras: ["Flag"],
+        landscapes: ["Cathedral", "City Gate"],
         expansions: "baserenaissance"
     },
 	{
