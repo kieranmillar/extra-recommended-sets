@@ -1941,10 +1941,10 @@ var kingdoms = [
     },
 	{
         id: 284,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Smash and Grab",
+        cards: ["Moat", "Moneylender", "Remodel", "Bandit", "Market", "Acting Troupe", "Flag Bearer", "Old Witch", "Recruiter", "Spices"],
+        extras: ["Flag"],
+        landscapes: ["Citadel", "Innovation"],
         expansions: "baserenaissance"
     },
 	{
