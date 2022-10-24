@@ -1949,10 +1949,10 @@ var kingdoms = [
     },
 	{
         id: 285,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "The Bourgeoisie",
+        cards: ["Militia", "Poacher", "Bandit", "Library", "Sentry", "Border Guard", "Cargo Ship", "Hideout", "Patron", "Silk Merchant"],
+        extras: ["Horn", "Lantern"],
+        landscapes: ["Capitalism", "Pageant"],
         expansions: "baserenaissance"
     },
 	{
