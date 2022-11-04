@@ -1957,10 +1957,10 @@ var kingdoms = [
     },
 	{
         id: 286,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Quick on the Draw",
+        cards: ["Cellar", "Remodel", "Smithy", "Council Room", "Witch", "Lackeys", "Acting Troupe", "Flag Bearer", "Inventor", "Sculptor"],
+        extras: ["Flag"],
+        landscapes: ["Academy", "Sewers"],
         expansions: "baserenaissance"
     },
 	{
