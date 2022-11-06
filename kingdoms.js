@@ -1965,10 +1965,9 @@ var kingdoms = [
     },
 	{
         id: 287,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Henchmen",
+        cards: ["Moat", "Merchant", "Workshop", "Moneylender", "Market", "Improve", "Recruiter", "Scepter", "Scholar", "Villain"],
+        landscapes: ["Canal", "Silos"],
         expansions: "baserenaissance"
     },
 	{
