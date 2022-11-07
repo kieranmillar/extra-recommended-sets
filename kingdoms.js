@@ -1972,10 +1972,10 @@ var kingdoms = [
     },
 	{
         id: 288,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Gaze into the Abyss",
+        cards: ["Harbinger", "Bureaucrat", "Gardens", "Laboratory", "Mine", "Ducat", "Research", "Silk Merchant", "Spices", "Swashbuckler"],
+        extras: ["Treasure Chest"],
+        landscapes: ["Barracks", "Star Chart"],
         expansions: "baserenaissance"
     },
 	{
