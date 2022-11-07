@@ -1988,10 +1988,9 @@ var kingdoms = [
     },
 	{
         id: 290,
-        name: "This expansion combination is still in development",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Organised",
+        cards: ["Pawn", "Shanty Town", "Conspirator", "Mill", "Secret Passage", "Cargo Ship", "Priest", "Old Witch", "Scepter", "Sculptor"],
+        landscapes: ["Citadel", "Piazza"],
         expansions: "intriguerenaissance"
     },
 	{
