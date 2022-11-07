@@ -1980,10 +1980,10 @@ var kingdoms = [
     },
 	{
         id: 289,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Fair Play",
+        cards: ["Vassal", "Militia", "Poacher", "Throne Room", "Artisan", "Mountain Village", "Priest", "Old Witch", "Seer", "Treasurer"],
+        extras: ["Key"],
+        landscapes: ["Crop Rotation", "Fair"],
         expansions: "baserenaissance"
     },
 	{
