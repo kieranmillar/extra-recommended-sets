@@ -3,18 +3,18 @@
 id: A number matching its position in the array.
 name: The kingdom name
 cards: An array of card names
-colony: A boolean to include Colony and Platinum
-shelters: A boolean to include Shelters
+colony: A boolean to include Colony and Platinum (optional)
+shelters: A boolean to include Shelters (optional)
 extras: An array of extra component names (optional)
 landscapes: An array of landscape names (optional)
 obelisk: The obelisk target, should already be listed in the cards list (optional)
 bane: Which card is the bane, should already be listed in the cards list (optional)
 mouse: Which card is the Way of the Mouse target, should not be listed in the cards list (optional)
 druid: An array of boons, 3 max (optional)
+traits: An array containing a comma separated list with pairs of cards, a trait first then the card it applies to next, both should already be in the cards and landscapes lists (optional)
 notes: Any extra notes (optional)
 expansions: Concatenated string of expansions required, matching checkbox names in order, no spaces
 -----*/
-
 var officialKingdoms = [
     {
         id: 0,
@@ -1723,5 +1723,248 @@ var officialKingdoms = [
         cards: ["Augurs", "Sentinel", "Underling", "Carpenter", "Town", "Barbarian", "Emissary", "Galleria", "Skirmisher", "Specialist"],
 		landscapes: ["Order of Astrologers"],
         expansions: "allies"
+	},
+	{
+		id: 234,
+		name: "Flotsam",
+        cards: ["Jewelled Egg", "Secluded Shrine", "Abundance", "Crucible", "Fortune Hunter", "Landing Party", "First Mate", "Mining Road", "Silver Mine", "Wealthy Village"],
+		landscapes: ["Hasty"],
+		traits: ["Hasty", "First Mate"],
+        expansions: "plunder"
+	},
+	{
+		id: 235,
+		name: "Jetsam",
+        cards: ["Grotto", "Search", "Siren", "Stowaway", "Gondola", "Crew", "Cutthroat", "Longship", "Pickaxe", "Quartermaster"],
+		landscapes: ["Pious", "Prepare"],
+		traits: ["Pious", "Grotto"],
+        expansions: "plunder"
+	},
+	{
+		id: 236,
+		name: "Basic Looting",
+        cards: ["Cellar", "Moat", "Vassal", "Market", "Mine", "Harbor Village", "Maroon", "Frigate", "Pilgrim", "Sack of Loot"],
+		landscapes: ["Tireless"],
+		traits: ["Tireless", "Harbor Village"],
+        expansions: "baseplunder"
+	},
+	{
+		id: 237,
+		name: "Voodoo",
+        cards: ["Bureaucrat", "Moneylender", "Remodel", "Festival", "Artisan", "Shaman", "Flagship", "Gondola", "Buried Treasure", "First Mate"],
+		landscapes: ["Cursed", "Maelstrom"],
+		traits: ["Cursed", "Festival"],
+        expansions: "baseplunder"
+	},
+	{
+		id: 238,
+		name: "Breaking Eggs",
+        cards: ["Mining Village", "Courtier", "Replace", "Harem", "Nobles", "Jewelled Egg", "Mapmaker", "Maroon", "Buried Treasure",  "Quartermaster"],
+		landscapes: ["Reckless"],
+		traits: ["Reckless", "Maroon"],
+        expansions: "intrigueplunder"
+	},
+	{
+		id: 239,
+		name: "Landlubbers",
+        cards: ["Pawn", "Wishing Well", "Conspirator", "Mill", "Secret Passage", "Fortune Hunter", "Cutthroat", "Pendant", "Pilgrim", "Wealthy Village"],
+		landscapes: ["Avoid", "Friendly"],
+		traits: ["Friendly", "Conspirator"],
+        expansions: "intrigueplunder"
+	},
+	{
+		id: 240,
+		name: "Wine-dark Seas",
+        cards: ["Astrolabe", "Fishing Village", "Caravan", "Sailor", "Sea Witch", "Cage", "Cabin Boy", "Rope", "Enlarge", "Frigate"],
+		landscapes: ["Cheap"],
+		traits: ["Cheap", "Frigate"],
+        expansions: "seasideplunder"
+	},
+	{
+		id: 241,
+		name: "Treasure Island",
+        cards: ["Lookout", "Sea Chart", "Island", "Treasure Map", "Corsair", "Stowaway", "Abundance", "Buried Treasure", "Crew", "Longship"],
+		landscapes: ["Inherited", "Launch"],
+		traits: ["Inherited", "Treasure Map"],
+        expansions: "seasideplunder"
+	},
+	{
+		id: 242,
+		name: "Special Delivery",
+        cards: ["Transmute", "Apothecary", "Alchemist", "Golem", "Jewelled Egg", "Flagship", "Swamp Shacks", "Tools", "Mining Road", "Trickster"],
+		landscapes: ["Cursed", "Deliver"],
+		traits: ["Cursed", "Golem"],
+        expansions: "alchemyplunder"
+	},
+	{
+		id: 243,
+		name: "Pretty Trinkets",
+        cards: ["Investment", "Tiara", "Crystal Ball", "War Chest", "Bank", "Jewelled Egg", "Rope", "Figurine", "Silver Mine", "King's Cache"],
+		colony: true,
+		landscapes: ["Fated"],
+		traits: ["Fated", "Rope"],
+        expansions: "prosperityplunder"
+	},
+	{
+		id: 244,
+		name: "Buying Happiness",
+        cards: ["Anvil", "Bishop", "Clerk", "Worker's Village", "Magnate", "Cage", "Stowaway", "Swamp Shacks", "Mining Road", "Pendant"],
+		colony: true,
+		landscapes: ["Fawning", "Looting"],
+		traits: ["Fawning", "Magnate"],
+        expansions: "prosperityplunder"
+	},
+	{
+		id: 245,
+		name: "Desert Dreams",
+        cards: ["Oasis", "Nomads", "Weaver", "Haggler", "Souk", "Grotto", "Harbor Village", "Mapmaker", "Enlarge", "Pendant"],
+		landscapes: ["Reckless"],
+		traits: ["Reckless", "Nomads"],
+        expansions: "hinterlandsplunder"
+	},
+	{
+		id: 246,
+		name: "Viking Schemes",
+        cards: ["Fool's Gold", "Scheme", "Berserker", "Cauldron", "Stables", "Cabin Boy", "Crucible", "Crew", "Frigate", "Wealthy Village"],
+		landscapes: ["Rich", "Scrounge"],
+		traits: ["Rich", "Berserker"],
+        expansions: "hinterlandsplunder"
+	},
+	{
+		id: 247,
+		name: "Dad's Rats",
+        cards: ["Poor House", "Squire", "Vagrant", "Death Cart", "Rats", "Search", "Shaman", "Maroon", "Rope", "First Mate"],
+		shelters: true,
+		extras: ["Ruins"],
+		landscapes: ["Inherited"],
+		traits: ["Inherited", "Rats"],
+        expansions: "darkagesplunder"
+	},
+	{
+		id: 248,
+		name: "Ravagers",
+        cards: ["Forager", "Storeroom", "Ironmonger", "Counterfeit", "Pillage", "Grotto", "Cutthroat", "Enlarge", "Trickster", "King's Cache"],
+		shelters: true,
+		extras: ["Spoils"],
+		landscapes: ["Invasion", "Tireless"],
+		traits: ["Tireless", "Forager"],
+        expansions: "darkagesplunder"
+	},
+	{
+		id: 249,
+		name: "Of Heralds and Hunters",
+        cards: ["Stonemason", "Doctor", "Herald", "Soothsayer", "Fairgrounds", "Cabin Boy", "Flagship", "Fortune Hunter", "Pendant", "Pickaxe"],
+		landscapes: ["Inspiring"],
+		traits: ["Inspiring", "Fortune Hunter"],
+        expansions: "cornguildsplunder"
+	},
+	{
+		id: 250,
+		name: "Through the Swamp",
+        cards: ["Hamlet", "Menagerie", "Baker", "Horn of Plenty", "Merchant Guild", "Cage", "Taskmaster", "Swamp Shacks", "Tools", "Pilgrim"],
+		landscapes: ["Journey", "Patient"],
+		traits: ["Patient", "Pilgrim"],
+        expansions: "cornguildsplunder"
+	},
+	{
+		id: 251,
+		name: "Set Sail",
+        cards: ["Ratcatcher", "Port", "Artificer", "Distant Lands", "Treasure Trove", "Search", "Fortune Hunter", "Mapmaker", "Figurine", "First Mate"],
+		landscapes: ["Ferry", "Patient"],
+		traits: ["Patient", "Artificer"],
+        expansions: "adventuresplunder"
+	},
+	{
+		id: 252,
+		name: "Rush Job",
+        cards: ["Coin of the Realm", "Gear", "Haunted Woods", "Wine Merchant", "Hireling", "Secluded Shrine", "Stowaway", "Swamp Shacks", "Tools", "Quartermaster"],
+		landscapes: ["Rush", "Shy"],
+		traits: ["Shy", "Wine Merchant"],
+        expansions: "adventuresplunder"
+	},
+	{
+		id: 253,
+		name: "City Builders",
+        cards: ["City Quarter", "Patrician / Emporium", "Farmers' Market", "Groundskeeper", "Wild Hunt", "Taskmaster", "Abundance", "Crucible", "Tools", "Frigate"],
+		landscapes: ["Museum", "Nearby"],
+		traits: ["Nearby", "Patrician / Emporium"],
+        expansions: "empiresplunder"
+	},
+	{
+		id: 254,
+		name: "Plenty",
+        cards: ["Enchantress", "Gladiator / Fortune", "Sacrifice", "Charm", "Crown", "Landing Party", "Rope", "Figurine", "Mining Road", "Wealthy Village"],
+		landscapes: ["Friendly", "Prosper"],
+		traits: ["Friendly", "Figurine"],
+        expansions: "empiresplunder"
+	},
+	{
+		id: 255,
+		name: "Night of the Loot",
+        cards: ["Faithful Hound", "Blessed Village", "Crypt", "Tragic Hero", "Werewolf", "Taskmaster", "Cabin Boy", "Figurine", "Pendant", "Sack of Loot"],
+		extras: ["Boons", "Will-O'-Wisp"],
+		landscapes: ["Pious"],
+		traits: ["Pious", "Taskmaster"],
+        expansions: "nocturneplunder"
+	},
+	{
+		id: 256,
+		name: "Skeleton Isle",
+        cards: ["Tracker", "Ghost Town", "Devil's Workshop", "Skulk", "Idol", "Secluded Shrine", "Cutthroat", "Longship", "Pilgrim", "King’s Cache"],
+		extras: ["Pouch", "Boons", "Hexes", "Will-O'-Wisp", "Imp"],
+		landscapes: ["Foray", "Hasty"],
+		traits: ["Hasty", "Idol"],
+        expansions: "nocturneplunder"
+	},
+	{
+		id: 257,
+		name: "Circle of Life",
+        cards: ["Acting Troupe", "Experiment", "Patron", "Scholar", "Swashbuckler", "Jewelled Egg", "Search", "Shaman", "Frigate", "Pickaxe"],
+		extras: ["Treasure Chest"],
+		landscapes: ["Cathedral", "Inspiring"],
+		traits: ["Inspiring", "Scholar"],
+        expansions: "renaissanceplunder"
+	},
+	{
+		id: 258,
+		name: "Mirror Masters",
+        cards: ["Border Guard", "Cargo Ship", "Flag Bearer", "Seer", "Spices", "Taskmaster", "Crucible", "Gondola", "Quartermaster", "Trickster"],
+		extras: ["Horn", "Lantern", "Flag"],
+		landscapes: ["Fated", "Mirror"],
+		traits: ["Fated", "Spices"],
+        expansions: "renaissanceplunder"
+	},
+	{
+		id: 259,
+		name: "Going Home",
+        cards: ["Supplies", "Snowy Village", "Barge", "Gatekeeper", "Kiln", "Secluded Shrine", "Gondola", "Landing Party", "Mapmaker",  "Silver Mine"],
+		extras: ["Horse"],
+		landscapes: ["Cheap", "Way of the Squirrel"],
+		traits: ["Cheap", "Gatekeeper"],
+        expansions: "menagerieplunder"
+	},
+	{
+		id: 260,
+		name: "Going Big",
+        cards: ["Camel Train", "Sheepdog", "Mastermind", "Sanctuary", "Animal Fair", "Grotto", "Siren", "Harbor Village", "Enlarge", "Sack of Loot"],
+		landscapes: ["Nearby", "Peril"],
+		traits: ["Nearby", "Animal Fair"],
+        expansions: "menagerieplunder"
+	},
+	{
+		id: 261,
+		name: "Shipmates",
+        cards: ["Sycophant", "Forts", "Broker", "Innkeeper", "Modify", "Shaman", "Flagship", "Harbor Village", "Crew", "Sack of Loot"],
+		landscapes: ["Cave Dwellers", "Fawning"],
+		traits: ["Fawning", "Sycophant"],
+        expansions: "alliesplunder"
+	},
+	{
+		id: 262,
+		name: "Buried and Sunk",
+        cards: ["Merchant Camp", "Odysseys", "Courier", "Highwayman", "Skirmisher", "Abundance", "Landing Party", "Maroon", "Buried Treasure", "King's Cache"],
+		landscapes: ["Bury", "Shy"],
+		traits: ["Shy", "Merchant Camp"],
+        expansions: "alliesplunder"
 	}
 ]

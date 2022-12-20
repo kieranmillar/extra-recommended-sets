@@ -11,6 +11,7 @@ obelisk: The obelisk target, should already be listed in the cards list (optiona
 bane: Which card is the bane, should already be listed in the cards list (optional)
 mouse: Which card is the Way of the Mouse target, should not be listed in the cards list (optional)
 druid: An array of boons, 3 max (optional)
+traits: An array containing a comma separated list with pairs of cards, a trait first then the card it applies to next, both should already be in the cards and landscapes lists (optional)
 notes: Any extra notes (optional)
 expansions: Concatenated string of expansions required, matching checkbox names in order, no spaces
 -----*/
@@ -161,13 +162,13 @@ var kingdoms = [
     },
     {
         id: 24,
-        name: "Flotsam",
+        name: "Plain Sailing",
         cards: ["Sea Chart", "Smugglers", "Warehouse", "Sailor", "Tide Pools", "Bazaar", "Outpost", "Pirate", "Sea Witch", "Wharf"],
         expansions: "seaside"
     },
     {
         id: 25,
-        name: "Jetsam",
+        name: "The Doldrums",
         cards: ["Haven", "Fishing Village", "Lookout", "Blockade", "Cutpurse", "Island", "Treasure Map", "Corsair", "Merchant Ship", "Treasury"],
         expansions: "seaside"
     },

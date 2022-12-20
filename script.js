@@ -24,7 +24,8 @@ var checkboxElements = [
     document.getElementById("nocturne"),
     document.getElementById("renaissance"),
     document.getElementById("menagerie"),
-    document.getElementById("allies")
+    document.getElementById("allies"),
+	document.getElementById("plunder")
 ];
 var errorsElement = document.getElementById("errors");
 var kingdomContainerElement = document.getElementById("kingdomContainer");
@@ -56,6 +57,7 @@ function goToLocation(loc) {
 			checkboxElements[10].disabled = true;
 			checkboxElements[12].disabled = true;
 			checkboxElements[13].disabled = true;
+			checkboxElements[14].disabled = true;
 			kingdomsTitleElement.textContent = "Extra Recommended Sets";
 			clearSets();
 			break;
@@ -71,6 +73,7 @@ function goToLocation(loc) {
 			checkboxElements[10].disabled = false;
 			checkboxElements[12].disabled = false;
 			checkboxElements[13].disabled = false;
+			checkboxElements[14].disabled = false;
 			kingdomsTitleElement.textContent = "Official Recommended Sets";
 			clearSets();
 			break;
@@ -180,16 +183,22 @@ function createKingdomContainer(kingdom) {
 	let cardsString = "";
 	let clipboardString = "";
 	let cardsList = document.createElement("p");
-    kingdom.cards.forEach(card => {
+	for (let i = 0; i < kingdom.cards.length; i++) {
+		let card = kingdom.cards[i];
         cardsString += card + ", ";
+		if ((kingdom.hasOwnProperty("bane") && kingdom.bane == card) ||
+				(kingdom.hasOwnProperty("obelisk") && kingdom.obelisk == card) ||
+				(kingdom.hasOwnProperty("traits") && kingdom.traits.includes(card))) {
+			continue;
+		}
 		clipboardString += clipboardSanitise(card, kingdom);
 		if (kingdom.hasOwnProperty("bane")) {
 			if (card == "Young Witch") {
-				clipboardString += ": " + clipboardSanitise(kingdom.bane, kingdom, false);
+				clipboardString += " (" + clipboardSanitise(kingdom.bane, kingdom) + ")";
 			}
 		}
 		clipboardString += ", ";
-    });
+    };
 	cardsString = cardsString.slice(0, -2);
 	clipboardString = clipboardString.slice(0, -2);
 
@@ -200,12 +209,18 @@ function createKingdomContainer(kingdom) {
 			clipboardString += ", " + card;
 			if (kingdom.hasOwnProperty("obelisk")) {
 				if (card == "Obelisk") {
-					clipboardString += ": " + clipboardSanitise(kingdom.obelisk, kingdom, false);
+					clipboardString += " (" + clipboardSanitise(kingdom.obelisk, kingdom) + ")";
 				}
 			}
 			if (kingdom.hasOwnProperty("mouse")) {
 				if (card == "Way of the Mouse") {
-					clipboardString += ": " + clipboardSanitise(kingdom.mouse, kingdom);
+					clipboardString += " (" + clipboardSanitise(kingdom.mouse, kingdom) + ")";
+				}
+			}
+			if (kingdom.hasOwnProperty("traits")) {
+				if (kingdom.traits.includes(card)) {
+					let thisTraitPosition = kingdom.traits.indexOf(card);
+					clipboardString += " (" + clipboardSanitise(kingdom.traits[thisTraitPosition + 1], kingdom) + ")";
 				}
 			}
 		});
@@ -216,9 +231,13 @@ function createKingdomContainer(kingdom) {
 
 	if (kingdom.hasOwnProperty("colony")) {
 		clipboardString += ", Colonies";
+	} else {
+		clipboardString += ", No Colonies";
 	}
 	if (kingdom.hasOwnProperty("shelters")) {
 		clipboardString += ", Shelters";
+	} else {
+		clipboardString += ", No Shelters";
 	}
 
     if (kingdom.hasOwnProperty("extras") || kingdom.hasOwnProperty("colony") || kingdom.hasOwnProperty("shelters")) {
@@ -243,7 +262,8 @@ function createKingdomContainer(kingdom) {
 			kingdom.hasOwnProperty("obelisk") ||
 			kingdom.hasOwnProperty("bane") ||
 			kingdom.hasOwnProperty("druid") ||
-			kingdom.hasOwnProperty("mouse")) {
+			kingdom.hasOwnProperty("mouse") ||
+			kingdom.hasOwnProperty("traits")) {
         let notesText = document.createElement("p");
 		let notesString = "<strong>Notes: </strong>";
 		if (kingdom.hasOwnProperty("notes")) {
@@ -265,6 +285,11 @@ function createKingdomContainer(kingdom) {
 		}
 		if (kingdom.hasOwnProperty("mouse")) {
 			notesString += "Way of the Mouse uses " + kingdom.mouse + ". ";
+		}
+		if (kingdom.hasOwnProperty("traits")) {
+			for (let i = 0; i < kingdom.traits.length; i += 2) {
+				notesString += kingdom.traits[i + 1] + " is " + kingdom.traits[i] + ". ";
+			}
 		}
         notesText.innerHTML = notesString;
         container.appendChild(notesText);
@@ -331,7 +356,7 @@ function wipeLocalData() {
 	}
 }
 
-function clipboardSanitise(card, kingdom, includeDruidBoons = true) {
+function clipboardSanitise(card, kingdom) {
 	let result = '';
 	let slashPosition = card.indexOf(" / ");
 	if (slashPosition == -1) {
@@ -339,14 +364,13 @@ function clipboardSanitise(card, kingdom, includeDruidBoons = true) {
 	} else {
 		result = card.substring(0, slashPosition);
 	}
-	if (includeDruidBoons) {
-		if (kingdom.hasOwnProperty("druid")) {
-			if (card == "Druid") {
-				result += ":";
-				kingdom.druid.forEach(boon => {
-					result += " (" + boon + ")";
-				});
-			}
+	if (kingdom.hasOwnProperty("druid")) {
+		if (card == "Druid") {
+			kingdom.druid.forEach(boon => {
+				let apostrophePosition = boon.indexOf("'");
+				console.log(apostrophePosition);
+				result += " (" + boon.substring(4, apostrophePosition) + ")";
+			});
 		}
 	}
 	return result;
