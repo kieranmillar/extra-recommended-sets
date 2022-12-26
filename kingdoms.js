@@ -1995,10 +1995,10 @@ var kingdoms = [
     },
 	{
         id: 291,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Step Up",
+        cards: ["Courtyard", "Masquerade", "Ironworks", "Replace", "Harem", "Ducat", "Experiment", "Flag Bearer", "Mountain Village", "Swashbuckler"],
+        extras: ["Flag", "Treasure Chest"],
+        landscapes: ["Pageant", "Road Network"],
         expansions: "intriguerenaissance"
     },
 	{
