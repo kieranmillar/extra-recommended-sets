@@ -2003,10 +2003,10 @@ var kingdoms = [
     },
 	{
         id: 292,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Encore",
+        cards: ["Lurker", "Wishing Well", "Bridge", "Duke", "Patrol", "Border Guard", "Acting Troupe", "Scepter", "Treasurer", "Villain"],
+        extras: ["Horn", "Lantern", "Key"],
+        landscapes: ["Crop Rotation", "Fleet"],
         expansions: "intriguerenaissance"
     },
 	{
