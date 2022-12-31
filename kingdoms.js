@@ -2027,10 +2027,9 @@ var kingdoms = [
     },
 	{
         id: 295,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Golden Age",
+        cards: ["Lurker", "Pawn", "Baron", "Diplomat", "Minion", "Patron", "Scholar", "Sculptor", "Seer", "Spices"],
+        landscapes: ["Cathedral", "Innovation"],
         expansions: "intriguerenaissance"
     },
 	{
