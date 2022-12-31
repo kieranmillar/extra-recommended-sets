@@ -2048,18 +2048,17 @@ var kingdoms = [
     },
 	{
         id: 298,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Backstabbers",
+        cards: ["Steward", "Bridge", "Conspirator", "Secret Passage", "Nobles", "Experiment", "Hideout", "Old Witch", "Seer", "Villain"],
+        landscapes: ["Exploration", "Sewers"],
         expansions: "intriguerenaissance"
     },
 	{
         id: 299,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Token Representation",
+        cards: ["Wishing Well", "Diplomat", "Replace", "Torturer", "Trading Post", "Border Guard", "Ducat", "Research", "Sculptor", "Treasurer"],
+        extras: ["Horn", "Lantern", "Key"],
+        landscapes: ["Academy", "Guildhall"],
         expansions: "intriguerenaissance"
     },
 	{
