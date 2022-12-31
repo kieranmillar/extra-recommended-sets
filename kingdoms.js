@@ -2041,10 +2041,9 @@ var kingdoms = [
     },
 	{
         id: 297,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Coldplay",
+        cards: ["Pawn", "Steward", "Courtier", "Minion", "Harem", "Ducat", "Cargo Ship", "Improve", "Patron", "Priest"],
+        landscapes: ["Canal", "Capitalism"],
         expansions: "intriguerenaissance"
     },
 	{
