@@ -2011,10 +2011,10 @@ var kingdoms = [
     },
 	{
         id: 293,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Recruitment Fair",
+        cards: ["Shanty Town", "Swindler", "Courtier", "Upgrade", "Nobles", "Lurker", "Flag Bearer", "Inventor", "Recruiter", "Scholar"],
+        extras: ["Flag"],
+        landscapes: ["Fair", "Star Chart"],
         expansions: "intriguerenaissance"
     },
 	{
