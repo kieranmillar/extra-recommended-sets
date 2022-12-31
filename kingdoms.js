@@ -2033,10 +2033,10 @@ var kingdoms = [
     },
 	{
         id: 296,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Modern Art",
+        cards: ["Swindler", "Baron", "Mill", "Duke", "Trading Post", "Border Guard", "Cargo Ship", "Experiment", "Scepter", "Swashbuckler"],
+        extras: ["Horn", "Lantern", "Treasure Chest"],
+        landscapes: ["Barracks", "Silos"],
         expansions: "intriguerenaissance"
     },
 	{
