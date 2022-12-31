@@ -2019,10 +2019,9 @@ var kingdoms = [
     },
 	{
         id: 294,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "The Resistance",
+        cards: ["Conspirator", "Ironworks", "Mining Village", "Courtier", "Torturer", "Improve", "Hideout", "Research", "Silk Merchant", "Spices"],
+        landscapes: ["City Gate", "Sinister Plot"],
         expansions: "intriguerenaissance"
     },
 	{
