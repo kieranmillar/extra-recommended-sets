@@ -2064,10 +2064,10 @@ var kingdoms = [
     },
 	{
         id: 300,
-        name: "This expansion combination is still in development",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Navigating by the Stars",
+        cards: ["Haven", "Astrolabe", "Warehouse", "Tide Pools", "Bazaar", "Lackeys", "Experiment", "Improve", "Inventor", "Swashbuckler"],
+        extras: ["Treasure Chest"],
+        landscapes: ["Crop Rotation", "Star Chart"],
         expansions: "seasiderenaissance"
     },
 	{
