@@ -2072,10 +2072,10 @@ var kingdoms = [
     },
 	{
         id: 301,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Preparations",
+        cards: ["Lighthouse", "Blockade", "Salvager", "Treasure Map", "Sea Witch", "Border Guard", "Flag Bearer", "Hideout", "Mountain Village", "Scepter"],
+        extras: ["Horn", "Lantern", "Flag"],
+        landscapes: ["Fleet", "Sinister Plot"],
         expansions: "seasiderenaissance"
     },
 	{
