@@ -2080,10 +2080,10 @@ var kingdoms = [
     },
 	{
         id: 302,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Sea-ing Double",
+        cards: ["Caravan", "Island", "Corsair", "Outpost", "Treasury", "Ducat", "Experiment", "Research", "Seer", "Treasurer"],
+        extras: ["Key"],
+        landscapes: ["Barracks", "Citadel"],
         expansions: "seasiderenaissance"
     },
 	{
