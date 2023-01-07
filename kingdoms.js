@@ -2088,10 +2088,9 @@ var kingdoms = [
     },
 	{
         id: 303,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Impressment",
+        cards: ["Fishing Village", "Cutpurse", "Sailor", "Pirate", "Tactician", "Lackeys", "Cargo Ship", "Inventor", "Recruiter", "Villain"],
+        landscapes: ["Fair", "Guildhall"],
         expansions: "seasiderenaissance"
     },
 	{
