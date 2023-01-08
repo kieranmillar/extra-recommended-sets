@@ -2095,10 +2095,9 @@ var kingdoms = [
     },
 	{
         id: 304,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Hiding in the Reefs",
+        cards: ["Haven", "Native Village", "Monkey", "Smugglers", "Merchant Ship", "Acting Troupe", "Silk Merchant", "Old Witch", "Sculptor", "Spices"],
+        landscapes: ["Cathedral", "City Gate"],
         expansions: "seasiderenaissance"
     },
 	{
