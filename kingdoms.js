@@ -2102,10 +2102,9 @@ var kingdoms = [
     },
 	{
         id: 305,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Sea for Yourself",
+        cards: ["Astrolabe", "Lookout", "Sea Chart", "Pirate", "Sea Witch", "Patron", "Silk Merchant", "Scepter", "Sculptor", "Villain"],
+        landscapes: ["Innovation", "Sewers"],
         expansions: "seasiderenaissance"
     },
 	{
