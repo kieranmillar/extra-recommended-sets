@@ -2109,10 +2109,10 @@ var kingdoms = [
     },
 	{
         id: 306,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Performance Art",
+        cards: ["Fishing Village", "Monkey", "Blockade", "Treasury", "Wharf", "Acting Troupe", "Cargo Ship", "Flag Bearer", "Priest", "Treasurer"],
+        extras: ["Flag", "Key"],
+        landscapes: ["Canal", "Silos"],
         expansions: "seasiderenaissance"
     },
 	{
