@@ -2117,10 +2117,9 @@ var kingdoms = [
     },
 	{
         id: 307,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Learning to Swim",
+        cards: ["Lighthouse", "Smugglers", "Warehouse", "Salvager", "Tactician", "Lackeys", "Improve", "Patron", "Old Witch", "Scholar"],
+        landscapes: ["Academy", "Pageant"],
         expansions: "seasiderenaissance"
     },
 	{
