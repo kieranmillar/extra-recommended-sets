@@ -2124,18 +2124,18 @@ var kingdoms = [
     },
 	{
         id: 308,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Merchant Port",
+        cards: ["Sea Chart", "Cutpurse", "Island", "Salvager", "Merchant Ship", "Ducat", "Experiment", "Research", "Seer", "Swashbuckler"],
+        extras: ["Treasure Chest"],
+        landscapes: ["Capitalism", "Piazza"],
         expansions: "seasiderenaissance"
     },
 	{
         id: 309,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Ebb and Flow",
+        cards: ["Caravan", "Tide Pools", "Treasure Map", "Corsair", "Outpost", "Border Guard", "Mountain Village", "Recruiter", "Scholar", "Sculptor"],
+        extras: ["Horn", "Lantern"],
+        landscapes: ["Exploration", "Road Network"],
         expansions: "seasiderenaissance"
     },
 	{
