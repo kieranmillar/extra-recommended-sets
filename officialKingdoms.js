@@ -1699,7 +1699,7 @@ var officialKingdoms = [
 		name: "Wise Owls",
         cards: ["Black Cat", "Bounty Hunter", "Hostelry", "Hunting Lodge", "Animal Fair", "Merchant Camp", "Wizards", "Town", "Barbarian", "Marquis"],
 		extras: ["Horse"],
-		landscapes: ["Way of the Owl", "Fellowship of Scribes"],
+		landscapes: ["Way of the Owl", "Architects' Guild"],
         expansions: "menagerieallies"
 	},
 	{
