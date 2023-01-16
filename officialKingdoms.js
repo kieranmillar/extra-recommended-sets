@@ -233,7 +233,7 @@ var officialKingdoms = [
     },
 	{
         id: 33,
-        name: "Idle Hands",
+        name: "It Takes a Villager",
         cards: ["Merchant", "Vassal", "Smithy", "Market", "Mine", "Acting Troupe", "Cargo Ship", "Recruiter", "Seer", "Treasurer"],
 		extras: ["Key"],
 		landscapes: ["Road Network"],
