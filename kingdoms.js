@@ -2140,11 +2140,11 @@ var kingdoms = [
     },
 	{
         id: 310,
-        name: "This expansion combination is still in development",
-        cards: [],
+        name: "Bits and Bobs",
+        cards: ["Monument", "Worker's Village", "Charlatan", "Vault", "Hoard", "Lackeys", "Patron", "Scepter", "Scholar", "Treasurer"],
         colony: true,
-        extras: [],
-        landscapes: [],
+        extras: ["Key"],
+        landscapes: ["Road Network", "Silos"],
         expansions: "prosperityrenaissance"
     },
 	{
