@@ -2149,7 +2149,7 @@ var kingdoms = [
     },
 	{
         id: 311,
-        name: "Holy War",
+        name: "Profit Prophet",
         cards: ["Anvil", "Watchtower", "Crystal Ball", "War Chest", "Grand Market", "Flag Bearer", "Mountain Village", "Priest", "Silk Merchant", "Seer"],
 	    colony: true,
         extras: ["Flag"],
@@ -2158,11 +2158,10 @@ var kingdoms = [
     },
 	{
         id: 312,
-        name: "",
-        cards: [],
+        name: "Move Fast and Break Things",
+        cards: ["Investment", "Monument", "City", "Rabble", "Expand", "Cargo Ship", "Experiment", "Recruiter", "Sculptor", "Villain"],
 		colony: true,
-        extras: [],
-        landscapes: [],
+        landscapes: ["Canal", "Pageant"],
         expansions: "prosperityrenaissance"
     },
 	{
