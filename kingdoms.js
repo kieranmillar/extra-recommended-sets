@@ -2149,11 +2149,11 @@ var kingdoms = [
     },
 	{
         id: 311,
-        name: "",
-        cards: [],
+        name: "Holy War",
+        cards: ["Anvil", "Watchtower", "Crystal Ball", "War Chest", "Grand Market", "Flag Bearer", "Mountain Village", "Priest", "Silk Merchant", "Seer"],
 	    colony: true,
-        extras: [],
-        landscapes: [],
+        extras: ["Flag"],
+        landscapes: ["Piazza", "Star Chart"],
         expansions: "prosperityrenaissance"
     },
 	{
