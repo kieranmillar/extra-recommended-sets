@@ -2174,11 +2174,11 @@ var kingdoms = [
     },
 	{
         id: 314,
-        name: "",
-        cards: [],
+        name: "Theese go to Eleven",
+        cards: ["Clerk", "Quarry", "Collection", "Vault", "Forge", "Border Guard", "Experiment", "Improve", "Seer", "Swashbuckler"],
 		colony: true,
-        extras: [],
-        landscapes: [],
+        extras: ["Horn", "Lantern", "Treasure chest"],
+        landscapes: ["Barracks", "Sinister Plot"],
         expansions: "prosperityrenaissance"
     },
 	{
