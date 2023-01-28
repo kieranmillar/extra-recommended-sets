@@ -2174,7 +2174,7 @@ var kingdoms = [
     },
 	{
         id: 314,
-        name: "Theese go to Eleven",
+        name: "These Go To Eleven",
         cards: ["Clerk", "Quarry", "Collection", "Vault", "Forge", "Border Guard", "Experiment", "Improve", "Seer", "Swashbuckler"],
 		colony: true,
         extras: ["Horn", "Lantern", "Treasure chest"],
@@ -2183,11 +2183,10 @@ var kingdoms = [
     },
 	{
         id: 315,
-        name: "",
-        cards: [],
+        name: "How Do They Work?",
+        cards: ["Bishop", "Magnate", "War Chest", "Bank", "Peddler", "Acting Troupe", "Cargo Ship", "Hideout", "Scepter", "Spices"],
 		colony: true,
-        extras: [],
-        landscapes: [],
+        landscapes: ["Citadel", "Crop Rotation"],
         expansions: "prosperityrenaissance"
     },
 	{
