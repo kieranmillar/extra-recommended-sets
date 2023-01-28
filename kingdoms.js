@@ -2149,7 +2149,7 @@ var kingdoms = [
     },
 	{
         id: 311,
-        name: "Profit Prophet",
+        name: "The Prophet of Profit",
         cards: ["Anvil", "Watchtower", "Crystal Ball", "War Chest", "Grand Market", "Flag Bearer", "Mountain Village", "Priest", "Silk Merchant", "Seer"],
 	    colony: true,
         extras: ["Flag"],
@@ -2158,7 +2158,7 @@ var kingdoms = [
     },
 	{
         id: 312,
-        name: "Move Fast and Break Things",
+        name: "Growth",
         cards: ["Investment", "Monument", "City", "Rabble", "Expand", "Cargo Ship", "Experiment", "Recruiter", "Sculptor", "Villain"],
 		colony: true,
         landscapes: ["Canal", "Pageant"],
@@ -2166,11 +2166,10 @@ var kingdoms = [
     },
 	{
         id: 313,
-        name: "",
-        cards: [],
+        name: "Move Fast and Break Things",
+        cards: ["Bishop", "Tiara", "Mint", "King's Court", "Peddler", "Ducat", "Acting Troupe", "Research", "Mountain Village", "Old Witch"],
 		colony: true,
-        extras: [],
-        landscapes: [],
+        landscapes: ["Guildhall", "Innovation"],
         expansions: "prosperityrenaissance"
     },
 	{
