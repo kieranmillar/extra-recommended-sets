@@ -2191,11 +2191,10 @@ var kingdoms = [
     },
 	{
         id: 316,
-        name: "",
-        cards: [],
+        name: "10 PRINT Money; 20 GOTO 10;",
+        cards: ["Monument", "Tiara", "Crystal Ball", "Mint", "Grand Market", "Lackeys", "Old Witch", "Recruiter", "Scholar", "Spices"],
 		colony: true,
-        extras: [],
-        landscapes: [],
+        landscapes: ["Capitalism", "City Gate"],
         expansions: "prosperityrenaissance"
     },
 	{
