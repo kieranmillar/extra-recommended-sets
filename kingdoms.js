@@ -2177,7 +2177,7 @@ var kingdoms = [
         name: "These Go To Eleven",
         cards: ["Clerk", "Quarry", "Collection", "Vault", "Forge", "Border Guard", "Experiment", "Improve", "Seer", "Swashbuckler"],
 		colony: true,
-        extras: ["Horn", "Lantern", "Treasure chest"],
+        extras: ["Horn", "Lantern", "Treasure Chest"],
         landscapes: ["Barracks", "Sinister Plot"],
         expansions: "prosperityrenaissance"
     },
@@ -2199,11 +2199,11 @@ var kingdoms = [
     },
 	{
         id: 317,
-        name: "",
-        cards: [],
+        name: "Beanie Babies",
+        cards: ["Anvil", "Watchtower", "Investment", "Quarry", "Collection", "Ducat", "Lackeys", "Flag Bearer", "Hideout", "Treasurer"],
 		colony: true,
-        extras: [],
-        landscapes: [],
+        extras: ["Flag", "Key"],
+        landscapes: ["Fair", "Fleet"],
         expansions: "prosperityrenaissance"
     },
 	{
