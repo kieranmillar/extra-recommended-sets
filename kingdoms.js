@@ -2217,11 +2217,11 @@ var kingdoms = [
     },
 	{
         id: 319,
-        name: "",
-        cards: [],
+        name: "Three-Card Monte",
+        cards: ["Clerk", "City", "Rabble", "Bank", "King's Court", "Border Guard", "Improve", "Flag Bearer", "Patron", "Silk Merchant"],
 		colony: true,
-        extras: [],
-        landscapes: [],
+        extras: ["Horn", "Lantern", "Flag"],
+        landscapes: ["Academy", "Cathedral"],
         expansions: "prosperityrenaissance"
     },
 	{
