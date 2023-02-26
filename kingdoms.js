@@ -2208,11 +2208,11 @@ var kingdoms = [
     },
 	{
         id: 318,
-        name: "",
-        cards: [],
+        name: "All That Glistens",
+        cards: ["Bishop", "Worker's Village", "Charlatan", "Hoard", "Expand", "Cargo Ship", "Inventor", "Research", "Swashbuckler", "Villain"],
 		colony: true,
-        extras: [],
-        landscapes: [],
+        extras: ["Treasure Chest"],
+        landscapes: ["Exploration", "Sewers"],
         expansions: "prosperityrenaissance"
     },
 	{
