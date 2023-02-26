@@ -2208,7 +2208,7 @@ var kingdoms = [
     },
 	{
         id: 318,
-        name: "All That Glistens",
+        name: "One Man's Trash is Another's Treasure",
         cards: ["Bishop", "Worker's Village", "Charlatan", "Hoard", "Expand", "Cargo Ship", "Inventor", "Research", "Swashbuckler", "Villain"],
 		colony: true,
         extras: ["Treasure Chest"],
