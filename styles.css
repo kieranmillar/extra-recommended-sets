@@ -1,14 +1,14 @@
 #tabs {
-    display: flex;
+	display: flex;
 	flex-flow: row;
 	width: 100%;
 }
 
 .tab {
-    background-color: lightgrey;
-    border: 1px solid black;
-    padding: 5px;
-    cursor: pointer;
+	background-color: lightgrey;
+	border: 1px solid black;
+	padding: 5px;
+	cursor: pointer;
 }
 
 .tab.active {
@@ -35,7 +35,7 @@
 	margin-bottom: 5px;
 }
 
-.kingdom + .kingdom {
+.kingdom+.kingdom {
 	border-top: 2px solid black;
 }
 

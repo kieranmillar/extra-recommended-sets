@@ -11,20 +11,20 @@ var locChangelog = document.getElementById("loc_changelog");
 var kingdomsTitleElement = document.getElementById("kingdoms_title");
 var disabledNoteElement = document.getElementById("disabledNote");
 var checkboxElements = [
-    document.getElementById("base"),
-    document.getElementById("intrigue"),
-    document.getElementById("seaside"),
-    document.getElementById("alchemy"),
-    document.getElementById("prosperity"),
-    document.getElementById("hinterlands"),
-    document.getElementById("darkages"),
-    document.getElementById("cornguilds"),
-    document.getElementById("adventures"),
-    document.getElementById("empires"),
-    document.getElementById("nocturne"),
-    document.getElementById("renaissance"),
-    document.getElementById("menagerie"),
-    document.getElementById("allies"),
+	document.getElementById("base"),
+	document.getElementById("intrigue"),
+	document.getElementById("seaside"),
+	document.getElementById("alchemy"),
+	document.getElementById("prosperity"),
+	document.getElementById("hinterlands"),
+	document.getElementById("darkages"),
+	document.getElementById("cornguilds"),
+	document.getElementById("adventures"),
+	document.getElementById("empires"),
+	document.getElementById("nocturne"),
+	document.getElementById("renaissance"),
+	document.getElementById("menagerie"),
+	document.getElementById("allies"),
 	document.getElementById("plunder")
 ];
 var errorsElement = document.getElementById("errors");
@@ -94,79 +94,79 @@ function goToLocation(loc) {
 
 function clearSets() {
 	errorsElement.textContent = "";
-    kingdomContainerElement.textContent = "";
+	kingdomContainerElement.textContent = "";
 	for (var i = 0; i < checkboxElements.length; i++) {
 		checkboxElements[i].checked = false;
 	}
 }
 
 function getSets() {
-    errorsElement.textContent = "";
-    kingdomContainerElement.textContent = "";
-    var checkboxValues = [];
-    var expansionCount = 0;
-    var searchString = "";
-    for (var i = 0; i < checkboxElements.length; i++) {
-        checkboxValues[i] = checkboxElements[i].checked;
-        if (checkboxElements[i].checked) {
-            searchString += checkboxElements[i].value;
-            expansionCount ++;
-        }
-    }
-    if (expansionCount == 0) {
-        errorsElement.textContent = "No expansions selected!";
-        return;
-    }
-    if (expansionCount > 2) {
-        errorsElement.textContent = "Only combinations of 1 or 2 expansions are allowed.";
-        return;
-    }
-    if (expansionCount == 1 && checkboxElements[3].checked) {
-        errorsElement.textContent = "Alchemy has no kingdoms on its own due to its limited card pool. Please add another expansion.";
-        return;
-    }
-	
+	errorsElement.textContent = "";
+	kingdomContainerElement.textContent = "";
+	var checkboxValues = [];
+	var expansionCount = 0;
+	var searchString = "";
+	for (var i = 0; i < checkboxElements.length; i++) {
+		checkboxValues[i] = checkboxElements[i].checked;
+		if (checkboxElements[i].checked) {
+			searchString += checkboxElements[i].value;
+			expansionCount++;
+		}
+	}
+	if (expansionCount == 0) {
+		errorsElement.textContent = "No expansions selected!";
+		return;
+	}
+	if (expansionCount > 2) {
+		errorsElement.textContent = "Only combinations of 1 or 2 expansions are allowed.";
+		return;
+	}
+	if (expansionCount == 1 && checkboxElements[3].checked) {
+		errorsElement.textContent = "Alchemy has no kingdoms on its own due to its limited card pool. Please add another expansion.";
+		return;
+	}
+
 	let k;
 	if (isExtras) {
 		k = kingdoms;
 	} else {
 		k = officialKingdoms;
 	}
-		
 
-    const result = k.filter(kingdom => kingdom.expansions == searchString);
-    if (result.length == 0) {
-        errorsElement.textContent = "No sets found. They might not be implemented yet.";
-        return;
-    }
-	
+
+	const result = k.filter(kingdom => kingdom.expansions == searchString);
+	if (result.length == 0) {
+		errorsElement.textContent = "No sets found. They might not be implemented yet.";
+		return;
+	}
+
 	if (isExtras) {
 		loadPlayedKingdoms();
 	} else {
 		loadOfficialPlayedKingdoms();
 	}
 
-    result.forEach(kingdom => {
-        let container = createKingdomContainer(kingdom);
-        kingdomContainerElement.appendChild(container);
-    });
+	result.forEach(kingdom => {
+		let container = createKingdomContainer(kingdom);
+		kingdomContainerElement.appendChild(container);
+	});
 }
 
 function createKingdomContainer(kingdom) {
-    let container = document.createElement("div");
+	let container = document.createElement("div");
 	container.id = "kingdom" + kingdom.id;
 	container.classList.add("kingdom");
 
 	let playedCheckbox = document.createElement("input");
 	playedCheckbox.type = "checkbox";
 	if (isExtras) {
-		playedCheckbox.onclick = function(){togglePlayedKingdom(kingdom.id);};
+		playedCheckbox.onclick = function () { togglePlayedKingdom(kingdom.id); };
 		if (playedKingdoms.includes(kingdom.id)) {
 			container.classList.add("played");
 			playedCheckbox.checked = true;
 		}
 	} else {
-		playedCheckbox.onclick = function(){toggleOfficialPlayedKingdom(kingdom.id);};
+		playedCheckbox.onclick = function () { toggleOfficialPlayedKingdom(kingdom.id); };
 		if (officialPlayedKingdoms.includes(kingdom.id)) {
 			container.classList.add("played");
 			playedCheckbox.checked = true;
@@ -175,20 +175,20 @@ function createKingdomContainer(kingdom) {
 
 	container.appendChild(playedCheckbox);
 
-    let nameHeader = document.createElement("label");
+	let nameHeader = document.createElement("label");
 	nameHeader.classList.add("kingdomName");
-    nameHeader.textContent = kingdom.name;
-    container.appendChild(nameHeader);
+	nameHeader.textContent = kingdom.name;
+	container.appendChild(nameHeader);
 
 	let cardsString = "";
 	let clipboardString = "";
 	let cardsList = document.createElement("p");
 	for (let i = 0; i < kingdom.cards.length; i++) {
 		let card = kingdom.cards[i];
-        cardsString += card + ", ";
+		cardsString += card + ", ";
 		if ((kingdom.hasOwnProperty("bane") && kingdom.bane == card) ||
-				(kingdom.hasOwnProperty("obelisk") && kingdom.obelisk == card) ||
-				(kingdom.hasOwnProperty("traits") && kingdom.traits.includes(card))) {
+			(kingdom.hasOwnProperty("obelisk") && kingdom.obelisk == card) ||
+			(kingdom.hasOwnProperty("traits") && kingdom.traits.includes(card))) {
 			continue;
 		}
 		clipboardString += clipboardSanitise(card, kingdom);
@@ -198,7 +198,7 @@ function createKingdomContainer(kingdom) {
 			}
 		}
 		clipboardString += ", ";
-    };
+	};
 	cardsString = cardsString.slice(0, -2);
 	clipboardString = clipboardString.slice(0, -2);
 
@@ -227,7 +227,7 @@ function createKingdomContainer(kingdom) {
 		cardsString += "</em>";
 	}
 	cardsList.innerHTML = cardsString;
-    container.appendChild(cardsList);
+	container.appendChild(cardsList);
 
 	if (kingdom.hasOwnProperty("colony")) {
 		clipboardString += ", Colonies";
@@ -240,7 +240,7 @@ function createKingdomContainer(kingdom) {
 		clipboardString += ", No Shelters";
 	}
 
-    if (kingdom.hasOwnProperty("extras") || kingdom.hasOwnProperty("colony") || kingdom.hasOwnProperty("shelters")) {
+	if (kingdom.hasOwnProperty("extras") || kingdom.hasOwnProperty("colony") || kingdom.hasOwnProperty("shelters")) {
 		let extrasList = document.createElement("p");
 		let extrasString = "";
 		if (kingdom.hasOwnProperty("extras")) {
@@ -255,16 +255,16 @@ function createKingdomContainer(kingdom) {
 			extrasString += "Shelters, ";
 		}
 		extrasList.innerHTML = "<strong>Extras: </strong>" + extrasString.slice(0, -2);
-        container.appendChild(extrasList);
-    }
+		container.appendChild(extrasList);
+	}
 
-    if (kingdom.hasOwnProperty("notes") ||
-			kingdom.hasOwnProperty("obelisk") ||
-			kingdom.hasOwnProperty("bane") ||
-			kingdom.hasOwnProperty("druid") ||
-			kingdom.hasOwnProperty("mouse") ||
-			kingdom.hasOwnProperty("traits")) {
-        let notesText = document.createElement("p");
+	if (kingdom.hasOwnProperty("notes") ||
+		kingdom.hasOwnProperty("obelisk") ||
+		kingdom.hasOwnProperty("bane") ||
+		kingdom.hasOwnProperty("druid") ||
+		kingdom.hasOwnProperty("mouse") ||
+		kingdom.hasOwnProperty("traits")) {
+		let notesText = document.createElement("p");
 		let notesString = "<strong>Notes: </strong>";
 		if (kingdom.hasOwnProperty("notes")) {
 			notesString += kingdom.notes + " ";
@@ -291,18 +291,18 @@ function createKingdomContainer(kingdom) {
 				notesString += kingdom.traits[i + 1] + " is " + kingdom.traits[i] + ". ";
 			}
 		}
-        notesText.innerHTML = notesString;
-        container.appendChild(notesText);
-    }
+		notesText.innerHTML = notesString;
+		container.appendChild(notesText);
+	}
 
 	let clipboardButton = document.createElement("button");
 	clipboardButton.innerHTML = "Copy to clipboard";
 	container.appendChild(clipboardButton);
-	clipboardButton.addEventListener ("click", function() {
+	clipboardButton.addEventListener("click", function () {
 		navigator.clipboard.writeText(clipboardString);
 	});
 
-    return container;
+	return container;
 }
 
 function togglePlayedKingdom(id) {
@@ -322,9 +322,9 @@ function savePlayedKingdoms() {
 }
 
 function loadPlayedKingdoms() {
-    if (localStorage.getItem("playedKingdoms") != null)	{
-        playedKingdoms = JSON.parse(localStorage.getItem("playedKingdoms"));
-    }
+	if (localStorage.getItem("playedKingdoms") != null) {
+		playedKingdoms = JSON.parse(localStorage.getItem("playedKingdoms"));
+	}
 }
 
 function toggleOfficialPlayedKingdom(id) {
@@ -344,15 +344,15 @@ function saveOfficialPlayedKingdoms() {
 }
 
 function loadOfficialPlayedKingdoms() {
-	if (localStorage.getItem("officialPlayedKingdoms") != null)	{
-        officialPlayedKingdoms = JSON.parse(localStorage.getItem("officialPlayedKingdoms"));
-    }
+	if (localStorage.getItem("officialPlayedKingdoms") != null) {
+		officialPlayedKingdoms = JSON.parse(localStorage.getItem("officialPlayedKingdoms"));
+	}
 }
 
 function wipeLocalData() {
 	if (confirm("Are you absolutely sure you want to permanently erase your played kingdom tracking?")) {
 		localStorage.clear();
-		location.reload(); 
+		location.reload();
 	}
 }
 
@@ -376,4 +376,4 @@ function clipboardSanitise(card, kingdom) {
 	return result;
 }
 
-document.addEventListener('DOMContentLoaded', function(){ goToLocation("extras"); }, false);
+document.addEventListener('DOMContentLoaded', function () { goToLocation("extras"); }, false);

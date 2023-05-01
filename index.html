@@ -1,170 +1,204 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Extra Recommended Sets</title>
-	
-		<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
-		
-		<meta name="description"
-		content="Extra Recommended Sets" />
-		
-		<meta name="author"
-		content="Kieran Millar" />
-		
-		<meta name="revised"
-		content="Kieran Millar, 26/02/2023" />
-		
-		<link rel="stylesheet" type="text/css" href="styles.css">
-		
-		<link rel="icon" type="image/png" href="../favicon.png" />
-		
-	</head>
-	<body>
-		<h1>Extra Recommended Sets for Dominion</h1>
-		
-		<div id="tabs">
-			<h3 id="tab_extras" class="tab active" onclick="goToLocation('extras')">Extra Sets</h3>
-			<h3 id="tab_official" class="tab" onclick="goToLocation('official')">Official Sets</h3>
-			<h3 id="tab_about" class="tab" onclick="goToLocation('about')">About</h3>
-			<h3 id="tab_faq" class="tab" onclick="goToLocation('faq')">FAQ</h3>
-			<h3 id="tab_changelog" class="tab" onclick="goToLocation('changelog')">Changelog</h3>
+
+<head>
+	<title>Extra Recommended Sets</title>
+
+	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+
+	<meta name="description" content="Extra Recommended Sets" />
+
+	<meta name="author" content="Kieran Millar" />
+
+	<meta name="revised" content="Kieran Millar, 01/05/2023" />
+
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+	<!--<link rel="icon" type="image/png" href="../favicon.png" />-->
+
+</head>
+
+<body>
+	<h1>Extra Recommended Sets for Dominion</h1>
+
+	<div id="tabs">
+		<h3 id="tab_extras" class="tab active" onclick="goToLocation('extras')">Extra Sets</h3>
+		<h3 id="tab_official" class="tab" onclick="goToLocation('official')">Official Sets</h3>
+		<h3 id="tab_about" class="tab" onclick="goToLocation('about')">About</h3>
+		<h3 id="tab_faq" class="tab" onclick="goToLocation('faq')">FAQ</h3>
+		<h3 id="tab_changelog" class="tab" onclick="goToLocation('changelog')">Changelog</h3>
+	</div>
+
+	<div id="locations">
+		<div id="loc_kingdoms" class="location active">
+			<h1 id="kingdoms_title">Extra Recommended Sets</h1>
+
+			<h2>Choose Expansions</h2>
+
+			<p>Select one or two expansions to get recommended sets for.</p>
+
+			<p id="disabledNote">If an expansion is disabled then I haven't made sets for it yet.</p>
+
+			<input type="checkbox" id="base" name="base" value="base">
+			<label for="base">Base 2nd Edition</label><br>
+			<input type="checkbox" id="intrigue" name="intrigue" value="intrigue">
+			<label for="intrigue">Intrigue 2nd Edition</label><br>
+			<input type="checkbox" id="seaside" name="seaside" value="seaside">
+			<label for="seaside">Seaside 2nd Edition</label><br>
+			<input type="checkbox" id="alchemy" name="alchemy" value="alchemy" disabled>
+			<label for="alchemy">Alchemy</label><br>
+			<input type="checkbox" id="prosperity" name="prosperity" value="prosperity">
+			<label for="prosperity">Prosperity 2nd Edition</label><br>
+			<input type="checkbox" id="hinterlands" name="hinterlands" value="hinterlands">
+			<label for="hinterlands">Hinterlands 2nd Edition</label><br>
+			<input type="checkbox" id="darkages" name="darkages" value="darkages" disabled>
+			<label for="darkages">Dark Ages</label><br>
+			<input type="checkbox" id="cornguilds" name="cornguilds" value="cornguilds" disabled>
+			<label for="cornguilds">Cornucopia & Guilds</label><br>
+			<input type="checkbox" id="adventures" name="adventures" value="adventures" disabled>
+			<label for="adventures">Adventures</label><br>
+			<input type="checkbox" id="empires" name="empires" value="empires">
+			<label for="empires">Empires</label><br>
+			<input type="checkbox" id="nocturne" name="nocturne" value="nocturne" disabled>
+			<label for="nocturne">Nocturne</label><br>
+			<input type="checkbox" id="renaissance" name="renaissance" value="renaissance">
+			<label for="renaissance">Renaissance</label><br>
+			<input type="checkbox" id="menagerie" name="menagerie" value="menagerie" disabled>
+			<label for="menagerie">Menagerie</label><br>
+			<input type="checkbox" id="allies" name="allies" value="allies" disabled>
+			<label for="allies">Allies</label><br>
+			<input type="checkbox" id="plunder" name="plunder" value="plunder" disabled>
+			<label for="plunder">Plunder</label><br>
+
+			<button onclick="getSets()">Get Recommended Sets</button>
+
+			<p id="errors" class="error"></p>
+
+			<div id="kingdomContainer"></div>
 		</div>
-		
-		<div id="locations">
-			<div id="loc_kingdoms" class="location active">
-				<h1 id="kingdoms_title">Extra Recommended Sets</h1>
-			
-				<h2>Choose Expansions</h2>
 
-				<p>Select one or two expansions to get recommended sets for.</p>
-				
-				<p id="disabledNote">If an expansion is disabled then I haven't made sets for it yet.</p>
-
-				<input type="checkbox" id="base" name="base" value="base">
-				<label for="base">Base 2nd Edition</label><br>
-				<input type="checkbox" id="intrigue" name="intrigue" value="intrigue">
-				<label for="intrigue">Intrigue 2nd Edition</label><br>
-				<input type="checkbox" id="seaside" name="seaside" value="seaside">
-				<label for="seaside">Seaside 2nd Edition</label><br>
-				<input type="checkbox" id="alchemy" name="alchemy" value="alchemy" disabled>
-				<label for="alchemy">Alchemy</label><br>
-				<input type="checkbox" id="prosperity" name="prosperity" value="prosperity">
-				<label for="prosperity">Prosperity 2nd Edition</label><br>
-				<input type="checkbox" id="hinterlands" name="hinterlands" value="hinterlands">
-				<label for="hinterlands">Hinterlands 2nd Edition</label><br>
-				<input type="checkbox" id="darkages" name="darkages" value="darkages" disabled>
-				<label for="darkages">Dark Ages</label><br>
-				<input type="checkbox" id="cornguilds" name="cornguilds" value="cornguilds" disabled>
-				<label for="cornguilds">Cornucopia & Guilds</label><br>
-				<input type="checkbox" id="adventures" name="adventures" value="adventures" disabled>
-				<label for="adventures">Adventures</label><br>
-				<input type="checkbox" id="empires" name="empires" value="empires">
-				<label for="empires">Empires</label><br>
-				<input type="checkbox" id="nocturne" name="nocturne" value="nocturne" disabled>
-				<label for="nocturne">Nocturne</label><br>
-				<input type="checkbox" id="renaissance" name="renaissance" value="renaissance">
-				<label for="renaissance">Renaissance</label><br>
-				<input type="checkbox" id="menagerie" name="menagerie" value="menagerie" disabled>
-				<label for="menagerie">Menagerie</label><br>
-				<input type="checkbox" id="allies" name="allies" value="allies" disabled>
-				<label for="allies">Allies</label><br>
-				<input type="checkbox" id="plunder" name="plunder" value="plunder" disabled>
-				<label for="plunder">Plunder</label><br>
-
-				<button onclick="getSets()">Get Recommended Sets</button>
-
-				<p id="errors" class="error"></p>
-
-				<div id="kingdomContainer"></div>
-			</div>
-			
-			<div id="loc_about" class="location">
-				<h1>About</h1>
-				<p>This site contains a load of extra recommended sets for the board game Dominion. 10 for each combination of one or two sets (except for Alchemy on its own, of which their are none due to its card pool being very small).</p>
-				<p>Each set has a checkbox before its name you can use to keep track of which ones you've played. This is automatically saved to your device's local storage, and persists between site visits. This is the only data stored and never leaves your device, no privacy problems or cookies here.</p>
-				<p>The official sets from the rulebooks are also on their own tab for easy reference and to use the same system to keep track of which you've played, if you want to use that.</p>
-				<p>This site and all the extra sets are made by Kieran Millar.</p>
-				<p>You can contact me on Reddit and Discord. My username on both sites is kieranmillar.</p>
-				<p>Some cool links:</p>
-				<ul>
-					<li><a href="https://dominionstrategy.com/">Dominion Strategy site</a></li>
-					<li><a href="https://wiki.dominionstrategy.com/">Dominion Wiki</a></li>
-					<li><a href="https://www.reddit.com/r/dominion/">Dominion Reddit</a></li>
-					<li><a href="https://www.domi.link/discord/">Dominion Discord</a></li>
-					<li><a href="https://www.youtube.com/c/DominionCards/">My Youtube channel of Dominion strategy videos</a></li>
-					<li><a href="https://github.com/kieranmillar/extra-recommended-sets/">This site's Github repo</a></li>
-				</ul>
-				<p>Use the button below to uncheck all of the kingdoms.</p>
-				<button onclick="wipeLocalData()">Wipe Local Data (Warning: Can't be undone!)</button>
-			</div>
-			
-			<div id="loc_faq" class="location">
-				<h1>FAQ</h1>
-				<h2>What does that checkbox do on each set that crosses it out?</h2>
-				<p>Use that to cross off sets as you play them, to keep track of which sets you've already played. See the About section for more details.</p>
-				
-				<h2>What type of kingdoms do you create? Are they all engines?</h2>
-				<p>I have tried to strive to design sets where every kingdom pile present feels relevant, although I cannot guarantee they will all be used of course. Naturally this is easier to make happen if the board supports an engine, so the sets tend to skew heavily towards engines being possible. However, I am also trying to aim for variety of gameplay within each group of 10 sets, so the kingdoms that do offer engines have them in vastly different degrees of competitiveness, and there are kingdoms with no engine at all. Ultimately, its up to the players what kind of decks they build anyway no matter what the set offers.</p>
-				
-				<h2>Have you playtested these sets?</h2>
-				<p>It should be no suprise that it's hard to find people willing to test over 1,000 premade Dominion sets. Instead, I played every kingdom 2 player against the Temple Gate Games app's Hard AI. While it's a worthy enough opponent, this type of testing can only do so much, but it provided an opportunity to make sure the set was fun and offered up the experience I was aiming for. I feel confident the sets should play fine on higher player counts, but 4 player is quite a different game to 2 player.</p>
-				
-				<h2>Do you distribute cards evenly across sets?</h2>
-				<p>For the single expansion sets, the aim was to try and use each card in the set roughly evenly, but in practice some cards are just better than others, and sometimes cards have to be used less because they're either not contributing or overpowering the sets where they show up. Every card tries its best to get a fair shot. For 2 expansion combinations I put less care into using each card equally, but still tried to use them all if possible. For landscapes, I limited myself to 2 landscapes per kingdom, and some expansions like Empires simply have more than 20 landscapes, and so I can't show them all off there, but if you play 2-set combinations too you'll eventually come across them all.</p>
-				
-				<h2>Why did you combine Cornucopia and Guilds?</h2>
-				<p>This is how they have been sold physically for a long time, which I wanted to match. Sorry if you only own one and not the other. Besides, treating them as one allows me to make some more interesting sets.</p>
-				
-				<h2>Will you do sets for First Editions?</h2>
-				<p>No, the plan is to only make sets for the sets in the state they are in-print currently. Making sets for removed cards becomes much less relevant for people over time, and it's not like I'm hurting for enough sets to make anyway.</p>
-				
-				<h2>Will you make sets for combinations of 3 expansions?</h2>
-				<p>No, this would increase the total number of sets to over 5 times the amount as only doing all combinations of 1 and 2 sets, and I have enough sets to make already.</p>
-				
-				<h2>Why not just randomly generate sets?</h2>
-				<p>I love randomly generated sets, but some people are looking for hand-crafted sets for a variety of reasons, and there are plenty of tools available for random generation if that's what you want to use. All of the sets I made for this site were designed by hand, no randomisers were used.</p>
-				
-				<h2>What framework do you use to make this site?</h2>
-				<p>None! Pure basic Javascript, HTML and CSS! That loud THUMP sound you just heard was all the web developers fainting.</p>
-				
-				<h2>Can I help design sets?</h2>
-				<p>No, sorry. I want these to all be mine. Feel free to make your own sites with your own sets.</p>
-				
-				<h2>Can I use parts of this site's code for my own purposes?</h2>
-				<p>Yes, feel free. You may be interested in the JSON-ified official sets list, for example. I'd rather the sets I designed live here though.</p>
-			</div>
-			
-			<div id="loc_changelog" class="location">
-				<h1>Changelog</h1>
-				<ul>
-                    <li>26th Feb 2023 - Prosperity+Renaissance extra sets</li>
-                    <li>12th Jan 2023 - Seaside+Renaissance extra sets</li>
-                    <li>31st Dec 2022 - Intrigue+Renaissance extra sets</li>
-					<li>20th Dec 2022 - Add Plunder official sets and rename some extra sets as their names now used officially</li>
-                    <li>7th Nov 2022 - Renaissance and Base+Renaissance extra sets</li>
-                    <li>4th Sep 2022 - Hinterlands+Empires extra sets</li>
-                    <li>30th Aug 2022 - Prosperity+Hinterlands extra sets</li>
-                    <li>21st Aug 2022 - Seaside+Hinterlands extra sets</li>
-                    <li>11th Aug 2022 - Intrigue+Hinterlands extra sets</li>
-					<li>5th Aug 2022 - Copy to Clipboard button now applies extra setup for some cards: Obelisk, Young Witch, Way of the Mouse and Druid</li>
-                    <li>29th Jul 2022 - Base+Hinterlands extra sets</li>
-                    <li>21st Jul 2022 - Hinterlands only extra sets</li>
-					<li>12th Jul 2022 - Prosperity+Empires extra sets</li>
-					<li>6th Jul 2022
-						<ul>
-							<li>Prosperity 2nd Ed and Hinterlands 2nd Ed official sets
-							<li>Most of Propsertiy 2E extra sets (just combined with Empires remaining)</li>
-							<li>Copy to clipboard buttons</li>
-						</ul>
-					</li>
-					<li>17th Jun 2022 - Initial release with Base, Intrigue, Seaside and Empires</li>
-				</ul>
-			</div>
-			
+		<div id="loc_about" class="location">
+			<h1>About</h1>
+			<p>This site contains a load of extra recommended sets for the board game Dominion. 10 for each combination
+				of one or two sets (except for Alchemy on its own, of which their are none due to its card pool being
+				very small).</p>
+			<p>Each set has a checkbox before its name you can use to keep track of which ones you've played. This is
+				automatically saved to your device's local storage, and persists between site visits. This is the only
+				data stored and never leaves your device, no privacy problems or cookies here.</p>
+			<p>The official sets from the rulebooks are also on their own tab for easy reference and to use the same
+				system to keep track of which you've played, if you want to use that.</p>
+			<p>This site and all the extra sets are made by Kieran Millar.</p>
+			<p>You can contact me on Reddit and Discord. My username on both sites is kieranmillar.</p>
+			<p>Some cool links:</p>
+			<ul>
+				<li><a href="https://dominionstrategy.com/">Dominion Strategy site</a></li>
+				<li><a href="https://wiki.dominionstrategy.com/">Dominion Wiki</a></li>
+				<li><a href="https://www.reddit.com/r/dominion/">Dominion Reddit</a></li>
+				<li><a href="https://www.domi.link/discord/">Dominion Discord</a></li>
+				<li><a href="https://www.youtube.com/c/DominionCards/">My Youtube channel of Dominion strategy
+						videos</a></li>
+				<li><a href="https://github.com/kieranmillar/extra-recommended-sets/">This site's Github repo</a></li>
+			</ul>
+			<p>Use the button below to uncheck all of the kingdoms.</p>
+			<button onclick="wipeLocalData()">Wipe Local Data (Warning: Can't be undone!)</button>
 		</div>
-	
-		<script src="./script.js"></script>
-        <script src="./kingdoms.js"></script>
-		<script src="./officialKingdoms.js"></script>
-	</body>
+
+		<div id="loc_faq" class="location">
+			<h1>FAQ</h1>
+			<h2>What does that checkbox do on each set that crosses it out?</h2>
+			<p>Use that to cross off sets as you play them, to keep track of which sets you've already played. See the
+				About section for more details.</p>
+
+			<h2>What type of kingdoms do you create? Are they all engines?</h2>
+			<p>I have tried to strive to design sets where every kingdom pile present feels relevant, although I cannot
+				guarantee they will all be used of course. Naturally this is easier to make happen if the board supports
+				an engine, so the sets tend to skew heavily towards engines being possible. However, I am also trying to
+				aim for variety of gameplay within each group of 10 sets, so the kingdoms that do offer engines have
+				them in vastly different degrees of competitiveness, and there are kingdoms with no engine at all.
+				Ultimately, its up to the players what kind of decks they build anyway no matter what the set offers.
+			</p>
+
+			<h2>Have you playtested these sets?</h2>
+			<p>It should be no suprise that it's hard to find people willing to test over 1,000 premade Dominion sets.
+				Instead, I played every kingdom 2 player against the Temple Gate Games app's Hard AI. While it's a
+				worthy enough opponent, this type of testing can only do so much, but it provided an opportunity to make
+				sure the set was fun and offered up the experience I was aiming for. I feel confident the sets should
+				play fine on higher player counts, but 4 player is quite a different game to 2 player.</p>
+
+			<h2>Do you distribute cards evenly across sets?</h2>
+			<p>For the single expansion sets, the aim was to try and use each card in the set roughly evenly, but in
+				practice some cards are just better than others, and sometimes cards have to be used less because
+				they're either not contributing or overpowering the sets where they show up. Every card tries its best
+				to get a fair shot. For 2 expansion combinations I put less care into using each card equally, but still
+				tried to use them all if possible. For landscapes, I limited myself to 2 landscapes per kingdom, and
+				some expansions like Empires simply have more than 20 landscapes, and so I can't show them all off
+				there, but if you play 2-set combinations too you'll eventually come across them all.</p>
+
+			<h2>Why did you combine Cornucopia and Guilds?</h2>
+			<p>This is how they have been sold physically for a long time, which I wanted to match. Sorry if you only
+				own one and not the other. Besides, treating them as one allows me to make some more interesting sets.
+			</p>
+
+			<h2>Will you do sets for First Editions?</h2>
+			<p>No, the plan is to only make sets for the sets in the state they are in-print currently. Making sets for
+				removed cards becomes much less relevant for people over time, and it's not like I'm hurting for enough
+				sets to make anyway.</p>
+
+			<h2>Will you make sets for combinations of 3 expansions?</h2>
+			<p>No, this would increase the total number of sets to over 5 times the amount as only doing all
+				combinations of 1 and 2 sets, and I have enough sets to make already.</p>
+
+			<h2>Why not just randomly generate sets?</h2>
+			<p>I love randomly generated sets, but some people are looking for hand-crafted sets for a variety of
+				reasons, and there are plenty of tools available for random generation if that's what you want to use.
+				All of the sets I made for this site were designed by hand, no randomisers were used.</p>
+
+			<h2>What framework do you use to make this site?</h2>
+			<p>None! Pure basic Javascript, HTML and CSS! That loud THUMP sound you just heard was all the web
+				developers fainting.</p>
+
+			<h2>Can I help design sets?</h2>
+			<p>No, sorry. I want these to all be mine. Feel free to make your own sites with your own sets.</p>
+
+			<h2>Can I use parts of this site's code for my own purposes?</h2>
+			<p>Yes, feel free. You may be interested in the JSON-ified official sets list, for example. I'd rather the
+				sets I designed live here though.</p>
+		</div>
+
+		<div id="loc_changelog" class="location">
+			<h1>Changelog</h1>
+			<ul>
+				<li>26th Feb 2023 - Prosperity+Renaissance extra sets</li>
+				<li>12th Jan 2023 - Seaside+Renaissance extra sets</li>
+				<li>31st Dec 2022 - Intrigue+Renaissance extra sets</li>
+				<li>20th Dec 2022 - Add Plunder official sets and rename some extra sets as their names now used
+					officially</li>
+				<li>7th Nov 2022 - Renaissance and Base+Renaissance extra sets</li>
+				<li>4th Sep 2022 - Hinterlands+Empires extra sets</li>
+				<li>30th Aug 2022 - Prosperity+Hinterlands extra sets</li>
+				<li>21st Aug 2022 - Seaside+Hinterlands extra sets</li>
+				<li>11th Aug 2022 - Intrigue+Hinterlands extra sets</li>
+				<li>5th Aug 2022 - Copy to Clipboard button now applies extra setup for some cards: Obelisk, Young
+					Witch, Way of the Mouse and Druid</li>
+				<li>29th Jul 2022 - Base+Hinterlands extra sets</li>
+				<li>21st Jul 2022 - Hinterlands only extra sets</li>
+				<li>12th Jul 2022 - Prosperity+Empires extra sets</li>
+				<li>6th Jul 2022
+					<ul>
+						<li>Prosperity 2nd Ed and Hinterlands 2nd Ed official sets
+						<li>Most of Propsertiy 2E extra sets (just combined with Empires remaining)</li>
+						<li>Copy to clipboard buttons</li>
+					</ul>
+				</li>
+				<li>17th Jun 2022 - Initial release with Base, Intrigue, Seaside and Empires</li>
+			</ul>
+		</div>
+
+	</div>
+
+	<script src="./script.js"></script>
+	<script src="./kingdoms.js"></script>
+	<script src="./officialKingdoms.js"></script>
+</body>
+
 </html>
