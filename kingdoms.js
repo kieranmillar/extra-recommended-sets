@@ -2241,10 +2241,9 @@ var kingdoms = [
     },
     {
         id: 322,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "A Fleeting Moment",
+        cards: ["Fool's Gold", "Scheme", "Spice Merchant", "Margrave", "Wheelwright", "Ducat", "Silk Merchant", "Old Witch", "Recruiter", "Seer"],
+        landscapes: ["Fair", "Fleet"],
         expansions: "hinterlandsrenaissance"
     },
     {
