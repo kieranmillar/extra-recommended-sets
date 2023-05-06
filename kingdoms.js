@@ -1730,7 +1730,7 @@ var kingdoms = [
     {
         id: 253,
         name: "Bumpy Ride",
-        cards: ["Haven", "Tide Pools", "Merchant Ship", "Pirate", "Sea Witch", "Scheme", "Jack of All Trades", "Cauldron", "Inn", "Stables"],
+        cards: ["Haven", "Tide Pools", "Merchant Ship", "Pirate", "Sea Witch", "Scheme", "Jack of all Trades", "Cauldron", "Inn", "Stables"],
         expansions: "seasidehinterlands"
     },
     {
@@ -1793,7 +1793,7 @@ var kingdoms = [
     {
         id: 263,
         name: "Interest Rate",
-        cards: ["Investment", "Collection", "Rabble", "King's Court", "Peddler", "Jack of All Trades", "Berserker", "Cartographer", "Haggler", "Border Village"],
+        cards: ["Investment", "Collection", "Rabble", "King's Court", "Peddler", "Jack of all Trades", "Berserker", "Cartographer", "Haggler", "Border Village"],
         colony: true,
         expansions: "prosperityhinterlands"
     },
@@ -1828,7 +1828,7 @@ var kingdoms = [
     {
         id: 268,
         name: "Pushed Around",
-        cards: ["Investment", "Worker's Village", "Collection", "Vault", "War Chest", "Fool's Gold", "Jack of All Trades", "Trail", "Berserker", "Stables"],
+        cards: ["Investment", "Worker's Village", "Collection", "Vault", "War Chest", "Fool's Gold", "Jack of all Trades", "Trail", "Berserker", "Stables"],
         colony: true,
         expansions: "prosperityhinterlands"
     },
@@ -1870,7 +1870,7 @@ var kingdoms = [
     {
         id: 274,
         name: "Two Little Two Late",
-        cards: ["Oasis", "Jack of All Trades", "Weaver", "Souk", "Witch's Hut", "City Quarter", "Patrician / Emporium", "Catapult / Rocks", "Villa", "Groundskeeper"],
+        cards: ["Oasis", "Jack of all Trades", "Weaver", "Souk", "Witch's Hut", "City Quarter", "Patrician / Emporium", "Catapult / Rocks", "Villa", "Groundskeeper"],
         landscapes: ["Salt the Earth", "Wolf Den"],
         expansions: "hinterlandsempires"
     },
@@ -2248,10 +2248,10 @@ var kingdoms = [
     },
     {
         id: 323,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "New Ideas",
+        cards: ["Develop", "Oasis", "Jack of all Trades", "Souk", "Border Village", "Acting Troupe", "Experiment", "Flag Bearer", "Sculptor", "Swashbuckler"],
+        extras: ["Flag", "Treasure Chest"],
+        landscapes: ["Innovation", "Silos"],
         expansions: "hinterlandsrenaissance"
     },
     {
