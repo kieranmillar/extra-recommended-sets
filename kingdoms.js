@@ -2226,18 +2226,17 @@ var kingdoms = [
     },
     {
         id: 320,
-        name: "This expansion combination is still in development",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Neighbour Trader",
+        cards: ["Crossroads", "Trader", "Weaver", "Cauldron", "Stables", "Border Guard", "Lackeys", "Mountain Village", "Scholar", "Villain"],
+        extras: ["Horn", "Lantern"],
+        landscapes: ["Canal", "Pageant"],
         expansions: "hinterlandsrenaissance"
     },
     {
         id: 321,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Barking Mad",
+        cards: ["Guard Dog", "Nomads", "Berserker", "Haggler", "Farmland", "Hideout", "Patron", "Research", "Scepter", "Spices"],
+        landscapes: ["Barracks", "Star Chart"],
         expansions: "hinterlandsrenaissance"
     },
     {
