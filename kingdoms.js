@@ -2271,10 +2271,10 @@ var kingdoms = [
     },
     {
         id: 326,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "All That Glitters",
+        cards: ["Guard Dog", "Tunnel", "Stables", "Wheelwright", "Farmland", "Ducat", "Cargo Ship", "Flag Bearer", "Hideout", "Patron"],
+        extras: ["Flag"],
+        landscapes: ["Crop Rotation", "Guildhall"],
         expansions: "hinterlandsrenaissance"
     },
     {
