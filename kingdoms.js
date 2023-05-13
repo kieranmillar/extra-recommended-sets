@@ -2279,10 +2279,10 @@ var kingdoms = [
     },
     {
         id: 327,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "In the Valleys",
+        cards: ["Develop", "Jack of all Trades", "Berserker", "Cartographer", "Souk", "Acting Troupe", "Silk Merchant", "Recruiter", "Scepter", "Swashbuckler"],
+        extras: ["Treasure Chest"],
+        landscapes: ["Cathedral", "Road Network"],
         expansions: "hinterlandsrenaissance"
     },
     {
