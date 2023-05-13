@@ -2256,18 +2256,17 @@ var kingdoms = [
     },
     {
         id: 324,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Cheap and Nasty",
+        cards: ["Weaver", "Cartographer", "Cauldron", "Highway", "Inn", "Cargo Ship", "Improve", "Inventor", "Treasurer", "Villain"],
+        extras: ["Key"],
+        landscapes: ["Sewers", "Sinister Plot"],
         expansions: "hinterlandsrenaissance"
     },
     {
         id: 325,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Pilgrimage",
+        cards: ["Scheme", "Nomads", "Spice Merchant", "Trail", "Witch's Hut", "Lackeys", "Experiment", "Mountain Village", "Priest", "Scholar"],
+        landscapes: ["Capitalism", "Citadel"],
         expansions: "hinterlandsrenaissance"
     },
     {
