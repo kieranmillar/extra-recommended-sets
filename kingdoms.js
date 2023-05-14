@@ -2303,10 +2303,10 @@ var kingdoms = [
     },
     {
         id: 330,
-        name: "This expansion combination is still in development",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Golden Age",
+        cards: ["Encampment / Plunder", "Patrician / Emporium", "Archive", "Groundskeeper", "Legionary", "Ducat", "Lackeys", "Inventor", "Scepter", "Treasurer"],
+        extras: ["Key"],
+        landscapes: ["Basilica", "Crop Rotation"],
         expansions: "empiresrenaissance"
     },
     {
