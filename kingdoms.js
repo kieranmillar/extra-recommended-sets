@@ -1730,7 +1730,7 @@ var kingdoms = [
     {
         id: 253,
         name: "Bumpy Ride",
-        cards: ["Haven", "Tide Pools", "Merchant Ship", "Pirate", "Sea Witch", "Scheme", "Jack of All Trades", "Cauldron", "Inn", "Stables"],
+        cards: ["Haven", "Tide Pools", "Merchant Ship", "Pirate", "Sea Witch", "Scheme", "Jack of all Trades", "Cauldron", "Inn", "Stables"],
         expansions: "seasidehinterlands"
     },
     {
@@ -1793,7 +1793,7 @@ var kingdoms = [
     {
         id: 263,
         name: "Interest Rate",
-        cards: ["Investment", "Collection", "Rabble", "King's Court", "Peddler", "Jack of All Trades", "Berserker", "Cartographer", "Haggler", "Border Village"],
+        cards: ["Investment", "Collection", "Rabble", "King's Court", "Peddler", "Jack of all Trades", "Berserker", "Cartographer", "Haggler", "Border Village"],
         colony: true,
         expansions: "prosperityhinterlands"
     },
@@ -1828,7 +1828,7 @@ var kingdoms = [
     {
         id: 268,
         name: "Pushed Around",
-        cards: ["Investment", "Worker's Village", "Collection", "Vault", "War Chest", "Fool's Gold", "Jack of All Trades", "Trail", "Berserker", "Stables"],
+        cards: ["Investment", "Worker's Village", "Collection", "Vault", "War Chest", "Fool's Gold", "Jack of all Trades", "Trail", "Berserker", "Stables"],
         colony: true,
         expansions: "prosperityhinterlands"
     },
@@ -1870,7 +1870,7 @@ var kingdoms = [
     {
         id: 274,
         name: "Two Little Two Late",
-        cards: ["Oasis", "Jack of All Trades", "Weaver", "Souk", "Witch's Hut", "City Quarter", "Patrician / Emporium", "Catapult / Rocks", "Villa", "Groundskeeper"],
+        cards: ["Oasis", "Jack of all Trades", "Weaver", "Souk", "Witch's Hut", "City Quarter", "Patrician / Emporium", "Catapult / Rocks", "Villa", "Groundskeeper"],
         landscapes: ["Salt the Earth", "Wolf Den"],
         expansions: "hinterlandsempires"
     },
@@ -2226,82 +2226,79 @@ var kingdoms = [
     },
     {
         id: 320,
-        name: "This expansion combination is still in development",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Neighbour Trader",
+        cards: ["Crossroads", "Trader", "Weaver", "Cauldron", "Stables", "Border Guard", "Lackeys", "Mountain Village", "Scholar", "Villain"],
+        extras: ["Horn", "Lantern"],
+        landscapes: ["Canal", "Pageant"],
         expansions: "hinterlandsrenaissance"
     },
     {
         id: 321,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Barking Mad",
+        cards: ["Guard Dog", "Nomads", "Berserker", "Haggler", "Farmland", "Hideout", "Patron", "Research", "Scepter", "Spices"],
+        landscapes: ["Barracks", "Star Chart"],
         expansions: "hinterlandsrenaissance"
     },
     {
         id: 322,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "A Fleeting Moment",
+        cards: ["Fool's Gold", "Scheme", "Spice Merchant", "Margrave", "Wheelwright", "Ducat", "Silk Merchant", "Old Witch", "Recruiter", "Seer"],
+        landscapes: ["Fair", "Fleet"],
         expansions: "hinterlandsrenaissance"
     },
     {
         id: 323,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "New Ideas",
+        cards: ["Develop", "Oasis", "Jack of all Trades", "Souk", "Border Village", "Acting Troupe", "Experiment", "Flag Bearer", "Sculptor", "Swashbuckler"],
+        extras: ["Flag", "Treasure Chest"],
+        landscapes: ["Innovation", "Silos"],
         expansions: "hinterlandsrenaissance"
     },
     {
         id: 324,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Cheap and Nasty",
+        cards: ["Weaver", "Cartographer", "Cauldron", "Highway", "Inn", "Cargo Ship", "Improve", "Inventor", "Treasurer", "Villain"],
+        extras: ["Key"],
+        landscapes: ["Sewers", "Sinister Plot"],
         expansions: "hinterlandsrenaissance"
     },
     {
         id: 325,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Pilgrimage",
+        cards: ["Scheme", "Nomads", "Spice Merchant", "Trail", "Witch's Hut", "Lackeys", "Experiment", "Mountain Village", "Priest", "Scholar"],
+        landscapes: ["Capitalism", "Citadel"],
         expansions: "hinterlandsrenaissance"
     },
     {
         id: 326,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "All That Glitters",
+        cards: ["Guard Dog", "Tunnel", "Stables", "Wheelwright", "Farmland", "Ducat", "Cargo Ship", "Flag Bearer", "Hideout", "Patron"],
+        extras: ["Flag"],
+        landscapes: ["Crop Rotation", "Guildhall"],
         expansions: "hinterlandsrenaissance"
     },
     {
         id: 327,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "In the Valleys",
+        cards: ["Develop", "Jack of all Trades", "Berserker", "Cartographer", "Souk", "Acting Troupe", "Silk Merchant", "Recruiter", "Scepter", "Swashbuckler"],
+        extras: ["Treasure Chest"],
+        landscapes: ["Cathedral", "Road Network"],
         expansions: "hinterlandsrenaissance"
     },
     {
         id: 328,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "University",
+        cards: ["Fool's Gold", "Oasis", "Scheme", "Nomads", "Trail", "Research", "Old Witch", "Sculptor", "Seer", "Treasurer"],
+        extras: ["Key"],
+        landscapes: ["Academy", "City Gate"],
         expansions: "hinterlandsrenaissance"
     },
     {
         id: 329,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Between Two Borders",
+        cards: ["Crossroads", "Tunnel", "Haggler", "Margrave", "Border Village", "Border Guard", "Improve", "Inventor", "Priest", "Spices"],
+        extras: ["Horn", "Lantern"],
+        landscapes: ["Exploration", "Piazza"],
         expansions: "hinterlandsrenaissance"
     },
     {
