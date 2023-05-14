@@ -2311,18 +2311,17 @@ var kingdoms = [
     },
     {
         id: 331,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Lockdown",
+        cards: ["Engineer", "Enchantress", "Gladiator / Fortune", "Sacrifice", "Crown", "Hideout", "Patron", "Old Witch", "Spices", "Villain"],
+        landscapes: ["Exploration", "Tax"],
         expansions: "empiresrenaissance"
     },
     {
         id: 332,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Recycling Centre",
+        cards: ["Settlers / Bustling Village", "Castles", "Charm", "Forum", "Wild Hunt", "Border Guard", "Cargo Ship", "Mountain Village", "Silk Merchant", "Sculptor"],
+        extras: ["Horn", "Lantern"],
+        landscapes: ["Fountain", "Silos"],
         expansions: "empiresrenaissance"
     },
     {
