@@ -2326,10 +2326,10 @@ var kingdoms = [
     },
     {
         id: 333,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Silver Linings",
+        cards: ["Royal Blacksmith", "Settlers / Bustling Village", "Rocks / Catapult", "Villa", "Capital", "Lackeys", "Experiment", "Improve", "Flag Bearer", "Research"],
+        extras: ["Flag"],
+        landscapes: ["Conquest", "Guildhall"],
         expansions: "empiresrenaissance"
     },
     {
