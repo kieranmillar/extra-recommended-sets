@@ -2342,10 +2342,10 @@ var kingdoms = [
     },
     {
         id: 335,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Fast Learners",
+        cards: ["Engineer", "Farmers' Market", "Temple", "Villa", "Crown", "Border Guard", "Acting Troupe", "Flag Bearer", "Scholar", "Spices"],
+        extras: ["Flag", "Hoen", "Lantern"],
+        landscapes: ["Canal", "Orchard"],
         expansions: "empiresrenaissance"
     },
     {
