@@ -2287,18 +2287,18 @@ var kingdoms = [
     },
     {
         id: 328,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "University",
+        cards: ["Fool's Gold", "Oasis", "Scheme", "Nomads", "Trail", "Research", "Old Witch", "Sculptor", "Seer", "Treasurer"],
+        extras: ["Key"],
+        landscapes: ["Academy", "City Gate"],
         expansions: "hinterlandsrenaissance"
     },
     {
         id: 329,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Between Two Borders",
+        cards: ["Crossroads", "Tunnel", "Haggler", "Margrave", "Border Village", "Border Guard", "Improve", "Inventor", "Priest", "Spices"],
+        extras: ["Horn", "Lantern"],
+        landscapes: ["Exploration", "Piazza"],
         expansions: "hinterlandsrenaissance"
     },
     {
