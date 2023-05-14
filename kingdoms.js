@@ -2350,10 +2350,10 @@ var kingdoms = [
     },
     {
         id: 336,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Big Buildings",
+        cards: ["City Quarter", "Castles", "Enchantress", "Charm", "Groundskeeper", "Cargo Ship", "Improve", "Hideout", "Treasurer", "Villain"],
+        extras: ["Key"],
+        landscapes: ["City Gate", "Windfall"],
         expansions: "empiresrenaissance"
     },
     {
