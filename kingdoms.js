@@ -2334,10 +2334,10 @@ var kingdoms = [
     },
     {
         id: 334,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Town Square",
+        cards: ["Overlord", "Chariot Race", "Farmers' Market", "Legionary", "Wild Hunt", "Priest", "Silk Merchant", "Recruiter", "Seer", "Swashbuckler"],
+        extras: ["Treasure Chest"],
+        landscapes: ["Citadel", "Mountain Pass"],
         expansions: "empiresrenaissance"
     },
     {
