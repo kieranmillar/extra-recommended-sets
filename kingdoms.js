@@ -2358,26 +2358,25 @@ var kingdoms = [
     },
     {
         id: 337,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Murder Plot",
+        cards: ["Patrician / Emporium", "Rocks / Catapult", "Gladiator / Fortune", "Sacrifice", "Forum", "Ducat", "Mountain Village", "Research", "Scepter", "Sculptor"],
+        landscapes: ["Sinister Plot", "Tomb"],
         expansions: "empiresrenaissance"
     },
     {
         id: 338,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "In Every Direction",
+        cards: ["Royal Blacksmith", "Encampment / Plunder", "Temple", "Villa", "Archive", "Border Guard", "Patron", "Priest", "Silk Merchant", "Villain"],
+        extras: ["Horn", "Lantern"],
+        landscapes: ["Dominate", "Star Chart"],
         expansions: "empiresrenaissance"
     },
     {
         id: 339,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Economies of Scale",
+        cards: ["Engineer", "City Quarter", "Overlord", "Farmers' Market", "Crown", "Experiment", "Hideout", "Priest", "Old Witch", "Swashbuckler"],
+        extras: ["Treasure Chest"],
+        landscapes: ["Fair", "Triumphal Arch"],
         expansions: "empiresrenaissance"
     }
 ];
