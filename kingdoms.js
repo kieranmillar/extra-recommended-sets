@@ -762,62 +762,62 @@ var kingdoms = [
     {
         id: 110,
         name: "Pony Time",
-        cards: ["Supplies", "Scrap", "Sheepdog", "Snowy Village", "Hostelry", "Barge", "Displace", "Fisherman", "Paddock", "Wayfarer"],
+        cards: [],
         extras: ["Horse"],
-        landscapes: ["Bargain", "Way of the Goat"],
+        landscapes: [],
         expansions: "menagerie"
     },
     {
         id: 111,
         name: "Give A Hoot",
-        cards: ["Camel Train", "Goatherd", "Bounty Hunter", "Cardinal", "Groom", "Village Green", "Coven", "Hunting Lodge", "Kiln", "Animal Fair"],
+        cards: [],
         extras: ["Horse"],
-        landscapes: ["March", "Way of the Owl"],
+        landscapes: ["Way of the Owl"],
         expansions: "menagerie"
     },
     {
         id: 112,
         name: "Karma",
-        cards: ["Sleigh", "Supplies", "Sheepdog", "Stockpile", "Cavalry", "Coven", "Falconer", "Gatekeeper", "Paddock", "Sanctuary"],
+        cards: [],
         extras: ["Horse"],
-        landscapes: ["Toil", "Way of the Chameleon"],
+        landscapes: ["Way of the Chameleon"],
         expansions: "menagerie"
     },
     {
         id: 113,
         name: "Unleash the Power Within",
-        cards: ["Black Cat", "Camel Train", "Sheepdog", "Bounty Hunter", "Cardinal", "Displace", "Falconer", "Kiln", "Mastermind", "Animal Fair"],
-        landscapes: ["Delay", "Way of the Pig"],
+        cards: [],
+        landscapes: [],
         expansions: "menagerie"
     },
     {
         id: 114,
         name: "Herd Immunity",
-        cards: ["Black Cat", "Goatherd", "Groom", "Hostelry", "Village Green", "Fisherman", "Kiln", "Livery", "Paddock", "Destrier"],
+        cards: [],
         extras: ["Horse"],
-        landscapes: ["Alliance", "Way of the Seal"],
+        landscapes: [],
         expansions: "menagerie"
     },
     {
         id: 115,
         name: "Card Printer",
-        cards: ["Black Cat", "Sleigh", "Scrap", "Snowy Village", "Village Green", "Barge", "Falconer", "Mastermind", "Sanctuary", "Destrier"],
+        cards: [],
         extras: ["Horse"],
-        landscapes: ["Commerce", "Way of the Rat"],
+        landscapes: [],
         expansions: "menagerie"
     },
     {
         id: 116,
         name: "Olly Olly Oxen Free",
-        cards: ["Sleigh", "Supplies", "Camel Train", "Cardinal", "Cavalry", "Coven", "Barge", "Fisherman", "Livery", "Animal Fair"],
+        cards: [],
         extras: ["Horse"],
-        landscapes: ["Enhance", "Way of the Ox"],
+        landscapes: [],
         expansions: "menagerie"
     },
     {
         id: 117,
         name: "Monkey Seize Monkey Does",
-        cards: ["Supplies", "Goatherd", "Stockpile", "Groom", "Hostelry", "Displace", "Gatekeeper", "Hunting Lodge", "Mastermind", "Wayfarer"],
+        cards: [],
         extras: ["Horse"],
         landscapes: ["Seize the Day", "Way of the Monkey"],
         expansions: "menagerie"
@@ -825,17 +825,17 @@ var kingdoms = [
     {
         id: 118,
         name: "Switch On",
-        cards: ["Sleigh", "Camel Train", "Scrap", "Sheepdog", "Coven", "Displace", "Hunting Lodge", "Paddock", "Destrier", "Animal Fair"],
+        cards: [],
         extras: ["Horse"],
-        landscapes: ["Banish", "Way of the Worm"],
+        landscapes: [],
         expansions: "menagerie"
     },
     {
         id: 119,
         name: "Snowed In",
-        cards: ["Black Cat", "Snowy Village", "Stockpile", "Bounty Hunter", "Fisherman", "Kiln", "Livery", "Paddock", "Sanctuary", "Animal Fair"],
+        cards: [],
         extras: ["Horse"],
-        landscapes: ["Stampede", "Way of the Horse"],
+        landscapes: [],
         expansions: "menagerie"
     },
     {
@@ -2378,5 +2378,575 @@ var kingdoms = [
         extras: ["Treasure Chest"],
         landscapes: ["Fair", "Triumphal Arch"],
         expansions: "empiresrenaissance"
+    },
+    {
+        id: 340,
+        name: "This expansion combination is not available yet",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "basemenagerie"
+    },
+    {
+        id: 341,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "basemenagerie"
+    },
+    {
+        id: 342,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "basemenagerie"
+    },
+    {
+        id: 343,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "basemenagerie"
+    },
+    {
+        id: 344,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "basemenagerie"
+    },
+    {
+        id: 345,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "basemenagerie"
+    },
+    {
+        id: 346,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "basemenagerie"
+    },
+    {
+        id: 347,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "basemenagerie"
+    },
+    {
+        id: 348,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "basemenagerie"
+    },
+    {
+        id: 349,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "basemenagerie"
+    },
+    {
+        id: 350,
+        name: "This expansion combination is not available yet",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "intriguemenagerie"
+    },
+    {
+        id: 351,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "intriguemenagerie"
+    },
+    {
+        id: 352,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "intriguemenagerie"
+    },
+    {
+        id: 353,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "intriguemenagerie"
+    },
+    {
+        id: 354,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "intriguemenagerie"
+    },
+    {
+        id: 355,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "intriguemenagerie"
+    },
+    {
+        id: 356,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "intriguemenagerie"
+    },
+    {
+        id: 357,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "intriguemenagerie"
+    },
+    {
+        id: 358,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "intriguemenagerie"
+    },
+    {
+        id: 359,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "intriguemenagerie"
+    },
+    {
+        id: 360,
+        name: "This expansion combination is not available yet",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "seasidemenagerie"
+    },
+    {
+        id: 361,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "seasidemenagerie"
+    },
+    {
+        id: 362,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "seasidemenagerie"
+    },
+    {
+        id: 363,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "seasidemenagerie"
+    },
+    {
+        id: 364,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "seasidemenagerie"
+    },
+    {
+        id: 365,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "seasidemenagerie"
+    },
+    {
+        id: 366,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "seasidemenagerie"
+    },
+    {
+        id: 367,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "seasidemenagerie"
+    },
+    {
+        id: 368,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "seasidemenagerie"
+    },
+    {
+        id: 369,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "seasidemenagerie"
+    },
+    {
+        id: 370,
+        name: "This expansion combination is not available yet",
+        cards: [],
+        colony: true,
+        extras: [],
+        landscapes: [],
+        expansions: "prosperitymenagerie"
+    },
+    {
+        id: 371,
+        name: "",
+        cards: [],
+        colony: true,
+        extras: [],
+        landscapes: [],
+        expansions: "prosperitymenagerie"
+    },
+    {
+        id: 372,
+        name: "",
+        cards: [],
+        colony: true,
+        extras: [],
+        landscapes: [],
+        expansions: "prosperitymenagerie"
+    },
+    {
+        id: 373,
+        name: "",
+        cards: [],
+        colony: true,
+        extras: [],
+        landscapes: [],
+        expansions: "prosperitymenagerie"
+    },
+    {
+        id: 374,
+        name: "",
+        cards: [],
+        colony: true,
+        extras: [],
+        landscapes: [],
+        expansions: "prosperitymenagerie"
+    },
+    {
+        id: 375,
+        name: "",
+        cards: [],
+        colony: true,
+        extras: [],
+        landscapes: [],
+        expansions: "prosperitymenagerie"
+    },
+    {
+        id: 376,
+        name: "",
+        cards: [],
+        colony: true,
+        extras: [],
+        landscapes: [],
+        expansions: "prosperitymenagerie"
+    },
+    {
+        id: 377,
+        name: "",
+        cards: [],
+        colony: true,
+        extras: [],
+        landscapes: [],
+        expansions: "prosperitymenagerie"
+    },
+    {
+        id: 378,
+        name: "",
+        cards: [],
+        colony: true,
+        extras: [],
+        landscapes: [],
+        expansions: "prosperitymenagerie"
+    },
+    {
+        id: 379,
+        name: "",
+        cards: [],
+        colony: true,
+        extras: [],
+        landscapes: [],
+        expansions: "prosperitymenagerie"
+    },
+    {
+        id: 380,
+        name: "This expansion combination is not available yet",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "hinterlandsmenagerie"
+    },
+    {
+        id: 381,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "hinterlandsmenagerie"
+    },
+    {
+        id: 382,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "hinterlandsmenagerie"
+    },
+    {
+        id: 383,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "hinterlandsmenagerie"
+    },
+    {
+        id: 384,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "hinterlandsmenagerie"
+    },
+    {
+        id: 385,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "hinterlandsmenagerie"
+    },
+    {
+        id: 386,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "hinterlandsmenagerie"
+    },
+    {
+        id: 387,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "hinterlandsmenagerie"
+    },
+    {
+        id: 388,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "hinterlandsmenagerie"
+    },
+    {
+        id: 389,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "hinterlandsmenagerie"
+    },
+    {
+        id: 390,
+        name: "This expansion combination is not available yet",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "empiresmenagerie"
+    },
+    {
+        id: 391,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "empiresmenagerie"
+    },
+    {
+        id: 392,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "empiresmenagerie"
+    },
+    {
+        id: 393,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "empiresmenagerie"
+    },
+    {
+        id: 394,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "empiresmenagerie"
+    },
+    {
+        id: 395,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "empiresmenagerie"
+    },
+    {
+        id: 396,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "empiresmenagerie"
+    },
+    {
+        id: 397,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "empiresmenagerie"
+    },
+    {
+        id: 398,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "empiresmenagerie"
+    },
+    {
+        id: 399,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "empiresmenagerie"
+    },
+    {
+        id: 400,
+        name: "This expansion combination is not available yet",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "renaissancemenagerie"
+    },
+    {
+        id: 401,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "renaissancemenagerie"
+    },
+    {
+        id: 402,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "renaissancemenagerie"
+    },
+    {
+        id: 403,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "renaissancemenagerie"
+    },
+    {
+        id: 404,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "renaissancemenagerie"
+    },
+    {
+        id: 405,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "renaissancemenagerie"
+    },
+    {
+        id: 406,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "renaissancemenagerie"
+    },
+    {
+        id: 407,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "renaissancemenagerie"
+    },
+    {
+        id: 408,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "renaissancemenagerie"
+    },
+    {
+        id: 409,
+        name: "",
+        cards: [],
+        extras: [],
+        landscapes: [],
+        expansions: "renaissancemenagerie"
     }
 ];
