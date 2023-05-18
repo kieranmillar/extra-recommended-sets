@@ -762,9 +762,9 @@ var kingdoms = [
     {
         id: 110,
         name: "Pony Time",
-        cards: [],
+        cards: ["Supplies", "Camel Train", "Scrap", "Sheepdog", "Cardinal", "Groom", "Hostelry", "Displace", "Hunting Lodge", "Livery"],
         extras: ["Horse"],
-        landscapes: [],
+        landscapes: ["Bargain", "Way of the Rat"],
         expansions: "menagerie"
     },
     {
