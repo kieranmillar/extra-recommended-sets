@@ -761,10 +761,10 @@ var kingdoms = [
     },
     {
         id: 110,
-        name: "Pony Time",
-        cards: ["Supplies", "Camel Train", "Scrap", "Sheepdog", "Cardinal", "Groom", "Hostelry", "Displace", "Hunting Lodge", "Livery"],
+        name: "Hop to It",
+        cards: ["Supplies", "Scrap", "Sheepdog", "Snowy Village", "Hostelry", "Barge", "Displace", "Fisherman", "Paddock", "Wayfarer"],
         extras: ["Horse"],
-        landscapes: ["Bargain", "Way of the Rat"],
+        landscapes: ["Bargain", "Way of the Frog"],
         expansions: "menagerie"
     },
     {
