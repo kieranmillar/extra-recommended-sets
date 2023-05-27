@@ -55,7 +55,6 @@ function goToLocation(loc) {
 			checkboxElements[7].disabled = true;
 			checkboxElements[8].disabled = true;
 			checkboxElements[10].disabled = true;
-			checkboxElements[12].disabled = true;
 			checkboxElements[13].disabled = true;
 			checkboxElements[14].disabled = true;
 			kingdomsTitleElement.textContent = "Extra Recommended Sets";
@@ -71,7 +70,6 @@ function goToLocation(loc) {
 			checkboxElements[7].disabled = false;
 			checkboxElements[8].disabled = false;
 			checkboxElements[10].disabled = false;
-			checkboxElements[12].disabled = false;
 			checkboxElements[13].disabled = false;
 			checkboxElements[14].disabled = false;
 			kingdomsTitleElement.textContent = "Official Recommended Sets";
