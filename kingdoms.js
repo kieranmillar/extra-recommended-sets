@@ -2327,7 +2327,7 @@ var kingdoms = [
     {
         id: 333,
         name: "Silver Linings",
-        cards: ["Royal Blacksmith", "Settlers / Bustling Village", "Rocks / Catapult", "Villa", "Capital", "Lackeys", "Experiment", "Improve", "Flag Bearer", "Research"],
+        cards: ["Royal Blacksmith", "Settlers / Bustling Village", "Catapult / Rocks", "Villa", "Capital", "Lackeys", "Experiment", "Improve", "Flag Bearer", "Research"],
         extras: ["Flag"],
         landscapes: ["Conquest", "Guildhall"],
         expansions: "empiresrenaissance"
@@ -2359,7 +2359,7 @@ var kingdoms = [
     {
         id: 337,
         name: "Murder Plot",
-        cards: ["Patrician / Emporium", "Rocks / Catapult", "Gladiator / Fortune", "Sacrifice", "Forum", "Ducat", "Mountain Village", "Research", "Scepter", "Sculptor"],
+        cards: ["Patrician / Emporium", "Catapult / Rocks", "Gladiator / Fortune", "Sacrifice", "Forum", "Ducat", "Mountain Village", "Research", "Scepter", "Sculptor"],
         landscapes: ["Sinister Plot", "Tomb"],
         expansions: "empiresrenaissance"
     },
