@@ -2381,18 +2381,18 @@ var kingdoms = [
     },
     {
         id: 340,
-        name: "This expansion combination is not available yet",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Horse Race",
+        cards: ["Merchant", "Remodel", "Smithy", "Market", "Mine", "Sleigh", "Hostelry", "Kiln", "Livery", "Animal Fair"],
+        extras: ["Horse"],
+        landscapes: ["Ride", "Way of the Camel"],
         expansions: "basemenagerie"
     },
     {
         id: 341,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Master Exploder",
+        cards: ["Chapel", "Moat", "Bureaucrat", "Festival", "Library", "Scrap", "Stockpile", "Coven", "Mastermind", "Paddock"],
+        extras: ["Horse"],
+        landscapes: ["Populate", "Way of the Mule"],
         expansions: "basemenagerie"
     },
     {
