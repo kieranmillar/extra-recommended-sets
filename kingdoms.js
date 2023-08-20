@@ -2413,18 +2413,17 @@ var kingdoms = [
     },
     {
         id: 344,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "The Great Outdoors",
+        cards: ["Cellar", "Gardens", "Militia", "Festival", "Laboratory", "Goatherd", "Sheepdog", "Bounty Hunter", "Barge", "Hunting Lodge"],
+        landscapes: ["Invest", "Way of the Sheep"],
         expansions: "basemenagerie"
     },
     {
         id: 345,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Dizzy",
+        cards: ["Poacher", "Throne Room", "Bandit", "Library", "Artisan", "Sleigh", "Cavalry", "Kiln", "Sanctuary", "Animal Fair"],
+        extras: ["Horse"],
+        landscapes: ["Gamble", "Way of the Butterfly"],
         expansions: "basemenagerie"
     },
     {
