@@ -2428,34 +2428,33 @@ var kingdoms = [
     },
     {
         id: 346,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Hot Pursuit",
+        cards: ["Cellar", "Merchant", "Moneylender", "Smithy", "Market", "Sheepdog", "Village Green", "Coven", "Displace", "Falconer"],
+        landscapes: ["Pursue", "Way of the Turtle"],
         expansions: "basemenagerie"
     },
     {
         id: 347,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Hidden Horses",
+        cards: ["Vassal", "Poacher", "Council Room", "Festival", "Laboratory", "Scrap", "Cardinal", "Groom", "Gatekeeper", "Paddock"],
+        extras: ["Horse"],
+        landscapes: ["Reap", "Way of the Mole"],
         expansions: "basemenagerie"
     },
     {
         id: 348,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Villainy",
+        cards: ["Chapel", "Workshop", "Gardens", "Militia", "Bandit", "Black Cat", "Snowy Village", "Stockpile", "Livery", "Mastermind"],
+        extras: ["Horse"],
+        landscapes: ["Enclave", "Way of the Otter"],
         expansions: "basemenagerie"
     },
     {
         id: 349,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Going Large",
+        cards: ["Moat", "Village", "Bureaucrat", "Remodel", "Witch", "Camel Train", "Goatherd", "Barge", "Hunting Lodge", "Fisherman"],
+        extras: ["Horse"],
+        landscapes: ["Demand", "Way of the Squirrel"],
         expansions: "basemenagerie"
     },
     {
