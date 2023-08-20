@@ -2389,26 +2389,26 @@ var kingdoms = [
     },
     {
         id: 341,
-        name: "Master Exploder",
-        cards: ["Chapel", "Moat", "Bureaucrat", "Festival", "Library", "Scrap", "Stockpile", "Coven", "Mastermind", "Paddock"],
-        extras: ["Horse"],
-        landscapes: ["Populate", "Way of the Mule"],
+        name: "Bespoke Engine",
+        cards: ["Village", "Moneylender", "Poacher", "Witch", "Artisan", "Black Cat", "Camel Train", "Cardinal", "Village Green", "Destrier"],
+        landscapes: ["Transport", "Way of the Goat"],
         expansions: "basemenagerie"
     },
     {
         id: 342,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Get the Oil",
+        cards: ["Vassal", "Workshop", "Throne Room", "Council Room", "Sentry", "Supplies", "Displace", "Gatekeeper", "Fisherman", "Wayfarer"],
+        extras: ["Horse"],
+        landscapes: ["Desperation", "Way of the Mouse"],
+        mouse: "Harbinger",
         expansions: "basemenagerie"
     },
     {
         id: 343,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Master Exploder",
+        cards: ["Chapel", "Moat", "Bureaucrat", "Festival", "Library", "Scrap", "Stockpile", "Coven", "Mastermind", "Paddock"],
+        extras: ["Horse"],
+        landscapes: ["Populate", "Way of the Mule"],
         expansions: "basemenagerie"
     },
     {
