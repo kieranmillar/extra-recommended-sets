@@ -2459,10 +2459,10 @@ var kingdoms = [
     },
     {
         id: 350,
-        name: "This expansion combination is not available yet",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Charge of the Flight Brigade",
+        cards: ["Secret Passage", "Courtier", "Patrol", "Trading Post", "Harem", "Sheepdog", "Cavalry", "Hostelry", "Coven", "Livery"],
+        extras: ["Horse"],
+        landscapes: ["Stampede", "Way of the Butterfly"],
         expansions: "intriguemenagerie"
     },
     {
