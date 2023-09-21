@@ -2467,10 +2467,10 @@ var kingdoms = [
     },
     {
         id: 351,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Hunting Party",
+        cards: ["Pawn", "Masquerade", "Mill", "Duke", "Minion", "Black Cat", "Supplies", "Bounty Hunter", "Falconer", "Hunting Lodge"],
+        extras: ["Horse"],
+        landscapes: ["Enclave", "Way of the Rat"],
         expansions: "intriguemenagerie"
     },
     {
