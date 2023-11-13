@@ -2475,10 +2475,10 @@ var kingdoms = [
     },
     {
         id: 352,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Friendly Negotiations",
+        cards: ["Steward", "Bridge", "Conspirator", "Torturer", "Nobles", "Sleigh", "Camel Train", "Snowy Village", "Village Green", "Kiln"],
+        extras: ["Horse"],
+        landscapes: ["Desperation", "Way of the Frog"],
         expansions: "intriguemenagerie"
     },
     {
