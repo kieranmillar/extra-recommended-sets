@@ -2483,18 +2483,17 @@ var kingdoms = [
     },
     {
         id: 353,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Hickory Dickory",
+        cards: ["Shanty Town", "Baron", "Diplomat", "Replace", "Upgrade", "Bounty Hunter", "Cardinal", "Gatekeeper", "Fisherman", "Animal Fair"],
+        landscapes: ["Alliance", "Way of the Mouse"],
+        mouse: "Lurker",
         expansions: "intriguemenagerie"
     },
     {
         id: 354,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Higgledy-Piggledy",
+        cards: ["Courtyard", "Swindler", "Ironworks", "Mining Village", "Courtier", "Goatherd", "Barge", "Displace", "Mastermind", "Destrier"],
+        landscapes: ["Invest", "Way of the Pig"],
         expansions: "intriguemenagerie"
     },
     {
