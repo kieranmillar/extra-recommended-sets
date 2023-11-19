@@ -2514,10 +2514,9 @@ var kingdoms = [
     },
     {
         id: 357,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Gamble Scramble",
+        cards: ["Courtyard", "Steward", "Baron", "Minion", "Replace", "Barge", "Coven", "Kiln", "Mastermind", "Animal Fair"],
+        landscapes: ["Gamble", "Way of the Squirrel"],
         expansions: "intriguemenagerie"
     },
     {
