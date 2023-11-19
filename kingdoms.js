@@ -2498,7 +2498,7 @@ var kingdoms = [
     },
     {
         id: 355,
-        name: "Canter",
+        name: "Ambling",
         cards: ["Wishing Well", "Baron", "Duke", "Minion", "Harem", "Sleigh", "Stockpile", "Cavalry", "Gatekeeper", "Destrier"],
         extras: ["Horse"],
         landscapes: ["Delay", "Way of the Camel"],
@@ -2506,10 +2506,10 @@ var kingdoms = [
     },
     {
         id: 356,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Gallop",
+        cards: ["Pawn", "Mill", "Secret Passage", "Patrol", "Trading Post", "Scrap", "Village Green", "Falconer", "Livery", "Wayfarer"],
+        extras: ["Horse"],
+        landscapes: ["Commerce", "Way of the Seal"],
         expansions: "intriguemenagerie"
     },
     {
