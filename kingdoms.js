@@ -2498,10 +2498,10 @@ var kingdoms = [
     },
     {
         id: 355,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Canter",
+        cards: ["Wishing Well", "Baron", "Duke", "Minion", "Harem", "Sleigh", "Stockpile", "Cavalry", "Gatekeeper", "Destrier"],
+        extras: ["Horse"],
+        landscapes: ["Delay", "Way of the Camel"],
         expansions: "intriguemenagerie"
     },
     {
