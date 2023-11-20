@@ -2521,18 +2521,18 @@ var kingdoms = [
     },
     {
         id: 358,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Procrastination",
+        cards: ["Bridge", "Conspirator", "Ironworks", "Minion", "Torturer", "Supplies", "Scrap", "Snowy Village", "Sanctuary", "Fisherman"],
+        extras: ["Horse"],
+        landscapes: ["Toil", "Way of the Turtle"],
         expansions: "intriguemenagerie"
     },
     {
         id: 359,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Play Pen",
+        cards: ["Lurker", "Diplomat", "Secret Passage", "Upgrade", "Nobles", "Black Cat", "Sheepdog", "Bounty Hunter", "Cavalry", "Groom"],
+        extras: ["Horse"],
+        landscapes: ["March", "Way of the Sheep"],
         expansions: "intriguemenagerie"
     },
     {

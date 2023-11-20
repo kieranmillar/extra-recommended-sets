@@ -183,13 +183,24 @@ function createKingdomContainer(kingdom) {
 	let cardsList = document.createElement("p");
 	for (let i = 0; i < kingdom.cards.length; i++) {
 		let card = kingdom.cards[i];
-		cardsString += card + ", ";
+		if (card == "Harem") {
+			cardsString += "Harem / Farm, ";
+		}
+		else {
+			cardsString += card + ", ";
+		}
 		if ((kingdom.hasOwnProperty("bane") && kingdom.bane == card) ||
 			(kingdom.hasOwnProperty("obelisk") && kingdom.obelisk == card) ||
 			(kingdom.hasOwnProperty("traits") && kingdom.traits.includes(card))) {
 			continue;
 		}
-		clipboardString += clipboardSanitise(card, kingdom);
+		if (card == "Harem") {
+			clipboardString += clipboardSanitise("Farm", kingdom);
+		}
+		else {
+			clipboardString += clipboardSanitise(card, kingdom);
+		}
+		
 		if (kingdom.hasOwnProperty("bane")) {
 			if (card == "Young Witch") {
 				clipboardString += " (" + clipboardSanitise(kingdom.bane, kingdom) + ")";
