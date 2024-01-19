@@ -2537,10 +2537,10 @@ var kingdoms = [
     },
     {
         id: 360,
-        name: "This expansion combination is not available yet",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Seahorses",
+        cards: ["Astrolabe", "Lookout", "Treasure Map", "Corsair", "Treasury", "Sleigh", "Scrap", "Sheepdog", "Cavalry", "Groom"],
+        extras: ["Horse"],
+        landscapes: ["Delay", "Way of the Mole"],
         expansions: "seasidemenagerie"
     },
     {
