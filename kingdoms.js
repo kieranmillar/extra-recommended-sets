@@ -2545,10 +2545,9 @@ var kingdoms = [
     },
     {
         id: 361,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Desert Markets",
+        cards: ["Lighthouse", "Native Village", "Smugglers", "Caravan", "Tactician", "Camel Train", "Village Green", "Coven", "Kiln", "Animal Fair"],
+        landscapes: ["Banish", "Way of the Seal"],
         expansions: "seasidemenagerie"
     },
     {
