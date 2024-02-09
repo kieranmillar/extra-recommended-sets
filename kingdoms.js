@@ -2560,10 +2560,10 @@ var kingdoms = [
     },
     {
         id: 363,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Cloud Storage",
+        cards: ["Haven", "Warehouse", "Blockade", "Cutpurse", "Island", "Hostelry", "Barge", "Fisherman", "Hunting Lodge", "Livery"],
+        extras: ["Horse"],
+        landscapes: ["Alliance", "Way of the Squirrel"],
         expansions: "seasidemenagerie"
     },
     {
