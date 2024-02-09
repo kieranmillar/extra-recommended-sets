@@ -2552,10 +2552,10 @@ var kingdoms = [
     },
     {
         id: 362,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Avoiding Scurvy",
+        cards: ["Fishing Village", "Monkey", "Sailor", "Merchant Ship", "Outpost", "Sheepdog", "Stockpile", "Cardinal", "Falconer", "Mastermind"],
+        extras: ["Horse"],
+        landscapes: ["Bargain", "Way of the Rat"],
         expansions: "seasidemenagerie"
     },
     {
