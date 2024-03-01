@@ -2568,10 +2568,10 @@ var kingdoms = [
     },
     {
         id: 364,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Hiding in the Depths",
+        cards: ["Sea Chart", "Caravan", "Cutpurse", "Tide Pools", "Bazaar", "Black Cat", "Snowy Village", "Groom", "Displace", "Paddock"],
+        extras: ["Horse"],
+        landscapes: ["Commerce", "Way of the Worm"],
         expansions: "seasidemenagerie"
     },
     {
