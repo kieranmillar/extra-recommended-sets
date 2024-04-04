@@ -2576,10 +2576,10 @@ var kingdoms = [
     },
     {
         id: 365,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Swift Manoeuvre",
+        cards: ["Native Village", "Smugglers", "Cutpurse", "Merchant Ship", "Wharf", "Scrap", "Cardinal", "Livery", "Fisherman", "Destrier"],
+        extras: ["Horse"],
+        landscapes: ["Toil", "Way of the Butterfly"],
         expansions: "seasidemenagerie"
     },
     {
