@@ -121,6 +121,31 @@ button:active {
 	padding-inline-start: 1rem;
 }
 
+.copy__container {
+    display: flex;
+    gap: .5rem;
+    align-items: stretch;
+	position: relative;
+	z-index: 1;
+}
+
+p.copy__notice {
+	opacity: 0;
+    margin-block: 0;
+    background-color: #B4D59D;
+    padding: 0.1em 0.5em;
+    border: 2px solid #5DA548;
+	transition: none;
+	transform: translateX(-100%);
+	position: relative;
+	z-index: -1;
+}
+.copy__notice.active {
+	opacity: 1;
+	transition: all 100ms ease-in;
+	transform: none;
+}
+
 .error {
 	font-size: 1.5em;
 	font-weight: bold;

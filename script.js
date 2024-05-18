@@ -311,12 +311,28 @@ function createKingdomContainer(kingdom) {
 		container.appendChild(notesText);
 	}
 
+    let copyContainer = document.createElement("div")
+	copyContainer.classList.add("copy__container")
+
 	let clipboardButton = document.createElement("button");
 	clipboardButton.innerHTML = "Copy to clipboard";
-	container.appendChild(clipboardButton);
+	copyContainer.appendChild(clipboardButton);
+
+	let copyNotice = document.createElement("p")
+	copyNotice.innerHTML = "Copied"
+	copyNotice.classList.add("copy__notice")
+	copyContainer.appendChild(copyNotice)
+
 	clipboardButton.addEventListener("click", function () {
 		navigator.clipboard.writeText(clipboardString);
+		copyNotice.classList.add('active')
+
+		setTimeout(() => {
+			copyNotice.classList.remove('active')
+		}, 2000)
 	});
+
+	container.appendChild(copyContainer)
 
 	return container;
 }
