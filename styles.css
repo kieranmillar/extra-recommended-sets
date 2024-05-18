@@ -9,6 +9,33 @@ html {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+button {
+    background-color: lightgrey;
+    border: 2px solid black;
+    padding: .5em 1em;
+    font-weight: 600;
+	transition: all 50ms linear;
+}
+
+button.warning {
+	color: red;
+	background-color: white;
+	border: 2px solid red;
+}
+
+button.warning:focus,
+button.warning:hover,
+button.warnng:active {
+	background-color: red;
+	color: white;
+}
+
+button:focus,
+button:hover,
+button:active {
+	background-color: white;
+}
+
 #tabs {
 	display: flex;
 	flex-flow: row;
