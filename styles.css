@@ -114,7 +114,7 @@ button:active {
 	background-color: lightgray;
 }
 .played .kingdomName,
-.played .cards-list {
+.played .cardsList {
 	text-decoration: line-through;
 }
 
@@ -124,7 +124,7 @@ button:active {
 	padding-inline-start: 1rem;
 }
 
-.copy__container {
+.copyContainer {
     display: flex;
     gap: .5rem;
     align-items: stretch;
@@ -132,7 +132,7 @@ button:active {
 	z-index: 1;
 }
 
-p.copy__notice {
+p.copyNotice {
 	opacity: 0;
     margin-block: 0;
     background-color: #B4D59D;
@@ -143,7 +143,7 @@ p.copy__notice {
 	position: relative;
 	z-index: -1;
 }
-.copy__notice.active {
+.copyNotice.active {
 	opacity: 1;
 	transition: all 100ms ease-in;
 	transform: none;

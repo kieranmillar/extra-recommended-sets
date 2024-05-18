@@ -188,7 +188,7 @@ function createKingdomContainer(kingdom) {
 	let cardsString = "";
 	let clipboardString = "";
 	let cardsList = document.createElement("p");
-	cardsList.classList.add("cards-list")
+	cardsList.classList.add("cardsList")
 	for (let i = 0; i < kingdom.cards.length; i++) {
 		let card = kingdom.cards[i];
 		if (card == "Harem") {
@@ -313,7 +313,7 @@ function createKingdomContainer(kingdom) {
 	}
 
     let copyContainer = document.createElement("div")
-	copyContainer.classList.add("copy__container")
+	copyContainer.classList.add("copyContainer")
 
 	let clipboardButton = document.createElement("button");
 	clipboardButton.innerHTML = "Copy to clipboard";
@@ -321,7 +321,7 @@ function createKingdomContainer(kingdom) {
 
 	let copyNotice = document.createElement("p")
 	copyNotice.innerHTML = "Copied"
-	copyNotice.classList.add("copy__notice")
+	copyNotice.classList.add("copyNotice")
 	copyContainer.appendChild(copyNotice)
 
 	clipboardButton.addEventListener("click", function () {
