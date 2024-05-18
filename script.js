@@ -144,10 +144,17 @@ function getSets() {
 		loadOfficialPlayedKingdoms();
 	}
 
+
 	result.forEach(kingdom => {
 		let container = createKingdomContainer(kingdom);
 		kingdomContainerElement.appendChild(container);
 	});
+
+	kingdomContainerElement.scrollIntoView({
+		block: 'start',
+		inline: 'nearest',
+		behavior: 'smooth',
+	})
 }
 
 function createKingdomContainer(kingdom) {
@@ -200,7 +207,7 @@ function createKingdomContainer(kingdom) {
 		else {
 			clipboardString += clipboardSanitise(card, kingdom);
 		}
-		
+
 		if (kingdom.hasOwnProperty("bane")) {
 			if (card == "Young Witch") {
 				clipboardString += " (" + clipboardSanitise(kingdom.bane, kingdom) + ")";
