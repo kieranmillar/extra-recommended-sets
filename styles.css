@@ -9,7 +9,22 @@ html {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-p, li, label {
+body {
+	max-width: 960px;
+	margin-inline: auto;
+}
+
+p {
+	line-height: 1.5;
+	max-width: 60ch;
+}
+
+li {
+	line-height: 1.5;
+	max-width: 60ch;
+}
+
+label {
 	line-height: 1.5;
 }
 
