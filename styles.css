@@ -111,8 +111,11 @@ button:active {
 }
 
 .played {
-	text-decoration: line-through;
 	background-color: lightgray;
+}
+.played .kingdomName,
+.played .cards-list {
+	text-decoration: line-through;
 }
 
 .kingdomName {

@@ -188,6 +188,7 @@ function createKingdomContainer(kingdom) {
 	let cardsString = "";
 	let clipboardString = "";
 	let cardsList = document.createElement("p");
+	cardsList.classList.add("cards-list")
 	for (let i = 0; i < kingdom.cards.length; i++) {
 		let card = kingdom.cards[i];
 		if (card == "Harem") {
