@@ -9,6 +9,10 @@ html {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+p, li, label {
+	line-height: 1.5;
+}
+
 button {
     background-color: lightgrey;
     border: 2px solid black;
@@ -49,7 +53,7 @@ button:active {
 	flex: 1;
 	background-color: lightgrey;
 	border: 2px solid black;
-	padding: 5px;
+	padding: .3em .5em;
 	cursor: pointer;
 	margin-block: 0;
 	transition: all 50ms linear;
