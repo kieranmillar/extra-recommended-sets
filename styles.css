@@ -8,6 +8,7 @@ html {
 	font-size: 1rem;
 	font-family: Arial, Helvetica, sans-serif;
 	margin-inline: 5px;
+	scrollbar-gutter: stable;
 }
 
 body {
