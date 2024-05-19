@@ -144,10 +144,17 @@ function getSets() {
 		loadOfficialPlayedKingdoms();
 	}
 
+
 	result.forEach(kingdom => {
 		let container = createKingdomContainer(kingdom);
 		kingdomContainerElement.appendChild(container);
 	});
+
+	kingdomContainerElement.scrollIntoView({
+		block: 'start',
+		inline: 'nearest',
+		behavior: 'smooth',
+	})
 }
 
 function createKingdomContainer(kingdom) {
@@ -181,6 +188,7 @@ function createKingdomContainer(kingdom) {
 	let cardsString = "";
 	let clipboardString = "";
 	let cardsList = document.createElement("p");
+	cardsList.classList.add("cardsList")
 	for (let i = 0; i < kingdom.cards.length; i++) {
 		let card = kingdom.cards[i];
 		if (card == "Harem") {
@@ -200,7 +208,7 @@ function createKingdomContainer(kingdom) {
 		else {
 			clipboardString += clipboardSanitise(card, kingdom);
 		}
-		
+
 		if (kingdom.hasOwnProperty("bane")) {
 			if (card == "Young Witch") {
 				clipboardString += " (" + clipboardSanitise(kingdom.bane, kingdom) + ")";
@@ -304,12 +312,28 @@ function createKingdomContainer(kingdom) {
 		container.appendChild(notesText);
 	}
 
+    let copyContainer = document.createElement("div")
+	copyContainer.classList.add("copyContainer")
+
 	let clipboardButton = document.createElement("button");
 	clipboardButton.innerHTML = "Copy to clipboard";
-	container.appendChild(clipboardButton);
+	copyContainer.appendChild(clipboardButton);
+
+	let copyNotice = document.createElement("p")
+	copyNotice.innerHTML = "Copied"
+	copyNotice.classList.add("copyNotice")
+	copyContainer.appendChild(copyNotice)
+
 	clipboardButton.addEventListener("click", function () {
 		navigator.clipboard.writeText(clipboardString);
+		copyNotice.classList.add('active')
+
+		setTimeout(() => {
+			copyNotice.classList.remove('active')
+		}, 2000)
 	});
+
+	container.appendChild(copyContainer)
 
 	return container;
 }

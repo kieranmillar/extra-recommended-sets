@@ -14,6 +14,7 @@
 
 	<link rel="stylesheet" type="text/css" href="styles.css">
 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	<!--<link rel="icon" type="image/png" href="../favicon.png" />-->
 
 </head>
@@ -22,8 +23,8 @@
 	<h1>Extra Recommended Sets for Dominion</h1>
 
 	<div id="tabs">
-		<h3 id="tab_extras" class="tab active" onclick="goToLocation('extras')">Extra Sets</h3>
-		<h3 id="tab_official" class="tab" onclick="goToLocation('official')">Official Sets</h3>
+		<h3 id="tab_extras" class="tab active" onclick="goToLocation('extras')">Extra&nbsp;Sets</h3>
+		<h3 id="tab_official" class="tab" onclick="goToLocation('official')">Official&nbsp;Sets</h3>
 		<h3 id="tab_about" class="tab" onclick="goToLocation('about')">About</h3>
 		<h3 id="tab_faq" class="tab" onclick="goToLocation('faq')">FAQ</h3>
 		<h3 id="tab_changelog" class="tab" onclick="goToLocation('changelog')">Changelog</h3>
@@ -70,6 +71,7 @@
 			<input type="checkbox" id="plunder" name="plunder" value="plunder" disabled>
 			<label for="plunder">Plunder</label><br>
 
+			<br>
 			<button onclick="getSets()">Get Recommended Sets</button>
 
 			<p id="errors" class="error"></p>
@@ -100,7 +102,9 @@
 				<li><a href="https://github.com/kieranmillar/extra-recommended-sets/">This site's Github repo</a></li>
 			</ul>
 			<p>Use the button below to uncheck all of the kingdoms.</p>
-			<button onclick="wipeLocalData()">Wipe Local Data (Warning: Can't be undone!)</button>
+			<br>
+			<br>
+			<button class="warning" onclick="wipeLocalData()">Wipe Local Data (Warning: Can't be undone!)</button>
 		</div>
 
 		<div id="loc_faq" class="location">
@@ -167,6 +171,7 @@
 		<div id="loc_changelog" class="location">
 			<h1>Changelog</h1>
 			<ul>
+				<li>18th May 2024 - Style updates: More responsive on mobile, and other changes.</li>
 				<li>20th Nov 2023 - Intrigue+Menagerie extra sets and support for Farm replacing Harem</li>
 				<li>20th Aug 2023 - Base+Menagerie extra sets</li>
 				<li>27th May 2023 - Menagerie only extra sets</li>
