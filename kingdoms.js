@@ -2607,10 +2607,10 @@ var kingdoms = [
     },
     {
         id: 369,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Paddling Pool",
+        cards: ["Haven", "Astrolabe", "Fishing Village", "Merchant Ship", "Treasury", "Supplies", "Camel Train", "Bounty Hunter", "Displace", "Falconer"],
+        extras: ["Horse"],
+        landscapes: ["Seize the Day", "Way of the Chameleon"],
         expansions: "seasidemenagerie"
     },
     {
