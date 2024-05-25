@@ -2599,10 +2599,10 @@ var kingdoms = [
     },
     {
         id: 368,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Riding the Waves",
+        cards: ["Sea Chart", "Warehouse", "Bazaar", "Pirate", "Wharf", "Snowy Village", "Cavalry", "Gatekeeper", "Hunting Lodge", "Kiln"],
+        extras: ["Horse"],
+        landscapes: ["Reap", "Way of the Horse"],
         expansions: "seasidemenagerie"
     },
     {
