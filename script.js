@@ -162,6 +162,8 @@ function createKingdomContainer(kingdom) {
 	container.id = "kingdom" + kingdom.id;
 	container.classList.add("kingdom");
 
+	container.addEventListener('click', toggleSelectedKingdom)
+
 	let playedCheckbox = document.createElement("input");
 	playedCheckbox.type = "checkbox";
 	if (isExtras) {
@@ -324,7 +326,8 @@ function createKingdomContainer(kingdom) {
 	copyNotice.classList.add("copyNotice")
 	copyContainer.appendChild(copyNotice)
 
-	clipboardButton.addEventListener("click", function () {
+	clipboardButton.addEventListener("click", function (event) {
+		event.stopImmediatePropagation()
 		navigator.clipboard.writeText(clipboardString);
 		copyNotice.classList.add('active')
 
@@ -348,6 +351,20 @@ function togglePlayedKingdom(id) {
 		playedKingdoms.push(id);
 	}
 	savePlayedKingdoms();
+}
+function toggleSelectedKingdom(event) {
+	if (event.target.type === 'checkbox') {
+		return
+	}
+
+	const selectedKingdoms = document.querySelectorAll('.kingdom.selected')
+	selectedKingdoms.forEach((kingdom) => {
+		if (kingdom === event.currentTarget) {
+			return
+		}
+		kingdom.classList.remove('selected')
+	})
+	event.currentTarget.classList.toggle('selected')
 }
 
 function savePlayedKingdoms() {
