@@ -119,8 +119,10 @@ button:active {
 	text-decoration: line-through;
 }
 
+.kingdom:hover,
 .selected {
     background-color: #FAE9A2;
+	transition: background-color 50ms linear;
 }
 .selected .kingdomName,
 .selected .cardsList {
