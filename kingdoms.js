@@ -2591,10 +2591,10 @@ var kingdoms = [
     },
     {
         id: 367,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Bacon of Cope",
+        cards: ["Monkey", "Blockade", "Treasure Map", "Corsair", "Outpost", "Sleigh", "Supplies", "Goatherd", "Mastermind", "Animal Fair"],
+        extras: ["Horse"],
+        landscapes: ["Demand", "Way of the Pig"],
         expansions: "seasidemenagerie"
     },
     {
