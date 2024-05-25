@@ -2584,10 +2584,9 @@ var kingdoms = [
     },
     {
         id: 366,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Beacon of Hope",
+        cards: ["Lighthouse", "Salvager", "Tide Pools", "Pirate", "Sea Witch", "Stockpile", "Village Green", "Falconer", "Sanctuary", "Wayfarer"],
+        landscapes: ["Pursue", "Way of the Mule"],
         expansions: "seasidemenagerie"
     },
     {
