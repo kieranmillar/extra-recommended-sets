@@ -119,6 +119,14 @@ button:active {
 	text-decoration: line-through;
 }
 
+.selected {
+    background-color: #FAE9A2;
+}
+.selected .kingdomName,
+.selected .cardsList {
+	text-decoration: none;
+}
+
 .kingdomName {
 	font-size: 1.5em;
 	font-weight: bold;
