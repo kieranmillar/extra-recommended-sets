@@ -7,7 +7,6 @@
 html {
 	font-size: 1rem;
 	font-family: Arial, Helvetica, sans-serif;
-	margin-inline: 5px;
 	scrollbar-gutter: stable;
 
 	--black: #000000;
@@ -21,8 +20,7 @@ html {
 }
 
 body {
-	max-width: 960px;
-	margin-inline: auto;
+	margin: 0;
 }
 
 p {
@@ -80,6 +78,12 @@ button.secondary:active {
 	gap: 1rem;
 }
 
+.container {
+	max-width: 960px;
+	margin-inline: auto;
+	padding: 10px;
+}
+
 #tabs {
 	display: flex;
 	flex-flow: row;
@@ -108,7 +112,6 @@ button.secondary:active {
 }
 
 #locations {
-	padding: 5px;
 	overflow: auto;
 	height: 100%;
 }

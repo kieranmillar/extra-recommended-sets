@@ -161,6 +161,7 @@ function createKingdomContainer(kingdom) {
 	let container = document.createElement("div");
 	container.id = "kingdom" + kingdom.id;
 	container.classList.add("kingdom");
+	container.classList.add("container");
 
 	container.addEventListener('click', toggleSelectedKingdom)
 
