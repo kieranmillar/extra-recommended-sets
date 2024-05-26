@@ -7,13 +7,20 @@
 html {
 	font-size: 1rem;
 	font-family: Arial, Helvetica, sans-serif;
-	margin-inline: 5px;
 	scrollbar-gutter: stable;
+
+	--black: #000000;
+	--lightgrey: #d3d3d3;
+	--white: #ffffff;
+	--red: #ff0000;
+	--lightorange: #FAE9A2;
+	--orange: #CBA433;
+	--lightgreen: #B4D59D;
+	--green: #5DA548;
 }
 
 body {
-	max-width: 960px;
-	margin-inline: auto;
+	margin: 0;
 }
 
 p {
@@ -31,30 +38,50 @@ label {
 }
 
 button {
-    background-color: lightgrey;
-    border: 2px solid black;
+    background-color: var(--lightgrey);
+    border: 2px solid var(--black);
     padding: .5em 1em;
     font-weight: 600;
 	transition: all 50ms linear;
 }
 
+button:focus,
+button:hover,
+button:active {
+	background-color: var(--white);
+}
+
 button.warning {
-	color: red;
-	background-color: white;
-	border: 2px solid red;
+	color: var(--red);
+	background-color: var(--white);
+	border: 2px solid var(--red);
 }
 
 button.warning:focus,
 button.warning:hover,
 button.warnng:active {
-	background-color: red;
-	color: white;
+	background-color: var(--red);
+	color: var(--white);
 }
 
-button:focus,
-button:hover,
-button:active {
-	background-color: white;
+button.secondary {
+	background-color: var(--white);
+}
+button.secondary:focus,
+button.secondary:hover,
+button.secondary:active {
+	background-color: var(--lightorange);
+}
+
+.buttonGroup {
+	display: flex;
+	gap: 1rem;
+}
+
+.container {
+	max-width: 960px;
+	margin-inline: auto;
+	padding: 10px;
 }
 
 #tabs {
@@ -68,24 +95,23 @@ button:active {
 
 .tab {
 	flex: 1;
-	background-color: lightgrey;
-	border: 2px solid black;
+	background-color: var(--lightgrey);
+	border: 2px solid var(--black);
 	padding: .3em .5em;
 	cursor: pointer;
 	margin-block: 0;
 	transition: all 50ms linear;
 }
 .tab:hover {
-	background-color: white;
+	background-color: var(--white);
 }
 
 .tab.active {
-	background-color: white;
+	background-color: var(--white);
 	border-bottom: 0;
 }
 
 #locations {
-	padding: 5px;
 	overflow: auto;
 	height: 100%;
 }
@@ -108,11 +134,11 @@ button:active {
 }
 
 .kingdom+.kingdom {
-	border-top: 2px solid black;
+	border-top: 2px solid var(--black);
 }
 
 .played {
-	background-color: lightgray;
+	background-color: var(--lightgrey);
 }
 .played .kingdomName,
 .played .cardsList {
@@ -121,7 +147,7 @@ button:active {
 
 .kingdom:hover,
 .selected {
-    background-color: #FAE9A2;
+    background-color: var(--lightorange);
 	transition: background-color 50ms linear;
 }
 .selected .kingdomName,
@@ -146,9 +172,9 @@ button:active {
 p.copyNotice {
 	opacity: 0;
     margin-block: 0;
-    background-color: #B4D59D;
+    background-color: var(--lightgreen);
     padding: 0.1em 0.5em;
-    border: 2px solid #5DA548;
+    border: 2px solid var(--green);
 	transition: none;
 	transform: translateX(-100%);
 	position: relative;
@@ -163,5 +189,5 @@ p.copyNotice {
 .error {
 	font-size: 1.5em;
 	font-weight: bold;
-	color: red;
+	color: var(--red);
 }
