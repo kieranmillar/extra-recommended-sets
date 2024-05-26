@@ -15,6 +15,7 @@ html {
 	--white: #ffffff;
 	--red: #ff0000;
 	--lightorange: #FAE9A2;
+	--orange: #CBA433;
 	--lightgreen: #B4D59D;
 	--green: #5DA548;
 }
@@ -66,7 +67,17 @@ button.warnng:active {
 }
 
 button.secondary {
-	color:
+	background-color: var(--white);
+}
+button.secondary:focus,
+button.secondary:hover,
+button.secondary:active {
+	background-color: var(--lightorange);
+}
+
+.buttonGroup {
+	display: flex;
+	gap: 1rem;
 }
 
 #tabs {
