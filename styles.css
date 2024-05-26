@@ -9,6 +9,14 @@ html {
 	font-family: Arial, Helvetica, sans-serif;
 	margin-inline: 5px;
 	scrollbar-gutter: stable;
+
+	--black: black;
+	--lightgrey: lightgrey;
+	--white: white;
+	--red: red;
+	--lightorange: #FAE9A2;
+	--lightgreen: #B4D59D;
+	--green: #5DA548;
 }
 
 body {
@@ -31,30 +39,34 @@ label {
 }
 
 button {
-    background-color: lightgrey;
-    border: 2px solid black;
+    background-color: var(--lightgrey);
+    border: 2px solid var(--black);
     padding: .5em 1em;
     font-weight: 600;
 	transition: all 50ms linear;
 }
 
+button:focus,
+button:hover,
+button:active {
+	background-color: var(--white);
+}
+
 button.warning {
-	color: red;
-	background-color: white;
-	border: 2px solid red;
+	color: var(--red);
+	background-color: var(--white);
+	border: 2px solid var(--red);
 }
 
 button.warning:focus,
 button.warning:hover,
 button.warnng:active {
-	background-color: red;
-	color: white;
+	background-color: var(--red);
+	color: var(--white);
 }
 
-button:focus,
-button:hover,
-button:active {
-	background-color: white;
+button.secondary {
+	color:
 }
 
 #tabs {
@@ -68,19 +80,19 @@ button:active {
 
 .tab {
 	flex: 1;
-	background-color: lightgrey;
-	border: 2px solid black;
+	background-color: var(--lightgrey);
+	border: 2px solid var(--black);
 	padding: .3em .5em;
 	cursor: pointer;
 	margin-block: 0;
 	transition: all 50ms linear;
 }
 .tab:hover {
-	background-color: white;
+	background-color: var(--white);
 }
 
 .tab.active {
-	background-color: white;
+	background-color: var(--white);
 	border-bottom: 0;
 }
 
@@ -108,11 +120,11 @@ button:active {
 }
 
 .kingdom+.kingdom {
-	border-top: 2px solid black;
+	border-top: 2px solid var(--black);
 }
 
 .played {
-	background-color: lightgray;
+	background-color: var(--lightgrey);
 }
 .played .kingdomName,
 .played .cardsList {
@@ -121,7 +133,7 @@ button:active {
 
 .kingdom:hover,
 .selected {
-    background-color: #FAE9A2;
+    background-color: var(--lightorange);
 	transition: background-color 50ms linear;
 }
 .selected .kingdomName,
@@ -146,9 +158,9 @@ button:active {
 p.copyNotice {
 	opacity: 0;
     margin-block: 0;
-    background-color: #B4D59D;
+    background-color: var(--lightgreen);
     padding: 0.1em 0.5em;
-    border: 2px solid #5DA548;
+    border: 2px solid var(--green);
 	transition: none;
 	transform: translateX(-100%);
 	position: relative;
@@ -163,5 +175,5 @@ p.copyNotice {
 .error {
 	font-size: 1.5em;
 	font-weight: bold;
-	color: red;
+	color: var(--red);
 }
