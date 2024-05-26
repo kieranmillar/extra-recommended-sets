@@ -10,10 +10,10 @@ html {
 	margin-inline: 5px;
 	scrollbar-gutter: stable;
 
-	--black: black;
-	--lightgrey: lightgrey;
-	--white: white;
-	--red: red;
+	--black: #000000;
+	--lightgrey: #d3d3d3;
+	--white: #ffffff;
+	--red: #ff0000;
 	--lightorange: #FAE9A2;
 	--lightgreen: #B4D59D;
 	--green: #5DA548;
