@@ -141,7 +141,7 @@ button.secondary:active {
 	background-color: var(--lightgrey);
 }
 .played .kingdomName,
-.played .cardsList {
+.played p {
 	text-decoration: line-through;
 }
 
@@ -151,7 +151,7 @@ button.secondary:active {
 	transition: background-color 50ms linear;
 }
 .selected .kingdomName,
-.selected .cardsList {
+.selected p {
 	text-decoration: none;
 }
 

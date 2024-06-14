@@ -9,6 +9,7 @@ extras: An array of extra component names (optional)
 landscapes: An array of landscape names (optional)
 obelisk: The obelisk target, should already be listed in the cards list (optional)
 bane: Which card is the bane, should already be listed in the cards list (optional)
+ferryman: Which card is the ferryman target, should not be listed in the cards list (optional)
 mouse: Which card is the Way of the Mouse target, should not be listed in the cards list (optional)
 druid: An array of boons, 3 max (optional)
 traits: An array containing a comma separated list with pairs of cards, a trait first then the card it applies to next, both should already be in the cards and landscapes lists (optional)
@@ -153,39 +154,41 @@ var officialKingdoms = [
     {
         id: 21,
         name: "Bounty of the Hunt",
-        cards: ["Cellar", "Militia", "Moneylender", "Smithy", "Festival", "Menagerie", "Tournament", "Harvest", "Horn of Plenty", "Hunting Party"],
-        extras: ["Prizes"],
+        cards: ["Cellar", "Militia", "Moneylender", "Smithy", "Festival", "Menagerie", "Ferryman", "Horn of Plenty", "Hunting Party", "Joust"],
+        extras: ["Rewards"],
+        ferryman: "Farrier",
+        notes: "Farrier is not a legal choice for Ferryman, this is an error. Donald X suggests to play with it like this anyway.",
         expansions: "basecornguilds"
     },
     {
         id: 22,
-        name: "Bad Omens",
-        cards: ["Merchant", "Bureaucrat", "Poacher", "Throne Room", "Laboratory", "Hamlet", "Fortune Teller", "Remake", "Horn of Plenty", "Jester"],
-        expansions: "basecornguilds"
+        name: "",
+        cards: [],
+        expansions: "(removed)"
     },
     {
         id: 23,
-        name: "The Jester's Workshop",
-        cards: ["Merchant", "Workshop", "Remodel", "Laboratory", "Market", "Artisan", "Farming Village", "Horse Traders", "Young Witch", "Jester", "Fairgrounds"],
-        bane: "Merchant",
-        expansions: "basecornguilds"
+        name: "",
+        cards: [],
+        expansions: "(removed)"
     },
     {
         id: 24,
-        name: "Arts and Crafts",
-        cards: ["Cellar", "Workshop", "Moneylender", "Laboratory", "Festival", "Stonemason", "Advisor", "Baker", "Journeyman", "Merchant Guild"],
-        expansions: "basecornguilds"
+        name: "",
+        cards: [],
+        expansions: "(removed)"
     },
     {
         id: 25,
-        name: "Clean Living",
-        cards: ["Village", "Militia", "Moneylender", "Gardens", "Bandit", "Candlestick Maker", "Doctor", "Butcher", "Baker", "Soothsayer"],
-        expansions: "basecornguilds"
+        name: "",
+        cards: [],
+        expansions: "(removed)"
     },
     {
         id: 26,
         name: "Gilding the Lily",
-        cards: ["Merchant", "Remodel", "Library", "Market", "Sentry", "Candlestick Maker", "Masterpiece", "Plaza", "Taxman", "Herald"],
+        cards: ["Merchant", "Vassal", "Remodel", "Library", "Market", "Sentry", "Candlestick Maker", "Plaza", "Remake", "Young Witch", "Footpad"],
+        bane: "Vassal",
         expansions: "basecornguilds"
     },
     {
@@ -377,30 +380,29 @@ var officialKingdoms = [
     },
     {
         id: 54,
-        name: "Last Laughs",
-        cards: ["Pawn", "Steward", "Swindler", "Minion", "Nobles", "Farming Village", "Horse Traders", "Harvest", "Hunting Party", "Jester"],
-        expansions: "intriguecornguilds"
+        name: "",
+        cards: [],
+        expansions: "(removed)"
     },
     {
         id: 55,
         name: "The Spice of Life",
-        cards: ["Courtyard", "Wishing Well", "Diplomat", "Mining Village", "Courtier", "Replace", "Remake", "Tournament", "Young Witch", "Horn of Plenty", "Fairgrounds"],
-        extras: ["Prizes"],
+        cards: ["Courtyard", "Wishing Well", "Diplomat", "Mining Village", "Courtier", "Replace", "Remake", "Young Witch", "Horn of Plenty", "Joust", "Fairgrounds"],
+        extras: ["Rewards"],
         bane: "Wishing Well",
         expansions: "intriguecornguilds"
     },
     {
         id: 56,
-        name: "Small Victories",
-        cards: ["Pawn", "Conspirator", "Secret Passage", "Duke", "Harem", "Hamlet", "Fortune Teller", "Remake", "Tournament", "Hunting Party"],
-        extras: ["Prizes"],
-        expansions: "intriguecornguilds"
+        name: "",
+        cards: [],
+        expansions: "(removed)"
     },
     {
         id: 57,
-        name: "Name That Card",
-        cards: ["Courtyard", "Wishing Well", "Replace", "Harem", "Nobles", "Doctor", "Masterpiece", "Advisor", "Plaza", "Baker"],
-        expansions: "intriguecornguilds"
+        name: "",
+        cards: [],
+        expansions: "(removed)"
     },
     {
         id: 58,
@@ -410,9 +412,9 @@ var officialKingdoms = [
     },
     {
         id: 59,
-        name: "Decision, Decisions",
-        cards: ["Pawn", "Bridge", "Mining Village", "Duke", "Upgrade", "Candlestick Maker", "Masterpiece", "Taxman", "Butcher", "Merchant Guild"],
-        expansions: "intriguecornguilds"
+        name: "",
+        cards: [],
+        expansions: "(removed)"
     },
     {
         id: 60,
@@ -564,8 +566,8 @@ var officialKingdoms = [
     },
     {
         id: 81,
-        name: "Collector",
-        cards: ["Fishing Village", "Smugglers", "Blockade", "Tide Pools", "Merchant Ship", "Fortune Teller", "Farming Village", "Harvest", "Hunting Party", "Fairgrounds"],
+        name: "Collecting",
+        cards: ["Fishing Village", "Monkey", "Smugglers", "Blockade", "Tide Pools", "Farrier", "Farmhands", "Footpad", "Hunting Party", "Fairgrounds"],
         expansions: "seasidecornguilds"
     },
     {
@@ -708,31 +710,27 @@ var officialKingdoms = [
     {
         id: 101,
         name: "Clown College",
-        cards: ["University", "Alchemist", "Familiar", "Philosopher's Stone", "Golem", "Menagerie", "Horse Traders", "Remake", "Harvest", "Jester"],
+        cards: ["University", "Apothecary", "Familiar", "Golem", "Candlestick Maker", "Infirmary", "Menagerie", "Herald", "Carnival", "Jester"],
         extras: ["Potion"],
         expansions: "alchemycornguilds"
     },
     {
         id: 102,
-        name: "Wine & Dine",
-        cards: ["Transmute", "Vineyard", "Apothecary", "Herbalist", "Scrying Pool", "Apprentice", "Hamlet", "Young Witch", "Horn of Plenty", "Hunting Party", "Fairgrounds"],
-        extras: ["Potion"],
-        bane: "Herbalist",
-        expansions: "alchemycornguilds"
+        name: "",
+        cards: [],
+        expansions: "(removed)"
     },
     {
         id: 103,
-        name: "Illuminati",
-        cards: ["Scrying Pool", "University", "Philosopher's Stone", "Golem", "Apprentice", "Stonemason", "Masterpiece", "Herald", "Butcher", "Merchant Guild"],
-        extras: ["Potion"],
-        expansions: "alchemycornguilds"
+        name: "",
+        cards: [],
+        expansions: "(removed)"
     },
     {
         id: 104,
-        name: "Tonics & Toxins",
-        cards: ["Transmute", "Vineyard", "Herbalist", "Alchemist", "Familiar", "Candlestick Maker", "Doctor", "Plaza", "Baker", "Soothsayer"],
-        extras: ["Potion"],
-        expansions: "alchemycornguilds"
+        name: "",
+        cards: [],
+        expansions: "(removed)"
     },
     {
         id: 105,
@@ -844,9 +842,9 @@ var officialKingdoms = [
     {
         id: 119,
         name: "Detours",
-        cards: ["Clerk", "Crystal Ball", "Magnate", "Hoard", "Forge", "Farming Village", "Remake", "Tournament", "Horn of Plenty", "Jester"],
+        cards: ["Clerk", "Crystal Ball", "Magnate", "Hoard", "Forge", "Farmhands", "Remake", "Horn of Plenty", "Jester", "Joust"],
         colony: true,
-        extras: ["Prizes"],
+        extras: ["Rewards"],
         expansions: "prosperitycornguilds"
     },
     {
@@ -1010,8 +1008,9 @@ var officialKingdoms = [
     {
         id: 141,
         name: "Blue Harvest",
-        cards: ["Fool's Gold", "Trail", "Tunnel", "Weaver", "Witch's Hut", "Hamlet", "Horse Traders", "Tournament", "Horn of Plenty", "Jester"],
-        extras: ["Prizes"],
+        cards: ["Fool's Gold", "Trail", "Tunnel", "Weaver", "Witch's Hut", "Farrier", "Hamlet", "Ferryman", "Horn of Plenty", "Joust"],
+        extras: ["Rewards"],
+        ferryman: "Guard Dog",
         expansions: "hinterlandscornguilds"
     },
     {
@@ -1023,7 +1022,8 @@ var officialKingdoms = [
     {
         id: 143,
         name: "Exchanges",
-        cards: ["Develop", "Trader", "Cauldron", "Stables", "Border Village", "Stonemason", "Masterpiece", "Herald", "Butcher", "Soothsayer"],
+        cards: ["Develop", "Oasis", "Trader", "Cauldron", "Stables", "Border Village", "Stonemason", "Herald", "Young Witch", "Butcher", "Soothsayer"],
+        bane: "Oasis",
         expansions: "hinterlandscornguilds"
     },
     {
@@ -1142,33 +1142,31 @@ var officialKingdoms = [
     {
         id: 159,
         name: "Dark Carnival",
-        cards: ["Hermit", "Fortress", "Band of Misfits", "Cultist", "Junk Dealer", "Hamlet", "Menagerie", "Knights", "Horn of Plenty", "Fairgrounds"],
+        cards: ["Hermit", "Death Cart", "Cultist", "Junk Dealer", "Knights", "Hamlet", "Menagerie", "Ferryman", "Horn of Plenty", "Fairgrounds"],
         shelters: true,
         extras: ["Madman", "Ruins"],
+        ferryman: "Fortress",
         expansions: "darkagescornguilds"
     },
     {
         id: 160,
-        name: "To the Victor",
-        cards: ["Death Cart", "Marauder", "Bandit Camp", "Counterfeit", "Pillage", "Sage", "Remake", "Tournament", "Harvest", "Hunting Party"],
-        shelters: true,
-        extras: ["Prizes", "Ruins", "Spoils"],
-        expansions: "darkagescornguilds"
+        name: "",
+        cards: [],
+        expansions: "(removed)"
     },
     {
         id: 161,
         name: "Stoneground",
-        cards: ["Ironmonger", "Procession", "Marauder", "Rogue", "Hunting Grounds", "Candlestick Maker", "Stonemason", "Advisor", "Plaza", "Baker"],
+        cards: ["Ironmonger", "Procession", "Marauder", "Rogue", "Hunting Grounds", "Farrier", "Stonemason", "Shop", "Advisor", "Plaza"],
         shelters: true,
         extras: ["Ruins", "Spoils"],
         expansions: "darkagescornguilds"
     },
     {
         id: 162,
-        name: "Class Struggle",
-        cards: ["Poor House", "Market Square", "Feodum", "Fortress", "Knights", "Doctor", "Taxman", "Butcher", "Journeyman", "Merchant Guild"],
-        shelters: true,
-        expansions: "darkagescornguilds"
+        name: "",
+        cards: [],
+        expansions: "(removed)"
     },
     {
         id: 163,
@@ -1288,87 +1286,86 @@ var officialKingdoms = [
     {
         id: 176,
         name: "Misfortune",
-        cards: ["Candlestick Maker", "Doctor", "Fortune Teller", "Advisor", "Farming Village", "Horse Traders", "Taxman", "Jester", "Soothsayer", "Fairgrounds"],
+        cards: ["Candlestick Maker", "Infirmary", "Advisor", "Farmhands", "Carnival", "Horn of Plenty", "Jester", "Merchant Guild", "Soothsayer", "Fairgrounds"],
         expansions: "cornguilds"
     },
     {
         id: 177,
         name: "Baking Contest",
-        cards: ["Stonemason", "Masterpiece", "Menagerie", "Farming Village", "Herald", "Remake", "Tournament", "Baker", "Harvest", "Journeyman"],
-        extras: ["Prizes"],
+        cards: ["Farrier", "Hamlet", "Stonemason", "Menagerie", "Shop", "Herald", "Remake", "Baker", "Hunting Party", "Joust"],
+        extras: ["Rewards"],
         expansions: "cornguilds"
     },
     {
         id: 178,
         name: "The Hero's Return",
-        cards: ["Menagerie", "Farming Village", "Horse Traders", "Jester", "Fairgrounds", "Page", "Miser", "Ranger", "Artificer", "Relic"],
+        cards: ["Menagerie", "Shop", "Farmhands", "Carnival", "Footpad", "Page", "Miser", "Ranger", "Artificer", "Relic"],
         extras: ["Treasure Hunter", "Warrior", "Hero", "Champion"],
         landscapes: ["Travelling Fair"],
         expansions: "cornguildsadventures"
     },
     {
         id: 179,
-        name: "Seacraft and Witchcraft",
-        cards: ["Hamlet", "Fortune Teller", "Tournament", "Young Witch", "Horn of Plenty", "Peasant", "Guide", "Transmogrify", "Storyteller", "Swamp Hag", "Wine Merchant"],
-        extras: ["Prizes", "Soldier", "Fugitive", "Disciple", "Teacher"],
-        landscapes: ["Ferry", "Seaway"],
-        bane: "Guide",
-        expansions: "cornguildsadventures"
+        name: "",
+        cards: [],
+        expansions: "(removed)"
     },
     {
         id: 180,
-        name: "Spendthrift",
-        cards: ["Stonemason", "Doctor", "Masterpiece", "Merchant Guild", "Soothsayer", "Gear", "Magpie", "Miser", "Artificer", "Storyteller"],
-        landscapes: ["Lost Arts"],
-        expansions: "cornguildsadventures"
+        name: "",
+        cards: [],
+        expansions: "(removed)"
     },
     {
         id: 181,
         name: "Queen of Tan",
-        cards: ["Candlestick Maker", "Advisor", "Herald", "Butcher", "Journeyman", "Coin of the Realm", "Ratcatcher", "Guide", "Duplicate", "Royal Carriage"],
+        cards: ["Advisor", "Herald", "Young Witch", "Journeyman", "Merchant Guild", "Coin of the Realm", "Ratcatcher", "Guide", "Duplicate", "Transmogrify", "Royal Carriage"],
         landscapes: ["Pathfinding", "Save"],
+        bane: "Coin of the Realm",
         expansions: "cornguildsadventures"
     },
     {
         id: 182,
         name: "Zookeepers",
-        cards: ["Menagerie", "Horse Traders", "Tournament", "Jester", "Fairgrounds", "Overlord", "Settlers / Bustling Village", "Sacrifice", "Villa", "Wild Hunt"],
-        extras: ["Prizes"],
+        cards: ["Menagerie", "Shop", "Remake", "Ferryman", "Jester", "Overlord", "Settlers / Bustling Village", "Sacrifice", "Groundskeeper", "Wild Hunt"],
         landscapes: ["Annex", "Colonnade"],
+        ferryman: "Villa",
         expansions: "cornguildsempires"
     },
     {
         id: 183,
         name: "Cash Flow",
-        cards: ["Doctor", "Herald", "Baker", "Butcher", "Soothsayer", "Engineer", "City Quarter", "Royal Blacksmith", "Castles", "Gladiator / Fortune"],
+        cards: ["Infirmary", "Herald", "Baker", "Carnival", "Soothsayer", "Engineer", "City Quarter", "Royal Blacksmith", "Castles", "Gladiator / Fortune"],
         landscapes: ["Baths", "Mountain Pass"],
         expansions: "cornguildsempires"
     },
     {
         id: 184,
         name: "The Endless Fair",
-        cards: ["Fortune Teller", "Farming Village", "Baker", "Merchant Guild", "Fairgrounds", "Monastery", "Pixie", "Devil's Workshop", "Exorcist", "Shepherd"],
+        cards: ["Farmhands", "Baker", "Carnival", "Merchant Guild", "Fairgrounds", "Monastery", "Pixie", "Devil's Workshop", "Exorcist", "Shepherd"],
         extras: ["Goat", "Pasture", "Boons", "Will-O'-Wisp", "Imp", "Ghost"],
         expansions: "cornguildsnocturne"
     },
     {
         id: 185,
         name: "Happy Chaos",
-        cards: ["Doctor", "Masterpiece", "Herald", "Harvest", "Jester", "Faithful Hound", "Changeling", "Fool", "Blessed Village", "Sacred Grove"],
-        extras: ["Lucky Coin", "Boons", "Will-O'-Wisp"],
+        cards: ["Infirmary", "Shop", "Young Witch", "Carnival", "Jester", "Faithful Hound", "Changeling", "Leprechaun", "Secret Cave", "Blessed Village", "Sacred Grove"],
+        extras: ["Magic Lamp", "Boons", "Hexes", "Will-O'-Wisp", "Wish"],
+        bane: "Leprechaun",
         expansions: "cornguildsnocturne"
     },
     {
         id: 186,
         name: "Combo Corner",
-        cards: ["Stonemason", "Herald", "Horse Traders", "Horn of Plenty", "Jester", "Ducat", "Experiment", "Hideout", "Sculptor", "Seer"],
+        cards: ["Farrier", "Stonemason", "Ferryman", "Horn of Plenty", "Jester", "Ducat", "Experiment", "Hideout", "Sculptor", "Seer"],
         landscapes: ["Canal"],
+        ferryman: "Mountain Village",
         expansions: "cornguildsrenaissance"
     },
     {
         id: 187,
         name: "Filling the Coffers",
-        cards: ["Menagerie", "Plaza", "Baker", "Butcher", "Merchant Guild", "Priest", "Recruiter", "Spices", "Swashbuckler", "Treasurer"],
+        cards: ["Farrier", "Plaza", "Baker", "Butcher", "Merchant Guild", "Priest", "Recruiter", "Spices", "Swashbuckler", "Treasurer"],
         extras: ["Key", "Treasure Chest"],
         landscapes: ["City Gate", "Star Chart"],
         expansions: "cornguildsrenaissance"
@@ -1376,7 +1373,7 @@ var officialKingdoms = [
     {
         id: 188,
         name: "Living in Exile",
-        cards: ["Hamlet", "Taxman", "Jester", "Journeyman", "Fairgrounds", "Scrap", "Stockpile", "Hostelry", "Gatekeeper", "Livery"],
+        cards: ["Hamlet", "Infirmary", "Farmhands", "Footpad", "Journeyman", "Scrap", "Stockpile", "Hostelry", "Gatekeeper", "Livery"],
         extras: ["Horse"],
         landscapes: ["Enclave", "Way of the Mule"],
         expansions: "cornguildsmenagerie"
@@ -1384,22 +1381,22 @@ var officialKingdoms = [
     {
         id: 189,
         name: "Thrill of the Hunt",
-        cards: ["Menagerie", "Horse Traders", "Tournament", "Butcher", "Hunting Party", "Black Cat", "Camel Train", "Bounty Hunter", "Village Green", "Mastermind"],
-        extras: ["Prizes"],
+        cards: ["Hamlet", "Butcher", "Carnival", "Hunting Party", "Joust", "Black Cat", "Camel Train", "Bounty Hunter", "Village Green", "Mastermind"],
+        extras: ["Rewards"],
         landscapes: ["Pursue", "Way of the Rat"],
         expansions: "cornguildsmenagerie"
     },
     {
         id: 190,
         name: "Huge Collections",
-        cards: ["Menagerie", "Advisor", "Plaza", "Hunting Party", "Fairgrounds", "Clashes", "Forts", "Sentinel", "Contract", "Galleria"],
+        cards: ["Shop", "Advisor", "Plaza", "Hunting Party", "Fairgrounds", "Clashes", "Forts", "Sentinel", "Contract", "Galleria"],
         landscapes: ["Woodworker's Guild"],
         expansions: "cornguildsallies"
     },
     {
         id: 191,
         name: "Forest Scouts",
-        cards: ["Candlestick Maker", "Farming Village", "Baker", "Jester", "Journeyman", "Augurs", "Sentinel", "Innkeeper", "Royal Galley", "Emissary"],
+        cards: ["Candlestick Maker", "Farmhands", "Baker", "Footpad", "Journeyman", "Augurs", "Sentinel", "Innkeeper", "Royal Galley", "Emissary"],
         landscapes: ["Forest Dwellers"],
         expansions: "cornguildsallies"
     },
@@ -1853,7 +1850,7 @@ var officialKingdoms = [
     {
         id: 249,
         name: "Of Heralds and Hunters",
-        cards: ["Stonemason", "Doctor", "Herald", "Soothsayer", "Fairgrounds", "Cabin Boy", "Flagship", "Fortune Hunter", "Pendant", "Pickaxe"],
+        cards: ["Stonemason", "Infirmary", "Herald", "Soothsayer", "Fairgrounds", "Cabin Boy", "Flagship", "Fortune Hunter", "Pendant", "Pickaxe"],
         landscapes: ["Inspiring"],
         traits: ["Inspiring", "Fortune Hunter"],
         expansions: "cornguildsplunder"
