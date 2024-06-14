@@ -217,6 +217,12 @@ function createKingdomContainer(kingdom) {
 				clipboardString += " (" + clipboardSanitise(kingdom.bane, kingdom) + ")";
 			}
 		}
+
+		if (kingdom.hasOwnProperty("ferryman")) {
+			if (card == "Ferryman") {
+				clipboardString += " (" + clipboardSanitise(kingdom.ferryman, kingdom) + ")";
+			}
+		}
 		clipboardString += ", ";
 	};
 	cardsString = cardsString.slice(0, -2);
@@ -281,19 +287,20 @@ function createKingdomContainer(kingdom) {
 	if (kingdom.hasOwnProperty("notes") ||
 		kingdom.hasOwnProperty("obelisk") ||
 		kingdom.hasOwnProperty("bane") ||
+		kingdom.hasOwnProperty("ferryman") ||
 		kingdom.hasOwnProperty("druid") ||
 		kingdom.hasOwnProperty("mouse") ||
 		kingdom.hasOwnProperty("traits")) {
 		let notesText = document.createElement("p");
 		let notesString = "<strong>Notes: </strong>";
-		if (kingdom.hasOwnProperty("notes")) {
-			notesString += kingdom.notes + " ";
-		}
 		if (kingdom.hasOwnProperty("obelisk")) {
 			notesString += kingdom.obelisk + " is the Obelisk target. ";
 		}
 		if (kingdom.hasOwnProperty("bane")) {
 			notesString += kingdom.bane + " is the Bane. ";
+		}
+		if (kingdom.hasOwnProperty("ferryman")) {
+			notesString += kingdom.ferryman + " is the Ferryman target. ";
 		}
 		if (kingdom.hasOwnProperty("druid")) {
 			notesString += "Druid boons are ";
@@ -310,6 +317,9 @@ function createKingdomContainer(kingdom) {
 			for (let i = 0; i < kingdom.traits.length; i += 2) {
 				notesString += kingdom.traits[i + 1] + " is " + kingdom.traits[i] + ". ";
 			}
+		}
+		if (kingdom.hasOwnProperty("notes")) {
+			notesString += kingdom.notes + " ";
 		}
 		notesText.innerHTML = notesString;
 		container.appendChild(notesText);
