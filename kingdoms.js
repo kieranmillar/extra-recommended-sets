@@ -13,6 +13,7 @@ ferryman: Which card is the ferryman target, should not be listed in the cards l
 mouse: Which card is the Way of the Mouse target, should not be listed in the cards list (optional)
 druid: An array of boons, 3 max (optional)
 traits: An array containing a comma separated list with pairs of cards, a trait first then the card it applies to next, both should already be in the cards and landscapes lists (optional)
+riverboat: Which card is the Riverboat target, should not be listed in the cards list (optional)
 notes: Any extra notes (optional)
 expansions: Concatenated string of expansions required, matching checkbox names in order, no spaces
 -----*/

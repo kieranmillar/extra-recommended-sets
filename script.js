@@ -25,7 +25,8 @@ var checkboxElements = [
 	document.getElementById("renaissance"),
 	document.getElementById("menagerie"),
 	document.getElementById("allies"),
-	document.getElementById("plunder")
+	document.getElementById("plunder"),
+	document.getElementById("risingsun")
 ];
 var errorsElement = document.getElementById("errors");
 var kingdomContainerElement = document.getElementById("kingdomContainer");
@@ -57,6 +58,7 @@ function goToLocation(loc) {
 			checkboxElements[10].disabled = true;
 			checkboxElements[13].disabled = true;
 			checkboxElements[14].disabled = true;
+			checkboxElements[15].disabled = true;
 			kingdomsTitleElement.textContent = "Extra Recommended Sets";
 			clearSets();
 			break;
@@ -72,6 +74,7 @@ function goToLocation(loc) {
 			checkboxElements[10].disabled = false;
 			checkboxElements[13].disabled = false;
 			checkboxElements[14].disabled = false;
+			checkboxElements[15].disabled = false;
 			kingdomsTitleElement.textContent = "Official Recommended Sets";
 			clearSets();
 			break;
@@ -223,6 +226,12 @@ function createKingdomContainer(kingdom) {
 				clipboardString += " (" + clipboardSanitise(kingdom.ferryman, kingdom) + ")";
 			}
 		}
+
+		if (kingdom.hasOwnProperty("riverboat")) {
+			if (card == "Riverboat") {
+				clipboardString += " (" + clipboardSanitise(kingdom.riverboat, kingdom) + ")";
+			}
+		}
 		clipboardString += ", ";
 	};
 	cardsString = cardsString.slice(0, -2);
@@ -290,7 +299,8 @@ function createKingdomContainer(kingdom) {
 		kingdom.hasOwnProperty("ferryman") ||
 		kingdom.hasOwnProperty("druid") ||
 		kingdom.hasOwnProperty("mouse") ||
-		kingdom.hasOwnProperty("traits")) {
+		kingdom.hasOwnProperty("traits") ||
+		kingdom.hasOwnProperty("riverboat")) {
 		let notesText = document.createElement("p");
 		let notesString = "<strong>Notes: </strong>";
 		if (kingdom.hasOwnProperty("obelisk")) {
@@ -301,6 +311,9 @@ function createKingdomContainer(kingdom) {
 		}
 		if (kingdom.hasOwnProperty("ferryman")) {
 			notesString += kingdom.ferryman + " is the Ferryman target. ";
+		}
+		if (kingdom.hasOwnProperty("riverboat")) {
+			notesString += kingdom.riverboat + " is the Riverboat target. ";
 		}
 		if (kingdom.hasOwnProperty("druid")) {
 			notesString += "Druid boons are ";
