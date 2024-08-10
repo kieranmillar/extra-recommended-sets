@@ -13,6 +13,7 @@ ferryman: Which card is the ferryman target, should not be listed in the cards l
 mouse: Which card is the Way of the Mouse target, should not be listed in the cards list (optional)
 druid: An array of boons, 3 max (optional)
 traits: An array containing a comma separated list with pairs of cards, a trait first then the card it applies to next, both should already be in the cards and landscapes lists (optional)
+riverboat: Which card is the Riverboat target, should not be listed in the cards list (optional)
 notes: Any extra notes (optional)
 expansions: Concatenated string of expansions required, matching checkbox names in order, no spaces
 -----*/
@@ -1963,5 +1964,249 @@ var officialKingdoms = [
         landscapes: ["Bury", "Shy"],
         traits: ["Shy", "Merchant Camp"],
         expansions: "alliesplunder"
+    },
+    {
+        id: 263,
+        name: "Heading East",
+        cards: ["Alley", "Artist", "Craftsman", "Fishmonger", "Litter", "Rice", "River Shrine", "Rustic Village", "Samurai", "Tea House"],
+        landscapes: ["Progress"],
+        expansions: "risingsun"
+    },
+    {
+        id: 264,
+        name: "Dawn of an Era",
+        cards: ["Aristocrat", "Change", "Daimyo", "Gold Mine", "Imperial Envoy", "Kitsune", "Mountain Shrine", "Ninja", "Rice Broker", "Ronin"],
+        landscapes: ["Practice", "Kind Emperor"],
+        expansions: "risingsun"
+    },
+    {
+        id: 265,
+        name: "Spring Forward",
+        cards: ["Artisan", "Harbinger", "Smithy", "Throne Room", "Workshop", "Gold Mine", "Mountain Shrine", "Riverboat", "Root Cellar", "Tanuki"],
+        landscapes: ["Rapid Expansion"],
+        riverboat: "Market",
+        expansions: "baserisingsun"
+    },
+    {
+        id: 266,
+        name: "Money to Burn",
+        cards: ["Bureaucrat", "Cellar", "Festival", "Merchant", "Poacher", "Change", "Craftsman", "Poet", "Ronin", "Snake Witch"],
+        landscapes: ["Panic", "Gather"],
+        expansions: "baserisingsun"
+    },
+    {
+        id: 267,
+        name: "Solving the Puzzle",
+        cards: ["Conspirator", "Courtier", "Ironworks", "Lurker", "Wishing Well", "Artist", "Gold Mine", "Mountain Shrine", "Riverboat", "Ronin"],
+        landscapes: ["Enlightenment"],
+        riverboat: "Upgrade",
+        expansions: "intriguerisingsun"
+    },
+    {
+        id: 268,
+        name: "Cold Calculation",
+        cards: ["Baron", "Diplomat", "Duke", "Secret Passage", "Shanty Town", "Craftsman", "Ninja", "Snake Witch", "Tea House", "Tanuki"],
+        landscapes: ["Harsh Winter, Amass"],
+        expansions: "intriguerisingsun"
+    },
+    {
+        id: 269,
+        name: "Invasion Fleet",
+        cards: ["Blockade", "Corsair", "Outpost", "Salvager", "Sea Chart", "Treasure Map", "Alley", "Kitsune", "Ninja", "Rice Broker", "Riverboat"],
+        landscapes: ["Approaching Army"],
+        riverboat: "Bazaar",
+        expansions: "seasiderisingsun"
+    },
+    {
+        id: 270,
+        name: "Island People",
+        cards: ["Caravan", "Haven", "Pirate", "Sea Witch", "Tide Pools", "Craftsman", "Imperial Envoy", "Rice", "River Shrine", "Snake Witch"],
+        landscapes: ["Great Leader", "Kintsugi"],
+        expansions: "seasiderisingsun"
+    },
+    {
+        id: 271,
+        name: "Fast Track",
+        cards: ["Alchemist", "Golem", "University", "Vineyard", "Fishmonger", "Imperial Envoy", "Riverboat", "Root Cellar", "Rustic Village", "Samurai"],
+        landscapes: ["Progress"],
+        riverboat: "Apprentice",
+        expansions: "alchemyrisingsun"
+    },
+    {
+        id: 272,
+        name: "Lazy Mischief",
+        cards: ["Apothecary", "Familiar", "Herbalist", "Transmute", "Alley", "Aristocrat", "Change", "Kitsune", "Litter", "Ninja"],
+        landscapes: ["Biding Time", "Receive Tribute"],
+        expansions: "alchemyrisingsun"
+    },
+    {
+        id: 273,
+        name: "River Trade",
+        cards: ["Anvil", "Collection", "Crystal Ball", "Grand Market", "War Chest", "Craftsman", "Litter", "River Shrine", "Riverboat", "Root Cellar"],
+        landscapes: ["Flourishing Trade"],
+        riverboat: "City",
+        colony: true,
+        expansions: "prosperityrisingsun"
+    },
+    {
+        id: 274,
+        name: "Autumn Harvest",
+        cards: ["Bank", "Investment", "Magnate", "Quarry", "Watchtower", "Aristocrat", "Change", "Imperial Envoy", "Ninja", "Rustic Village"],
+        landscapes: ["Good Harvest", "Continue"],
+        colony: true,
+        expansions: "prosperityrisingsun"
+    },
+    {
+        id: 275,
+        name: "Winter Solstice",
+        cards: ["Advisor", "Baker", "Farrier", "Hunting Party", "Jester", "Change", "Daimyo", "Gold Mine", "Snake Witch", "Tea House"],
+        landscapes: ["Harsh Winter"],
+        expansions: "cornguildsrisingsun"
+    },
+    {
+        id: 276,
+        name: "From the Shadows",
+        cards: ["Carnival", "Farmhands", "Horn of Plenty", "Infirmary", "Shop", "Alley", "Artist", "Fishmonger", "Poet", "Tanuki"],
+        landscapes: ["Rapid Expansion", "Gather"],
+        expansions: "cornguildsrisingsun"
+    },
+    {
+        id: 277,
+        name: "Swift Hands",
+        cards: ["Cauldron", "Haggler", "Oasis", "Scheme", "Weaver", "Alley", "Ronin", "Rustic Village", "Samurai", "Snake Witch"],
+        landscapes: ["Progress"],
+        expansions: "hinterlandsrisingsun"
+    },
+    {
+        id: 278,
+        name: "Paperwork",
+        cards: ["Border Village", "Crossroads", "Spice Merchant", "Tunnel", "Wheelwright", "Craftsman", "Imperial Envoy", "River Shrine", "Riverboat", "Tanuki"],
+        landscapes: ["Bureaucracy", "Foresight"],
+        riverboat: "Witch's Hut",
+        expansions: "hinterlandsrisingsun"
+    },
+    {
+        id: 279,
+        name: "Pandemic",
+        cards: ["Catacombs", "Procession", "Rogue", "Scavenger", "Vagrant", "Aristocrat", "Fishmonger", "Litter", "Mountain Shrine", "Rice Broker"],
+        landscapes: ["Sickness"],
+        shelters: true,
+        expansions: "darkagesrisingsun"
+    },
+    {
+        id: 280,
+        name: "Distant Hordes",
+        cards: ["Armory", "Forager", "Hermit", "Hunting Grounds", "Knights", "Squire", "Poet", "Rice", "Ronin", "Samurai", "Snake Witch"],
+        landscapes: ["Approaching Army", "Asceticism"],
+        shelters: true,
+        extras: ["Madman"],
+        expansions: "darkagesrisingsun"
+    },
+    {
+        id: 281,
+        name: "Wanderers",
+        cards: ["Amulet", "Caravan Guard", "Guide", "Hireling", "Miser", "Imperial Envoy", "Litter", "Poet", "Ronin", "Tanuki"],
+        landscapes: ["Flourishing Trade", "Ball"],
+        expansions: "adventuresrisingsun"
+    },
+    {
+        id: 282,
+        name: "Hero's Journey",
+        cards: ["Artificer", "Distant Lands", "Dungeon", "Duplicate", "Page", "Aristocrat", "Artist", "Kitsune", "Root Cellar", "Samurai"],
+        landscapes: ["Biding Time", "Kintsugi"],
+        extras: ["Treasure Hunter", "Warrior", "Hero", "Champion"],
+        expansions: "adventuresrisingsun"
+    },
+    {
+        id: 283,
+        name: "Summer Castles",
+        cards: ["Capital", "Castles", "City Quarter", "Forum", "Patrician / Emporium", "Aristocrat", "Change", "Rice", "River Shrine", "Snake Witch"],
+        landscapes: ["Kind Emperor", "Museum"],
+        expansions: "empiresrisingsun"
+    },
+    {
+        id: 284,
+        name: "Swept Clean",
+        cards: ["Chariot Race", "Charm", "Crown", "Overlord", "Temple", "Artist", "Kitsune", "Mountain Shrine", "Rice Broker", "Root Cellar"],
+        landscapes: ["Divine Wind", "Sea Trade"],
+        expansions: "empiresrisingsun"
+    },
+    {
+        id: 285,
+        name: "Priceless Rice",
+        cards: ["Blessed Village", "Cursed Village", "Devil's Workshop", "Faithful Hound", "Shepherd", "Alley", "Daimyo", "Rice", "Samurai", "Tea House"],
+        landscapes: ["Growth"],
+        extras: ["Pasture", "Boons", "Hexes", "Will-O'-Wisp"],
+        expansions: "nocturnerisingsun"
+    },
+    {
+        id: 286,
+        name: "Dark Corners",
+        cards: ["Changeling", "Conclave", "Sacred Grove", "Skulk", "Werewolf", "Artist", "Gold Mine", "Litter", "River Shrine", "Tanuki"],
+        landscapes: ["Sickness", "Amass"],
+        extras: ["Boons", "Hexes", "Will-O'-Wisp"],
+        expansions: "nocturnerisingsun"
+    },
+    {
+        id: 287,
+        name: "Mountain of Money",
+        cards: ["Ducat", "Experiment", "Hideout", "Scholar", "Treasurer", "Alley", "Gold Mine", "Kitsune", "Rice Broker", "Riverboat"],
+        landscapes: ["Bureaucracy", "Guildhall"],
+        riverboat: "Seer",
+        extras: ["Key"],
+        expansions: "renaissancerisingsun"
+    },
+    {
+        id: 288,
+        name: "Fresh Start",
+        cards: ["Border Guard", "Cargo Ship", "Inventor", "Patron", "Sculptor", "Change", "Daimyo", "Ninja", "Poet", "Tea House"],
+        landscapes: ["Divine Wind, Receive Tribute"],
+        extras: ["Horn", "Lantern"],
+        expansions: "renaissancerisingsun"
+    },
+    {
+        id: 289,
+        name: "Become the Ox",
+        cards: ["Animal Fair", "Camel Train", "Destrier", "Livery", "Wayfarer", "Aristocrat", "Artist", "Fishmonger", "Poet", "Samurai"],
+        landscapes: ["Enlightenment", "Way of the Ox"],
+        extras: ["Horse"],
+        expansions: "menagerierisingsun"
+    },
+    {
+        id: 290,
+        name: "Alternatives",
+        cards: ["Bounty Hunter", "Coven", "Paddock", "Sleigh", "Supplies", "Alley", "Craftsman", "Daimyo", "Ronin", "Rustic Village"],
+        landscapes: ["Panic", "Sea Trade"],
+        extras: ["Horse"],
+        expansions: "menagerierisingsun"
+    },
+    {
+        id: 291,
+        name: "Expert Traders",
+        cards: ["Augurs", "Contract", "Courier", "Hunter", "Swap", "Daimyo", "Fishmonger", "Rice Broker", "Riverboat", "Rustic Village"],
+        landscapes: ["Enlightenment", "Crafter's Guild"],
+        riverboat: "Barbarian",
+        expansions: "alliesrisingsun"
+    },
+    {
+        id: 292,
+        name: "Feverish Crafting",
+        cards: ["Capital City", "Clashes", "Innkeeper", "Marquis", "Skirmisher", "Aristocrat", "Craftsman", "Fishmonger", "Snake Witch", "Tea House"],
+        landscapes: ["Rapid Expansion", "Credit"],
+        expansions: "alliesrisingsun"
+    },
+    {
+        id: 293,
+        name: "Buried in Booty",
+        cards: ["First Mate", "Flagship", "King's Cache", "Pendant", "Taskmaster", "Gold Mine", "Ninja", "Poet", "Rice Broker", "Tanuki"],
+        landscapes: ["Growth", "Prosper"],
+        expansions: "plunderrisingsun"
+    },
+    {
+        id: 294,
+        name: "Shiny Things",
+        cards: ["Cabin Boy", "Cutthroat", "Jewelled Egg", "Pilgrim", "Tools", "Daimyo", "Litter", "Rice", "River Shrine", "Root Cellar"],
+        landscapes: ["Good Harvest", "Credit"],
+        expansions: "plunderrisingsun"
     }
 ]
