@@ -2617,29 +2617,30 @@ var kingdoms = [
     },
     {
         id: 370,
-        name: "This expansion combination is not available yet",
-        cards: [],
+        name: "Stable Economy",
+        cards: ["Anvil", "Monument", "Tiara", "Magnate", "Bank", "Scrap", "Snowy Village", "Hostelry", "Barge", "Destrier"],
         colony: true,
-        extras: [],
-        landscapes: [],
+        extras: ["Horse"],
+        landscapes: ["March", "Way of the Turtle"],
         expansions: "prosperitymenagerie"
     },
     {
         id: 371,
-        name: "",
-        cards: [],
+        name: "Triple Triad",
+        cards: ["Bishop", "Worker's Village", "Charlatan", "War Chest", "King's Court", "Sheepdog", "Cardinal", "Groom", "Paddock", "Sanctuary"],
         colony: true,
-        extras: [],
-        landscapes: [],
+        extras: ["Horse"],
+        landscapes: ["Ride", "Way of the Mouse"],
+        mouse: "Camel Train",
         expansions: "prosperitymenagerie"
     },
     {
         id: 372,
-        name: "",
-        cards: [],
+        name: "Regulated",
+        cards: ["Clerk", "City", "Mint", "Grand Market", "Forge", "Sleigh", "Village Green", "Coven", "Displace", "Fisherman"],
         colony: true,
-        extras: [],
-        landscapes: [],
+        extras: ["Horse"],
+        landscapes: ["Bargain", "Way of the Owl"],
         expansions: "prosperitymenagerie"
     },
     {
