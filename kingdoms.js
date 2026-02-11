@@ -2653,11 +2653,11 @@ var kingdoms = [
     },
     {
         id: 374,
-        name: "",
-        cards: [],
+        name: "Goof Troop",
+        cards: ["Collection", "Crystal Ball", "Magnate", "Vault", "War Chest", "Stockpile", "Cardinal", "Cavalry", "Gatekeeper", "Livery"],
         colony: true,
-        extras: [],
-        landscapes: [],
+        extras: ["Horse"],
+        landscapes: ["Pursue", "Way of the Ox"],
         expansions: "prosperitymenagerie"
     },
     {
