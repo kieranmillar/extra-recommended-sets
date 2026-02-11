@@ -2662,11 +2662,11 @@ var kingdoms = [
     },
     {
         id: 375,
-        name: "",
-        cards: [],
+        name: "Hoards and Hordes and Horses",
+        cards: ["Quarry", "Mint", "Rabble", "Vault", "Hoard", "Supplies", "Goatherd", "Snowy Village", "Village Green", "Gatekeeper"],
         colony: true,
-        extras: [],
-        landscapes: [],
+        extras: ["Horse"],
+        landscapes: ["Enhance", "Way of the Seal"],
         expansions: "prosperitymenagerie"
     },
     {
