@@ -2627,10 +2627,10 @@ var kingdoms = [
     {
         id: 371,
         name: "Triple Triad",
-        cards: ["Bishop", "Worker's Village", "Charlatan", "War Chest", "King's Court", "Sheepdog", "Cardinal", "Groom", "Paddock", "Sanctuary"],
+        cards: ["Bishop", "Worker's Village", "Charlatan", "War Chest", "King's Court", "Sheepdog", "Cardinal", "Falconer", "Paddock", "Sanctuary"],
         colony: true,
         extras: ["Horse"],
-        landscapes: ["Ride", "Way of the Mouse"],
+        landscapes: ["Toil", "Way of the Mouse"],
         mouse: "Camel Train",
         expansions: "prosperitymenagerie"
     },
