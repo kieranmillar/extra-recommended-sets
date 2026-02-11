@@ -2645,11 +2645,10 @@ var kingdoms = [
     },
     {
         id: 373,
-        name: "",
-        cards: [],
+        name: "Pet Insurance",
+        cards: ["Watchtower", "Investment", "Hoard", "Expand", "Peddler", "Black Cat", "Hunting Lodge", "Kiln", "Wayfarer", "Animal Fair"],
         colony: true,
-        extras: [],
-        landscapes: [],
+        landscapes: ["Seize the Day", "Way of the Chameleon"],
         expansions: "prosperitymenagerie"
     },
     {
