@@ -2671,11 +2671,11 @@ var kingdoms = [
     },
     {
         id: 376,
-        name: "",
-        cards: [],
+        name: "Lucky 7s",
+        cards: ["Monument", "Magnate", "Bank", "Expand", "King's Court", "Camel Train", "Sheepdog", "Hunting Lodge", "Destrier", "Animal Fair"],
         colony: true,
-        extras: [],
-        landscapes: [],
+        extras: ["Horse"],
+        landscapes: ["Stampede", "Way of the Mule"],
         expansions: "prosperitymenagerie"
     },
     {
