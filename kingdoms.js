@@ -2698,11 +2698,11 @@ var kingdoms = [
     },
     {
         id: 379,
-        name: "",
-        cards: [],
+        name: "Puts and Calls",
+        cards: ["Watchtower", "Worker's Village", "Mint", "Vault", "Grand Market", "Cardinal", "Groom", "Kiln", "Mastermind", "Sanctuary"],
         colony: true,
-        extras: [],
-        landscapes: [],
+        extras: ["Horse"],
+        landscapes: ["Invest", "Way of the Mole"],
         expansions: "prosperitymenagerie"
     },
     {
