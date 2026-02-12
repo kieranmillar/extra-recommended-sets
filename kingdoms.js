@@ -2680,11 +2680,11 @@ var kingdoms = [
     },
     {
         id: 377,
-        name: "",
-        cards: [],
+        name: "Akhal-Teke",
+        cards: ["Bishop", "Quarry", "City", "Hoard", "Forge", "Supplies", "Hostelry", "Gatekeeper", "Livery", "Fisherman"],
         colony: true,
-        extras: [],
-        landscapes: [],
+        extras: ["Horse"],
+        landscapes: ["Enclave", "Way of the Camel"],
         expansions: "prosperitymenagerie"
     },
     {
