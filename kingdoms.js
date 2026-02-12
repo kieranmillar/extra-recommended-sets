@@ -2689,11 +2689,11 @@ var kingdoms = [
     },
     {
         id: 378,
-        name: "",
-        cards: [],
+        name: "Profit Warning",
+        cards: ["Anvil", "Clerk", "Charlatan", "Rabble", "Peddler", "Goatherd", "Scrap", "Village Green", "Displace", "Wayfarer"],
         colony: true,
-        extras: [],
-        landscapes: [],
+        extras: ["Horse"],
+        landscapes: ["Commerce", "Way of the Frog"],
         expansions: "prosperitymenagerie"
     },
     {
