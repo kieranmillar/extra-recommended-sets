@@ -2707,10 +2707,10 @@ var kingdoms = [
     },
     {
         id: 380,
-        name: "This expansion combination is not available yet",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Plottimg and Scheming",
+        cards: ["Oasis", "Scheme", "Nomads", "Souk", "Border Village", "Supplies", "Bounty Hunter", "Livery", "Mastermind", "Paddock"],
+        extras: ["Horse"],
+        landscapes: ["Alliance", "Way of the Butterfly"],
         expansions: "hinterlandsmenagerie"
     },
     {
