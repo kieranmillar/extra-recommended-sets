@@ -2715,10 +2715,10 @@ var kingdoms = [
     },
     {
         id: 381,
-        name: "",
-        cards: [],
-        extras: [],
-        landscapes: [],
+        name: "Wedding Gifts",
+        cards: ["Develop", "Guard Dog", "Cartographer", "Haggler", "Highway", "Snowy Village", "Groom", "Village Green", "Displace", "Animal Fair"],
+        extras: ["Horse"],
+        landscapes: ["Enhance", "Way of the Pig"],
         expansions: "hinterlandsmenagerie"
     },
     {
