@@ -2015,7 +2015,7 @@ var kingdoms = [
     {
         id: 293,
         name: "Recruitment Fair",
-        cards: ["Shanty Town", "Swindler", "Courtier", "Upgrade", "Nobles", "Lurker", "Flag Bearer", "Inventor", "Recruiter", "Scholar"],
+        cards: ["Shanty Town", "Swindler", "Courtier", "Upgrade", "Nobles", "Lackeys", "Flag Bearer", "Inventor", "Recruiter", "Scholar"],
         extras: ["Flag"],
         landscapes: ["Fair", "Star Chart"],
         expansions: "intriguerenaissance"
